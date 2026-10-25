@@ -1,0 +1,61 @@
+{
+color = 4;
+glyphname = "Gestroke-cy";
+layers = (
+{
+layerId = "EE2FFE84-06F1-4AFB-BBEC-60D09A436D14";
+shapes = (
+{
+closed = 1;
+nodes = (
+(428,339,l),
+(434,367,l),
+(52,367,l),
+(46,339,l)
+);
+},
+{
+ref = "Ge-cy";
+}
+);
+width = 600;
+},
+{
+layerId = "574EE4B9-5C1A-4E7E-9985-C08FACB65BD8";
+shapes = (
+{
+closed = 1;
+nodes = (
+(433,300,l),
+(450,380,l),
+(44,380,l),
+(27,300,l)
+);
+},
+{
+ref = "Ge-cy";
+}
+);
+width = 600;
+},
+{
+layerId = "58B1DC7A-69F8-4375-AD2E-AC5103CCF536";
+shapes = (
+{
+closed = 1;
+nodes = (
+(469,267,l),
+(499,407,l),
+(49,407,l),
+(19,267,l)
+);
+},
+{
+ref = "Ge-cy";
+}
+);
+width = 600;
+}
+);
+unicode = 1170;
+}

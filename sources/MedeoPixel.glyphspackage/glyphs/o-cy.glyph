@@ -1,0 +1,15 @@
+{
+glyphname = "o-cy";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = o;
+}
+);
+width = 532;
+}
+);
+unicode = 1086;
+}

@@ -1,0 +1,208 @@
+{
+color = 4;
+glyphname = l.ss03;
+kernLeft = b;
+kernRight = d;
+layers = (
+{
+anchors = (
+{
+name = bottom;
+pos = (111,0);
+},
+{
+name = center;
+pos = (111,348);
+},
+{
+name = top;
+pos = (111,710);
+},
+{
+name = topright;
+pos = (176,530);
+}
+);
+layerId = "EE2FFE84-06F1-4AFB-BBEC-60D09A436D14";
+shapes = (
+{
+closed = 1;
+nodes = (
+(126,0,l),
+(126,710,l),
+(96,710,l),
+(96,0,l)
+);
+}
+);
+width = 222;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (146,0);
+},
+{
+name = center;
+pos = (146,382);
+},
+{
+name = top;
+pos = (146,710);
+},
+{
+name = topright;
+pos = (250,530);
+}
+);
+layerId = "3507EE3D-0D92-4546-A145-3A991F0A2B71";
+shapes = (
+{
+closed = 1;
+nodes = (
+(239,0,l),
+(239,710,l),
+(52,710,l),
+(52,0,l)
+);
+}
+);
+width = 291;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (134,0);
+},
+{
+name = center;
+pos = (134,405);
+},
+{
+name = top;
+pos = (134,710);
+},
+{
+name = topright;
+pos = (206,530);
+}
+);
+layerId = "6C190511-B94A-4F5A-B519-D6E9DB0E7B93";
+shapes = (
+{
+closed = 1;
+nodes = (
+(176,0,l),
+(176,710,l),
+(92,710,l),
+(92,0,l)
+);
+}
+);
+width = 268;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (111,0);
+},
+{
+name = center;
+pos = (111,348);
+},
+{
+name = top;
+pos = (111,710);
+},
+{
+name = topright;
+pos = (176,530);
+}
+);
+layerId = "7240B716-CE9A-59F7-AFA0-6F9089C93D08";
+shapes = (
+{
+closed = 1;
+nodes = (
+(96,0,l),
+(96,710,l),
+(66,710,l),
+(66,0,l)
+);
+}
+);
+width = 162;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (134,0);
+},
+{
+name = center;
+pos = (134,405);
+},
+{
+name = top;
+pos = (134,710);
+},
+{
+name = topright;
+pos = (206,530);
+}
+);
+layerId = "64EDB5BC-BBCA-55A5-AA62-AF3C5A0418A6";
+shapes = (
+{
+closed = 1;
+nodes = (
+(161,0,l),
+(161,710,l),
+(77,710,l),
+(77,0,l)
+);
+}
+);
+width = 238;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (146,0);
+},
+{
+name = center;
+pos = (146,382);
+},
+{
+name = top;
+pos = (146,710);
+},
+{
+name = topright;
+pos = (250,530);
+}
+);
+layerId = "2E48EBD2-E908-5937-BE3F-7776DF5AE147";
+shapes = (
+{
+closed = 1;
+nodes = (
+(237,0,l),
+(237,710,l),
+(50,710,l),
+(50,0,l)
+);
+}
+);
+width = 287;
+}
+);
+metricLeft = H;
+metricRight = H;
+}

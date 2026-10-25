@@ -1,0 +1,200 @@
+{
+color = 4;
+glyphname = commaturnedabovecomb;
+layers = (
+{
+anchors = (
+{
+name = _top;
+pos = (76,530);
+}
+);
+background = {
+anchors = (
+{
+name = _top;
+pos = (80,530);
+}
+);
+shapes = (
+{
+angle = 180;
+pos = (188,741);
+ref = comma;
+}
+);
+};
+layerId = "EE2FFE84-06F1-4AFB-BBEC-60D09A436D14";
+shapes = (
+{
+closed = 1;
+nodes = (
+(100,618,l),
+(100,666,l),
+(76,666,l),
+(112,741,l),
+(90,741,l),
+(50,661,l),
+(50,618,l)
+);
+}
+);
+width = 162;
+},
+{
+anchors = (
+{
+name = _top;
+pos = (104,539);
+}
+);
+background = {
+anchors = (
+{
+name = _top;
+pos = (145,530);
+}
+);
+shapes = (
+{
+alignment = -1;
+angle = 180;
+pos = (288,734);
+ref = comma;
+}
+);
+};
+layerId = "3507EE3D-0D92-4546-A145-3A991F0A2B71";
+shapes = (
+{
+closed = 1;
+nodes = (
+(180,585,l),
+(180,716,l),
+(146,716,l),
+(196,799,l),
+(91,799,l),
+(33,703,l),
+(33,585,l)
+);
+}
+);
+width = 229;
+},
+{
+anchors = (
+{
+name = _top;
+pos = (96,530);
+}
+);
+background = {
+anchors = (
+{
+name = _top;
+pos = (99,530);
+}
+);
+shapes = (
+{
+alignment = -1;
+angle = 180;
+pos = (224,734);
+ref = comma;
+}
+);
+};
+layerId = "6C190511-B94A-4F5A-B519-D6E9DB0E7B93";
+shapes = (
+{
+closed = 1;
+nodes = (
+(144,603,l),
+(144,693,l),
+(108,693,l),
+(163,790,l),
+(105,790,l),
+(44,685,l),
+(44,603,l)
+);
+}
+);
+width = 207;
+},
+{
+anchors = (
+{
+name = _top;
+pos = (76,530);
+}
+);
+layerId = "7240B716-CE9A-59F7-AFA0-6F9089C93D08";
+shapes = (
+{
+closed = 1;
+nodes = (
+(70,618,l),
+(70,666,l),
+(46,666,l),
+(82,741,l),
+(60,741,l),
+(20,661,l),
+(20,618,l)
+);
+}
+);
+width = 162;
+},
+{
+anchors = (
+{
+name = _top;
+pos = (96,530);
+}
+);
+layerId = "64EDB5BC-BBCA-55A5-AA62-AF3C5A0418A6";
+shapes = (
+{
+closed = 1;
+nodes = (
+(129,603,l),
+(129,693,l),
+(93,693,l),
+(148,790,l),
+(90,790,l),
+(29,685,l),
+(29,603,l)
+);
+}
+);
+width = 207;
+},
+{
+anchors = (
+{
+name = _top;
+pos = (104,539);
+}
+);
+layerId = "2E48EBD2-E908-5937-BE3F-7776DF5AE147";
+shapes = (
+{
+closed = 1;
+nodes = (
+(178,585,l),
+(178,716,l),
+(144,716,l),
+(194,799,l),
+(89,799,l),
+(31,703,l),
+(31,585,l)
+);
+}
+);
+width = 229;
+}
+);
+metricLeft = o;
+metricRight = o;
+unicode = 786;
+}

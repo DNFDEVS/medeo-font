@@ -1,0 +1,201 @@
+{
+color = 5;
+glyphname = "nje-cy";
+kernLeft = n;
+kernRight = b;
+layers = (
+{
+layerId = "EE2FFE84-06F1-4AFB-BBEC-60D09A436D14";
+shapes = (
+{
+closed = 1;
+nodes = (
+(115,0,l),
+(115,530,l),
+(85,530,l),
+(85,0,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(457,280,l),
+(457,308,l),
+(95,308,l),
+(95,280,l)
+);
+},
+{
+pos = (344,0);
+ref = "softsign-cy";
+}
+);
+width = 870;
+},
+{
+layerId = "3507EE3D-0D92-4546-A145-3A991F0A2B71";
+shapes = (
+{
+closed = 1;
+nodes = (
+(235,0,l),
+(235,539,l),
+(47,539,l),
+(47,0,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(493,221,l),
+(493,357,l),
+(100,357,l),
+(100,221,l)
+);
+},
+{
+alignment = -1;
+pos = (330,0);
+ref = "softsign-cy";
+}
+);
+width = 907;
+},
+{
+layerId = "6C190511-B94A-4F5A-B519-D6E9DB0E7B93";
+shapes = (
+{
+closed = 1;
+nodes = (
+(164,0,l),
+(164,530,l),
+(80,530,l),
+(80,0,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(460,240,l),
+(460,314,l),
+(120,314,l),
+(120,240,l)
+);
+},
+{
+pos = (342,0);
+ref = "softsign-cy";
+}
+);
+width = 876;
+},
+{
+anchors = (
+{
+name = top;
+pos = (616,530);
+}
+);
+layerId = "7240B716-CE9A-59F7-AFA0-6F9089C93D08";
+shapes = (
+{
+closed = 1;
+nodes = (
+(92,0,l),
+(92,530,l),
+(62,530,l),
+(62,0,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(434,280,l),
+(434,308,l),
+(72,308,l),
+(72,280,l)
+);
+},
+{
+alignment = -1;
+pos = (346,0);
+ref = "softsign-cy";
+}
+);
+width = 825;
+},
+{
+anchors = (
+{
+name = top;
+pos = (618,530);
+}
+);
+layerId = "64EDB5BC-BBCA-55A5-AA62-AF3C5A0418A6";
+shapes = (
+{
+closed = 1;
+nodes = (
+(152,0,l),
+(152,530,l),
+(68,530,l),
+(68,0,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(448,240,l),
+(448,314,l),
+(108,314,l),
+(108,240,l)
+);
+},
+{
+alignment = -1;
+pos = (342,0);
+ref = "softsign-cy";
+}
+);
+width = 851;
+},
+{
+anchors = (
+{
+name = top;
+pos = (634,539);
+}
+);
+layerId = "2E48EBD2-E908-5937-BE3F-7776DF5AE147";
+shapes = (
+{
+closed = 1;
+nodes = (
+(235,0,l),
+(235,539,l),
+(47,539,l),
+(47,0,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(493,221,l),
+(493,357,l),
+(100,357,l),
+(100,221,l)
+);
+},
+{
+alignment = -1;
+pos = (330,0);
+ref = "softsign-cy";
+}
+);
+width = 907;
+}
+);
+metricLeft = n;
+metricRight = b;
+unicode = 1114;
+}

@@ -1,0 +1,36 @@
+name: Build and check
+
+# Every pull request and every push to main: build the fonts from sources/, require the committed fonts/ to equal
+# the fresh build (what the repository holds is what a release publishes), then Font Bakery's googlefonts profile.
+on:
+  pull_request:
+  push:
+    branches: [main]
+
+permissions:
+  contents: read
+
+concurrency:
+  group: ci-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  fonts:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 40
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Fresh build equals the committed fonts
+        run: make check
+      - name: Font Bakery
+        run: make test
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: fonts-and-reports
+          path: |
+            fonts/
+            out/fontbakery-*.json

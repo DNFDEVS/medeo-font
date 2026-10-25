@@ -1,0 +1,95 @@
+{
+  "name": "medeo-font",
+  "version": "1.0.0-rc.2",
+  "description": "Open font family for Latin and Cyrillic in ten languages: Medeo Sans, Medeo Mono and Medeo Pixel, with next/font exports and plain CSS.",
+  "main": "./dist/font.js",
+  "type": "module",
+  "module": "./dist/font.js",
+  "types": "./dist/font.d.ts",
+  "homepage": "https://prtner.ai/font",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DNFDEVS/medeo-font.git",
+    "directory": "packages/medeo-font"
+  },
+  "bugs": {
+    "url": "https://github.com/DNFDEVS/medeo-font/issues"
+  },
+  "author": "DNF (https://dnf.dev)",
+  "keywords": [
+    "medeo",
+    "medeo sans",
+    "medeo mono",
+    "medeo pixel",
+    "font",
+    "variable font",
+    "cyrillic",
+    "kazakh",
+    "next/font",
+    "latin"
+  ],
+  "exports": {
+    ".": {
+      "types": "./dist/font.d.ts",
+      "default": "./dist/font.js"
+    },
+    "./sans": {
+      "types": "./dist/sans.d.ts",
+      "default": "./dist/sans.js"
+    },
+    "./mono": {
+      "types": "./dist/mono.d.ts",
+      "default": "./dist/mono.js"
+    },
+    "./pixel": {
+      "types": "./dist/pixel.d.ts",
+      "default": "./dist/pixel.js"
+    },
+    "./font": {
+      "types": "./dist/font.d.ts",
+      "default": "./dist/font.js"
+    },
+    "./font/sans": {
+      "types": "./dist/sans.d.ts",
+      "default": "./dist/sans.js"
+    },
+    "./font/mono": {
+      "types": "./dist/mono.d.ts",
+      "default": "./dist/mono.js"
+    },
+    "./font/pixel": {
+      "types": "./dist/pixel.d.ts",
+      "default": "./dist/pixel.js"
+    },
+    "./medeo.css": "./dist/medeo.css",
+    "./sans.css": "./dist/sans.css",
+    "./mono.css": "./dist/mono.css",
+    "./pixel.css": "./dist/pixel.css",
+    "./fonts/*": "./dist/fonts/*",
+    "./package.json": "./package.json"
+  },
+  "sideEffects": [
+    "*.css"
+  ],
+  "files": [
+    "dist",
+    "LICENSE.txt",
+    "README.md"
+  ],
+  "license": "OFL-1.1",
+  "peerDependencies": {
+    "next": ">=13.2.0"
+  },
+  "peerDependenciesMeta": {
+    "next": {
+      "optional": true
+    }
+  },
+  "scripts": {
+    "prepack": "sh ../../scripts/sync-package.sh"
+  },
+  "publishConfig": {
+    "tag": "latest",
+    "access": "public"
+  }
+}

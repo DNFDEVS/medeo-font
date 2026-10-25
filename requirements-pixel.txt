@@ -1,0 +1,5 @@
+gftools==0.10.4
+gfmetadata
+protobuf>=6.33.0
+gflanguages>=0.7.8
+axisregistry>=0.4.19

@@ -1,0 +1,65 @@
+{
+glyphname = "Zhedescender-cy";
+layers = (
+{
+anchors = (
+{
+name = bottom;
+pos = (513,0);
+},
+{
+name = top;
+pos = (513,722);
+}
+);
+layerId = m01;
+shapes = (
+{
+ref = "Zhe-cy";
+},
+{
+alignment = -1;
+pos = (950,38);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (950,0);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (912,-38);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (950,-38);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (912,-76);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (950,-76);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (912,-114);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (950,-114);
+ref = pixel;
+}
+);
+width = 1026;
+}
+);
+unicode = 1174;
+}

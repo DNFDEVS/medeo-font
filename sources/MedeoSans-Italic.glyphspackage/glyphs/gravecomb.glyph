@@ -1,0 +1,192 @@
+{
+color = 4;
+glyphname = gravecomb;
+layers = (
+{
+anchors = (
+{
+name = _top;
+pos = (198,530);
+}
+);
+background = {
+anchors = (
+{
+name = _top;
+pos = (229,530);
+}
+);
+shapes = (
+{
+closed = 1;
+nodes = (
+(242,614,l),
+(170,734,l),
+(136,734,l),
+(216,614,l)
+);
+}
+);
+};
+layerId = "EE2FFE84-06F1-4AFB-BBEC-60D09A436D14";
+shapes = (
+{
+closed = 1;
+nodes = (
+(230,610,l),
+(182,726,l),
+(148,726,l),
+(204,610,l)
+);
+}
+);
+width = 207;
+},
+{
+anchors = (
+{
+name = _top;
+pos = (236,539);
+}
+);
+background = {
+anchors = (
+{
+name = _top;
+pos = (266,530);
+}
+);
+shapes = (
+{
+closed = 1;
+nodes = (
+(324,609,l),
+(261,739,l),
+(117,739,l),
+(208,609,l)
+);
+}
+);
+};
+layerId = "3507EE3D-0D92-4546-A145-3A991F0A2B71";
+shapes = (
+{
+closed = 1;
+nodes = (
+(329,588,l),
+(308,746,l),
+(134,746,l),
+(190,588,l)
+);
+}
+);
+width = 294;
+},
+{
+anchors = (
+{
+name = _top;
+pos = (220,530);
+}
+);
+background = {
+anchors = (
+{
+name = _top;
+pos = (252,530);
+}
+);
+shapes = (
+{
+closed = 1;
+nodes = (
+(287,609,l),
+(224,739,l),
+(131,739,l),
+(222,609,l)
+);
+}
+);
+};
+layerId = "6C190511-B94A-4F5A-B519-D6E9DB0E7B93";
+shapes = (
+{
+closed = 1;
+nodes = (
+(274,598,l),
+(236,726,l),
+(142,726,l),
+(204,598,l)
+);
+}
+);
+width = 247;
+},
+{
+anchors = (
+{
+name = _top;
+pos = (198,530);
+}
+);
+layerId = "7240B716-CE9A-59F7-AFA0-6F9089C93D08";
+shapes = (
+{
+closed = 1;
+nodes = (
+(200,610,l),
+(152,726,l),
+(118,726,l),
+(174,610,l)
+);
+}
+);
+width = 207;
+},
+{
+anchors = (
+{
+name = _top;
+pos = (220,530);
+}
+);
+layerId = "64EDB5BC-BBCA-55A5-AA62-AF3C5A0418A6";
+shapes = (
+{
+closed = 1;
+nodes = (
+(259,598,l),
+(221,726,l),
+(127,726,l),
+(189,598,l)
+);
+}
+);
+width = 247;
+},
+{
+anchors = (
+{
+name = _top;
+pos = (236,539);
+}
+);
+layerId = "2E48EBD2-E908-5937-BE3F-7776DF5AE147";
+shapes = (
+{
+closed = 1;
+nodes = (
+(327,588,l),
+(306,746,l),
+(132,746,l),
+(188,588,l)
+);
+}
+);
+width = 294;
+}
+);
+metricLeft = o;
+metricRight = o;
+unicode = 768;
+}

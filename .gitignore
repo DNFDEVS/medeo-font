@@ -1,0 +1,11 @@
+venv/
+venv-test/
+out/
+packages/medeo-font/dist/fonts/
+packages/medeo-font/LICENSE.txt
+*.tgz
+.DS_Store
+sources/instance_ufo/
+sources/master_ufo/
+sources/build.ninja
+sources/.ninja_*

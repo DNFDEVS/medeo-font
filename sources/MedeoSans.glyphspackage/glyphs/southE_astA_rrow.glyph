@@ -1,0 +1,79 @@
+{
+glyphname = southEastArrow;
+layers = (
+{
+layerId = "EE2FFE84-06F1-4AFB-BBEC-60D09A436D14";
+shapes = (
+{
+angle = -135;
+pos = (319,858);
+ref = upArrow;
+}
+);
+width = 614;
+},
+{
+layerId = "3507EE3D-0D92-4546-A145-3A991F0A2B71";
+shapes = (
+{
+alignment = -1;
+angle = -135;
+pos = (353,822);
+ref = upArrow;
+}
+);
+width = 634;
+},
+{
+layerId = "6C190511-B94A-4F5A-B519-D6E9DB0E7B93";
+shapes = (
+{
+alignment = -1;
+angle = -135;
+pos = (326,843);
+ref = upArrow;
+}
+);
+width = 622;
+},
+{
+layerId = "7240B716-CE9A-59F7-AFA0-6F9089C93D08";
+shapes = (
+{
+alignment = -1;
+angle = -135;
+pos = (298.5147,849.5147);
+ref = upArrow;
+}
+);
+width = 594;
+},
+{
+layerId = "64EDB5BC-BBCA-55A5-AA62-AF3C5A0418A6";
+shapes = (
+{
+alignment = -1;
+angle = -135;
+pos = (317.9289,835.9289);
+ref = upArrow;
+}
+);
+width = 603;
+},
+{
+layerId = "2E48EBD2-E908-5937-BE3F-7776DF5AE147";
+shapes = (
+{
+alignment = -1;
+angle = -135;
+pos = (341.8284,824.8284);
+ref = upArrow;
+}
+);
+width = 608;
+}
+);
+metricLeft = O;
+metricRight = O;
+unicode = 8600;
+}

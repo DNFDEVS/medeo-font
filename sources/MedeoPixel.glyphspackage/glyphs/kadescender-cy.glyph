@@ -1,0 +1,65 @@
+{
+glyphname = "kadescender-cy";
+layers = (
+{
+anchors = (
+{
+name = bottom;
+pos = (304,0);
+},
+{
+name = top;
+pos = (304,532);
+}
+);
+layerId = m01;
+shapes = (
+{
+ref = k;
+},
+{
+alignment = -1;
+pos = (494,38);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (494,0);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (456,-38);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (494,-38);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (456,-76);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (494,-76);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (456,-114);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (494,-114);
+ref = pixel;
+}
+);
+width = 570;
+}
+);
+unicode = 1179;
+}

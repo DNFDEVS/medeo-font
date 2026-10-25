@@ -1,0 +1,46 @@
+FONTLOG for Medeo
+=================
+
+Medeo is an open font family for Latin and Cyrillic: Medeo Sans, Medeo Mono and Medeo Pixel. It is made by the
+studio DNF (https://dnf.dev), which holds the copyright of its changes, for prtner.ai. Licensed under the SIL Open
+Font License 1.1 (OFL.txt).
+
+
+What it is made of
+------------------
+
+Medeo Sans
+- Outlines, metrics, most of the Latin and Cyrillic, figures and punctuation: Geist by Vercel and Basement Studio
+  (Copyright 2024 The Geist Project Authors, OFL 1.1).
+- From Inter by Rasmus Andersson (Copyright 2016 The Inter Project Authors, OFL 1.1): the letters к з я ж К З Я Ж,
+  the upright a and t, the italic e and t, ү and the bar of ұ Ұ, the manat ₼, lari ₾ and lira ₺ signs, and the
+  spacing and kerning rhythm of Latin and Cyrillic, and the change of spacing between Inter's text and display
+  optical sizes, which the display end of Medeo's opsz axis follows.
+- Drawn by DNF: the tenge ₸, Uzbek ʻ, the narrow no-break, thin and figure spaces, the Black master narrowed as
+  Inter builds heavy weights, the optical size axis (opsz 14–32) with its display kerning, and every spacing and
+  kerning edit since.
+
+Medeo Mono
+- Outlines and metrics: Geist Mono (Copyright 2024 The Geist Project Authors, OFL 1.1).
+- Drawn by DNF: ₸ ₼ ₾ ₺ built from Mono's own letters in its cell, Uzbek ʻ, top anchors and language systems for
+  Cyrillic stress marks. Nothing is taken from Inter.
+
+Medeo Pixel
+- The pixel grid, the pixel component and the five dot shapes of the ELSH axis: Geist Pixel (Copyright 2026 The
+  Geist Project Authors, OFL 1.1).
+- Drawn by DNF on that grid: the Cyrillic of Russian, Ukrainian, Kazakh, Kyrgyz, Tajik and Uzbek, and the signs
+  ₸ ₼ ₾ ₺ ₽. Nothing is taken from Inter.
+
+
+Versions
+--------
+
+1.000-rc2 (2026-10-25)
+- DNF is the copyright holder; OFL.txt, AUTHORS.txt and the fonts' names say so. This FONTLOG.
+- Sources renamed to MedeoSans, MedeoMono and MedeoPixel.
+
+1.000-rc1 (2026-10-25)
+- The first public release candidate: one version for Sans, Mono and Pixel. npm package medeo-font.
+
+Before RC1 the builds were numbered internally (Sans 1.701 and 1.702, Mono and Pixel 1.700); the name was PRTNER
+Sans until 1.6.

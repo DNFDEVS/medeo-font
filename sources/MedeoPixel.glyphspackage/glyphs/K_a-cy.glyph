@@ -1,0 +1,15 @@
+{
+glyphname = "Ka-cy";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = K;
+}
+);
+width = 608;
+}
+);
+unicode = 1050;
+}

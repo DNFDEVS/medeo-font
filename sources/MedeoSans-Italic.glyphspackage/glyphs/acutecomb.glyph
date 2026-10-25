@@ -1,0 +1,202 @@
+{
+color = 4;
+glyphname = acutecomb;
+layers = (
+{
+anchors = (
+{
+name = _top;
+pos = (120,530);
+}
+);
+background = {
+anchors = (
+{
+name = _top;
+pos = (149,530);
+}
+);
+shapes = (
+{
+closed = 1;
+nodes = (
+(162,614,l),
+(242,734,l),
+(207,734,l),
+(135,614,l)
+);
+}
+);
+};
+guides = (
+{
+pos = (225,628);
+}
+);
+layerId = "EE2FFE84-06F1-4AFB-BBEC-60D09A436D14";
+shapes = (
+{
+closed = 1;
+nodes = (
+(149,610,l),
+(253,726,l),
+(217,726,l),
+(123,610,l)
+);
+}
+);
+width = 205;
+},
+{
+anchors = (
+{
+name = _top;
+pos = (175,539);
+}
+);
+background = {
+anchors = (
+{
+name = _top;
+pos = (205,530);
+}
+);
+shapes = (
+{
+closed = 1;
+nodes = (
+(257,609,l),
+(348,739,l),
+(210,739,l),
+(147,609,l)
+);
+}
+);
+};
+layerId = "3507EE3D-0D92-4546-A145-3A991F0A2B71";
+shapes = (
+{
+closed = 1;
+nodes = (
+(239,588,l),
+(363,746,l),
+(188,746,l),
+(100,588,l)
+);
+}
+);
+width = 295;
+},
+{
+anchors = (
+{
+name = _top;
+pos = (138,530);
+}
+);
+background = {
+anchors = (
+{
+name = _top;
+pos = (169,530);
+}
+);
+shapes = (
+{
+closed = 1;
+nodes = (
+(200,609,l),
+(290,739,l),
+(197,739,l),
+(134,609,l)
+);
+}
+);
+};
+layerId = "6C190511-B94A-4F5A-B519-D6E9DB0E7B93";
+shapes = (
+{
+closed = 1;
+nodes = (
+(185,598,l),
+(303,726,l),
+(207,726,l),
+(115,598,l)
+);
+}
+);
+width = 249;
+},
+{
+anchors = (
+{
+name = _top;
+pos = (120,530);
+}
+);
+guides = (
+{
+pos = (225,628);
+}
+);
+layerId = "7240B716-CE9A-59F7-AFA0-6F9089C93D08";
+shapes = (
+{
+closed = 1;
+nodes = (
+(119,610,l),
+(223,726,l),
+(187,726,l),
+(93,610,l)
+);
+}
+);
+width = 205;
+},
+{
+anchors = (
+{
+name = _top;
+pos = (138,530);
+}
+);
+layerId = "64EDB5BC-BBCA-55A5-AA62-AF3C5A0418A6";
+shapes = (
+{
+closed = 1;
+nodes = (
+(170,598,l),
+(288,726,l),
+(192,726,l),
+(100,598,l)
+);
+}
+);
+width = 249;
+},
+{
+anchors = (
+{
+name = _top;
+pos = (175,539);
+}
+);
+layerId = "2E48EBD2-E908-5937-BE3F-7776DF5AE147";
+shapes = (
+{
+closed = 1;
+nodes = (
+(237,588,l),
+(361,746,l),
+(186,746,l),
+(98,588,l)
+);
+}
+);
+width = 295;
+}
+);
+metricLeft = o;
+metricRight = o;
+unicode = 769;
+}

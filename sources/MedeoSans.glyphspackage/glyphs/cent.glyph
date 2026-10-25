@@ -1,0 +1,210 @@
+{
+color = 4;
+glyphname = cent;
+layers = (
+{
+background = {
+shapes = (
+{
+closed = 1;
+nodes = (
+(248,-91,l),
+(311,629,l),
+(279,629,l),
+(216,-91,l)
+);
+},
+{
+ref = c;
+}
+);
+};
+layerId = "EE2FFE84-06F1-4AFB-BBEC-60D09A436D14";
+shapes = (
+{
+closed = 1;
+nodes = (
+(246,-16,l),
+(309,726,l),
+(281,726,l),
+(218,-16,l)
+);
+},
+{
+pos = (-15,86);
+ref = c;
+}
+);
+width = 531;
+},
+{
+background = {
+shapes = (
+{
+closed = 1;
+nodes = (
+(314,-91,l),
+(377,629,l),
+(294,629,l),
+(231,-91,l)
+);
+},
+{
+alignment = -1;
+pos = (-7,0);
+ref = c;
+}
+);
+};
+layerId = "3507EE3D-0D92-4546-A145-3A991F0A2B71";
+shapes = (
+{
+closed = 1;
+nodes = (
+(319,-12,l),
+(379,726,l),
+(294,726,l),
+(234,-12,l)
+);
+},
+{
+alignment = -1;
+pos = (-7,86);
+ref = c;
+}
+);
+width = 598;
+},
+{
+background = {
+shapes = (
+{
+closed = 1;
+nodes = (
+(286,-91,l),
+(349,629,l),
+(274,629,l),
+(211,-91,l)
+);
+},
+{
+alignment = -1;
+pos = (1,0);
+ref = c;
+}
+);
+};
+layerId = "6C190511-B94A-4F5A-B519-D6E9DB0E7B93";
+shapes = (
+{
+closed = 1;
+nodes = (
+(282,-12,l),
+(345,726,l),
+(275,726,l),
+(212,-12,l)
+);
+},
+{
+alignment = -1;
+pos = (0,92);
+ref = c;
+}
+);
+width = 546;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (275,86);
+},
+{
+name = top;
+pos = (275,616);
+}
+);
+layerId = "7240B716-CE9A-59F7-AFA0-6F9089C93D08";
+shapes = (
+{
+closed = 1;
+nodes = (
+(224,-16,l),
+(287,726,l),
+(259,726,l),
+(196,-16,l)
+);
+},
+{
+alignment = -1;
+pos = (-9,86);
+ref = c;
+}
+);
+width = 493;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (287,92);
+},
+{
+name = top;
+pos = (287,622);
+}
+);
+layerId = "64EDB5BC-BBCA-55A5-AA62-AF3C5A0418A6";
+shapes = (
+{
+closed = 1;
+nodes = (
+(269,-12,l),
+(332,726,l),
+(262,726,l),
+(199,-12,l)
+);
+},
+{
+alignment = -1;
+pos = (0,92);
+ref = c;
+}
+);
+width = 518;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (306,86);
+},
+{
+name = top;
+pos = (306,625);
+}
+);
+layerId = "2E48EBD2-E908-5937-BE3F-7776DF5AE147";
+shapes = (
+{
+closed = 1;
+nodes = (
+(319,-12,l),
+(379,726,l),
+(294,726,l),
+(234,-12,l)
+);
+},
+{
+alignment = -1;
+pos = (-7,86);
+ref = c;
+}
+);
+width = 597;
+}
+);
+metricLeft = c;
+metricRight = c;
+unicode = 162;
+}

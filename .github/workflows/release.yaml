@@ -1,0 +1,47 @@
+name: Release
+
+# A tag vX.Y.Z[-rc.N[.M]] publishes that commit: the same checks as CI, then the npm package (with provenance,
+# authenticated by the repository secret NPM_TOKEN) and a GitHub release with the ZIP. jsDelivr serves both on its
+# own: cdn.jsdelivr.net/npm/medeo-font@X.Y.Z/ and cdn.jsdelivr.net/gh/DNFDEVS/medeo-font@vX.Y.Z/.
+on:
+  push:
+    tags: ["v*"]
+
+permissions:
+  contents: write  # the GitHub release
+  id-token: write  # npm provenance
+
+jobs:
+  release:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 40
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+          registry-url: "https://registry.npmjs.org"
+      - name: Fresh build equals the committed fonts
+        run: make check
+      - name: Font Bakery
+        run: make test
+      - name: Tag, npm version and font version agree
+        run: venv/bin/python -I scripts/release_version.py "$GITHUB_REF_NAME" packages/medeo-font/package.json fonts
+      - name: Publish to npm
+        working-directory: packages/medeo-font
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
+        run: |
+          # the dist-tag comes from publishConfig: «latest» while only release candidates exist
+          npm install -g npm@11
+          npm publish --provenance --access public
+      - name: GitHub release with the ZIP
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          zip -qr "Medeo-$GITHUB_REF_NAME.zip" OFL.txt FONTLOG.txt README.md fonts
+          case $GITHUB_REF_NAME in *-*) pre=--prerelease ;; *) pre= ;; esac
+          gh release create "$GITHUB_REF_NAME" "Medeo-$GITHUB_REF_NAME.zip" --title "Medeo $GITHUB_REF_NAME" --notes-file FONTLOG.txt $pre

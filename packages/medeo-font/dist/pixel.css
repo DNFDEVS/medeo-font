@@ -1,0 +1,18 @@
+/* WOFF 1.0 on purpose: browsers' font sanitizer (OTS) rejects this font as woff2,
+   its thousands of identical pixel components compress too well. */
+@font-face {
+  font-family: "Medeo Pixel";
+  src: url("./fonts/medeo-pixel/MedeoPixelVariable.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+:root {
+  --font-medeo-pixel: "Medeo Pixel", "Medeo Mono", ui-monospace, SFMono-Regular, Menlo, monospace;
+}
+/* The dot shape is the ELSH axis; these are the font's named instances. */
+.medeo-pixel-square { font-variation-settings: "ELSH" 1; }
+.medeo-pixel-circle { font-variation-settings: "ELSH" 20; }
+.medeo-pixel-grid { font-variation-settings: "ELSH" 40; }
+.medeo-pixel-triangle { font-variation-settings: "ELSH" 60; }
+.medeo-pixel-line { font-variation-settings: "ELSH" 80; }

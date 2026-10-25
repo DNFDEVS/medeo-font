@@ -1,0 +1,146 @@
+{
+color = 5;
+glyphname = "gestroke-cy";
+kernLeft = n;
+kernRight = "ge-cy";
+layers = (
+{
+layerId = "EE2FFE84-06F1-4AFB-BBEC-60D09A436D14";
+shapes = (
+{
+closed = 1;
+nodes = (
+(365,264,l),
+(371,292,l),
+(21,292,l),
+(15,264,l)
+);
+},
+{
+pos = (61,0);
+ref = "ge-cy";
+}
+);
+width = 496;
+},
+{
+layerId = "3507EE3D-0D92-4546-A145-3A991F0A2B71";
+shapes = (
+{
+closed = 1;
+nodes = (
+(372,165,l),
+(401,300,l),
+(-9,300,l),
+(-38,165,l)
+);
+},
+{
+pos = (33,0);
+ref = "ge-cy";
+}
+);
+width = 498;
+},
+{
+layerId = "6C190511-B94A-4F5A-B519-D6E9DB0E7B93";
+shapes = (
+{
+closed = 1;
+nodes = (
+(357,232,l),
+(373,306,l),
+(19,306,l),
+(3,232,l)
+);
+},
+{
+pos = (56,0);
+ref = "ge-cy";
+}
+);
+width = 499;
+},
+{
+anchors = (
+{
+name = top;
+pos = (363,530);
+}
+);
+layerId = "7240B716-CE9A-59F7-AFA0-6F9089C93D08";
+shapes = (
+{
+closed = 1;
+nodes = (
+(350,264,l),
+(356,292,l),
+(6,292,l),
+(0,264,l)
+);
+},
+{
+alignment = -1;
+pos = (59,0);
+ref = "ge-cy";
+}
+);
+width = 481;
+},
+{
+anchors = (
+{
+name = top;
+pos = (360,530);
+}
+);
+layerId = "64EDB5BC-BBCA-55A5-AA62-AF3C5A0418A6";
+shapes = (
+{
+closed = 1;
+nodes = (
+(343,232,l),
+(359,306,l),
+(5,306,l),
+(-11,232,l)
+);
+},
+{
+alignment = -1;
+pos = (54,0);
+ref = "ge-cy";
+}
+);
+width = 485;
+},
+{
+anchors = (
+{
+name = top;
+pos = (343,539);
+}
+);
+layerId = "2E48EBD2-E908-5937-BE3F-7776DF5AE147";
+shapes = (
+{
+closed = 1;
+nodes = (
+(358,165,l),
+(387,300,l),
+(-23,300,l),
+(-52,165,l)
+);
+},
+{
+alignment = -1;
+pos = (19,0);
+ref = "ge-cy";
+}
+);
+width = 490;
+}
+);
+metricLeft = "=n-40";
+metricRight = r;
+unicode = 1171;
+}

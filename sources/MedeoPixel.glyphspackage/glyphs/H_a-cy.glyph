@@ -1,0 +1,15 @@
+{
+glyphname = "Ha-cy";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = X;
+}
+);
+width = 608;
+}
+);
+unicode = 1061;
+}

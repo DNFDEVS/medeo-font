@@ -1,0 +1,121 @@
+{
+color = 4;
+glyphname = zero.circled;
+layers = (
+{
+layerId = "EE2FFE84-06F1-4AFB-BBEC-60D09A436D14";
+shapes = (
+{
+ref = blackCircledStroke;
+},
+{
+alignment = -1;
+pos = (198,-162);
+ref = zerosuperior;
+}
+);
+userData = {
+assembly = "NPUSHB[ ]	/* 79 values pushed */
+0 0 0 2 4 0 2 105 0 4 0 6 7 4 6 105 11 1 7 10 1 5 3 7 5 105 9 1 3 1 1 3 89 9 1 3 3 1 97 8 1 1 3 1 81 47 47 32 32 16 16 0 0 47 58 47 57 53 51 32 46 32 45 40 38 16 31 16 30 24 22 0 15 0 14 38 12 6 23 
+CALL[ ]	/* CallFunction */";
+};
+width = 843;
+},
+{
+layerId = "3507EE3D-0D92-4546-A145-3A991F0A2B71";
+shapes = (
+{
+pos = (0,0);
+ref = blackCircledStroke;
+},
+{
+alignment = -1;
+pos = (157,-162);
+ref = zerosuperior;
+}
+);
+width = 839;
+},
+{
+layerId = "6C190511-B94A-4F5A-B519-D6E9DB0E7B93";
+shapes = (
+{
+ref = blackCircledStroke;
+},
+{
+alignment = -1;
+pos = (184,-162);
+ref = zerosuperior;
+}
+);
+userData = {
+assembly = "NPUSHB[ ]	/* 79 values pushed */
+0 0 0 2 4 0 2 105 0 4 0 6 7 4 6 105 11 1 7 10 1 5 3 7 5 105 9 1 3 1 1 3 89 9 1 3 3 1 97 8 1 1 3 1 81 47 47 32 32 16 16 0 0 47 58 47 57 53 51 32 46 32 45 40 38 16 31 16 30 24 22 0 15 0 14 38 12 6 23 
+CALL[ ]	/* CallFunction */";
+};
+width = 835;
+},
+{
+layerId = "7240B716-CE9A-59F7-AFA0-6F9089C93D08";
+shapes = (
+{
+alignment = -1;
+pos = (0,0);
+ref = blackCircledStroke;
+},
+{
+alignment = -1;
+pos = (175,-162);
+ref = zerosuperior;
+}
+);
+userData = {
+assembly = "NPUSHB[ ]	/* 79 values pushed */
+0 0 0 2 4 0 2 105 0 4 0 6 7 4 6 105 11 1 7 10 1 5 3 7 5 105 9 1 3 1 1 3 89 9 1 3 3 1 97 8 1 1 3 1 81 47 47 32 32 16 16 0 0 47 58 47 57 53 51 32 46 32 45 40 38 16 31 16 30 24 22 0 15 0 14 38 12 6 23 
+CALL[ ]	/* CallFunction */";
+};
+width = 791;
+},
+{
+layerId = "64EDB5BC-BBCA-55A5-AA62-AF3C5A0418A6";
+shapes = (
+{
+alignment = -1;
+pos = (0,0);
+ref = blackCircledStroke;
+},
+{
+alignment = -1;
+pos = (174,-162);
+ref = zerosuperior;
+}
+);
+userData = {
+assembly = "NPUSHB[ ]	/* 79 values pushed */
+0 0 0 2 4 0 2 105 0 4 0 6 7 4 6 105 11 1 7 10 1 5 3 7 5 105 9 1 3 1 1 3 89 9 1 3 3 1 97 8 1 1 3 1 81 47 47 32 32 16 16 0 0 47 58 47 57 53 51 32 46 32 45 40 38 16 31 16 30 24 22 0 15 0 14 38 12 6 23 
+CALL[ ]	/* CallFunction */";
+};
+width = 805;
+},
+{
+layerId = "2E48EBD2-E908-5937-BE3F-7776DF5AE147";
+shapes = (
+{
+alignment = -1;
+pos = (0,0);
+ref = blackCircledStroke;
+},
+{
+alignment = -1;
+pos = (209,-162);
+ref = zerosuperior;
+}
+);
+width = 883;
+}
+);
+metricLeft = o;
+metricRight = o;
+note = uni24EA;
+unicode = 9450;
+}

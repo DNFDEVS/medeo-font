@@ -1,0 +1,23 @@
+sources:
+  - MedeoPixel.glyphspackage
+outputDir: ../fonts/MedeoPixel
+familyName: "Medeo Pixel"
+cleanUp: true
+buildStatic: false
+stat:
+  - name: Element Shape
+    tag: ELSH
+    values:
+    - name: Regular
+      value: 0
+      flags: 2
+    - name: Square
+      value: 1
+    - name: Circle
+      value: 20
+    - name: Grid
+      value: 40
+    - name: Triangle
+      value: 60
+    - name: Line
+      value: 80

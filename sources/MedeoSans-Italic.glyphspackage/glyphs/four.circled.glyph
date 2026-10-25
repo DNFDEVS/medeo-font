@@ -1,0 +1,121 @@
+{
+color = 4;
+glyphname = four.circled;
+layers = (
+{
+layerId = "EE2FFE84-06F1-4AFB-BBEC-60D09A436D14";
+shapes = (
+{
+ref = blackCircledStroke;
+},
+{
+alignment = -1;
+pos = (224,-163);
+ref = foursuperior;
+}
+);
+userData = {
+assembly = "NPUSHB[ ]	/* 95 values pushed */
+44 36 2 7 6 1 76 0 6 2 7 2 6 7 128 0 4 5 3 5 4 3 128 0 0 0 2 6 0 2 105 12 9 2 7 8 1 5 4 7 5 104 11 1 3 1 1 3 89 11 1 3 3 1 97 10 1 1 3 1 81 43 43 16 16 0 0 43 51 43 50 42 41 40 39 38 37 35 34 33 32 16 31 16 30 24 22 0 15 0 14 38 13 6 23 
+CALL[ ]	/* CallFunction */";
+};
+width = 843;
+},
+{
+layerId = "3507EE3D-0D92-4546-A145-3A991F0A2B71";
+shapes = (
+{
+pos = (0,0);
+ref = blackCircledStroke;
+},
+{
+alignment = -1;
+pos = (196,-163);
+ref = foursuperior;
+}
+);
+width = 839;
+},
+{
+layerId = "6C190511-B94A-4F5A-B519-D6E9DB0E7B93";
+shapes = (
+{
+ref = blackCircledStroke;
+},
+{
+alignment = -1;
+pos = (220,-163);
+ref = foursuperior;
+}
+);
+userData = {
+assembly = "NPUSHB[ ]	/* 95 values pushed */
+44 36 2 7 6 1 76 0 6 2 7 2 6 7 128 0 4 5 3 5 4 3 128 0 0 0 2 6 0 2 105 12 9 2 7 8 1 5 4 7 5 104 11 1 3 1 1 3 89 11 1 3 3 1 97 10 1 1 3 1 81 43 43 16 16 0 0 43 51 43 50 42 41 40 39 38 37 35 34 33 32 16 31 16 30 24 22 0 15 0 14 38 13 6 23 
+CALL[ ]	/* CallFunction */";
+};
+width = 835;
+},
+{
+layerId = "7240B716-CE9A-59F7-AFA0-6F9089C93D08";
+shapes = (
+{
+alignment = -1;
+pos = (0,0);
+ref = blackCircledStroke;
+},
+{
+alignment = -1;
+pos = (199,-163);
+ref = foursuperior;
+}
+);
+userData = {
+assembly = "NPUSHB[ ]	/* 95 values pushed */
+44 36 2 7 6 1 76 0 6 2 7 2 6 7 128 0 4 5 3 5 4 3 128 0 0 0 2 6 0 2 105 12 9 2 7 8 1 5 4 7 5 104 11 1 3 1 1 3 89 11 1 3 3 1 97 10 1 1 3 1 81 43 43 16 16 0 0 43 51 43 50 42 41 40 39 38 37 35 34 33 32 16 31 16 30 24 22 0 15 0 14 38 13 6 23 
+CALL[ ]	/* CallFunction */";
+};
+width = 791;
+},
+{
+layerId = "64EDB5BC-BBCA-55A5-AA62-AF3C5A0418A6";
+shapes = (
+{
+alignment = -1;
+pos = (0,0);
+ref = blackCircledStroke;
+},
+{
+alignment = -1;
+pos = (214,-163);
+ref = foursuperior;
+}
+);
+userData = {
+assembly = "NPUSHB[ ]	/* 95 values pushed */
+44 36 2 7 6 1 76 0 6 2 7 2 6 7 128 0 4 5 3 5 4 3 128 0 0 0 2 6 0 2 105 12 9 2 7 8 1 5 4 7 5 104 11 1 3 1 1 3 89 11 1 3 3 1 97 10 1 1 3 1 81 43 43 16 16 0 0 43 51 43 50 42 41 40 39 38 37 35 34 33 32 16 31 16 30 24 22 0 15 0 14 38 13 6 23 
+CALL[ ]	/* CallFunction */";
+};
+width = 805;
+},
+{
+layerId = "2E48EBD2-E908-5937-BE3F-7776DF5AE147";
+shapes = (
+{
+alignment = -1;
+pos = (0,0);
+ref = blackCircledStroke;
+},
+{
+alignment = -1;
+pos = (241,-163);
+ref = foursuperior;
+}
+);
+width = 883;
+}
+);
+metricLeft = o;
+metricRight = o;
+note = uni2463;
+unicode = 9315;
+}

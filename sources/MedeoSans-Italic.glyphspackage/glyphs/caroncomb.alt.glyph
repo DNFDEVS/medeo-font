@@ -1,0 +1,191 @@
+{
+color = 4;
+glyphname = caroncomb.alt;
+layers = (
+{
+anchors = (
+{
+name = _topright;
+pos = (86,530);
+}
+);
+background = {
+anchors = (
+{
+name = _topright;
+pos = (102,530);
+}
+);
+shapes = (
+{
+closed = 1;
+nodes = (
+(148,487,l),
+(194,710,l),
+(156,710,l),
+(122,487,l)
+);
+}
+);
+};
+layerId = "EE2FFE84-06F1-4AFB-BBEC-60D09A436D14";
+shapes = (
+{
+closed = 1;
+nodes = (
+(126,502,l),
+(210,710,l),
+(178,710,l),
+(100,502,l)
+);
+}
+);
+width = 165;
+},
+{
+anchors = (
+{
+name = _topright;
+pos = (87,539);
+}
+);
+background = {
+anchors = (
+{
+name = _topright;
+pos = (91,530);
+}
+);
+shapes = (
+{
+closed = 1;
+nodes = (
+(218,418,l),
+(276,710,l),
+(140,710,l),
+(111,418,l)
+);
+}
+);
+};
+layerId = "3507EE3D-0D92-4546-A145-3A991F0A2B71";
+shapes = (
+{
+closed = 1;
+nodes = (
+(206,407,l),
+(327,710,l),
+(172,710,l),
+(79,407,l)
+);
+}
+);
+width = 283;
+},
+{
+anchors = (
+{
+name = _topright;
+pos = (86,530);
+}
+);
+background = {
+anchors = (
+{
+name = _topright;
+pos = (97,530);
+}
+);
+shapes = (
+{
+closed = 1;
+nodes = (
+(178,468,l),
+(230,710,l),
+(147,710,l),
+(117,468,l)
+);
+}
+);
+};
+layerId = "6C190511-B94A-4F5A-B519-D6E9DB0E7B93";
+shapes = (
+{
+closed = 1;
+nodes = (
+(152,455,l),
+(258,710,l),
+(174,710,l),
+(90,455,l)
+);
+}
+);
+width = 213;
+},
+{
+anchors = (
+{
+name = _topright;
+pos = (86,530);
+}
+);
+layerId = "7240B716-CE9A-59F7-AFA0-6F9089C93D08";
+shapes = (
+{
+closed = 1;
+nodes = (
+(96,502,l),
+(180,710,l),
+(148,710,l),
+(70,502,l)
+);
+}
+);
+width = 165;
+},
+{
+anchors = (
+{
+name = _topright;
+pos = (86,530);
+}
+);
+layerId = "64EDB5BC-BBCA-55A5-AA62-AF3C5A0418A6";
+shapes = (
+{
+closed = 1;
+nodes = (
+(137,455,l),
+(243,710,l),
+(159,710,l),
+(75,455,l)
+);
+}
+);
+width = 213;
+},
+{
+anchors = (
+{
+name = _topright;
+pos = (87,539);
+}
+);
+layerId = "2E48EBD2-E908-5937-BE3F-7776DF5AE147";
+shapes = (
+{
+closed = 1;
+nodes = (
+(204,407,l),
+(325,710,l),
+(170,710,l),
+(77,407,l)
+);
+}
+);
+width = 283;
+}
+);
+metricLeft = "=50";
+metricRight = "=50";
+}

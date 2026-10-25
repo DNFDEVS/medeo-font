@@ -1,0 +1,206 @@
+{
+glyphname = fl;
+kernLeft = f;
+kernRight = l;
+layers = (
+{
+anchors = (
+{
+name = caret_1;
+pos = (294.5,0);
+}
+);
+layerId = "EE2FFE84-06F1-4AFB-BBEC-60D09A436D14";
+shapes = (
+{
+ref = f;
+},
+{
+pos = (354,0);
+ref = l;
+}
+);
+width = 611;
+},
+{
+anchors = (
+{
+name = caret_1;
+pos = (333,0);
+}
+);
+layerId = "6C190511-B94A-4F5A-B519-D6E9DB0E7B93";
+shapes = (
+{
+ref = f;
+},
+{
+pos = (387,0);
+ref = l;
+}
+);
+width = 666;
+},
+{
+anchors = (
+{
+name = caret_1;
+pos = (394,0);
+}
+);
+layerId = "3507EE3D-0D92-4546-A145-3A991F0A2B71";
+shapes = (
+{
+pos = (0,0);
+ref = f;
+},
+{
+pos = (452,0);
+ref = l;
+}
+);
+width = 795;
+},
+{
+anchors = (
+{
+name = bottom_1;
+pos = (193,0);
+},
+{
+name = top_1;
+pos = (193,710);
+},
+{
+name = bottom_2;
+pos = (507,0);
+},
+{
+name = center_2;
+pos = (485,348);
+},
+{
+name = top_2;
+pos = (463,670);
+},
+{
+name = topright_2;
+pos = (528,530);
+},
+{
+name = caret_1;
+pos = (294.5,0);
+}
+);
+layerId = "7240B716-CE9A-59F7-AFA0-6F9089C93D08";
+shapes = (
+{
+alignment = -1;
+pos = (0,0);
+ref = f;
+},
+{
+alignment = -1;
+pos = (347,0);
+ref = l;
+}
+);
+width = 567;
+},
+{
+anchors = (
+{
+name = bottom_1;
+pos = (211,0);
+},
+{
+name = top_1;
+pos = (211,710);
+},
+{
+name = bottom_2;
+pos = (552,0);
+},
+{
+name = center_2;
+pos = (508,405);
+},
+{
+name = top_2;
+pos = (509,670);
+},
+{
+name = topright_2;
+pos = (581,530);
+},
+{
+name = caret_1;
+pos = (333,0);
+}
+);
+layerId = "64EDB5BC-BBCA-55A5-AA62-AF3C5A0418A6";
+shapes = (
+{
+alignment = -1;
+pos = (0,0);
+ref = f;
+},
+{
+alignment = -1;
+pos = (397,0);
+ref = l;
+}
+);
+width = 652;
+},
+{
+anchors = (
+{
+name = bottom_1;
+pos = (231,0);
+},
+{
+name = top_1;
+pos = (231,710);
+},
+{
+name = bottom_2;
+pos = (636,0);
+},
+{
+name = center_2;
+pos = (616,382);
+},
+{
+name = top_2;
+pos = (593,698);
+},
+{
+name = topright_2;
+pos = (698,539);
+},
+{
+name = caret_1;
+pos = (394,0);
+}
+);
+layerId = "2E48EBD2-E908-5937-BE3F-7776DF5AE147";
+shapes = (
+{
+alignment = -1;
+pos = (0,0);
+ref = f;
+},
+{
+alignment = -1;
+pos = (458,0);
+ref = l;
+}
+);
+width = 801;
+}
+);
+metricLeft = f;
+metricRight = l;
+unicode = 64258;
+}

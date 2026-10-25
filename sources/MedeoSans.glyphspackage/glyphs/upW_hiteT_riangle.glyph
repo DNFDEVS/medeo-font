@@ -1,0 +1,179 @@
+{
+glyphname = upWhiteTriangle;
+layers = (
+{
+layerId = "EE2FFE84-06F1-4AFB-BBEC-60D09A436D14";
+shapes = (
+{
+attr = {
+fillColor = (0,255);
+};
+closed = 1;
+nodes = (
+(845,0,l),
+(435,710,l),
+(26,0,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(436,650,l),
+(792,30,l),
+(79,30,l)
+);
+}
+);
+userData = {
+assembly = "NPUSHB[ ]	/* 25 values pushed */
+2 1 1 74 0 1 0 0 1 87 0 1 1 0 95 0 0 1 0 79 19 16 2 6 24 
+CALL[ ]	/* CallFunction */";
+};
+width = 870;
+},
+{
+layerId = "3507EE3D-0D92-4546-A145-3A991F0A2B71";
+shapes = (
+{
+attr = {
+fillColor = (0,255);
+};
+closed = 1;
+nodes = (
+(840,0,l),
+(430,710,l),
+(21,0,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(429,479,l),
+(612,148,l),
+(249,148,l)
+);
+}
+);
+width = 861;
+},
+{
+layerId = "6C190511-B94A-4F5A-B519-D6E9DB0E7B93";
+shapes = (
+{
+attr = {
+fillColor = (0,255);
+};
+closed = 1;
+nodes = (
+(845,0,l),
+(435,710,l),
+(26,0,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(435,554,l),
+(709,78,l),
+(163,78,l)
+);
+}
+);
+userData = {
+assembly = "NPUSHB[ ]	/* 25 values pushed */
+2 1 1 74 0 1 0 0 1 87 0 1 1 0 95 0 0 1 0 79 19 16 2 6 24 
+CALL[ ]	/* CallFunction */";
+};
+width = 870;
+},
+{
+layerId = "7240B716-CE9A-59F7-AFA0-6F9089C93D08";
+shapes = (
+{
+attr = {
+fillColor = (0,255);
+};
+closed = 1;
+nodes = (
+(829,0,l),
+(419,710,l),
+(10,0,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(420,650,l),
+(776,30,l),
+(63,30,l)
+);
+}
+);
+userData = {
+assembly = "NPUSHB[ ]	/* 25 values pushed */
+2 1 1 74 0 1 0 0 1 87 0 1 1 0 95 0 0 1 0 79 19 16 2 6 24 
+CALL[ ]	/* CallFunction */";
+};
+width = 839;
+},
+{
+layerId = "64EDB5BC-BBCA-55A5-AA62-AF3C5A0418A6";
+shapes = (
+{
+attr = {
+fillColor = (0,255);
+};
+closed = 1;
+nodes = (
+(832,0,l),
+(422,710,l),
+(13,0,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(422,554,l),
+(696,78,l),
+(150,78,l)
+);
+}
+);
+userData = {
+assembly = "NPUSHB[ ]	/* 25 values pushed */
+2 1 1 74 0 1 0 0 1 87 0 1 1 0 95 0 0 1 0 79 19 16 2 6 24 
+CALL[ ]	/* CallFunction */";
+};
+width = 844;
+},
+{
+layerId = "2E48EBD2-E908-5937-BE3F-7776DF5AE147";
+shapes = (
+{
+attr = {
+fillColor = (0,255);
+};
+closed = 1;
+nodes = (
+(841,0,l),
+(431,710,l),
+(22,0,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(430,479,l),
+(613,148,l),
+(250,148,l)
+);
+}
+);
+width = 864;
+}
+);
+metricLeft = upBlackTriangle;
+metricWidth = upBlackTriangle;
+note = uni25B3;
+unicode = 9651;
+}

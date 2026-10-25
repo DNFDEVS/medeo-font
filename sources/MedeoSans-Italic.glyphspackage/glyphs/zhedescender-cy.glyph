@@ -1,0 +1,182 @@
+{
+color = 5;
+glyphname = "zhedescender-cy";
+kernLeft = "zhe-cy";
+kernRight = "zhedescender-cy";
+layers = (
+{
+layerId = "EE2FFE84-06F1-4AFB-BBEC-60D09A436D14";
+shapes = (
+{
+pos = (9,0);
+ref = "zhe-cy";
+},
+{
+closed = 1;
+nodes = (
+(594,-120,l),
+(625,28,l),
+(545,28,l),
+(539,0,l),
+(589,0,l),
+(564,-120,l)
+);
+}
+);
+width = 748;
+},
+{
+layerId = "3507EE3D-0D92-4546-A145-3A991F0A2B71";
+shapes = (
+{
+pos = (7,0);
+ref = "zhe-cy";
+},
+{
+closed = 1;
+nodes = (
+(730,-101,l),
+(780,135,l),
+(546,135,l),
+(517,0,l),
+(564,0,l),
+(543,-101,l)
+);
+}
+);
+width = 872;
+},
+{
+layerId = "6C190511-B94A-4F5A-B519-D6E9DB0E7B93";
+shapes = (
+{
+pos = (22,0);
+ref = "zhe-cy";
+},
+{
+closed = 1;
+nodes = (
+(665,-110,l),
+(704,74,l),
+(575,74,l),
+(559,0,l),
+(604,0,l),
+(581,-110,l)
+);
+}
+);
+width = 821;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (297,0);
+},
+{
+name = bottomright;
+pos = (669,0);
+},
+{
+name = top;
+pos = (409,530);
+}
+);
+layerId = "7240B716-CE9A-59F7-AFA0-6F9089C93D08";
+shapes = (
+{
+alignment = -1;
+pos = (9,0);
+ref = "zhe-cy";
+},
+{
+closed = 1;
+nodes = (
+(594,-120,l),
+(625,28,l),
+(545,28,l),
+(539,0,l),
+(589,0,l),
+(564,-120,l)
+);
+}
+);
+width = 743;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (338,0);
+},
+{
+name = bottomright;
+pos = (744,0);
+},
+{
+name = top;
+pos = (450,530);
+}
+);
+layerId = "64EDB5BC-BBCA-55A5-AA62-AF3C5A0418A6";
+shapes = (
+{
+alignment = -1;
+pos = (22,0);
+ref = "zhe-cy";
+},
+{
+closed = 1;
+nodes = (
+(650,-110,l),
+(689,74,l),
+(560,74,l),
+(544,0,l),
+(589,0,l),
+(566,-110,l)
+);
+}
+);
+width = 791;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (361,0);
+},
+{
+name = bottomright;
+pos = (764,0);
+},
+{
+name = top;
+pos = (476,539);
+}
+);
+layerId = "2E48EBD2-E908-5937-BE3F-7776DF5AE147";
+shapes = (
+{
+alignment = -1;
+pos = (7,0);
+ref = "zhe-cy";
+},
+{
+closed = 1;
+nodes = (
+(723,-101,l),
+(773,135,l),
+(539,135,l),
+(510,0,l),
+(557,0,l),
+(536,-101,l)
+);
+}
+);
+width = 860;
+}
+);
+metricLeft = x;
+metricRight = x;
+unicode = 1175;
+}

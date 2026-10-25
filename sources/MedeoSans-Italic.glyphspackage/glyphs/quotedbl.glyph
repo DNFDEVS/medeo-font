@@ -1,0 +1,176 @@
+{
+color = 4;
+glyphname = quotedbl;
+kernLeft = quotesingle;
+kernRight = quotesingle;
+layers = (
+{
+background = {
+shapes = (
+{
+angle = 180;
+pos = (358,1240);
+ref = quotedblleft;
+}
+);
+};
+layerId = "EE2FFE84-06F1-4AFB-BBEC-60D09A436D14";
+shapes = (
+{
+closed = 1;
+nodes = (
+(129,464,l),
+(183,710,l),
+(145,710,l),
+(130,640,l),
+(101,464,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(241,464,l),
+(286,640,l),
+(301,710,l),
+(263,710,l),
+(213,464,l)
+);
+}
+);
+width = 256;
+},
+{
+layerId = "3507EE3D-0D92-4546-A145-3A991F0A2B71";
+shapes = (
+{
+closed = 1;
+nodes = (
+(188,424,l),
+(256,710,l),
+(120,710,l),
+(102,624,l),
+(81,424,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(371,424,l),
+(436,624,l),
+(454,710,l),
+(318,710,l),
+(265,424,l)
+);
+}
+);
+width = 385;
+},
+{
+layerId = "6C190511-B94A-4F5A-B519-D6E9DB0E7B93";
+shapes = (
+{
+closed = 1;
+nodes = (
+(160,444,l),
+(223,710,l),
+(135,710,l),
+(118,630,l),
+(98,444,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(314,444,l),
+(374,630,l),
+(391,710,l),
+(303,710,l),
+(252,444,l)
+);
+}
+);
+width = 336;
+},
+{
+layerId = "7240B716-CE9A-59F7-AFA0-6F9089C93D08";
+shapes = (
+{
+closed = 1;
+nodes = (
+(125,464,l),
+(179,710,l),
+(141,710,l),
+(126,640,l),
+(97,464,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(237,464,l),
+(282,640,l),
+(297,710,l),
+(259,710,l),
+(209,464,l)
+);
+}
+);
+width = 252;
+},
+{
+layerId = "64EDB5BC-BBCA-55A5-AA62-AF3C5A0418A6";
+shapes = (
+{
+closed = 1;
+nodes = (
+(158,444,l),
+(221,710,l),
+(133,710,l),
+(116,630,l),
+(96,444,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(312,444,l),
+(372,630,l),
+(389,710,l),
+(301,710,l),
+(250,444,l)
+);
+}
+);
+width = 316;
+},
+{
+layerId = "2E48EBD2-E908-5937-BE3F-7776DF5AE147";
+shapes = (
+{
+closed = 1;
+nodes = (
+(174,424,l),
+(242,710,l),
+(106,710,l),
+(88,624,l),
+(67,424,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(357,424,l),
+(422,624,l),
+(440,710,l),
+(304,710,l),
+(251,424,l)
+);
+}
+);
+width = 357;
+}
+);
+metricLeft = quotesingle;
+metricRight = quotesingle;
+unicode = 34;
+}

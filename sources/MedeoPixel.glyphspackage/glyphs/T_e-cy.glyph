@@ -1,0 +1,15 @@
+{
+glyphname = "Te-cy";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = T;
+}
+);
+width = 608;
+}
+);
+unicode = 1058;
+}

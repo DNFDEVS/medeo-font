@@ -1,0 +1,15 @@
+# People who have contributed to Medeo and to the Geist fonts it is built on. Copyright holders are listed in
+# AUTHORS.txt.
+#
+# Names should be added to this file as:
+# Name <email address or web address>
+
+DNF <https://dnf.dev>
+Andrés Briganti <info@briganti.works>
+Mateo Zaragoza <mateo@basement.studio>
+Basement.studio <hello@basement.studio>
+Vercel <contactus@vercel.com>
+Evil Rabbit <evilrabbit@vercel.com>
+José Rago <jose@basement.studio>
+Facundo Santana <facundo@basement.studio>
+Guido Ferreyra <guido@tipografia.com.ar>

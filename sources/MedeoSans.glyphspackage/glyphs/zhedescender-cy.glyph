@@ -1,0 +1,182 @@
+{
+color = 5;
+glyphname = "zhedescender-cy";
+kernRight = "zhedescender-cy";
+kernLeft = "zhe-cy";
+layers = (
+{
+layerId = "EE2FFE84-06F1-4AFB-BBEC-60D09A436D14";
+shapes = (
+{
+pos = (-3,0);
+ref = "zhe-cy";
+},
+{
+closed = 1;
+nodes = (
+(676,-120,l),
+(676,28,l),
+(596,28,l),
+(596,0,l),
+(646,0,l),
+(646,-120,l)
+);
+}
+);
+width = 717;
+},
+{
+layerId = "3507EE3D-0D92-4546-A145-3A991F0A2B71";
+shapes = (
+{
+pos = (-4,0);
+ref = "zhe-cy";
+},
+{
+closed = 1;
+nodes = (
+(858,-101,l),
+(858,136,l),
+(622,136,l),
+(622,0,l),
+(669,0,l),
+(669,-101,l)
+);
+}
+);
+width = 824;
+},
+{
+layerId = "6C190511-B94A-4F5A-B519-D6E9DB0E7B93";
+shapes = (
+{
+pos = (11,0);
+ref = "zhe-cy";
+},
+{
+closed = 1;
+nodes = (
+(791,-110,l),
+(791,74,l),
+(662,74,l),
+(662,0,l),
+(707,0,l),
+(707,-110,l)
+);
+}
+);
+width = 786;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (349,0);
+},
+{
+name = bottomright;
+pos = (684,0);
+},
+{
+name = top;
+pos = (349,530);
+}
+);
+layerId = "7240B716-CE9A-59F7-AFA0-6F9089C93D08";
+shapes = (
+{
+alignment = -1;
+pos = (-2,0);
+ref = "zhe-cy";
+},
+{
+closed = 1;
+nodes = (
+(665,-120,l),
+(665,28,l),
+(585,28,l),
+(585,0,l),
+(635,0,l),
+(635,-120,l)
+);
+}
+);
+width = 690;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (394,0);
+},
+{
+name = bottomright;
+pos = (798,0);
+},
+{
+name = top;
+pos = (394,530);
+}
+);
+layerId = "64EDB5BC-BBCA-55A5-AA62-AF3C5A0418A6";
+shapes = (
+{
+alignment = -1;
+pos = (11,0);
+ref = "zhe-cy";
+},
+{
+closed = 1;
+nodes = (
+(775,-110,l),
+(775,74,l),
+(646,74,l),
+(646,0,l),
+(691,0,l),
+(691,-110,l)
+);
+}
+);
+width = 759;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (418,0);
+},
+{
+name = bottomright;
+pos = (821,0);
+},
+{
+name = top;
+pos = (418,539);
+}
+);
+layerId = "2E48EBD2-E908-5937-BE3F-7776DF5AE147";
+shapes = (
+{
+alignment = -1;
+pos = (-4,0);
+ref = "zhe-cy";
+},
+{
+closed = 1;
+nodes = (
+(851,-101,l),
+(851,136,l),
+(615,136,l),
+(615,0,l),
+(662,0,l),
+(662,-101,l)
+);
+}
+);
+width = 809;
+}
+);
+metricLeft = x;
+metricRight = "=de-cy-20";
+unicode = 1175;
+}

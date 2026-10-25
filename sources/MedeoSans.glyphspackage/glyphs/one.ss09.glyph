@@ -1,0 +1,184 @@
+{
+color = 4;
+glyphname = one.ss09;
+layers = (
+{
+background = {
+shapes = (
+{
+closed = 1;
+nodes = (
+(-138,560,l),
+(-14,560,l),
+(-14,0,l),
+(18,0,l),
+(18,710,l),
+(-7,710,l),
+(-7,630,o),
+(-43,590,o),
+(-116,590,c),
+(-138,590,l)
+);
+}
+);
+};
+layerId = "EE2FFE84-06F1-4AFB-BBEC-60D09A436D14";
+shapes = (
+{
+closed = 1;
+nodes = (
+(340,0,l),
+(340,30,l),
+(29,30,l),
+(29,0,l)
+);
+},
+{
+alignment = -1;
+pos = (-36,0);
+ref = one;
+}
+);
+width = 340;
+},
+{
+associatedMasterId = "EE2FFE84-06F1-4AFB-BBEC-60D09A436D14";
+background = {
+shapes = (
+{
+closed = 1;
+nodes = (
+(46,512,l),
+(192,620,l),
+(160,647,l),
+(160,0,l),
+(246,0,l),
+(246,710,l),
+(172,710,l),
+(-8,577,l)
+);
+}
+);
+};
+layerId = "62097056-30DA-40BF-A05F-DD5AA35C8A84";
+name = "4 de may. de 23 16:51";
+shapes = (
+{
+closed = 1;
+nodes = (
+(40,590,l),
+(158,678,l),
+(158,0,l),
+(188,0,l),
+(188,710,l),
+(152,710,l),
+(20,611,l)
+);
+}
+);
+width = 270;
+},
+{
+layerId = "3507EE3D-0D92-4546-A145-3A991F0A2B71";
+shapes = (
+{
+closed = 1;
+nodes = (
+(517,0,l),
+(517,153,l),
+(17,153,l),
+(17,0,l)
+);
+},
+{
+alignment = -1;
+pos = (-26,0);
+ref = one;
+}
+);
+width = 471;
+},
+{
+layerId = "6C190511-B94A-4F5A-B519-D6E9DB0E7B93";
+shapes = (
+{
+closed = 1;
+nodes = (
+(388,0,l),
+(388,84,l),
+(18,84,l),
+(18,0,l)
+);
+},
+{
+alignment = -1;
+pos = (-28,0);
+ref = one;
+}
+);
+width = 375;
+},
+{
+layerId = "7240B716-CE9A-59F7-AFA0-6F9089C93D08";
+shapes = (
+{
+closed = 1;
+nodes = (
+(330,0,l),
+(330,30,l),
+(19,30,l),
+(19,0,l)
+);
+},
+{
+alignment = -1;
+pos = (-20,0);
+ref = one;
+}
+);
+width = 330;
+},
+{
+layerId = "64EDB5BC-BBCA-55A5-AA62-AF3C5A0418A6";
+shapes = (
+{
+closed = 1;
+nodes = (
+(384,0,l),
+(384,84,l),
+(14,84,l),
+(14,0,l)
+);
+},
+{
+alignment = -1;
+pos = (-11,0);
+ref = one;
+}
+);
+width = 371;
+},
+{
+layerId = "2E48EBD2-E908-5937-BE3F-7776DF5AE147";
+shapes = (
+{
+closed = 1;
+nodes = (
+(520,0,l),
+(520,153,l),
+(20,153,l),
+(20,0,l)
+);
+},
+{
+alignment = -1;
+pos = (-9,0);
+ref = one;
+}
+);
+width = 480;
+}
+);
+metricLeft = T;
+metricRight = T;
+}

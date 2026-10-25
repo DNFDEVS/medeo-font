@@ -1,0 +1,19 @@
+{
+glyphname = "Iishort-cy";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = "Ii-cy";
+},
+{
+pos = (190,190);
+ref = brevecomb;
+}
+);
+width = 646;
+}
+);
+unicode = 1049;
+}

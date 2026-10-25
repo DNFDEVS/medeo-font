@@ -1,0 +1,192 @@
+{
+color = 4;
+glyphname = macroncomb;
+layers = (
+{
+anchors = (
+{
+name = _top;
+pos = (231,530);
+}
+);
+background = {
+anchors = (
+{
+name = _top;
+pos = (258,530);
+}
+);
+shapes = (
+{
+closed = 1;
+nodes = (
+(376,641,l),
+(376,671,l),
+(140,671,l),
+(140,641,l)
+);
+}
+);
+};
+layerId = "EE2FFE84-06F1-4AFB-BBEC-60D09A436D14";
+shapes = (
+{
+closed = 1;
+nodes = (
+(379,644,l),
+(385,672,l),
+(137,672,l),
+(131,644,l)
+);
+}
+);
+width = 348;
+},
+{
+anchors = (
+{
+name = _top;
+pos = (249,539);
+}
+);
+background = {
+anchors = (
+{
+name = _top;
+pos = (274,530);
+}
+);
+shapes = (
+{
+closed = 1;
+nodes = (
+(431,611,l),
+(431,734,l),
+(117,734,l),
+(117,611,l)
+);
+}
+);
+};
+layerId = "3507EE3D-0D92-4546-A145-3A991F0A2B71";
+shapes = (
+{
+closed = 1;
+nodes = (
+(420,597,l),
+(447,728,l),
+(130,728,l),
+(103,597,l)
+);
+}
+);
+width = 383;
+},
+{
+anchors = (
+{
+name = _top;
+pos = (235,530);
+}
+);
+background = {
+anchors = (
+{
+name = _top;
+pos = (264,530);
+}
+);
+shapes = (
+{
+closed = 1;
+nodes = (
+(391,625,l),
+(391,687,l),
+(136,687,l),
+(136,625,l)
+);
+}
+);
+};
+layerId = "6C190511-B94A-4F5A-B519-D6E9DB0E7B93";
+shapes = (
+{
+closed = 1;
+nodes = (
+(389,625,l),
+(405,697,l),
+(137,697,l),
+(121,625,l)
+);
+}
+);
+width = 357;
+},
+{
+anchors = (
+{
+name = _top;
+pos = (231,530);
+}
+);
+layerId = "7240B716-CE9A-59F7-AFA0-6F9089C93D08";
+shapes = (
+{
+closed = 1;
+nodes = (
+(349,644,l),
+(355,672,l),
+(107,672,l),
+(101,644,l)
+);
+}
+);
+width = 348;
+},
+{
+anchors = (
+{
+name = _top;
+pos = (235,530);
+}
+);
+layerId = "64EDB5BC-BBCA-55A5-AA62-AF3C5A0418A6";
+shapes = (
+{
+closed = 1;
+nodes = (
+(374,625,l),
+(390,697,l),
+(122,697,l),
+(106,625,l)
+);
+}
+);
+width = 357;
+},
+{
+anchors = (
+{
+name = _top;
+pos = (249,539);
+}
+);
+layerId = "2E48EBD2-E908-5937-BE3F-7776DF5AE147";
+shapes = (
+{
+closed = 1;
+nodes = (
+(418,597,l),
+(445,728,l),
+(128,728,l),
+(101,597,l)
+);
+}
+);
+width = 383;
+}
+);
+metricLeft = o;
+metricRight = o;
+unicode = 772;
+}

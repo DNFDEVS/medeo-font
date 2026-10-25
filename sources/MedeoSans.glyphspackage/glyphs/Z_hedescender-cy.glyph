@@ -1,0 +1,180 @@
+{
+color = 4;
+glyphname = "Zhedescender-cy";
+kernLeft = X;
+kernRight = X;
+layers = (
+{
+layerId = "EE2FFE84-06F1-4AFB-BBEC-60D09A436D14";
+shapes = (
+{
+ref = "Zhe-cy";
+},
+{
+closed = 1;
+nodes = (
+(787,-150,l),
+(787,30,l),
+(702,30,l),
+(702,0,l),
+(755,0,l),
+(755,-150,l)
+);
+}
+);
+width = 906;
+},
+{
+layerId = "3507EE3D-0D92-4546-A145-3A991F0A2B71";
+shapes = (
+{
+pos = (0,0);
+ref = "Zhe-cy";
+},
+{
+closed = 1;
+nodes = (
+(1084,-150,l),
+(1084,153,l),
+(861,153,l),
+(861,0,l),
+(893,0,l),
+(893,-150,l)
+);
+}
+);
+width = 1103;
+},
+{
+layerId = "6C190511-B94A-4F5A-B519-D6E9DB0E7B93";
+shapes = (
+{
+ref = "Zhe-cy";
+},
+{
+closed = 1;
+nodes = (
+(940,-150,l),
+(940,84,l),
+(814,84,l),
+(814,0,l),
+(854,0,l),
+(854,-150,l)
+);
+}
+);
+width = 963;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (397,0);
+},
+{
+name = bottomright;
+pos = (746,0);
+},
+{
+name = top;
+pos = (397,710);
+}
+);
+layerId = "7240B716-CE9A-59F7-AFA0-6F9089C93D08";
+shapes = (
+{
+alignment = -1;
+pos = (0,0);
+ref = "Zhe-cy";
+},
+{
+closed = 1;
+nodes = (
+(771,-150,l),
+(771,30,l),
+(686,30,l),
+(686,0,l),
+(739,0,l),
+(739,-150,l)
+);
+}
+);
+width = 814;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (469,0);
+},
+{
+name = bottomright;
+pos = (910,0);
+},
+{
+name = top;
+pos = (469,710);
+}
+);
+layerId = "64EDB5BC-BBCA-55A5-AA62-AF3C5A0418A6";
+shapes = (
+{
+alignment = -1;
+pos = (0,0);
+ref = "Zhe-cy";
+},
+{
+closed = 1;
+nodes = (
+(926,-150,l),
+(926,84,l),
+(800,84,l),
+(800,0,l),
+(840,0,l),
+(840,-150,l)
+);
+}
+);
+width = 934;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (538,0);
+},
+{
+name = bottomright;
+pos = (1047,0);
+},
+{
+name = top;
+pos = (538,710);
+}
+);
+layerId = "2E48EBD2-E908-5937-BE3F-7776DF5AE147";
+shapes = (
+{
+alignment = -1;
+pos = (0,0);
+ref = "Zhe-cy";
+},
+{
+closed = 1;
+nodes = (
+(1070,-150,l),
+(1070,153,l),
+(847,153,l),
+(847,0,l),
+(879,0,l),
+(879,-150,l)
+);
+}
+);
+width = 1075;
+}
+);
+metricLeft = "Zhe-cy";
+metricRight = "=X-5";
+unicode = 1174;
+}
