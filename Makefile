@@ -7,7 +7,9 @@ VENV ?= venv
 PIXEL = $(VENV)/gftools-pixel
 # gftools builder runs fontmake and the other tools from PATH
 BIN = PATH="$(abspath $(VENV))/bin:$$PATH"
-# Font Bakery pins protobuf<4 and gftools needs protobuf>=6, so the checks get their own environment
+# Font Bakery pins protobuf<4 and gftools needs protobuf>=6, so the checks get their own environment.
+# requirements-test.txt is the full lock of requirements-test.in for Linux (uv pip compile --python-platform
+# x86_64-manylinux_2_28): pip's resolver could not solve fontbakery[googlefonts] on its own in CI.
 VENV_TEST ?= venv-test
 
 help:
@@ -26,7 +28,8 @@ $(VENV)/touchfile: requirements.txt requirements-pixel.txt
 
 $(VENV_TEST)/touchfile: requirements-test.txt
 	$(PYTHON) -m venv $(VENV_TEST)
-	$(VENV_TEST)/bin/pip install -q -r requirements-test.txt
+	$(VENV_TEST)/bin/pip install -q --upgrade pip
+	$(VENV_TEST)/bin/pip install -q --no-deps -r requirements-test.txt
 	touch $@
 
 build: $(VENV)/touchfile
