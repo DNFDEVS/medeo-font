@@ -1,5 +1,5 @@
-/* WOFF 1.0 on purpose: browsers' font sanitizer (OTS) rejects this font as woff2,
-   its thousands of identical pixel components compress too well. */
+/* WOFF 1.0, under the name RC1 and RC2 shipped. Up to 1.000-rc2 the decomposed pixels compressed so well that
+   OTS rejected the woff2 and WebKit both files; since rc3 the pixels are components and every format loads. */
 @font-face {
   font-family: "Medeo Pixel";
   src: url("./fonts/medeo-pixel/MedeoPixelVariable.woff") format("woff");
