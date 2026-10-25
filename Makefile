@@ -49,7 +49,9 @@ test: $(VENV_TEST)/touchfile
 check: $(VENV)/touchfile
 	rm -rf out/committed && mkdir -p out && cp -R fonts out/committed
 	$(MAKE) build
+	# the committed files go back in place either way: a release packs those bytes, not the fresh build's timestamps
 	$(VENV)/bin/python -I scripts/same_fonts.py out/committed fonts || { rm -rf out/fresh && mv fonts out/fresh && cp -R out/committed fonts; echo "fresh build kept in out/fresh"; exit 1; }
+	rm -rf fonts && mv out/committed fonts
 
 package:
 	cd packages/medeo-font && npm pack

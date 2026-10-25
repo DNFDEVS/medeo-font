@@ -37,7 +37,18 @@ jobs:
         run: |
           # the dist-tag comes from publishConfig: «latest» while only release candidates exist
           npm install -g npm@11
-          npm publish --provenance --access public
+          # publish the tarball that was checked: its fonts and licence equal the repository's byte for byte
+          tgz=$(npm pack --silent | tail -1)
+          mkdir -p ../../out/pack && tar -xzf "$tgz" -C ../../out/pack
+          for f in medeo-sans/MedeoSansVariable.woff2:MedeoSans/webfonts/MedeoSansVariable.woff2 \
+                   medeo-sans/MedeoSansVariable-Italic.woff2:MedeoSans/webfonts/MedeoSansVariable-Italic.woff2 \
+                   medeo-mono/MedeoMonoVariable.woff2:MedeoMono/webfonts/MedeoMonoVariable.woff2 \
+                   medeo-mono/MedeoMonoVariable-Italic.woff2:MedeoMono/webfonts/MedeoMonoVariable-Italic.woff2 \
+                   medeo-pixel/MedeoPixelVariable.woff:MedeoPixel/webfonts/MedeoPixelVariable.woff; do
+            cmp "../../out/pack/package/dist/fonts/${f%%:*}" "../../fonts/${f##*:}"
+          done
+          cmp ../../out/pack/package/LICENSE.txt ../../OFL.txt
+          npm publish "$tgz" --provenance --access public
       - name: GitHub release with the ZIP
         env:
           GH_TOKEN: ${{ github.token }}
