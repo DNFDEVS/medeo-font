@@ -1,7 +1,8 @@
 """Write the web fonts next to the variable TTFs: fonts/<Family>/webfonts/<Family>Variable[-Italic].woff2.
 
-Medeo Pixel gets WOFF 1.0 instead: its outlines are thousands of identical pixel components, Brotli packs the
-5 MB TTF so well that browsers' OTS rejects the woff2 («Implausible compression ratio», Chrome, 2026-10-22).
+Medeo Pixel gets WOFF 1.0 instead, under the file name the npm package has always loaded. Up to 1.000-rc2 its
+pixels were decomposed and the 5 MB TTF compressed so well that OTS rejected the woff2 and WebKit both files;
+since rc3 they are components and either format would load.
 
 Usage: python -I scripts/webfonts.py fonts
 """

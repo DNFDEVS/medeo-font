@@ -8,8 +8,74 @@ shapes = (
 ref = a;
 },
 {
-pos = (342,0);
-ref = ogonekcomb;
+alignment = -1;
+pos = (418,-114);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (380,-152);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (380,-190);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (418,-190);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (494,-190);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (532,-190);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (418,-228);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (456,-228);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (494,-228);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (456,-76);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (494,-38);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (456,-190);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (418,-152);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (532,-152);
+ref = pixel;
 }
 );
 width = 570;

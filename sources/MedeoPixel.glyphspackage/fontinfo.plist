@@ -10,7 +10,7 @@ tag = ELSH;
 customParameters = (
 {
 name = versionString;
-value = "Version 1.000-rc2";
+value = "Version 1.000-rc3";
 },
 {
 name = "Use Typo Metrics";

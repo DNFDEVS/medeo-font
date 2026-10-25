@@ -35,6 +35,17 @@ Medeo Pixel
 Versions
 --------
 
+1.000-rc3 (2026-10-25)
+- Medeo Pixel keeps its pixels as components of one exported glyph, «pixel», instead of 26,023 decomposed
+  contours. The TTF goes from 5.4 MB to 0.4 MB and its web files compress about 8× (WOFF) and 14× (WOFF2) instead
+  of 52× and 110×, which Safari, every iPhone browser and the Instagram in-app browser rejected (and Chromium for
+  WOFF2): Medeo Pixel now loads there. The drawing is the same; between ELSH 50 and 70, 3.6% of the points
+  (46,926 of 1,287,954 at 60) move by 1–2 units of delta rounding.
+- Nine ogonek letters (Ą Ę Į ą į ų and alternates) placed one pixel of the ogonek exactly on a pixel of the letter;
+  that ogonek is now drawn with its own pixels and the duplicate is left out. Font Bakery no longer finds
+  duplicate components.
+- Medeo Sans and Medeo Mono change only their version.
+
 1.000-rc2 (2026-10-25)
 - DNF is the copyright holder; OFL.txt, AUTHORS.txt and the fonts' names say so. This FONTLOG.
 - Sources renamed to MedeoSans, MedeoMono and MedeoPixel.

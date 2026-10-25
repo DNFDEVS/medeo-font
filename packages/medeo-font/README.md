@@ -2,7 +2,7 @@
 
 # Medeo Sans, Medeo Mono & Medeo Pixel
 
-**RC1** — the first public release candidate.
+**RC3** — a release candidate.
 
 Medeo is an open font family for Latin and Cyrillic. Made by DNF studio · [dnf.dev](https://dnf.dev) for [prtner.ai](https://prtner.ai). Specimen, tester and downloads: [prtner.ai/font](https://prtner.ai/font).
 
@@ -170,10 +170,10 @@ code {
 Without a bundler, from a CDN that mirrors npm:
 
 ```html
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/medeo-font@1.0.0-rc.1.2/dist/medeo.css" />
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/medeo-font@1.0.0-rc.3/dist/medeo.css" />
 ```
 
-The font files are under `medeo-font/fonts/*`. Medeo Pixel ships as WOFF, the others as WOFF2. Desktop TTF files are in the archive on [prtner.ai/font](https://prtner.ai/font).
+The font files are under `medeo-font/fonts/*`. Medeo Pixel ships as WOFF, the others as WOFF2. Desktop TTF files are in the archive on [prtner.ai/font](https://prtner.ai/font) and in every [GitHub release](https://github.com/DNFDEVS/medeo-font/releases).
 
 ### Spacing
 
