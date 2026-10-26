@@ -5,6 +5,7 @@
 # Names should be added to this file as:
 # Name or Organization <email address>
 
+Timur Akhimov <tmr@dnf.kz>
 DNF (Medeo) <https://dnf.dev>
 Andrés Briganti <info@briganti.works>
 Mateo Zaragoza <mateo@basement.studio>
