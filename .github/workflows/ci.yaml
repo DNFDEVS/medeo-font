@@ -27,10 +27,19 @@ jobs:
         run: make check
       - name: Font Bakery
         run: make test
+      - name: Record build dependencies
+        if: always()
+        run: |
+          mkdir -p out
+          if [ -x venv/bin/python ]; then
+            venv/bin/python -m pip freeze > out/build-dependencies.txt
+          fi
       - uses: actions/upload-artifact@v4
         if: always()
         with:
           name: fonts-and-reports
           path: |
             fonts/
+            out/fresh/
+            out/build-dependencies.txt
             out/fontbakery-*.json
