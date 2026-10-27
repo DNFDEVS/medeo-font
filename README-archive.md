@@ -21,7 +21,7 @@ The desktop archive also includes separate static Sans and Sans Display families
 For a website or Next.js project:
 
 ```sh
-npm install medeo-font@1.0.0-rc.4
+npm install medeo-font@1.0.0-rc.4.1
 ```
 
 For CSS and Next.js examples, see the [npm package documentation](https://www.npmjs.com/package/medeo-font).

@@ -15,7 +15,7 @@ Each family covers the alphabets of 759 languages in the Google Fonts language d
 ## Installation
 
 ```sh
-npm install medeo-font@1.0.0-rc.4
+npm install medeo-font@1.0.0-rc.4.1
 ```
 
 ## Using with Next.js
@@ -168,7 +168,7 @@ code {
 Without a bundler, from a CDN that mirrors npm:
 
 ```html
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/medeo-font@1.0.0-rc.4/dist/medeo.css" />
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/medeo-font@1.0.0-rc.4.1/dist/medeo.css" />
 ```
 
 The font files are under `medeo-font/fonts/*`. Medeo Pixel ships as WOFF, the others as WOFF2. Desktop TTF files are in the archive on [prtner.ai/font](https://prtner.ai/font) and in every [GitHub release](https://github.com/DNFDEVS/medeo-font/releases).
