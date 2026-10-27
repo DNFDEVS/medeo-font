@@ -1,0 +1,188 @@
+{
+glyphname = "chekhakassian-cy";
+kernLeft = u;
+kernRight = u;
+layers = (
+{
+anchors = (
+{
+name = bottomright;
+pos = (494,0);
+},
+{
+name = top;
+pos = (341,530);
+}
+);
+layerId = "EE2FFE84-06F1-4AFB-BBEC-60D09A436D14";
+shapes = (
+{
+ref = "che-cy";
+},
+{
+closed = 1;
+nodes = (
+(333,-120,l),
+(359,0,l),
+(409,0,l),
+(415,28,l),
+(335,28,l),
+(303,-120,l)
+);
+}
+);
+width = 570;
+},
+{
+anchors = (
+{
+name = bottomright;
+pos = (503,0);
+},
+{
+name = top;
+pos = (335,530);
+}
+);
+layerId = "6C190511-B94A-4F5A-B519-D6E9DB0E7B93";
+shapes = (
+{
+ref = "che-cy";
+},
+{
+closed = 1;
+nodes = (
+(337,-110,l),
+(361,0,l),
+(406,0,l),
+(421,74,l),
+(292,74,l),
+(253,-110,l)
+);
+}
+);
+width = 570;
+},
+{
+anchors = (
+{
+name = bottomright;
+pos = (530,0);
+},
+{
+name = top;
+pos = (361,539);
+}
+);
+layerId = "3507EE3D-0D92-4546-A145-3A991F0A2B71";
+shapes = (
+{
+ref = "che-cy";
+},
+{
+closed = 1;
+nodes = (
+(394,-101,l),
+(416,0,l),
+(461,0,l),
+(489,135,l),
+(258,135,l),
+(208,-101,l)
+);
+}
+);
+width = 610;
+},
+{
+anchors = (
+{
+name = bottomright;
+pos = (470,0);
+},
+{
+name = top;
+pos = (317,530);
+}
+);
+layerId = "7240B716-CE9A-59F7-AFA0-6F9089C93D08";
+shapes = (
+{
+ref = "che-cy";
+},
+{
+closed = 1;
+nodes = (
+(309,-120,l),
+(335,0,l),
+(385,0,l),
+(391,28,l),
+(311,28,l),
+(279,-120,l)
+);
+}
+);
+width = 526;
+},
+{
+anchors = (
+{
+name = bottomright;
+pos = (491,0);
+},
+{
+name = top;
+pos = (323,530);
+}
+);
+layerId = "64EDB5BC-BBCA-55A5-AA62-AF3C5A0418A6";
+shapes = (
+{
+ref = "che-cy";
+},
+{
+closed = 1;
+nodes = (
+(325,-110,l),
+(349,0,l),
+(394,0,l),
+(409,74,l),
+(280,74,l),
+(241,-110,l)
+);
+}
+);
+width = 547;
+},
+{
+anchors = (
+{
+name = bottomright;
+pos = (530,0);
+},
+{
+name = top;
+pos = (361,539);
+}
+);
+layerId = "2E48EBD2-E908-5937-BE3F-7776DF5AE147";
+shapes = (
+{
+ref = "che-cy";
+},
+{
+closed = 1;
+nodes = (
+(395,-101,l),
+(417,0,l),
+(462,0,l),
+(490,135,l),
+(259,135,l),
+(209,-101,l)
+);
+}
+);
+width = 612;
+}
+);
+unicode = 1228;
+}

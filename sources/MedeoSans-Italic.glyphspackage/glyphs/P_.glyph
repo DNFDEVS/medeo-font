@@ -1,7 +1,7 @@
 {
 color = 4;
 glyphname = P;
-kernLeft = b;
+kernLeft = Hstem;
 kernRight = P;
 layers = (
 {
@@ -278,11 +278,11 @@ width = 646;
 anchors = (
 {
 name = bottom;
-pos = (250,0);
+pos = (234,0);
 },
 {
 name = top;
-pos = (400,710);
+pos = (384,710);
 }
 );
 layerId = "7240B716-CE9A-59F7-AFA0-6F9089C93D08";
@@ -324,11 +324,11 @@ width = 593;
 anchors = (
 {
 name = bottom;
-pos = (264,0);
+pos = (253,0);
 },
 {
 name = top;
-pos = (414,710);
+pos = (403,710);
 }
 );
 layerId = "64EDB5BC-BBCA-55A5-AA62-AF3C5A0418A6";

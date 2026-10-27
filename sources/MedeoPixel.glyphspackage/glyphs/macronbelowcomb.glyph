@@ -1,0 +1,26 @@
+{
+glyphname = macronbelowcomb;
+layers = (
+{
+anchors = (
+{
+name = _bottom;
+pos = (190,0);
+},
+{
+name = bottom;
+pos = (190,-152);
+}
+);
+layerId = m01;
+shapes = (
+{
+pos = (0,-798);
+ref = macroncomb;
+}
+);
+width = 380;
+}
+);
+unicode = 817;
+}

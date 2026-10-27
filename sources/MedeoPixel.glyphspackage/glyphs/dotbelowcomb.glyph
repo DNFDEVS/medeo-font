@@ -1,0 +1,52 @@
+{
+glyphname = dotbelowcomb;
+layers = (
+{
+anchors = (
+{
+name = _bottom;
+pos = (76,0);
+},
+{
+name = bottom;
+pos = (76,-228);
+}
+);
+layerId = m01;
+shapes = (
+{
+alignment = -1;
+pos = (38,-114);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (76,-114);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (38,-152);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (76,-152);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (38,-190);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (76,-190);
+ref = pixel;
+}
+);
+width = 152;
+}
+);
+unicode = 803;
+}

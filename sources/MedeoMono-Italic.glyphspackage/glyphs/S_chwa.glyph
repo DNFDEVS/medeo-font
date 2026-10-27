@@ -2,6 +2,16 @@
 glyphname = Schwa;
 layers = (
 {
+anchors = (
+{
+name = bottom;
+pos = (244,0);
+},
+{
+name = top;
+pos = (385,710);
+}
+);
 background = {
 shapes = (
 {
@@ -89,6 +99,16 @@ nodes = (
 width = 600;
 },
 {
+anchors = (
+{
+name = bottom;
+pos = (244,0);
+},
+{
+name = top;
+pos = (384,710);
+}
+);
 layerId = "574EE4B9-5C1A-4E7E-9985-C08FACB65BD8";
 shapes = (
 {
@@ -134,6 +154,16 @@ nodes = (
 width = 600;
 },
 {
+anchors = (
+{
+name = bottom;
+pos = (244,0);
+},
+{
+name = top;
+pos = (382,710);
+}
+);
 background = {
 shapes = (
 {

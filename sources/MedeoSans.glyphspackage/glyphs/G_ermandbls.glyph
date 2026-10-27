@@ -1,7 +1,7 @@
 {
 color = 4;
 glyphname = Germandbls;
-kernLeft = b;
+kernLeft = Hstem;
 kernRight = B;
 layers = (
 {
@@ -302,11 +302,11 @@ width = 692;
 anchors = (
 {
 name = bottom;
-pos = (327,0);
+pos = (306,0);
 },
 {
 name = top;
-pos = (327,710);
+pos = (306,710);
 }
 );
 layerId = "7240B716-CE9A-59F7-AFA0-6F9089C93D08";
@@ -356,11 +356,11 @@ width = 613;
 anchors = (
 {
 name = bottom;
-pos = (346,0);
+pos = (335,0);
 },
 {
 name = top;
-pos = (346,710);
+pos = (335,710);
 }
 );
 layerId = "64EDB5BC-BBCA-55A5-AA62-AF3C5A0418A6";

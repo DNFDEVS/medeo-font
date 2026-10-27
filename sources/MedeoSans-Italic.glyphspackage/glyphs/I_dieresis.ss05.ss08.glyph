@@ -1,7 +1,7 @@
 {
 glyphname = Idieresis.ss05.ss08;
-kernLeft = I.ss05;
-kernRight = I.ss05;
+kernLeft = Hstem;
+kernRight = Hstem;
 layers = (
 {
 layerId = "EE2FFE84-06F1-4AFB-BBEC-60D09A436D14";
@@ -44,20 +44,6 @@ ref = dieresiscomb.ss08;
 width = 427;
 },
 {
-anchors = (
-{
-name = bottom;
-pos = (104,0);
-},
-{
-name = ogonek;
-pos = (214,0);
-},
-{
-name = top;
-pos = (254,710);
-}
-);
 layerId = "7240B716-CE9A-59F7-AFA0-6F9089C93D08";
 shapes = (
 {
@@ -74,20 +60,6 @@ ref = dieresiscomb.ss08;
 width = 320;
 },
 {
-anchors = (
-{
-name = bottom;
-pos = (158,0);
-},
-{
-name = ogonek;
-pos = (326,0);
-},
-{
-name = top;
-pos = (308,710);
-}
-);
 layerId = "64EDB5BC-BBCA-55A5-AA62-AF3C5A0418A6";
 shapes = (
 {
@@ -104,20 +76,6 @@ ref = dieresiscomb.ss08;
 width = 427;
 },
 {
-anchors = (
-{
-name = bottom;
-pos = (184,0);
-},
-{
-name = ogonek;
-pos = (393,0);
-},
-{
-name = top;
-pos = (334,710);
-}
-);
 layerId = "2E48EBD2-E908-5937-BE3F-7776DF5AE147";
 shapes = (
 {

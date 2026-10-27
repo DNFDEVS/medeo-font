@@ -1,0 +1,22 @@
+{
+glyphname = abreveacute.ss01;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = a.ss01;
+},
+{
+pos = (152,0);
+ref = brevecomb;
+},
+{
+pos = (228,152);
+ref = acutecomb;
+}
+);
+width = 570;
+}
+);
+}

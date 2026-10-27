@@ -16,7 +16,7 @@ pos = (154,265);
 },
 {
 name = top;
-pos = (352,530);
+pos = (199,670);
 }
 );
 background = {
@@ -119,7 +119,7 @@ pos = (159,270);
 },
 {
 name = top;
-pos = (377,539);
+pos = (232,698);
 }
 );
 background = {
@@ -222,7 +222,7 @@ pos = (150,265);
 },
 {
 name = top;
-pos = (355,530);
+pos = (209,670);
 }
 );
 background = {
@@ -317,15 +317,15 @@ width = 578;
 anchors = (
 {
 name = bottom;
-pos = (240,0);
+pos = (220,0);
 },
 {
 name = center;
-pos = (154,265);
+pos = (134,265);
 },
 {
 name = top;
-pos = (352,530);
+pos = (179,670);
 }
 );
 layerId = "7240B716-CE9A-59F7-AFA0-6F9089C93D08";
@@ -377,15 +377,15 @@ width = 533;
 anchors = (
 {
 name = bottom;
-pos = (243,0);
+pos = (232,0);
 },
 {
 name = center;
-pos = (150,265);
+pos = (139,265);
 },
 {
 name = top;
-pos = (355,530);
+pos = (198,670);
 }
 );
 layerId = "64EDB5BC-BBCA-55A5-AA62-AF3C5A0418A6";
@@ -445,7 +445,7 @@ pos = (159,270);
 },
 {
 name = top;
-pos = (377,539);
+pos = (232,698);
 }
 );
 layerId = "2E48EBD2-E908-5937-BE3F-7776DF5AE147";

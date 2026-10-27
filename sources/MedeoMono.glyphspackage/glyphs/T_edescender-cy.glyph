@@ -1,0 +1,66 @@
+{
+glyphname = "Tedescender-cy";
+layers = (
+{
+layerId = "EE2FFE84-06F1-4AFB-BBEC-60D09A436D14";
+shapes = (
+{
+ref = "Te-cy";
+},
+{
+closed = 1;
+nodes = (
+(376,-150,l),
+(376,30,l),
+(298,30,l),
+(298,0,l),
+(344,0,l),
+(344,-150,l)
+);
+}
+);
+width = 600;
+},
+{
+layerId = "574EE4B9-5C1A-4E7E-9985-C08FACB65BD8";
+shapes = (
+{
+ref = "Te-cy";
+},
+{
+closed = 1;
+nodes = (
+(413,-150,l),
+(413,84,l),
+(283,84,l),
+(283,0,l),
+(327,0,l),
+(327,-150,l)
+);
+}
+);
+width = 600;
+},
+{
+layerId = "58B1DC7A-69F8-4375-AD2E-AC5103CCF536";
+shapes = (
+{
+ref = "Te-cy";
+},
+{
+closed = 1;
+nodes = (
+(460,-150,l),
+(460,158,l),
+(253,158,l),
+(253,0,l),
+(280,0,l),
+(280,-150,l)
+);
+}
+);
+width = 600;
+}
+);
+unicode = 1196;
+}

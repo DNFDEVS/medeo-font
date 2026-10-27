@@ -1,0 +1,132 @@
+{
+glyphname = acutemacroncomb;
+layers = (
+{
+anchors = (
+{
+name = _top;
+pos = (228,532);
+},
+{
+name = top;
+pos = (228,760);
+}
+);
+layerId = m01;
+shapes = (
+{
+alignment = -1;
+pos = (114,608);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (114,646);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (152,646);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (152,684);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (76,608);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (114,684);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (76,646);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (190,684);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (38,608);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (228,684);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (266,684);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (304,684);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (342,684);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (380,684);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (380,722);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (342,722);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (304,722);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (266,722);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (228,722);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (190,722);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (152,722);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (114,722);
+ref = pixel;
+}
+);
+width = 456;
+}
+);
+unicode = 7623;
+}

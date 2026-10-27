@@ -1,7 +1,8 @@
 {
 color = 5;
 glyphname = "Kje-cy";
-kernLeft = b;
+kernLeft = Hstem;
+kernRight = X;
 layers = (
 {
 layerId = "EE2FFE84-06F1-4AFB-BBEC-60D09A436D14";
@@ -44,20 +45,6 @@ ref = acutecomb;
 width = 662;
 },
 {
-anchors = (
-{
-name = bottom;
-pos = (315,0);
-},
-{
-name = bottomright;
-pos = (502,0);
-},
-{
-name = top;
-pos = (306,710);
-}
-);
 layerId = "7240B716-CE9A-59F7-AFA0-6F9089C93D08";
 shapes = (
 {
@@ -74,20 +61,6 @@ ref = acutecomb;
 width = 560;
 },
 {
-anchors = (
-{
-name = bottom;
-pos = (334,0);
-},
-{
-name = bottomright;
-pos = (633,0);
-},
-{
-name = top;
-pos = (345,710);
-}
-);
 layerId = "64EDB5BC-BBCA-55A5-AA62-AF3C5A0418A6";
 shapes = (
 {
@@ -104,20 +77,6 @@ ref = acutecomb;
 width = 636;
 },
 {
-anchors = (
-{
-name = bottom;
-pos = (339,0);
-},
-{
-name = bottomright;
-pos = (657,0);
-},
-{
-name = top;
-pos = (339,710);
-}
-);
 layerId = "2E48EBD2-E908-5937-BE3F-7776DF5AE147";
 shapes = (
 {

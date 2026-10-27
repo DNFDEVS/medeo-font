@@ -1,0 +1,19 @@
+{
+glyphname = "Esdescender-cy";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = "Es-cy";
+},
+{
+pos = (190,0);
+ref = cedillacomb;
+}
+);
+width = 684;
+}
+);
+unicode = 1194;
+}

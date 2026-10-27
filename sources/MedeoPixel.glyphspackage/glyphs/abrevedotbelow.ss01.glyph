@@ -1,0 +1,22 @@
+{
+glyphname = abrevedotbelow.ss01;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = a.ss01;
+},
+{
+pos = (152,0);
+ref = brevecomb;
+},
+{
+pos = (228,0);
+ref = dotbelowcomb;
+}
+);
+width = 570;
+}
+);
+}

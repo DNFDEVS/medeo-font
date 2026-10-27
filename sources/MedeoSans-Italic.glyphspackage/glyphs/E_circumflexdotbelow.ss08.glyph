@@ -1,6 +1,6 @@
 {
 glyphname = Ecircumflexdotbelow.ss08;
-kernLeft = b;
+kernLeft = Hstem;
 kernRight = E;
 layers = (
 {
@@ -56,20 +56,6 @@ ref = circumflexcomb;
 width = 615;
 },
 {
-anchors = (
-{
-name = bottom;
-pos = (220,-146);
-},
-{
-name = ogonek;
-pos = (468,0);
-},
-{
-name = top;
-pos = (401,710);
-}
-);
 layerId = "7240B716-CE9A-59F7-AFA0-6F9089C93D08";
 shapes = (
 {
@@ -91,20 +77,6 @@ ref = circumflexcomb;
 width = 559;
 },
 {
-anchors = (
-{
-name = bottom;
-pos = (231,-156);
-},
-{
-name = ogonek;
-pos = (491,0);
-},
-{
-name = top;
-pos = (412,710);
-}
-);
 layerId = "64EDB5BC-BBCA-55A5-AA62-AF3C5A0418A6";
 shapes = (
 {
@@ -126,20 +98,6 @@ ref = circumflexcomb;
 width = 556;
 },
 {
-anchors = (
-{
-name = bottom;
-pos = (223,-162);
-},
-{
-name = ogonek;
-pos = (526,0);
-},
-{
-name = top;
-pos = (408,710);
-}
-);
 layerId = "2E48EBD2-E908-5937-BE3F-7776DF5AE147";
 shapes = (
 {

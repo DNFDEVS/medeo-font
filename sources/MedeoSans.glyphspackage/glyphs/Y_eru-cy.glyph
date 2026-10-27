@@ -1,7 +1,7 @@
 {
 color = 4;
 glyphname = "Yeru-cy";
-kernLeft = b;
+kernLeft = Hstem;
 kernRight = H;
 layers = (
 {
@@ -72,15 +72,15 @@ width = 860;
 anchors = (
 {
 name = bottom;
-pos = (688,0);
+pos = (667,0);
 },
 {
 name = top;
-pos = (400,710);
+pos = (379,710);
 },
 {
 name = ogonek;
-pos = (704,0);
+pos = (683,0);
 }
 );
 layerId = "7240B716-CE9A-59F7-AFA0-6F9089C93D08";
@@ -102,15 +102,15 @@ width = 758;
 anchors = (
 {
 name = bottom;
-pos = (725,0);
+pos = (714,0);
 },
 {
 name = top;
-pos = (430,710);
+pos = (419,710);
 },
 {
 name = ogonek;
-pos = (768,0);
+pos = (757,0);
 }
 );
 layerId = "64EDB5BC-BBCA-55A5-AA62-AF3C5A0418A6";

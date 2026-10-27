@@ -1,7 +1,7 @@
 {
 color = 5;
 glyphname = "Be-cy";
-kernLeft = b;
+kernLeft = Hstem;
 kernRight = B;
 layers = (
 {

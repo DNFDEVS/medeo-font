@@ -1,0 +1,90 @@
+{
+glyphname = "Cheverticalstroke-cy";
+layers = (
+{
+anchors = (
+{
+name = bottom;
+pos = (290,0);
+},
+{
+name = top;
+pos = (290,710);
+}
+);
+layerId = "EE2FFE84-06F1-4AFB-BBEC-60D09A436D14";
+shapes = (
+{
+ref = "Che-cy";
+},
+{
+closed = 1;
+nodes = (
+(306,150,l),
+(306,364,l),
+(274,364,l),
+(274,150,l)
+);
+}
+);
+width = 600;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (290,0);
+},
+{
+name = top;
+pos = (290,710);
+}
+);
+layerId = "574EE4B9-5C1A-4E7E-9985-C08FACB65BD8";
+shapes = (
+{
+ref = "Che-cy";
+},
+{
+closed = 1;
+nodes = (
+(333,144,l),
+(333,412,l),
+(247,412,l),
+(247,144,l)
+);
+}
+);
+width = 600;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (290,0);
+},
+{
+name = top;
+pos = (290,710);
+}
+);
+layerId = "58B1DC7A-69F8-4375-AD2E-AC5103CCF536";
+shapes = (
+{
+ref = "Che-cy";
+},
+{
+closed = 1;
+nodes = (
+(330,136,l),
+(330,476,l),
+(250,476,l),
+(250,136,l)
+);
+}
+);
+width = 600;
+}
+);
+unicode = 1208;
+}

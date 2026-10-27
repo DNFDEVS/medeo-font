@@ -1,8 +1,8 @@
 {
 color = 5;
 glyphname = "Iishort-cy";
-kernLeft = b;
-kernRight = d;
+kernLeft = Hstem;
+kernRight = Hstem;
 layers = (
 {
 layerId = "EE2FFE84-06F1-4AFB-BBEC-60D09A436D14";
@@ -45,16 +45,6 @@ ref = "brevecomb-cy";
 width = 743;
 },
 {
-anchors = (
-{
-name = bottomright;
-pos = (559,0);
-},
-{
-name = top;
-pos = (450,710);
-}
-);
 layerId = "7240B716-CE9A-59F7-AFA0-6F9089C93D08";
 shapes = (
 {
@@ -71,16 +61,6 @@ ref = "brevecomb-cy";
 width = 695;
 },
 {
-anchors = (
-{
-name = bottomright;
-pos = (667,0);
-},
-{
-name = top;
-pos = (467,710);
-}
-);
 layerId = "64EDB5BC-BBCA-55A5-AA62-AF3C5A0418A6";
 shapes = (
 {
@@ -97,16 +77,6 @@ ref = "brevecomb-cy";
 width = 715;
 },
 {
-anchors = (
-{
-name = bottomright;
-pos = (666,0);
-},
-{
-name = top;
-pos = (461,710);
-}
-);
 layerId = "2E48EBD2-E908-5937-BE3F-7776DF5AE147";
 shapes = (
 {

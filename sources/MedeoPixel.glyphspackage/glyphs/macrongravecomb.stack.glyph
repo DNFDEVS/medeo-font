@@ -1,0 +1,136 @@
+{
+glyphname = macrongravecomb.stack;
+layers = (
+{
+anchors = (
+{
+name = _top;
+pos = (266,532);
+},
+{
+name = top;
+pos = (266,646);
+}
+);
+layerId = m01;
+shapes = (
+{
+alignment = -1;
+pos = (76,646);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (114,646);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (152,646);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (190,646);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (228,646);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (266,646);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (304,646);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (304,684);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (266,684);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (228,684);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (190,684);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (152,684);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (114,684);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (76,684);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (38,684);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (38,646);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (342,570);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (342,608);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (304,608);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (380,570);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (342,646);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (380,608);
+ref = pixel;
+},
+{
+alignment = -1;
+pos = (418,570);
+ref = pixel;
+}
+);
+width = 494;
+}
+);
+}

@@ -1,0 +1,19 @@
+{
+glyphname = "Odieresis-cy";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = "O-cy";
+},
+{
+pos = (190,190);
+ref = dieresiscomb;
+}
+);
+width = 684;
+}
+);
+unicode = 1254;
+}

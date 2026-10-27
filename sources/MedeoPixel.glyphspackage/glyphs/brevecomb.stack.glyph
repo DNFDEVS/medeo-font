@@ -1,0 +1,25 @@
+{
+glyphname = brevecomb.stack;
+layers = (
+{
+anchors = (
+{
+name = _top;
+pos = (152,532);
+},
+{
+name = top;
+pos = (152,646);
+}
+);
+layerId = m01;
+shapes = (
+{
+pos = (0,-38);
+ref = brevecomb;
+}
+);
+width = 304;
+}
+);
+}

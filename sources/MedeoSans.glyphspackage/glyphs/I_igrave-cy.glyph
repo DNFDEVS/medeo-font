@@ -1,6 +1,8 @@
 {
 color = 5;
 glyphname = "Iigrave-cy";
+kernLeft = Hstem;
+kernRight = Hstem;
 layers = (
 {
 layerId = "EE2FFE84-06F1-4AFB-BBEC-60D09A436D14";
@@ -50,16 +52,6 @@ ref = gravecomb;
 width = 730;
 },
 {
-anchors = (
-{
-name = bottom;
-pos = (355,0);
-},
-{
-name = top;
-pos = (355,710);
-}
-);
 layerId = "7240B716-CE9A-59F7-AFA0-6F9089C93D08";
 shapes = (
 {
@@ -77,16 +69,6 @@ ref = gravecomb;
 width = 669;
 },
 {
-anchors = (
-{
-name = bottom;
-pos = (365,0);
-},
-{
-name = top;
-pos = (352,710);
-}
-);
 layerId = "64EDB5BC-BBCA-55A5-AA62-AF3C5A0418A6";
 shapes = (
 {
@@ -104,16 +86,6 @@ ref = gravecomb;
 width = 716;
 },
 {
-anchors = (
-{
-name = bottom;
-pos = (369,0);
-},
-{
-name = top;
-pos = (364,710);
-}
-);
 layerId = "2E48EBD2-E908-5937-BE3F-7776DF5AE147";
 shapes = (
 {

@@ -1,0 +1,25 @@
+{
+glyphname = hookabovecomb.stack;
+layers = (
+{
+anchors = (
+{
+name = _top;
+pos = (114,532);
+},
+{
+name = top;
+pos = (114,646);
+}
+);
+layerId = m01;
+shapes = (
+{
+pos = (0,-38);
+ref = hookabovecomb;
+}
+);
+width = 228;
+}
+);
+}

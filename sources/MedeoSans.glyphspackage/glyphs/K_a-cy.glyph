@@ -1,7 +1,7 @@
 {
 color = 4;
 glyphname = "Ka-cy";
-kernLeft = b;
+kernLeft = Hstem;
 kernRight = X;
 layers = (
 {
@@ -122,15 +122,15 @@ width = 690;
 anchors = (
 {
 name = bottom;
-pos = (315,0);
+pos = (294,0);
 },
 {
 name = bottomright;
-pos = (502,0);
+pos = (481,0);
 },
 {
 name = top;
-pos = (306,710);
+pos = (285,710);
 }
 );
 layerId = "7240B716-CE9A-59F7-AFA0-6F9089C93D08";
@@ -160,15 +160,15 @@ width = 560;
 anchors = (
 {
 name = bottom;
-pos = (334,0);
+pos = (323,0);
 },
 {
 name = bottomright;
-pos = (633,0);
+pos = (622,0);
 },
 {
 name = top;
-pos = (345,710);
+pos = (334,710);
 }
 );
 layerId = "64EDB5BC-BBCA-55A5-AA62-AF3C5A0418A6";

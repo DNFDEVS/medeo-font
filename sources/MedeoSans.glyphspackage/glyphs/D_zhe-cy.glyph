@@ -1,8 +1,8 @@
 {
 color = 4;
 glyphname = "Dzhe-cy";
-kernLeft = b;
-kernRight = d;
+kernLeft = Hstem;
+kernRight = Hstem;
 layers = (
 {
 layerId = "EE2FFE84-06F1-4AFB-BBEC-60D09A436D14";

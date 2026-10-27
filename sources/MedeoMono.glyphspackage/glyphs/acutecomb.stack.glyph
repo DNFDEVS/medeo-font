@@ -1,0 +1,65 @@
+{
+glyphname = acutecomb.stack;
+layers = (
+{
+anchors = (
+{
+name = _top;
+pos = (263,530);
+},
+{
+name = top;
+pos = (263,670);
+}
+);
+layerId = "EE2FFE84-06F1-4AFB-BBEC-60D09A436D14";
+shapes = (
+{
+pos = (0,-16);
+ref = acutecomb;
+}
+);
+width = 600;
+},
+{
+anchors = (
+{
+name = _top;
+pos = (258,530);
+},
+{
+name = top;
+pos = (258,678);
+}
+);
+layerId = "574EE4B9-5C1A-4E7E-9985-C08FACB65BD8";
+shapes = (
+{
+pos = (0,-16);
+ref = acutecomb;
+}
+);
+width = 600;
+},
+{
+anchors = (
+{
+name = _top;
+pos = (255,540);
+},
+{
+name = top;
+pos = (255,692);
+}
+);
+layerId = "58B1DC7A-69F8-4375-AD2E-AC5103CCF536";
+shapes = (
+{
+pos = (0,-27);
+ref = acutecomb;
+}
+);
+width = 600;
+}
+);
+}

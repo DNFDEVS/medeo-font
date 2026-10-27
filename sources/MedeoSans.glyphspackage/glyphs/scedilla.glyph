@@ -44,16 +44,6 @@ ref = cedillacomb;
 width = 538;
 },
 {
-anchors = (
-{
-name = bottom;
-pos = (284,0);
-},
-{
-name = top;
-pos = (270,530);
-}
-);
 layerId = "7240B716-CE9A-59F7-AFA0-6F9089C93D08";
 shapes = (
 {
@@ -70,16 +60,6 @@ ref = cedillacomb;
 width = 496;
 },
 {
-anchors = (
-{
-name = bottom;
-pos = (274,0);
-},
-{
-name = top;
-pos = (266,530);
-}
-);
 layerId = "64EDB5BC-BBCA-55A5-AA62-AF3C5A0418A6";
 shapes = (
 {
@@ -96,16 +76,6 @@ ref = cedillacomb;
 width = 514;
 },
 {
-anchors = (
-{
-name = bottom;
-pos = (309,0);
-},
-{
-name = top;
-pos = (306,539);
-}
-);
 layerId = "2E48EBD2-E908-5937-BE3F-7776DF5AE147";
 shapes = (
 {

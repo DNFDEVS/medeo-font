@@ -1,7 +1,7 @@
 {
 color = 5;
 glyphname = "Yu-cy";
-kernLeft = b;
+kernLeft = Hstem;
 kernRight = O;
 layers = (
 {
@@ -200,7 +200,7 @@ width = 946;
 anchors = (
 {
 name = top;
-pos = (440,710);
+pos = (419,710);
 }
 );
 layerId = "7240B716-CE9A-59F7-AFA0-6F9089C93D08";
@@ -264,7 +264,7 @@ width = 840;
 anchors = (
 {
 name = top;
-pos = (473,710);
+pos = (462,710);
 }
 );
 layerId = "64EDB5BC-BBCA-55A5-AA62-AF3C5A0418A6";

@@ -1,0 +1,18 @@
+{
+glyphname = Idotaccent.stack;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = I;
+},
+{
+pos = (38,190);
+ref = dotaccentcomb.stack;
+}
+);
+width = 228;
+}
+);
+}

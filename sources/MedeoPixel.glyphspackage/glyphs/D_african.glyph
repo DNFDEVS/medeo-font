@@ -1,0 +1,15 @@
+{
+glyphname = Dafrican;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = Dcroat;
+}
+);
+width = 684;
+}
+);
+unicode = 393;
+}

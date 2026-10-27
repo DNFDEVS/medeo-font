@@ -1,0 +1,65 @@
+{
+glyphname = dieresiscomb.stack;
+layers = (
+{
+anchors = (
+{
+name = _top;
+pos = (356,530);
+},
+{
+name = top;
+pos = (378,634);
+}
+);
+layerId = "EE2FFE84-06F1-4AFB-BBEC-60D09A436D14";
+shapes = (
+{
+pos = (-3,-16);
+ref = dieresiscomb;
+}
+);
+width = 600;
+},
+{
+anchors = (
+{
+name = _top;
+pos = (356,530);
+},
+{
+name = top;
+pos = (384,657);
+}
+);
+layerId = "574EE4B9-5C1A-4E7E-9985-C08FACB65BD8";
+shapes = (
+{
+pos = (-3,-16);
+ref = dieresiscomb;
+}
+);
+width = 600;
+},
+{
+anchors = (
+{
+name = _top;
+pos = (358,540);
+},
+{
+name = top;
+pos = (385,667);
+}
+);
+layerId = "58B1DC7A-69F8-4375-AD2E-AC5103CCF536";
+shapes = (
+{
+pos = (-6,-27);
+ref = dieresiscomb;
+}
+);
+width = 600;
+}
+);
+}

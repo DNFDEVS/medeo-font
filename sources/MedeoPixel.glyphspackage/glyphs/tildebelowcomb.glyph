@@ -1,0 +1,26 @@
+{
+glyphname = tildebelowcomb;
+layers = (
+{
+anchors = (
+{
+name = _bottom;
+pos = (190,0);
+},
+{
+name = bottom;
+pos = (190,-190);
+}
+);
+layerId = m01;
+shapes = (
+{
+pos = (0,-798);
+ref = tildecomb;
+}
+);
+width = 380;
+}
+);
+unicode = 816;
+}

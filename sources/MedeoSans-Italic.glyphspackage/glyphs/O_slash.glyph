@@ -56,24 +56,6 @@ ref = slashlongcomb.case;
 width = 728;
 },
 {
-anchors = (
-{
-name = bottom;
-pos = (292,0);
-},
-{
-name = center;
-pos = (367,355);
-},
-{
-name = top;
-pos = (442,710);
-},
-{
-name = topright;
-pos = (536,710);
-}
-);
 guides = (
 {
 angle = 90;
@@ -96,24 +78,6 @@ ref = slashlongcomb.case;
 width = 664;
 },
 {
-anchors = (
-{
-name = bottom;
-pos = (305,0);
-},
-{
-name = center;
-pos = (381,355);
-},
-{
-name = top;
-pos = (455,710);
-},
-{
-name = topright;
-pos = (545,710);
-}
-);
 layerId = "64EDB5BC-BBCA-55A5-AA62-AF3C5A0418A6";
 shapes = (
 {
@@ -130,24 +94,6 @@ ref = slashlongcomb.case;
 width = 704;
 },
 {
-anchors = (
-{
-name = bottom;
-pos = (318,0);
-},
-{
-name = center;
-pos = (393,355);
-},
-{
-name = top;
-pos = (468,710);
-},
-{
-name = topright;
-pos = (545,710);
-}
-);
 guides = (
 {
 angle = 90;

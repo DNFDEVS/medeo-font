@@ -1,0 +1,16 @@
+{
+glyphname = zero.ss09.tf;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+alignment = -1;
+pos = (38,0);
+ref = zero.ss09;
+}
+);
+width = 646;
+}
+);
+}

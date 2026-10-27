@@ -1,7 +1,7 @@
 {
 glyphname = lcaron;
 kernLeft = l;
-kernRight = lcaron;
+kernRight = l;
 layers = (
 {
 background = {
@@ -97,24 +97,6 @@ ref = caroncomb.alt;
 width = 309;
 },
 {
-anchors = (
-{
-name = bottom;
-pos = (97,0);
-},
-{
-name = center;
-pos = (142,348);
-},
-{
-name = top;
-pos = (195,670);
-},
-{
-name = topright;
-pos = (230,530);
-}
-);
 layerId = "7240B716-CE9A-59F7-AFA0-6F9089C93D08";
 shapes = (
 {
@@ -131,24 +113,6 @@ ref = caroncomb.alt;
 width = 176;
 },
 {
-anchors = (
-{
-name = bottom;
-pos = (106,0);
-},
-{
-name = center;
-pos = (150,405);
-},
-{
-name = top;
-pos = (205,670);
-},
-{
-name = topright;
-pos = (247,530);
-}
-);
 layerId = "64EDB5BC-BBCA-55A5-AA62-AF3C5A0418A6";
 shapes = (
 {
@@ -165,24 +129,6 @@ ref = caroncomb.alt;
 width = 279;
 },
 {
-anchors = (
-{
-name = bottom;
-pos = (134,0);
-},
-{
-name = center;
-pos = (189,382);
-},
-{
-name = top;
-pos = (238,698);
-},
-{
-name = topright;
-pos = (309,539);
-}
-);
 layerId = "2E48EBD2-E908-5937-BE3F-7776DF5AE147";
 shapes = (
 {

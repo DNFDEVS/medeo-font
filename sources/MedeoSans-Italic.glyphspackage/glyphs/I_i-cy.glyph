@@ -1,8 +1,8 @@
 {
 color = 5;
 glyphname = "Ii-cy";
-kernLeft = b;
-kernRight = d;
+kernLeft = Hstem;
+kernRight = Hstem;
 layers = (
 {
 anchors = (
@@ -164,11 +164,11 @@ width = 743;
 anchors = (
 {
 name = bottomright;
-pos = (559,0);
+pos = (544,0);
 },
 {
 name = top;
-pos = (450,710);
+pos = (435,710);
 }
 );
 layerId = "7240B716-CE9A-59F7-AFA0-6F9089C93D08";
@@ -197,11 +197,11 @@ width = 695;
 anchors = (
 {
 name = bottomright;
-pos = (667,0);
+pos = (656,0);
 },
 {
 name = top;
-pos = (467,710);
+pos = (456,710);
 }
 );
 layerId = "64EDB5BC-BBCA-55A5-AA62-AF3C5A0418A6";

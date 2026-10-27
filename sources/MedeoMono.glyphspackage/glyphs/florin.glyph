@@ -3,6 +3,16 @@ color = 4;
 glyphname = florin;
 layers = (
 {
+anchors = (
+{
+name = bottom;
+pos = (300,0);
+},
+{
+name = top;
+pos = (300,710);
+}
+);
 background = {
 shapes = (
 {
@@ -81,6 +91,16 @@ nodes = (
 width = 600;
 },
 {
+anchors = (
+{
+name = bottom;
+pos = (300,0);
+},
+{
+name = top;
+pos = (300,710);
+}
+);
 background = {
 shapes = (
 {
@@ -159,6 +179,16 @@ nodes = (
 width = 600;
 },
 {
+anchors = (
+{
+name = bottom;
+pos = (300,0);
+},
+{
+name = top;
+pos = (300,710);
+}
+);
 background = {
 shapes = (
 {

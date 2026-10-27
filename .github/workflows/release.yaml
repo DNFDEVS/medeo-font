@@ -30,6 +30,9 @@ jobs:
         run: make test
       - name: Tag, npm version and font version agree
         run: venv/bin/python -I scripts/release_version.py "$GITHUB_REF_NAME" packages/medeo-font/package.json fonts
+      - name: Release notes from CHANGELOG.md
+        # before anything is published: a version without its dated CHANGELOG section stops here
+        run: mkdir -p out && venv/bin/python -I scripts/release_notes.py packages/medeo-font/package.json CHANGELOG.md > out/notes.md
       - name: Publish to npm
         working-directory: packages/medeo-font
         env:
@@ -53,6 +56,10 @@ jobs:
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
-          zip -qr "Medeo-$GITHUB_REF_NAME.zip" OFL.txt FONTLOG.txt README.md fonts
+          mkdir -p out/release
+          cp OFL.txt CHANGELOG.md LANGUAGES.md FONTLOG.txt out/release/
+          cp README-archive.md out/release/README.md
+          cp -R fonts out/release/
+          (cd out/release && zip -qr "../../Medeo-$GITHUB_REF_NAME.zip" OFL.txt README.md CHANGELOG.md LANGUAGES.md FONTLOG.txt fonts)
           case $GITHUB_REF_NAME in *-*) pre=--prerelease ;; *) pre= ;; esac
-          gh release create "$GITHUB_REF_NAME" "Medeo-$GITHUB_REF_NAME.zip" --title "Medeo $GITHUB_REF_NAME" --notes-file FONTLOG.txt $pre
+          gh release create "$GITHUB_REF_NAME" "Medeo-$GITHUB_REF_NAME.zip" --title "Medeo $GITHUB_REF_NAME" --notes-file out/notes.md $pre

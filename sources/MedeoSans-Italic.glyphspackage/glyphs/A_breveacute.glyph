@@ -44,20 +44,6 @@ ref = brevecomb_acutecomb;
 width = 747;
 },
 {
-anchors = (
-{
-name = bottom;
-pos = (243,0);
-},
-{
-name = ogonek;
-pos = (520,0);
-},
-{
-name = top;
-pos = (452,990);
-}
-);
 layerId = "7240B716-CE9A-59F7-AFA0-6F9089C93D08";
 shapes = (
 {
@@ -74,20 +60,6 @@ ref = brevecomb_acutecomb;
 width = 578;
 },
 {
-anchors = (
-{
-name = bottom;
-pos = (272,0);
-},
-{
-name = ogonek;
-pos = (582,0);
-},
-{
-name = top;
-pos = (487,1019);
-}
-);
 layerId = "64EDB5BC-BBCA-55A5-AA62-AF3C5A0418A6";
 shapes = (
 {
@@ -104,20 +76,6 @@ ref = brevecomb_acutecomb;
 width = 629;
 },
 {
-anchors = (
-{
-name = bottom;
-pos = (315,0);
-},
-{
-name = ogonek;
-pos = (675,0);
-},
-{
-name = top;
-pos = (538,1065);
-}
-);
 layerId = "2E48EBD2-E908-5937-BE3F-7776DF5AE147";
 shapes = (
 {

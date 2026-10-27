@@ -2,7 +2,7 @@
 color = 5;
 glyphname = "gje-cy";
 kernLeft = n;
-kernRight = r;
+kernRight = ge-cy;
 layers = (
 {
 layerId = "EE2FFE84-06F1-4AFB-BBEC-60D09A436D14";
@@ -45,12 +45,6 @@ ref = acutecomb;
 width = 424;
 },
 {
-anchors = (
-{
-name = top;
-pos = (251,530);
-}
-);
 layerId = "7240B716-CE9A-59F7-AFA0-6F9089C93D08";
 shapes = (
 {
@@ -67,12 +61,6 @@ ref = acutecomb;
 width = 414;
 },
 {
-anchors = (
-{
-name = top;
-pos = (247,530);
-}
-);
 layerId = "64EDB5BC-BBCA-55A5-AA62-AF3C5A0418A6";
 shapes = (
 {
@@ -89,12 +77,6 @@ ref = acutecomb;
 width = 412;
 },
 {
-anchors = (
-{
-name = top;
-pos = (256,539);
-}
-);
 layerId = "2E48EBD2-E908-5937-BE3F-7776DF5AE147";
 shapes = (
 {

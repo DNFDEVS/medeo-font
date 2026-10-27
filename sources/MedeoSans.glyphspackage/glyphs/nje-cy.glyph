@@ -90,12 +90,6 @@ ref = "softsign-cy";
 width = 876;
 },
 {
-anchors = (
-{
-name = top;
-pos = (616,530);
-}
-);
 layerId = "7240B716-CE9A-59F7-AFA0-6F9089C93D08";
 shapes = (
 {
@@ -125,12 +119,6 @@ ref = "softsign-cy";
 width = 825;
 },
 {
-anchors = (
-{
-name = top;
-pos = (618,530);
-}
-);
 layerId = "64EDB5BC-BBCA-55A5-AA62-AF3C5A0418A6";
 shapes = (
 {
@@ -160,12 +148,6 @@ ref = "softsign-cy";
 width = 851;
 },
 {
-anchors = (
-{
-name = top;
-pos = (634,539);
-}
-);
 layerId = "2E48EBD2-E908-5937-BE3F-7776DF5AE147";
 shapes = (
 {

@@ -248,7 +248,7 @@ width = 322;
 anchors = (
 {
 name = _bottom;
-pos = (97,0);
+pos = (67,0);
 }
 );
 guides = (
@@ -296,7 +296,7 @@ width = 290;
 anchors = (
 {
 name = _bottom;
-pos = (114,0);
+pos = (99,0);
 }
 );
 layerId = "64EDB5BC-BBCA-55A5-AA62-AF3C5A0418A6";

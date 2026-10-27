@@ -10,7 +10,7 @@ tag = wght;
 classes = (
 {
 automatic = 1;
-code = "A Aacute Abreve Abreveacute Abrevedotbelow Abrevegrave Abrevehookabove Abrevetilde Acaron Acircumflex Acircumflexacute Acircumflexdotbelow Acircumflexgrave Acircumflexhookabove Acircumflextilde Adieresis Adotbelow Agrave Ahookabove Amacron Aogonek Aring Atilde AE B C Cacute Ccaron Ccedilla Ccircumflex Cdotaccent D Dcaron Dcroat Eth E Eacute Ecaron Ecircumflex Ecircumflexacute Ecircumflexdotbelow Ecircumflexgrave Ecircumflexhookabove Ecircumflextilde Edieresis Edotaccent Edotbelow Egrave Ehookabove Emacron Eogonek Etilde Schwa F G Gbreve Gcaron Gcircumflex Gcommaaccent Gdotaccent Gmacron Gstroke H Hbar Hcircumflex I Iacute Icircumflex Idieresis Idotaccent Idotbelow Igrave Ihookabove Imacron Iogonek Itilde J Jacute Jcircumflex K Kcaron Kcommaaccent L Lacute Lcaron Lcommaaccent Lslash M N Nacute Ncaron Ncommaaccent Ntilde Eng O Oacute Ocircumflex Ocircumflexacute Ocircumflexdotbelow Ocircumflexgrave Ocircumflexhookabove Ocircumflextilde Odieresis Odotbelow Ograve Ohookabove Ohorn Ohornacute Ohorndotbelow Ohorngrave Ohornhookabove Ohorntilde Ohungarumlaut Omacron Oslash Otilde OE P Thorn Q R Racute Rcaron Rcommaaccent S Sacute Scaron Scedilla Scircumflex Scommaaccent Germandbls T Tbar Tcaron Tcedilla Tcommaaccent U Uacute Ubreve Ucircumflex Udieresis Udotbelow Ugrave Uhookabove Uhorn Uhornacute Uhorndotbelow Uhorngrave Uhornhookabove Uhorntilde Uhungarumlaut Umacron Uogonek Uring Utilde V W Wacute Wcircumflex Wdieresis Wgrave X Y Yacute Ycircumflex Ydieresis Ydotbelow Ygrave Yhookabove Ytilde Z Zacute Zcaron Zdotaccent Saltillo Lcommaaccent.loclMAH Ncommaaccent.loclMAH R.ss04 Racute.ss04 Rcaron.ss04 Rcommaaccent.ss04 G.ss06 Gbreve.ss06 Gcircumflex.ss06 Gcommaaccent.ss06 Gdotaccent.ss06 Gmacron.ss06 Abrevedotbelow.ss08 Adieresis.ss08 Adotbelow.ss08 Cdotaccent.ss08 Ecircumflexdotbelow.ss08 Edieresis.ss08 Edotaccent.ss08 Edotbelow.ss08 Gdotaccent.ss08 Idieresis.ss08 Idotaccent.ss08 Idotbelow.ss08 Ocircumflexdotbelow.ss08 Odieresis.ss08 Ohorndotbelow.ss08 Udieresis.ss08 Udotbelow.ss08 Uhorndotbelow.ss08 Wdieresis.ss08 Ydieresis.ss08 Ydotbelow.ss08 Zdotaccent.ss08 Gdotaccent.ss06.ss08 A-cy Be-cy Ve-cy Ge-cy Gje-cy Geupturn-cy Gestroke-cy De-cy Ie-cy Iegrave-cy Io-cy Zhe-cy Ze-cy Ii-cy Iishort-cy Iigrave-cy Ka-cy Kje-cy El-cy Em-cy En-cy O-cy Pe-cy Er-cy Es-cy Te-cy U-cy Ushort-cy Ef-cy Ha-cy Tse-cy Che-cy Sha-cy Shcha-cy Dzhe-cy Softsign-cy Yeru-cy Hardsign-cy Lje-cy Nje-cy Dze-cy E-cy Ereversed-cy I-cy Yi-cy Je-cy Tshe-cy Yu-cy Ya-cy Dje-cy Yat-cy Yusbig-cy Fita-cy Izhitsa-cy Zhedescender-cy Kadescender-cy Endescender-cy Ustraight-cy Ustraightstroke-cy Hadescender-cy Chedescender-cy Shha-cy Palochka-cy Schwa-cy Imacron-cy Obarred-cy Umacron-cy Io-cy.ss08 Yi-cy.ss08 Lambda Omega eulerconstant";
+code = "A Aacute Abreve Abreveacute Abrevedotbelow Abrevegrave Abrevehookabove Abrevetilde Acaron Acircumflex Acircumflexacute Acircumflexdotbelow Acircumflexgrave Acircumflexhookabove Acircumflextilde Adieresis Adotbelow Agrave Ahookabove Amacron Aogonek Aring Atilde AE B Bdotbelow C Cacute Ccaron Ccedilla Ccircumflex Cdotaccent D Dcaron Dcroat Ddotbelow Eth E Eacute Ebreve Ecaron Ecircumflex Ecircumflexacute Ecircumflexdotbelow Ecircumflexgrave Ecircumflexhookabove Ecircumflextilde Edieresis Edotaccent Fdotaccent Edotbelow Egrave Ehookabove Emacron Eogonek Etilde Schwa F G Gbreve Gcaron Gcircumflex Gcommaaccent Gdotaccent Gmacron Gstroke H Hbar Hcircumflex Hdotbelow I Iacute Ibreve Icaron Icircumflex Idieresis Idotaccent Idotbelow Igrave Ihookabove Imacron Iogonek Itilde J Jacute Jcircumflex K Kcaron Kcommaaccent L Lacute Lcaron Lcommaaccent Ldotbelow Lslash M Macute Mdotbelow N Nacute Ncaron Ncommaaccent Ndotaccent Ndotbelow Ngrave Ntilde Eng O Oacute Obreve Ocaron Ocircumflex Ocircumflexacute Ocircumflexdotbelow Ocircumflexgrave Ocircumflexhookabove Ocircumflextilde Odieresis Odotbelow Ograve Ohookabove Ohorn Ohornacute Ohorndotbelow Ohorngrave Ohornhookabove Ohorntilde Ohungarumlaut Omacron Oslash Otilde OE P Thorn Q R Racute Rcaron Rcommaaccent Rdotbelow S Sacute Scaron Scedilla Scircumflex Scommaaccent Sdotbelow Germandbls T Tbar Tcaron Tcedilla Tcommaaccent Tdotbelow U Uacute Ubreve Ucaron Ucircumflex Udieresis Udieresismacron Udieresisacute Udieresiscaron Udieresisgrave Udotbelow Ugrave Uhookabove Uhorn Uhornacute Uhorndotbelow Uhorngrave Uhornhookabove Uhorntilde Uhungarumlaut Umacron Uogonek Uring Utilde V Vdotbelow W Wacute Wcircumflex Wdieresis Wgrave X Y Yacute Ycircumflex Ydieresis Ydotbelow Ygrave Yhookabove Ytilde Z Zacute Zcaron Zdotaccent Zdotbelow Saltillo Lcommaaccent.loclMAH Ncommaaccent.loclMAH R.ss04 Racute.ss04 Rcaron.ss04 Rcommaaccent.ss04 G.ss06 Gbreve.ss06 Gcircumflex.ss06 Gcommaaccent.ss06 Gdotaccent.ss06 Gmacron.ss06 Abrevedotbelow.ss08 Adieresis.ss08 Adotbelow.ss08 Bdotbelow.ss08 Cdotaccent.ss08 Ddotbelow.ss08 Ecircumflexdotbelow.ss08 Edieresis.ss08 Edotaccent.ss08 Fdotaccent.ss08 Edotbelow.ss08 Gdotaccent.ss08 Hdotbelow.ss08 Idieresis.ss08 Idotaccent.ss08 Idotbelow.ss08 Ldotbelow.ss08 Mdotbelow.ss08 Ndotaccent.ss08 Ndotbelow.ss08 Ocircumflexdotbelow.ss08 Odieresis.ss08 Ohorndotbelow.ss08 Rdotbelow.ss08 Sdotbelow.ss08 Tdotbelow.ss08 Udieresis.ss08 Udieresismacron.ss08 Udieresisacute.ss08 Udieresiscaron.ss08 Udieresisgrave.ss08 Udotbelow.ss08 Uhorndotbelow.ss08 Vdotbelow.ss08 Wdieresis.ss08 Ydieresis.ss08 Ydotbelow.ss08 Zdotaccent.ss08 Zdotbelow.ss08 Gdotaccent.ss06.ss08 Oopen Eopen Bhook Dhook Iota-latin Vhook Nhookleft Istroke Ubar Eturned Dtail Khook Upsilon-latin Vturned Utildeacute Yhook Gammaafrican A-cy Abreve-cy Adieresis-cy Aie-cy Be-cy Ve-cy Ge-cy Gje-cy Geupturn-cy Gestroke-cy Gemiddlehook-cy Gedescender-cy De-cy Ie-cy Iegrave-cy Io-cy Iebreve-cy Zhe-cy Zhebreve-cy Zhedieresis-cy Ze-cy Zedieresis-cy Zedescender-cy Dzeabkhasian-cy Ii-cy Iishort-cy Iigrave-cy Idieresis-cy Ka-cy Kabashkir-cy Kaverticalstroke-cy Kahook-cy Kastroke-cy Kje-cy El-cy Elhook-cy Em-cy En-cy EnGe-cy Enhook-cy O-cy Odieresis-cy Pe-cy Pedescender-cy Er-cy Es-cy Esdescender-cy Te-cy Tedescender-cy Tetse-cy U-cy Ushort-cy Udieresis-cy Uhungarumlaut-cy Ef-cy Ha-cy Tse-cy Che-cy Cheverticalstroke-cy Chekhakassian-cy Cheabkhasian-cy Chedescenderabkhasian-cy Chedieresis-cy Sha-cy Shcha-cy Dzhe-cy Softsign-cy Yeru-cy Yerudieresis-cy Hardsign-cy Lje-cy Nje-cy Dze-cy E-cy Ereversed-cy Edieresis-cy I-cy Yi-cy Je-cy Tshe-cy Yu-cy Ya-cy Dje-cy Yat-cy Yusbig-cy Fita-cy Izhitsa-cy Zhedescender-cy Kadescender-cy Endescender-cy Ustraight-cy Ustraightstroke-cy Hadescender-cy Haabkhasian-cy Chedescender-cy Shha-cy Palochka-cy Schwa-cy Schwadieresis-cy Imacron-cy Obarred-cy Obarreddieresis-cy Umacron-cy Io-cy.ss08 Yi-cy.ss08 Adieresis-cy.ss08 Odieresis-cy.ss08 Udieresis-cy.ss08 Idieresis-cy.ss08 Zedieresis-cy.ss08 Zhedieresis-cy.ss08 Chedieresis-cy.ss08 Yerudieresis-cy.ss08 Edieresis-cy.ss08 Schwadieresis-cy.ss08 Obarreddieresis-cy.ss08 Lambda Omega eulerconstant";
 name = Uppercase;
 },
 {
@@ -22,7 +22,7 @@ name = Numeral;
 customParameters = (
 {
 name = versionString;
-value = "Version 1.000-rc3";
+value = "Version 1.000-rc4";
 },
 {
 name = "Use Typo Metrics";
@@ -136,6 +136,132 @@ languagesystem latn MAH;
 languagesystem latn NLD;
 ";
 name = Languagesystems;
+},
+{
+code = "# Medeo, not Glyphs-generated: lookups that ccmp calls from its contextual rules
+lookup ccmp_split_idotbelow {
+	sub idotbelow by idotless dotbelowcomb;
+} ccmp_split_idotbelow;
+lookup ccmp_split_iogonek {
+	sub iogonek by idotless ogonekcomb;
+} ccmp_split_iogonek;
+
+# a capital with two marks above: the first mark sits lower and closer (Medeo)
+@CapStackBase = [A A-cy AE Aacute Abreve Abreve-cy Abreveacute Abrevedotbelow Abrevegrave Abrevehookabove Abrevetilde Acaron Acircumflex Acircumflexacute Acircumflexdotbelow Acircumflexgrave Acircumflexhookabove Acircumflextilde Adieresis Adieresis-cy Adotbelow Agrave Ahookabove Aie-cy Amacron Aogonek Aring Atilde B Bdotbelow Be-cy Bhook C Cacute Ccaron Ccedilla Ccircumflex Cdotaccent Che-cy Cheabkhasian-cy Chedescender-cy Chedescenderabkhasian-cy Chedieresis-cy Chekhakassian-cy Cheverticalstroke-cy D Dcaron Dcroat Ddotbelow De-cy Dhook Dje-cy Dtail Dze-cy Dzeabkhasian-cy Dzhe-cy E E-cy Eacute Ebreve Ecaron Ecircumflex Ecircumflexacute Ecircumflexdotbelow Ecircumflexgrave Ecircumflexhookabove Ecircumflextilde Edieresis Edieresis-cy Edotaccent Fdotaccent Edotbelow Ef-cy Egrave Ehookabove El-cy Elhook-cy Em-cy Emacron En-cy EnGe-cy Endescender-cy Eng Enhook-cy Eogonek Eopen Er-cy Ereversed-cy Es-cy Esdescender-cy Eth Etilde Eturned F Fhook Fita-cy G Gammaafrican Gbreve Gcaron Gcircumflex Gcommaaccent Gdotaccent Ge-cy Gedescender-cy Gemiddlehook-cy Germandbls Gestroke-cy Geupturn-cy Gje-cy Gmacron Gstroke H Ha-cy Haabkhasian-cy Hadescender-cy Hardsign-cy Hbar Hcircumflex Hdotbelow I I-cy Iacute Ibreve Icaron Icircumflex Idieresis Idieresis-cy Idotaccent Idotbelow Ie-cy Iebreve-cy Iegrave-cy Igrave Ihookabove Ii-cy Iigrave-cy Iishort-cy Imacron Imacron-cy Io-cy Iogonek Iota-latin Istroke Itilde Izhitsa-cy J Jcircumflex Je-cy K Ka-cy Kabashkir-cy Kadescender-cy Kahook-cy Kastroke-cy Kaverticalstroke-cy Kcaron Kcommaaccent Khook Kje-cy L Lacute Lambda Lcaron Lcommaaccent Ldotbelow Lje-cy Lslash M Macute Mdotbelow N Nacute Ncaron Ncommaaccent Ndotaccent Ndotbelow Ngrave Nhookleft Nje-cy Ntilde O O-cy OE Oacute Obarred-cy Obarreddieresis-cy Obreve Ocaron Ocircumflex Ocircumflexacute Ocircumflexdotbelow Ocircumflexgrave Ocircumflexhookabove Ocircumflextilde Odieresis Odieresis-cy Odotbelow Ograve Ohookabove Ohorn Ohornacute Ohorndotbelow Ohorngrave Ohornhookabove Ohorntilde Ohungarumlaut Omacron Omega Oopen Oslash Otilde P Palochka-cy Pe-cy Pedescender-cy Pemiddlehook-cy Q R Racute Rcaron Rcommaaccent Rdotbelow S Sacute Saltillo Scaron Scedilla Schwa Schwa-cy Schwadieresis-cy Scircumflex Scommaaccent Sdotbelow Sha-cy Shcha-cy Shha-cy Softsign-cy T Tbar Tcaron Tcedilla Tcommaaccent Tdotbelow Te-cy Tedescender-cy Tetse-cy Thorn Tse-cy Tshe-cy U U-cy Uacute Ubar Ubreve Ucaron Ucircumflex Udieresis Udieresismacron Udieresisacute Udieresiscaron Udieresisgrave Udieresis-cy Udotbelow Ugrave Uhookabove Uhorn Uhornacute Uhorndotbelow Uhorngrave Uhornhookabove Uhorntilde Uhungarumlaut Uhungarumlaut-cy Umacron Umacron-cy Uogonek Upsilon-latin Uring Ushort-cy Ustraight-cy Ustraightstroke-cy Utilde Utildeacute V Vdotbelow Ve-cy Vhook Vturned W Wacute Wcircumflex Wdieresis Wgrave X Y Ya-cy Yacute Yat-cy Ycircumflex Ydieresis Ydotbelow Yeru-cy Yerudieresis-cy Ygrave Yhook Yhookabove Yi-cy Ytilde Yu-cy Yusbig-cy Z Zacute Zcaron Zdotaccent Zdotbelow Ze-cy Zedescender-cy Zedieresis-cy Zhe-cy Zhebreve-cy Zhedescender-cy Zhedieresis-cy eulerconstant];
+@CapStackMark = [acutecomb gravecomb circumflexcomb caroncomb tildecomb macroncomb brevecomb dieresiscomb dotaccentcomb ringcomb hungarumlautcomb hookabovecomb commaturnedabovecomb commaabovecomb verticallineabovecomb brevecomb-cy macronacutecomb gravemacroncomb macrongravecomb acutemacroncomb];
+@CapStackMarkStack = [acutecomb.stack gravecomb.stack circumflexcomb.stack caroncomb.stack tildecomb.stack macroncomb.stack brevecomb.stack dieresiscomb.stack dotaccentcomb.stack ringcomb.stack hungarumlautcomb.stack hookabovecomb.stack commaturnedabovecomb.stack commaabovecomb.stack verticallineabovecomb.stack brevecomb-cy.stack macronacutecomb.stack gravemacroncomb.stack macrongravecomb.stack acutemacroncomb.stack];
+lookup ccmp_split_capital {
+	sub Aacute by A acutecomb;
+	sub Abreve by A brevecomb;
+	sub Acaron by A caroncomb;
+	sub Acircumflex by A circumflexcomb;
+	sub Adieresis by A dieresiscomb;
+	sub Agrave by A gravecomb;
+	sub Ahookabove by A hookabovecomb;
+	sub Amacron by A macroncomb;
+	sub Aring by A ringcomb;
+	sub Atilde by A tildecomb;
+	sub Cacute by C acutecomb;
+	sub Ccaron by C caroncomb;
+	sub Ccircumflex by C circumflexcomb;
+	sub Cdotaccent by C dotaccentcomb;
+	sub Dcaron by D caroncomb;
+	sub Eacute by E acutecomb;
+	sub Ebreve by E brevecomb;
+	sub Ecaron by E caroncomb;
+	sub Ecircumflex by E circumflexcomb;
+	sub Edieresis by E dieresiscomb;
+	sub Edotaccent by E dotaccentcomb;
+	sub Fdotaccent by F dotaccentcomb;
+	sub Egrave by E gravecomb;
+	sub Ehookabove by E hookabovecomb;
+	sub Emacron by E macroncomb;
+	sub Etilde by E tildecomb;
+	sub Gbreve by G brevecomb;
+	sub Gcaron by G caroncomb;
+	sub Gcircumflex by G circumflexcomb;
+	sub Gdotaccent by G dotaccentcomb;
+	sub Gmacron by G macroncomb;
+	sub Hcircumflex by H circumflexcomb;
+	sub Jcircumflex by J circumflexcomb;
+	sub Kcaron by K caroncomb;
+	sub Macute by M acutecomb;
+	sub Nacute by N acutecomb;
+	sub Ncaron by N caroncomb;
+	sub Ndotaccent by N dotaccentcomb;
+	sub Ngrave by N gravecomb;
+	sub Ntilde by N tildecomb;
+	sub Oacute by O acutecomb;
+	sub Obreve by O brevecomb;
+	sub Ocaron by O caroncomb;
+	sub Ocircumflex by O circumflexcomb;
+	sub Odieresis by O dieresiscomb;
+	sub Ograve by O gravecomb;
+	sub Ohookabove by O hookabovecomb;
+	sub Ohornacute by Ohorn acutecomb;
+	sub Ohorngrave by Ohorn gravecomb;
+	sub Ohornhookabove by Ohorn hookabovecomb;
+	sub Ohorntilde by Ohorn tildecomb;
+	sub Ohungarumlaut by O hungarumlautcomb;
+	sub Omacron by O macroncomb;
+	sub Otilde by O tildecomb;
+	sub Racute by R acutecomb;
+	sub Rcaron by R caroncomb;
+	sub Sacute by S acutecomb;
+	sub Scaron by S caroncomb;
+	sub Scircumflex by S circumflexcomb;
+	sub Tcaron by T caroncomb;
+	sub Uacute by U acutecomb;
+	sub Ubreve by U brevecomb;
+	sub Ucaron by U caroncomb;
+	sub Ucircumflex by U circumflexcomb;
+	sub Udieresis by U dieresiscomb;
+	sub Ugrave by U gravecomb;
+	sub Uhookabove by U hookabovecomb;
+	sub Uhornacute by Uhorn acutecomb;
+	sub Uhorngrave by Uhorn gravecomb;
+	sub Uhornhookabove by Uhorn hookabovecomb;
+	sub Uhorntilde by Uhorn tildecomb;
+	sub Uhungarumlaut by U hungarumlautcomb;
+	sub Umacron by U macroncomb;
+	sub Uring by U ringcomb;
+	sub Utilde by U tildecomb;
+	sub Wacute by W acutecomb;
+	sub Wcircumflex by W circumflexcomb;
+	sub Wdieresis by W dieresiscomb;
+	sub Wgrave by W gravecomb;
+	sub Yacute by Y acutecomb;
+	sub Ycircumflex by Y circumflexcomb;
+	sub Ydieresis by Y dieresiscomb;
+	sub Ygrave by Y gravecomb;
+	sub Yhookabove by Y hookabovecomb;
+	sub Ytilde by Y tildecomb;
+	sub Zacute by Z acutecomb;
+	sub Zcaron by Z caroncomb;
+	sub Zdotaccent by Z dotaccentcomb;
+	sub Abreve-cy by A-cy brevecomb-cy;
+	sub Adieresis-cy by A-cy dieresiscomb;
+	sub Gje-cy by Ge-cy acutecomb;
+	sub Iegrave-cy by Ie-cy gravecomb;
+	sub Io-cy by Ie-cy dieresiscomb;
+	sub Iebreve-cy by Ie-cy brevecomb-cy;
+	sub Iishort-cy by Ii-cy brevecomb-cy;
+	sub Iigrave-cy by Ii-cy gravecomb;
+	sub Idieresis-cy by Ii-cy dieresiscomb;
+	sub Kje-cy by Ka-cy acutecomb;
+	sub Odieresis-cy by O-cy dieresiscomb;
+	sub Ushort-cy by U-cy brevecomb-cy;
+	sub Udieresis-cy by U-cy dieresiscomb;
+	sub Uhungarumlaut-cy by U-cy hungarumlautcomb;
+	sub Yerudieresis-cy by Yeru-cy dieresiscomb;
+	sub Edieresis-cy by Ereversed-cy dieresiscomb;
+	sub Schwadieresis-cy by Schwa-cy dieresiscomb;
+	sub Imacron-cy by Ii-cy macroncomb;
+	sub Obarreddieresis-cy by Obarred-cy dieresiscomb;
+	sub Umacron-cy by U-cy macroncomb;
+} ccmp_split_capital;
+";
+name = Marks;
 }
 );
 features = (
@@ -168,12 +294,15 @@ tag = aalt;
 },
 {
 code = "lookup ccmp_DFLT_1 {
-	@CombiningTopAccents = [acutecomb brevecomb caroncomb circumflexcomb commaturnedabovecomb dieresiscomb dotaccentcomb gravecomb hookabovecomb hungarumlautcomb macroncomb ringcomb tildecomb];
+	@CombiningTopAccents = [acutecomb brevecomb caroncomb circumflexcomb commaabovecomb commaturnedabovecomb dieresiscomb dotaccentcomb gravecomb hookabovecomb hungarumlautcomb macroncomb ringcomb tildecomb verticallineabovecomb macronacutecomb gravemacroncomb macrongravecomb acutemacroncomb];
 	lookupflag UseMarkFilteringSet @CombiningTopAccents;
 	sub i' @CombiningTopAccents by idotless;
 	sub j' @CombiningTopAccents by jdotless;
 	sub i-cy' @CombiningTopAccents by idotless;
 	sub je-cy' @CombiningTopAccents by jdotless;
+	sub istroke' @CombiningTopAccents by istroke.dotless;
+	sub idotbelow' lookup ccmp_split_idotbelow @CombiningTopAccents;
+	sub iogonek' lookup ccmp_split_iogonek @CombiningTopAccents;
 } ccmp_DFLT_1;
 
 lookup ccmp_DFLT_2 {
@@ -201,11 +330,31 @@ lookup ccmp_Other_2 {
 	sub @Markscomb' @MarkscombCase by @MarkscombCase;
 	sub @MarkscombCase @Markscomb' by @MarkscombCase;
 } ccmp_Other_2;
+
+lookup ccmp_cap_stack_split {
+	lookupflag UseMarkFilteringSet @CapStackMark;
+	sub [Iacute Ibreve Icaron Icircumflex Idieresis Idotaccent Igrave Ihookabove Imacron Itilde Yi-cy]' @CapStackMark by [Iacute.stack Ibreve.stack Icaron.stack Icircumflex.stack Idieresis.stack Idotaccent.stack Igrave.stack Ihookabove.stack Imacron.stack Itilde.stack Yi-cy.stack];
+	sub [Aacute Abreve Acaron Acircumflex Adieresis Agrave Ahookabove Amacron Aring Atilde Cacute Ccaron Ccircumflex Cdotaccent Dcaron Eacute Ebreve Ecaron Ecircumflex Edieresis Edotaccent Fdotaccent Egrave Ehookabove Emacron Etilde Gbreve Gcaron Gcircumflex Gdotaccent Gmacron Hcircumflex Jcircumflex Kcaron Macute Nacute Ncaron Ndotaccent Ngrave Ntilde Oacute Obreve Ocaron Ocircumflex Odieresis Ograve Ohookabove Ohornacute Ohorngrave Ohornhookabove Ohorntilde Ohungarumlaut Omacron Otilde Racute Rcaron Sacute Scaron Scircumflex Tcaron Uacute Ubreve Ucaron Ucircumflex Udieresis Ugrave Uhookabove Uhornacute Uhorngrave Uhornhookabove Uhorntilde Uhungarumlaut Umacron Uring Utilde Wacute Wcircumflex Wdieresis Wgrave Yacute Ycircumflex Ydieresis Ygrave Yhookabove Ytilde Zacute Zcaron Zdotaccent Abreve-cy Adieresis-cy Gje-cy Iegrave-cy Io-cy Iebreve-cy Iishort-cy Iigrave-cy Idieresis-cy Kje-cy Odieresis-cy Ushort-cy Udieresis-cy Uhungarumlaut-cy Yerudieresis-cy Edieresis-cy Schwadieresis-cy Imacron-cy Obarreddieresis-cy Umacron-cy]' lookup ccmp_split_capital @CapStackMark;
+} ccmp_cap_stack_split;
+
+lookup ccmp_cap_stack {
+	lookupflag UseMarkFilteringSet @CapStackMark;
+	sub @CapStackBase @CapStackMark' @CapStackMark by @CapStackMarkStack;
+} ccmp_cap_stack;
+
+# a contour tone after the first mark of a capital stack takes its stack form too, so the stack stays under the Windows ascent
+lookup ccmp_cap_stack_tone {
+	@CapStackTone = [macronacutecomb gravemacroncomb macrongravecomb acutemacroncomb];
+	@CapStackToneStack = [macronacutecomb.stack gravemacroncomb.stack macrongravecomb.stack acutemacroncomb.stack];
+	@CapStackAfter = [@CapStackMarkStack @CapStackTone];
+	lookupflag UseMarkFilteringSet @CapStackAfter;
+	sub @CapStackBase @CapStackMarkStack @CapStackTone' by @CapStackToneStack;
+	sub [Iacute.stack Ibreve.stack Icaron.stack Icircumflex.stack Idieresis.stack Idotaccent.stack Igrave.stack Ihookabove.stack Imacron.stack Itilde.stack Yi-cy.stack] @CapStackTone' by @CapStackToneStack;
+} ccmp_cap_stack_tone;
 ";
 tag = ccmp;
 },
 {
-automatic = 1;
 code = "script latn;
 language AZE;
 lookup locl_latn_0 {
@@ -244,6 +393,8 @@ lookup locl_latn_2 {
 script latn;
 language NLD;
 lookup locl_latn_3 {
+	ignore sub iacute j' acutecomb;
+	ignore sub Iacute J' acutecomb;
 	sub iacute j' by jacute;
 	sub Iacute J' by Jacute;
 } locl_latn_3;
@@ -486,94 +637,6 @@ value = "Alt arrows";
 }
 );
 tag = ss07;
-},
-{
-automatic = 1;
-code = "sub Abrevedotbelow by Abrevedotbelow.ss08;
-sub Adieresis by Adieresis.ss08;
-sub Adotbelow by Adotbelow.ss08;
-sub Cdotaccent by Cdotaccent.ss08;
-sub Ecircumflexdotbelow by Ecircumflexdotbelow.ss08;
-sub Edieresis by Edieresis.ss08;
-sub Edotaccent by Edotaccent.ss08;
-sub Edotbelow by Edotbelow.ss08;
-sub Gdotaccent by Gdotaccent.ss08;
-sub Idieresis by Idieresis.ss08;
-sub Idotaccent by Idotaccent.ss08;
-sub Idotbelow by Idotbelow.ss08;
-sub Ocircumflexdotbelow by Ocircumflexdotbelow.ss08;
-sub Odieresis by Odieresis.ss08;
-sub Ohorndotbelow by Ohorndotbelow.ss08;
-sub Udieresis by Udieresis.ss08;
-sub Udotbelow by Udotbelow.ss08;
-sub Uhorndotbelow by Uhorndotbelow.ss08;
-sub Wdieresis by Wdieresis.ss08;
-sub Ydieresis by Ydieresis.ss08;
-sub Ydotbelow by Ydotbelow.ss08;
-sub Zdotaccent by Zdotaccent.ss08;
-sub Gdotaccent.ss06 by Gdotaccent.ss06.ss08;
-sub abrevedotbelow by abrevedotbelow.ss08;
-sub acircumflexdotbelow by acircumflexdotbelow.ss08;
-sub adieresis by adieresis.ss08;
-sub adotbelow by adotbelow.ss08;
-sub cdotaccent by cdotaccent.ss08;
-sub ecircumflexdotbelow by ecircumflexdotbelow.ss08;
-sub edieresis by edieresis.ss08;
-sub edotaccent by edotaccent.ss08;
-sub edotbelow by edotbelow.ss08;
-sub gdotaccent by gdotaccent.ss08;
-sub i by i.ss08;
-sub idieresis by idieresis.ss08;
-sub idotaccent by idotaccent.ss08;
-sub idotbelow by idotbelow.ss08;
-sub iogonek by iogonek.ss08;
-sub j by j.ss08;
-sub ocircumflexdotbelow by ocircumflexdotbelow.ss08;
-sub odieresis by odieresis.ss08;
-sub ohorndotbelow by ohorndotbelow.ss08;
-sub udieresis by udieresis.ss08;
-sub udotbelow by udotbelow.ss08;
-sub uhorndotbelow by uhorndotbelow.ss08;
-sub wdieresis by wdieresis.ss08;
-sub ydieresis by ydieresis.ss08;
-sub ydotbelow by ydotbelow.ss08;
-sub zdotaccent by zdotaccent.ss08;
-sub abrevedotbelow.ss01 by abrevedotbelow.ss01.ss08;
-sub acircumflexdotbelow.ss01 by acircumflexdotbelow.ss01.ss08;
-sub adieresis.ss01 by adieresis.ss01.ss08;
-sub adotbelow.ss01 by adotbelow.ss01.ss08;
-sub abrevedotbelow.ss02 by abrevedotbelow.ss02.ss08;
-sub acircumflexdotbelow.ss02 by acircumflexdotbelow.ss02.ss08;
-sub adieresis.ss02 by adieresis.ss02.ss08;
-sub adotbelow.ss02 by adotbelow.ss02.ss08;
-sub Io-cy by Io-cy.ss08;
-sub Yi-cy by Yi-cy.ss08;
-sub io-cy by io-cy.ss08;
-sub i-cy by i-cy.ss08;
-sub yi-cy by yi-cy.ss08;
-sub je-cy by je-cy.ss08;
-sub period by period.ss08;
-sub colon by colon.ss08;
-sub semicolon by semicolon.ss08;
-sub ellipsis by ellipsis.ss08;
-sub exclam by exclam.ss08;
-sub exclamdown by exclamdown.ss08;
-sub question by question.ss08;
-sub questiondown by questiondown.ss08;
-sub periodcentered by periodcentered.ss08;
-sub dieresiscomb by dieresiscomb.ss08;
-sub dotaccentcomb by dotaccentcomb.ss08;
-sub dotbelowcomb by dotbelowcomb.ss08;
-sub dieresis by dieresis.ss08;
-sub dotaccent by dotaccent.ss08;
-";
-labels = (
-{
-language = dflt;
-value = "Rounded dot";
-}
-);
-tag = ss08;
 },
 {
 automatic = 1;
@@ -1523,6 +1586,151 @@ sub colon' @UppercaseRelated by colon.case;
 
 ";
 tag = ss11;
+},
+{
+automatic = 1;
+code = "sub Abrevedotbelow by Abrevedotbelow.ss08;
+sub Adieresis by Adieresis.ss08;
+sub Adotbelow by Adotbelow.ss08;
+sub Bdotbelow by Bdotbelow.ss08;
+sub Cdotaccent by Cdotaccent.ss08;
+sub Ddotbelow by Ddotbelow.ss08;
+sub Ecircumflexdotbelow by Ecircumflexdotbelow.ss08;
+sub Edieresis by Edieresis.ss08;
+sub Edotaccent by Edotaccent.ss08;
+sub Fdotaccent by Fdotaccent.ss08;
+sub Edotbelow by Edotbelow.ss08;
+sub Gdotaccent by Gdotaccent.ss08;
+sub Hdotbelow by Hdotbelow.ss08;
+sub Idieresis by Idieresis.ss08;
+sub Idotaccent by Idotaccent.ss08;
+sub Idotbelow by Idotbelow.ss08;
+sub Ldotbelow by Ldotbelow.ss08;
+sub Mdotbelow by Mdotbelow.ss08;
+sub Ndotaccent by Ndotaccent.ss08;
+sub Ndotbelow by Ndotbelow.ss08;
+sub Ocircumflexdotbelow by Ocircumflexdotbelow.ss08;
+sub Odieresis by Odieresis.ss08;
+sub Ohorndotbelow by Ohorndotbelow.ss08;
+sub Rdotbelow by Rdotbelow.ss08;
+sub Sdotbelow by Sdotbelow.ss08;
+sub Tdotbelow by Tdotbelow.ss08;
+sub Udieresis by Udieresis.ss08;
+sub Udieresismacron by Udieresismacron.ss08;
+sub Udieresisacute by Udieresisacute.ss08;
+sub Udieresiscaron by Udieresiscaron.ss08;
+sub Udieresisgrave by Udieresisgrave.ss08;
+sub Udotbelow by Udotbelow.ss08;
+sub Uhorndotbelow by Uhorndotbelow.ss08;
+sub Vdotbelow by Vdotbelow.ss08;
+sub Wdieresis by Wdieresis.ss08;
+sub Ydieresis by Ydieresis.ss08;
+sub Ydotbelow by Ydotbelow.ss08;
+sub Zdotaccent by Zdotaccent.ss08;
+sub Zdotbelow by Zdotbelow.ss08;
+sub Gdotaccent.ss06 by Gdotaccent.ss06.ss08;
+sub abrevedotbelow by abrevedotbelow.ss08;
+sub acircumflexdotbelow by acircumflexdotbelow.ss08;
+sub adieresis by adieresis.ss08;
+sub adotbelow by adotbelow.ss08;
+sub bdotbelow by bdotbelow.ss08;
+sub cdotaccent by cdotaccent.ss08;
+sub ddotbelow by ddotbelow.ss08;
+sub ecircumflexdotbelow by ecircumflexdotbelow.ss08;
+sub edieresis by edieresis.ss08;
+sub edotaccent by edotaccent.ss08;
+sub fdotaccent by fdotaccent.ss08;
+sub edotbelow by edotbelow.ss08;
+sub gdotaccent by gdotaccent.ss08;
+sub hdotbelow by hdotbelow.ss08;
+sub i by i.ss08;
+sub idieresis by idieresis.ss08;
+sub idotaccent by idotaccent.ss08;
+sub idotbelow by idotbelow.ss08;
+sub iogonek by iogonek.ss08;
+sub j by j.ss08;
+sub ldotbelow by ldotbelow.ss08;
+sub mdotbelow by mdotbelow.ss08;
+sub ndotaccent by ndotaccent.ss08;
+sub ndotbelow by ndotbelow.ss08;
+sub ocircumflexdotbelow by ocircumflexdotbelow.ss08;
+sub odieresis by odieresis.ss08;
+sub ohorndotbelow by ohorndotbelow.ss08;
+sub rdotbelow by rdotbelow.ss08;
+sub sdotbelow by sdotbelow.ss08;
+sub tdotbelow by tdotbelow.ss08;
+sub udieresis by udieresis.ss08;
+sub udieresismacron by udieresismacron.ss08;
+sub udieresisacute by udieresisacute.ss08;
+sub udieresiscaron by udieresiscaron.ss08;
+sub udieresisgrave by udieresisgrave.ss08;
+sub udotbelow by udotbelow.ss08;
+sub uhorndotbelow by uhorndotbelow.ss08;
+sub vdotbelow by vdotbelow.ss08;
+sub wdieresis by wdieresis.ss08;
+sub ydieresis by ydieresis.ss08;
+sub ydotbelow by ydotbelow.ss08;
+sub zdotaccent by zdotaccent.ss08;
+sub zdotbelow by zdotbelow.ss08;
+sub abrevedotbelow.ss01 by abrevedotbelow.ss01.ss08;
+sub acircumflexdotbelow.ss01 by acircumflexdotbelow.ss01.ss08;
+sub adieresis.ss01 by adieresis.ss01.ss08;
+sub adotbelow.ss01 by adotbelow.ss01.ss08;
+sub abrevedotbelow.ss02 by abrevedotbelow.ss02.ss08;
+sub acircumflexdotbelow.ss02 by acircumflexdotbelow.ss02.ss08;
+sub adieresis.ss02 by adieresis.ss02.ss08;
+sub adotbelow.ss02 by adotbelow.ss02.ss08;
+sub istroke by istroke.ss08;
+sub Adieresis-cy by Adieresis-cy.ss08;
+sub Io-cy by Io-cy.ss08;
+sub Zhedieresis-cy by Zhedieresis-cy.ss08;
+sub Zedieresis-cy by Zedieresis-cy.ss08;
+sub Idieresis-cy by Idieresis-cy.ss08;
+sub Odieresis-cy by Odieresis-cy.ss08;
+sub Udieresis-cy by Udieresis-cy.ss08;
+sub Chedieresis-cy by Chedieresis-cy.ss08;
+sub Yerudieresis-cy by Yerudieresis-cy.ss08;
+sub Edieresis-cy by Edieresis-cy.ss08;
+sub Yi-cy by Yi-cy.ss08;
+sub Schwadieresis-cy by Schwadieresis-cy.ss08;
+sub Obarreddieresis-cy by Obarreddieresis-cy.ss08;
+sub adieresis-cy by adieresis-cy.ss08;
+sub io-cy by io-cy.ss08;
+sub zhedieresis-cy by zhedieresis-cy.ss08;
+sub zedieresis-cy by zedieresis-cy.ss08;
+sub idieresis-cy by idieresis-cy.ss08;
+sub odieresis-cy by odieresis-cy.ss08;
+sub udieresis-cy by udieresis-cy.ss08;
+sub chedieresis-cy by chedieresis-cy.ss08;
+sub yerudieresis-cy by yerudieresis-cy.ss08;
+sub edieresis-cy by edieresis-cy.ss08;
+sub i-cy by i-cy.ss08;
+sub yi-cy by yi-cy.ss08;
+sub je-cy by je-cy.ss08;
+sub schwadieresis-cy by schwadieresis-cy.ss08;
+sub obarreddieresis-cy by obarreddieresis-cy.ss08;
+sub period by period.ss08;
+sub colon by colon.ss08;
+sub semicolon by semicolon.ss08;
+sub ellipsis by ellipsis.ss08;
+sub exclam by exclam.ss08;
+sub exclamdown by exclamdown.ss08;
+sub question by question.ss08;
+sub questiondown by questiondown.ss08;
+sub periodcentered by periodcentered.ss08;
+sub dieresiscomb by dieresiscomb.ss08;
+sub dotaccentcomb by dotaccentcomb.ss08;
+sub dotbelowcomb by dotbelowcomb.ss08;
+sub dieresis by dieresis.ss08;
+sub dotaccent by dotaccent.ss08;
+";
+labels = (
+{
+language = dflt;
+value = "Rounded dot";
+}
+);
+tag = ss08;
 }
 );
 fontMaster = (
@@ -2372,7 +2580,7 @@ value = "https://dnf.dev";
 },
 {
 key = vendorID;
-value = PRTN;
+value = DNFD;
 }
 );
 stems = (

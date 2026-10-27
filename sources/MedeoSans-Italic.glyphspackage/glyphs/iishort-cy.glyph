@@ -45,16 +45,6 @@ ref = "brevecomb-cy";
 width = 570;
 },
 {
-anchors = (
-{
-name = bottomright;
-pos = (413,0);
-},
-{
-name = top;
-pos = (336,530);
-}
-);
 layerId = "7240B716-CE9A-59F7-AFA0-6F9089C93D08";
 shapes = (
 {
@@ -71,16 +61,6 @@ ref = "brevecomb-cy";
 width = 525;
 },
 {
-anchors = (
-{
-name = bottomright;
-pos = (439,0);
-},
-{
-name = top;
-pos = (341,530);
-}
-);
 layerId = "64EDB5BC-BBCA-55A5-AA62-AF3C5A0418A6";
 shapes = (
 {
@@ -97,16 +77,6 @@ ref = "brevecomb-cy";
 width = 547;
 },
 {
-anchors = (
-{
-name = bottomright;
-pos = (493,0);
-},
-{
-name = top;
-pos = (356,539);
-}
-);
 layerId = "2E48EBD2-E908-5937-BE3F-7776DF5AE147";
 shapes = (
 {

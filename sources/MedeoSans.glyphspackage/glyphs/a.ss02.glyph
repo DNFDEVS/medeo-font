@@ -317,15 +317,15 @@ width = 595;
 anchors = (
 {
 name = bottom;
-pos = (269,0);
+pos = (252,0);
 },
 {
 name = ogonek;
-pos = (485,0);
+pos = (468,0);
 },
 {
 name = top;
-pos = (273,530);
+pos = (256,530);
 }
 );
 layerId = "7240B716-CE9A-59F7-AFA0-6F9089C93D08";
@@ -377,15 +377,15 @@ width = 525;
 anchors = (
 {
 name = bottom;
-pos = (282,0);
+pos = (273,0);
 },
 {
 name = ogonek;
-pos = (515,0);
+pos = (506,0);
 },
 {
 name = top;
-pos = (285,530);
+pos = (276,530);
 }
 );
 layerId = "64EDB5BC-BBCA-55A5-AA62-AF3C5A0418A6";

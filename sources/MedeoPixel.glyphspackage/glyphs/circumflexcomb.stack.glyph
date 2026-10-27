@@ -1,0 +1,25 @@
+{
+glyphname = circumflexcomb.stack;
+layers = (
+{
+anchors = (
+{
+name = _top;
+pos = (190,532);
+},
+{
+name = top;
+pos = (190,684);
+}
+);
+layerId = m01;
+shapes = (
+{
+pos = (0,-38);
+ref = circumflexcomb;
+}
+);
+width = 380;
+}
+);
+}

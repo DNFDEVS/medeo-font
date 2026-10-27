@@ -1,7 +1,7 @@
 {
 color = 5;
 glyphname = "Ve-cy";
-kernLeft = b;
+kernLeft = Hstem;
 kernRight = B;
 layers = (
 {
@@ -54,11 +54,11 @@ width = 672;
 anchors = (
 {
 name = bottom;
-pos = (256,0);
+pos = (240,0);
 },
 {
 name = top;
-pos = (412,710);
+pos = (396,710);
 }
 );
 layerId = "7240B716-CE9A-59F7-AFA0-6F9089C93D08";
@@ -75,11 +75,11 @@ width = 605;
 anchors = (
 {
 name = bottom;
-pos = (273,0);
+pos = (262,0);
 },
 {
 name = top;
-pos = (431,710);
+pos = (420,710);
 }
 );
 layerId = "64EDB5BC-BBCA-55A5-AA62-AF3C5A0418A6";

@@ -1,0 +1,128 @@
+{
+glyphname = "Gedescender-cy";
+kernLeft = Hstem;
+kernRight = T;
+layers = (
+{
+layerId = "EE2FFE84-06F1-4AFB-BBEC-60D09A436D14";
+shapes = (
+{
+ref = "Ge-cy";
+},
+{
+closed = 1;
+nodes = (
+(160,-150,l),
+(160,30,l),
+(56,30,l),
+(56,0,l),
+(128,0,l),
+(128,-150,l)
+);
+}
+);
+width = 522;
+},
+{
+layerId = "6C190511-B94A-4F5A-B519-D6E9DB0E7B93";
+shapes = (
+{
+ref = "Ge-cy";
+},
+{
+closed = 1;
+nodes = (
+(264,-150,l),
+(264,84,l),
+(120,84,l),
+(120,0,l),
+(178,0,l),
+(178,-150,l)
+);
+}
+);
+width = 540;
+},
+{
+layerId = "3507EE3D-0D92-4546-A145-3A991F0A2B71";
+shapes = (
+{
+ref = "Ge-cy";
+},
+{
+closed = 1;
+nodes = (
+(432,-150,l),
+(432,153,l),
+(187,153,l),
+(187,0,l),
+(241,0,l),
+(241,-150,l)
+);
+}
+);
+width = 552;
+},
+{
+layerId = "7240B716-CE9A-59F7-AFA0-6F9089C93D08";
+shapes = (
+{
+ref = "Ge-cy";
+},
+{
+closed = 1;
+nodes = (
+(139,-150,l),
+(139,30,l),
+(35,30,l),
+(35,0,l),
+(107,0,l),
+(107,-150,l)
+);
+}
+);
+width = 494;
+},
+{
+layerId = "64EDB5BC-BBCA-55A5-AA62-AF3C5A0418A6";
+shapes = (
+{
+ref = "Ge-cy";
+},
+{
+closed = 1;
+nodes = (
+(253,-150,l),
+(253,84,l),
+(109,84,l),
+(109,0,l),
+(167,0,l),
+(167,-150,l)
+);
+}
+);
+width = 508;
+},
+{
+layerId = "2E48EBD2-E908-5937-BE3F-7776DF5AE147";
+shapes = (
+{
+ref = "Ge-cy";
+},
+{
+closed = 1;
+nodes = (
+(432,-150,l),
+(432,153,l),
+(187,153,l),
+(187,0,l),
+(241,0,l),
+(241,-150,l)
+);
+}
+);
+width = 552;
+}
+);
+unicode = 1270;
+}

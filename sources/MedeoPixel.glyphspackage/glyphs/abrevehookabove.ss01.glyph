@@ -1,0 +1,22 @@
+{
+glyphname = abrevehookabove.ss01;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = a.ss01;
+},
+{
+pos = (152,0);
+ref = brevecomb;
+},
+{
+pos = (190,152);
+ref = hookabovecomb;
+}
+);
+width = 570;
+}
+);
+}

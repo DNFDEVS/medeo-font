@@ -15,7 +15,7 @@ pos = (304,532);
 layerId = m01;
 shapes = (
 {
-ref = k;
+ref = "ka-cy";
 },
 {
 alignment = -1;

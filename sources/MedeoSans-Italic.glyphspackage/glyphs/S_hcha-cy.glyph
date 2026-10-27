@@ -2,7 +2,7 @@
 color = 4;
 glyphname = "Shcha-cy";
 kernRight = "Tse-cy";
-kernLeft = b;
+kernLeft = Hstem;
 layers = (
 {
 layerId = "EE2FFE84-06F1-4AFB-BBEC-60D09A436D14";
@@ -68,16 +68,6 @@ nodes = (
 width = 985;
 },
 {
-anchors = (
-{
-name = bottom;
-pos = (388,0);
-},
-{
-name = top;
-pos = (539,710);
-}
-);
 layerId = "7240B716-CE9A-59F7-AFA0-6F9089C93D08";
 shapes = (
 {
@@ -100,16 +90,6 @@ nodes = (
 width = 883;
 },
 {
-anchors = (
-{
-name = bottom;
-pos = (413,0);
-},
-{
-name = top;
-pos = (564,710);
-}
-);
 layerId = "64EDB5BC-BBCA-55A5-AA62-AF3C5A0418A6";
 shapes = (
 {
@@ -132,16 +112,6 @@ nodes = (
 width = 952;
 },
 {
-anchors = (
-{
-name = bottom;
-pos = (432,0);
-},
-{
-name = top;
-pos = (583,710);
-}
-);
 layerId = "2E48EBD2-E908-5937-BE3F-7776DF5AE147";
 shapes = (
 {

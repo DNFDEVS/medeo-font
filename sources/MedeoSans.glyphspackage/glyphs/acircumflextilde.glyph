@@ -1,7 +1,7 @@
 {
 glyphname = acircumflextilde;
 kernLeft = a;
-kernRight = l;
+kernRight = a;
 layers = (
 {
 layerId = "EE2FFE84-06F1-4AFB-BBEC-60D09A436D14";
@@ -10,11 +10,11 @@ shapes = (
 ref = a;
 },
 {
-pos = (84,0);
+pos = (137,0);
 ref = circumflexcomb_tildecomb;
 }
 );
-width = 529;
+width = 574;
 },
 {
 layerId = "6C190511-B94A-4F5A-B519-D6E9DB0E7B93";
@@ -23,11 +23,11 @@ shapes = (
 ref = a;
 },
 {
-pos = (68,0);
+pos = (99,0);
 ref = circumflexcomb_tildecomb;
 }
 );
-width = 551;
+width = 549;
 },
 {
 layerId = "3507EE3D-0D92-4546-A145-3A991F0A2B71";
@@ -37,27 +37,13 @@ pos = (0,0);
 ref = a;
 },
 {
-pos = (51,0);
+pos = (79,0);
 ref = circumflexcomb_tildecomb;
 }
 );
-width = 592;
+width = 598;
 },
 {
-anchors = (
-{
-name = bottom;
-pos = (233,0);
-},
-{
-name = ogonek;
-pos = (432,0);
-},
-{
-name = top;
-pos = (233,818);
-}
-);
 layerId = "7240B716-CE9A-59F7-AFA0-6F9089C93D08";
 shapes = (
 {
@@ -67,28 +53,30 @@ ref = a;
 },
 {
 alignment = -1;
-pos = (96,0);
+pos = (121,0);
 ref = circumflexcomb_tildecomb;
 }
 );
-width = 486;
+width = 497;
 },
 {
-anchors = (
+layerId = "64EDB5BC-BBCA-55A5-AA62-AF3C5A0418A6";
+shapes = (
 {
-name = bottom;
-pos = (242,0);
+alignment = -1;
+pos = (0,0);
+ref = a;
 },
 {
-name = ogonek;
-pos = (472,0);
-},
-{
-name = top;
-pos = (248,858);
+alignment = -1;
+pos = (93,0);
+ref = circumflexcomb_tildecomb;
 }
 );
-layerId = "64EDB5BC-BBCA-55A5-AA62-AF3C5A0418A6";
+width = 515;
+},
+{
+layerId = "2E48EBD2-E908-5937-BE3F-7776DF5AE147";
 shapes = (
 {
 alignment = -1;
@@ -101,37 +89,7 @@ pos = (80,0);
 ref = circumflexcomb_tildecomb;
 }
 );
-width = 537;
-},
-{
-anchors = (
-{
-name = bottom;
-pos = (272,0);
-},
-{
-name = ogonek;
-pos = (540,0);
-},
-{
-name = top;
-pos = (270,905);
-}
-);
-layerId = "2E48EBD2-E908-5937-BE3F-7776DF5AE147";
-shapes = (
-{
-alignment = -1;
-pos = (0,0);
-ref = a;
-},
-{
-alignment = -1;
-pos = (59,0);
-ref = circumflexcomb_tildecomb;
-}
-);
-width = 599;
+width = 597;
 }
 );
 unicode = 7851;
