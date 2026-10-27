@@ -1,8 +1,10 @@
 # Changelog
 
-What changes for people who use Medeo, release by release. Font versions map to npm versions as `1.000-rc4` → `1.0.0-rc.4`. The languages each family supports are listed in [LANGUAGES.md](LANGUAGES.md); how the fonts are made, and what changed in their glyphs, features and spacing, is in [FONTLOG.txt](FONTLOG.txt).
+What changes for people who use Medeo, release by release. Font versions map to npm versions as `1.000-rc4` → `1.0.0-rc.4.1`. The languages each family supports are listed in [LANGUAGES.md](LANGUAGES.md); how the fonts are made, and what changed in their glyphs, features and spacing, is in [FONTLOG.txt](FONTLOG.txt).
 
-## 1.000-rc4 — 2026-10-28
+## npm 1.0.0-rc.4.1 — 2026-10-28
+
+Font version: 1.000-rc4.
 
 - Expanded Latin and Cyrillic coverage: all three families cover the alphabets of 759 languages in Google Fonts language data. Added letters, combining marks, Pinyin and localized Serbian and Macedonian italics. See [LANGUAGES.md](LANGUAGES.md).
 - Revised Sans kerning for text and display sizes, with consistent spacing for Latin and Cyrillic letters that share the same shapes.

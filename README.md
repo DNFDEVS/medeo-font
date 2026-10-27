@@ -21,7 +21,7 @@ The desktop archive also includes separate static Sans and Sans Display families
 For a website or Next.js project:
 
 ```sh
-npm install medeo-font@1.0.0-rc.4
+npm install medeo-font@1.0.0-rc.4.1
 ```
 
 For CSS and Next.js examples, see [the npm package documentation](packages/medeo-font/README.md).
@@ -77,7 +77,7 @@ make test    # run the Font Bakery profile
 make check   # compare a fresh build with the committed fonts
 ```
 
-Release tags use the npm version, such as `v1.0.0-rc.4`. The matching font version is `1.000-rc4`.
+Release tags use the npm version, such as `v1.0.0-rc.4.1`. The matching font version is `1.000-rc4`.
 
 ## Files
 
