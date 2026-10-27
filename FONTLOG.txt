@@ -5,35 +5,63 @@ Medeo is an open font family for Latin and Cyrillic: Medeo Sans, Medeo Mono and 
 studio DNF (https://dnf.dev), which holds the copyright of its changes, for prtner.ai. Licensed under the SIL Open
 Font License 1.1 (OFL.txt).
 
+This log is about the fonts themselves: what they are made of and, version by version, what changed in their
+glyphs, features, spacing and build. What a release changes for the people who use Medeo is in CHANGELOG.md, and
+the languages each family supports, with their number, are in LANGUAGES.md.
+
 
 What it is made of
 ------------------
 
 Medeo Sans
-- Outlines, metrics, most of the Latin and Cyrillic, figures and punctuation: Geist by Vercel and Basement Studio
-  (Copyright 2024 The Geist Project Authors, OFL 1.1).
+- Outlines, metrics, most of the Latin and Cyrillic, figures and punctuation, and the upright a: Geist by Vercel
+  and Basement Studio (Copyright 2024 and 2026 The Geist Project Authors, OFL 1.1). Some kerning pairs follow
+  Geist's proportions since 1.000-rc4.
 - From Inter by Rasmus Andersson (Copyright 2016 The Inter Project Authors, OFL 1.1): the letters к з я ж К З Я Ж,
-  the upright a and t, the italic e and t, ү and the bar of ұ Ұ, the manat ₼, lari ₾ and lira ₺ signs, and the
-  spacing and kerning rhythm of Latin and Cyrillic, and the change of spacing between Inter's text and display
-  optical sizes, which the display end of Medeo's opsz axis follows.
+  the upright t, the italic e and t, ү and the bar of ұ Ұ, the manat ₼, lari ₾ and lira ₺ signs, the overall
+  spacing tone of Latin and Cyrillic, and the change of spacing between Inter's text and display optical sizes,
+  which the display end of Medeo's opsz axis follows.
 - Drawn by DNF: the tenge ₸, Uzbek ʻ, the narrow no-break, thin and figure spaces, the Black master narrowed as
   Inter builds heavy weights, the optical size axis (opsz 14–32) with its display kerning, and every spacing and
-  kerning edit since.
+  kerning edit since. In 1.000-rc4: the Cyrillic of Bashkir, Chuvash, Udmurt, Mari, Sakha, Komi, Ossetian,
+  Azerbaijani and Talysh, Altai, Khakas, Shor, Abkhaz and the languages of the North; the West African letters
+  Ɔ Ɛ Ɓ Ɗ Ƒ Ɣ Ɩ Ʋ Ɲ Ɨ Ʉ Ǝ Ɖ Ƴ Ƙ Ʊ Ʌ ʔ; Ҧ ҧ; Serbian and Macedonian italic б г д п т; letters with a dot below,
+  a caron, a breve or stacked marks; narrow marks for i, a dotless ɨ, compact marks for stacks on capitals, and
+  the marks U+030D U+0313 U+0330 U+0331. They are built from the family's own strokes, bowls, hooks and tails;
+  where no part existed (the loops of Ɣ ɣ, Ҩ ҩ), the part is drawn in the family's strokes.
 
 Medeo Mono
-- Outlines and metrics: Geist Mono (Copyright 2024 The Geist Project Authors, OFL 1.1).
+- Outlines and metrics: Geist Mono (Copyright 2024 and 2026 The Geist Project Authors, OFL 1.1).
 - Drawn by DNF: ₸ ₼ ₾ ₺ built from Mono's own letters in its cell, Uzbek ʻ, top anchors and language systems for
-  Cyrillic stress marks. Nothing is taken from Inter.
+  Cyrillic stress marks. In 1.000-rc4: the same new Cyrillic, Abkhaz and West African letters as Medeo Sans, Ҧ ҧ,
+  Serbian and Macedonian italic forms, fitted to the cell the way Mono draws Ж Ш М; the slanted Ʒ ʒ Ǯ ǯ of the
+  italic; anchors and mark stacking for the new letters. Nothing is taken from Inter.
 
 Medeo Pixel
 - The pixel grid, the pixel component and the five dot shapes of the ELSH axis: Geist Pixel (Copyright 2026 The
   Geist Project Authors, OFL 1.1).
 - Drawn by DNF on that grid: the Cyrillic of Russian, Ukrainian, Kazakh, Kyrgyz, Tajik and Uzbek, and the signs
-  ₸ ₼ ₾ ₺ ₽. Nothing is taken from Inter.
-
+  ₸ ₼ ₾ ₺ ₽. In 1.000-rc4: the Cyrillic of the languages added to Medeo Sans, the palochka Ӏ ӏ, Ѓ ѓ Ќ ќ, Ҧ ҧ,
+  Abkhaz, the West African letters, Ŋ ŋ, the hook above, the horn and the dot below with the full Vietnamese set,
+  Ŧ ŧ and Ǧ ǧ in all five element shapes, ₴ and ₹, and tabular figures. Nothing is taken from Inter.
 
 Versions
 --------
+
+1.000-rc4 (2026-10-28)
+- Expanded Latin and Cyrillic repertoires and combining-mark support in Sans, Mono and Pixel.
+  All three families cover 759 language alphabets in Google Fonts language data.
+- Added Serbian and Macedonian localized italics, Pinyin and additional accent combinations.
+- Revised Sans kerning at text and display optical sizes. Matching Latin and Cyrillic forms
+  use consistent spacing; accented letters retain clearance for their marks.
+- Restored the Geist upright a in Sans, including its accented and Cyrillic forms.
+- Corrected Kazakh and extended Cyrillic descender joins. Pixel қ uses the Cyrillic к body
+  in every shape; Pixel ĥ has additional clearance below its accent.
+- Added variable-font vertical hinting to Sans and Mono, with coordinated base and accent alignment.
+- Added static Sans, Sans Display, Mono and Pixel styles. Static Sans and Mono merge overlapping
+  contours; variable fonts declare overlaps while preserving compatible outlines.
+- Added Pixel tabular figures and currency signs; improved zero and stylistic-feature combinations.
+- Preserved the SIL Open Font License and upstream Geist and Inter attribution.
 
 1.000-rc3 (2026-10-25)
 - Medeo Pixel keeps its pixels as components of one exported glyph, «pixel», instead of 26,023 decomposed
@@ -52,6 +80,3 @@ Versions
 
 1.000-rc1 (2026-10-25)
 - The first public release candidate: one version for Sans, Mono and Pixel. npm package medeo-font.
-
-Before RC1 the builds were numbered internally (Sans 1.701 and 1.702, Mono and Pixel 1.700); the name was PRTNER
-Sans until 1.6.

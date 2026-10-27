@@ -3,6 +3,12 @@ color = 5;
 glyphname = "Softsign-cy";
 layers = (
 {
+anchors = (
+{
+name = top;
+pos = (300,710);
+}
+);
 layerId = "EE2FFE84-06F1-4AFB-BBEC-60D09A436D14";
 shapes = (
 {
@@ -39,6 +45,12 @@ nodes = (
 width = 600;
 },
 {
+anchors = (
+{
+name = top;
+pos = (300,710);
+}
+);
 background = {
 shapes = (
 {
@@ -82,6 +94,12 @@ nodes = (
 width = 600;
 },
 {
+anchors = (
+{
+name = top;
+pos = (300,710);
+}
+);
 layerId = "58B1DC7A-69F8-4375-AD2E-AC5103CCF536";
 shapes = (
 {

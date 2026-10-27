@@ -1,7 +1,7 @@
 {
   "name": "medeo-font",
-  "version": "1.0.0-rc.3",
-  "description": "Open font family for Latin and Cyrillic in ten languages: Medeo Sans, Medeo Mono and Medeo Pixel, with next/font exports and plain CSS.",
+  "version": "1.0.0-rc.4",
+  "description": "Open font family covering Latin and Cyrillic alphabets of 759 languages: Medeo Sans, Medeo Mono and Medeo Pixel, with next/font exports and plain CSS.",
   "main": "./dist/font.js",
   "type": "module",
   "module": "./dist/font.js",
@@ -66,6 +66,7 @@
     "./mono.css": "./dist/mono.css",
     "./pixel.css": "./dist/pixel.css",
     "./fonts/*": "./dist/fonts/*",
+    "./languages.json": "./dist/languages.json",
     "./package.json": "./package.json"
   },
   "sideEffects": [

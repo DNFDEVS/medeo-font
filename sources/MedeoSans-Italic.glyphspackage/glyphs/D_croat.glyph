@@ -1,6 +1,6 @@
 {
 glyphname = Dcroat;
-kernLeft = b;
+kernLeft = Hstem;
 kernRight = O;
 layers = (
 {
@@ -32,20 +32,6 @@ ref = Eth;
 width = 692;
 },
 {
-anchors = (
-{
-name = bottom;
-pos = (263,0);
-},
-{
-name = center;
-pos = (220,355);
-},
-{
-name = top;
-pos = (414,710);
-}
-);
 layerId = "7240B716-CE9A-59F7-AFA0-6F9089C93D08";
 shapes = (
 {
@@ -57,20 +43,6 @@ ref = Eth;
 width = 646;
 },
 {
-anchors = (
-{
-name = bottom;
-pos = (268,0);
-},
-{
-name = center;
-pos = (220,355);
-},
-{
-name = top;
-pos = (418,710);
-}
-);
 layerId = "64EDB5BC-BBCA-55A5-AA62-AF3C5A0418A6";
 shapes = (
 {
@@ -82,20 +54,6 @@ ref = Eth;
 width = 665;
 },
 {
-anchors = (
-{
-name = bottom;
-pos = (261,0);
-},
-{
-name = center;
-pos = (223,355);
-},
-{
-name = top;
-pos = (410,710);
-}
-);
 layerId = "2E48EBD2-E908-5937-BE3F-7776DF5AE147";
 shapes = (
 {

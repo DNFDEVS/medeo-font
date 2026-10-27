@@ -1,7 +1,7 @@
 {
 glyphname = acircumflexdotbelow.ss08;
 kernLeft = a;
-kernRight = l;
+kernRight = a;
 layers = (
 {
 layerId = "EE2FFE84-06F1-4AFB-BBEC-60D09A436D14";
@@ -10,15 +10,15 @@ shapes = (
 ref = a;
 },
 {
-pos = (157,0);
+pos = (210,0);
 ref = dotbelowcomb.ss08;
 },
 {
-pos = (85,0);
+pos = (138,0);
 ref = circumflexcomb;
 }
 );
-width = 529;
+width = 574;
 },
 {
 layerId = "6C190511-B94A-4F5A-B519-D6E9DB0E7B93";
@@ -27,15 +27,15 @@ shapes = (
 ref = a;
 },
 {
-pos = (143,0);
+pos = (172,0);
 ref = dotbelowcomb.ss08;
 },
 {
-pos = (67,0);
+pos = (98,0);
 ref = circumflexcomb;
 }
 );
-width = 551;
+width = 549;
 },
 {
 layerId = "3507EE3D-0D92-4546-A145-3A991F0A2B71";
@@ -45,31 +45,17 @@ pos = (0,0);
 ref = a;
 },
 {
-pos = (161,0);
+pos = (188,0);
 ref = dotbelowcomb.ss08;
 },
 {
-pos = (51,0);
+pos = (79,0);
 ref = circumflexcomb;
 }
 );
-width = 592;
+width = 598;
 },
 {
-anchors = (
-{
-name = bottom;
-pos = (233,-146);
-},
-{
-name = ogonek;
-pos = (432,0);
-},
-{
-name = top;
-pos = (233,530);
-}
-);
 layerId = "7240B716-CE9A-59F7-AFA0-6F9089C93D08";
 shapes = (
 {
@@ -79,32 +65,18 @@ ref = a;
 },
 {
 alignment = -1;
-pos = (169,0);
+pos = (194,0);
 ref = dotbelowcomb.ss08;
 },
 {
 alignment = -1;
-pos = (97,0);
+pos = (122,0);
 ref = circumflexcomb;
 }
 );
-width = 486;
+width = 497;
 },
 {
-anchors = (
-{
-name = bottom;
-pos = (239,-156);
-},
-{
-name = ogonek;
-pos = (472,0);
-},
-{
-name = top;
-pos = (251,530);
-}
-);
 layerId = "64EDB5BC-BBCA-55A5-AA62-AF3C5A0418A6";
 shapes = (
 {
@@ -114,32 +86,18 @@ ref = a;
 },
 {
 alignment = -1;
-pos = (155,0);
+pos = (166,0);
 ref = dotbelowcomb.ss08;
 },
 {
 alignment = -1;
-pos = (79,0);
+pos = (92,0);
 ref = circumflexcomb;
 }
 );
-width = 537;
+width = 515;
 },
 {
-anchors = (
-{
-name = bottom;
-pos = (270,-162);
-},
-{
-name = ogonek;
-pos = (540,0);
-},
-{
-name = top;
-pos = (273,539);
-}
-);
 layerId = "2E48EBD2-E908-5937-BE3F-7776DF5AE147";
 shapes = (
 {
@@ -149,16 +107,16 @@ ref = a;
 },
 {
 alignment = -1;
-pos = (169,0);
+pos = (189,0);
 ref = dotbelowcomb.ss08;
 },
 {
 alignment = -1;
-pos = (59,0);
+pos = (80,0);
 ref = circumflexcomb;
 }
 );
-width = 599;
+width = 597;
 }
 );
 }

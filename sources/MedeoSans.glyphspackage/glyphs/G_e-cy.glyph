@@ -1,7 +1,7 @@
 {
 color = 5;
 glyphname = "Ge-cy";
-kernLeft = b;
+kernLeft = Hstem;
 kernRight = T;
 layers = (
 {
@@ -111,15 +111,15 @@ width = 540;
 anchors = (
 {
 name = bottom;
-pos = (290,0);
+pos = (269,0);
 },
 {
 name = bottomright;
-pos = (504,0);
+pos = (483,0);
 },
 {
 name = top;
-pos = (290,710);
+pos = (269,710);
 }
 );
 layerId = "7240B716-CE9A-59F7-AFA0-6F9089C93D08";
@@ -143,15 +143,15 @@ width = 494;
 anchors = (
 {
 name = bottom;
-pos = (300,0);
+pos = (289,0);
 },
 {
 name = bottomright;
-pos = (556,0);
+pos = (545,0);
 },
 {
 name = top;
-pos = (300,710);
+pos = (289,710);
 }
 );
 layerId = "64EDB5BC-BBCA-55A5-AA62-AF3C5A0418A6";

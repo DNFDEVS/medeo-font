@@ -1,0 +1,25 @@
+{
+glyphname = caroncomb.stack;
+layers = (
+{
+anchors = (
+{
+name = _top;
+pos = (190,532);
+},
+{
+name = top;
+pos = (190,646);
+}
+);
+layerId = m01;
+shapes = (
+{
+pos = (0,-38);
+ref = caroncomb;
+}
+);
+width = 342;
+}
+);
+}

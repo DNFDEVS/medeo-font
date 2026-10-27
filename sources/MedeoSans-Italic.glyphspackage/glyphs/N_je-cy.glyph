@@ -124,20 +124,6 @@ nodes = (
 width = 1106;
 },
 {
-anchors = (
-{
-name = bottom;
-pos = (277,0);
-},
-{
-name = center;
-pos = (396,560);
-},
-{
-name = top;
-pos = (427,710);
-}
-);
 layerId = "7240B716-CE9A-59F7-AFA0-6F9089C93D08";
 shapes = (
 {
@@ -172,20 +158,6 @@ nodes = (
 width = 1029;
 },
 {
-anchors = (
-{
-name = bottom;
-pos = (296,0);
-},
-{
-name = center;
-pos = (416,568);
-},
-{
-name = top;
-pos = (446,710);
-}
-);
 layerId = "64EDB5BC-BBCA-55A5-AA62-AF3C5A0418A6";
 shapes = (
 {
@@ -220,20 +192,6 @@ nodes = (
 width = 1080;
 },
 {
-anchors = (
-{
-name = bottom;
-pos = (290,0);
-},
-{
-name = center;
-pos = (412,579);
-},
-{
-name = top;
-pos = (440,710);
-}
-);
 layerId = "2E48EBD2-E908-5937-BE3F-7776DF5AE147";
 shapes = (
 {

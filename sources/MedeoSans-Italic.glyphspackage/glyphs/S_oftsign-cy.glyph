@@ -1,7 +1,7 @@
 {
 color = 4;
 glyphname = "Softsign-cy";
-kernLeft = b;
+kernLeft = Hstem;
 kernRight = B;
 layers = (
 {
@@ -236,7 +236,7 @@ width = 673;
 anchors = (
 {
 name = top;
-pos = (410,710);
+pos = (395,710);
 }
 );
 layerId = "7240B716-CE9A-59F7-AFA0-6F9089C93D08";
@@ -278,7 +278,7 @@ width = 588;
 anchors = (
 {
 name = top;
-pos = (427,710);
+pos = (416,710);
 }
 );
 layerId = "64EDB5BC-BBCA-55A5-AA62-AF3C5A0418A6";

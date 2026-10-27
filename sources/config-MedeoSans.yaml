@@ -27,9 +27,17 @@ cleanUp: true
 # determine which targets to build. We turn off OTFs for this demo.
 
 # buildVariable: true
-buildStatic: false
+# Static TTFs, one per named instance of the sources, for apps that cannot open variable fonts. The named
+# instances sit at opsz 14, the text size and the variable font's default, so the statics are the text cut;
+# Display stays in the variable font.
+# TTF only, hinted by ttfautohint: it opens wherever an OTF does, and OTF hinting needs otfautohint, which the pinned
+# tools do not include. No static web fonts: the web uses the variable WOFF2 (scripts/webfonts.py).
+buildStatic: true
+# Merge component joins before hinting so static outlines support strokes and print export.
+extraStaticFontmakeArgs: "--filter DecomposeComponentsFilter"
+buildWebfont: false
 # buildTTF: true
-# buildOTF: true
+buildOTF: false
 # buildSmallCap: false
 
 # The next flags control autohinting.

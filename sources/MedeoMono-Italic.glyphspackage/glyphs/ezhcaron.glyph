@@ -9,7 +9,7 @@ shapes = (
 ref = ezh;
 },
 {
-pos = (-63,0);
+pos = (-6,0);
 ref = caroncomb;
 }
 );
@@ -22,7 +22,7 @@ shapes = (
 ref = ezh;
 },
 {
-pos = (-65,0);
+pos = (-8,0);
 ref = caroncomb;
 }
 );
@@ -35,7 +35,7 @@ shapes = (
 ref = ezh;
 },
 {
-pos = (-71,-10);
+pos = (-14,-10);
 ref = caroncomb;
 }
 );

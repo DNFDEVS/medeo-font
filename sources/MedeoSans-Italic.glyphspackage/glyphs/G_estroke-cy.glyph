@@ -62,20 +62,6 @@ ref = "Ge-cy";
 width = 619;
 },
 {
-anchors = (
-{
-name = bottom;
-pos = (286,0);
-},
-{
-name = bottomright;
-pos = (527,0);
-},
-{
-name = top;
-pos = (437,710);
-}
-);
 layerId = "7240B716-CE9A-59F7-AFA0-6F9089C93D08";
 shapes = (
 {
@@ -96,20 +82,6 @@ ref = "Ge-cy";
 width = 528;
 },
 {
-anchors = (
-{
-name = bottom;
-pos = (293,0);
-},
-{
-name = bottomright;
-pos = (543,0);
-},
-{
-name = top;
-pos = (444,710);
-}
-);
 layerId = "64EDB5BC-BBCA-55A5-AA62-AF3C5A0418A6";
 shapes = (
 {
@@ -130,20 +102,6 @@ ref = "Ge-cy";
 width = 570;
 },
 {
-anchors = (
-{
-name = bottom;
-pos = (296,0);
-},
-{
-name = bottomright;
-pos = (559,0);
-},
-{
-name = top;
-pos = (447,710);
-}
-);
 layerId = "2E48EBD2-E908-5937-BE3F-7776DF5AE147";
 shapes = (
 {

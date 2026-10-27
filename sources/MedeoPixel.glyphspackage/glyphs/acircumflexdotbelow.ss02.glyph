@@ -1,0 +1,22 @@
+{
+glyphname = acircumflexdotbelow.ss02;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = a.ss02;
+},
+{
+pos = (76,0);
+ref = circumflexcomb;
+},
+{
+pos = (190,0);
+ref = dotbelowcomb;
+}
+);
+width = 570;
+}
+);
+}

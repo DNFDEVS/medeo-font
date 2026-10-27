@@ -1,0 +1,25 @@
+{
+glyphname = dotaccentcomb.stack;
+layers = (
+{
+anchors = (
+{
+name = _top;
+pos = (76,532);
+},
+{
+name = top;
+pos = (76,646);
+}
+);
+layerId = m01;
+shapes = (
+{
+pos = (0,-38);
+ref = dotaccentcomb;
+}
+);
+width = 152;
+}
+);
+}

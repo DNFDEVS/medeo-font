@@ -1,6 +1,6 @@
 {
 glyphname = IJ;
-kernLeft = b;
+kernLeft = Hstem;
 kernRight = U;
 layers = (
 {
@@ -44,20 +44,6 @@ ref = J;
 width = 847;
 },
 {
-anchors = (
-{
-name = bottom;
-pos = (112,0);
-},
-{
-name = ogonek;
-pos = (128,0);
-},
-{
-name = top;
-pos = (667,710);
-}
-);
 layerId = "7240B716-CE9A-59F7-AFA0-6F9089C93D08";
 shapes = (
 {
@@ -74,20 +60,6 @@ ref = J;
 width = 723;
 },
 {
-anchors = (
-{
-name = bottom;
-pos = (135,0);
-},
-{
-name = ogonek;
-pos = (178,0);
-},
-{
-name = top;
-pos = (728,710);
-}
-);
 layerId = "64EDB5BC-BBCA-55A5-AA62-AF3C5A0418A6";
 shapes = (
 {
@@ -104,20 +76,6 @@ ref = J;
 width = 821;
 },
 {
-anchors = (
-{
-name = bottom;
-pos = (146,0);
-},
-{
-name = ogonek;
-pos = (241,0);
-},
-{
-name = top;
-pos = (777,710);
-}
-);
 layerId = "2E48EBD2-E908-5937-BE3F-7776DF5AE147";
 shapes = (
 {

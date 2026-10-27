@@ -1,0 +1,19 @@
+{
+glyphname = "edieresis-cy";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = "ereversed-cy";
+},
+{
+pos = (114,0);
+ref = dieresiscomb;
+}
+);
+width = 532;
+}
+);
+unicode = 1261;
+}

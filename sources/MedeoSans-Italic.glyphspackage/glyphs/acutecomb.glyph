@@ -7,6 +7,10 @@ anchors = (
 {
 name = _top;
 pos = (120,530);
+},
+{
+name = top;
+pos = (162,726);
 }
 );
 background = {
@@ -52,6 +56,10 @@ anchors = (
 {
 name = _top;
 pos = (175,539);
+},
+{
+name = top;
+pos = (219,746);
 }
 );
 background = {
@@ -92,6 +100,10 @@ anchors = (
 {
 name = _top;
 pos = (138,530);
+},
+{
+name = top;
+pos = (180,726);
 }
 );
 background = {
@@ -131,7 +143,11 @@ width = 249;
 anchors = (
 {
 name = _top;
-pos = (120,530);
+pos = (90,530);
+},
+{
+name = top;
+pos = (132,726);
 }
 );
 guides = (
@@ -157,7 +173,11 @@ width = 205;
 anchors = (
 {
 name = _top;
-pos = (138,530);
+pos = (123,530);
+},
+{
+name = top;
+pos = (165,726);
 }
 );
 layerId = "64EDB5BC-BBCA-55A5-AA62-AF3C5A0418A6";
@@ -179,6 +199,10 @@ anchors = (
 {
 name = _top;
 pos = (175,539);
+},
+{
+name = top;
+pos = (219,746);
 }
 );
 layerId = "2E48EBD2-E908-5937-BE3F-7776DF5AE147";

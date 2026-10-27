@@ -1,0 +1,21 @@
+{
+glyphname = acircumflexacute.ss02;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = a.ss02;
+},
+{
+ref = circumflexcomb;
+},
+{
+pos = (304,114);
+ref = acutecomb;
+}
+);
+width = 570;
+}
+);
+}

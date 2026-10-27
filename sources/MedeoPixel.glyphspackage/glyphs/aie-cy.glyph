@@ -1,0 +1,15 @@
+{
+glyphname = "aie-cy";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = ae;
+}
+);
+width = 912;
+}
+);
+unicode = 1237;
+}

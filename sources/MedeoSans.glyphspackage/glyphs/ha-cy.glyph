@@ -33,16 +33,6 @@ ref = x;
 width = 559;
 },
 {
-anchors = (
-{
-name = bottom;
-pos = (275,0);
-},
-{
-name = top;
-pos = (275,530);
-}
-);
 layerId = "7240B716-CE9A-59F7-AFA0-6F9089C93D08";
 shapes = (
 {
@@ -54,16 +44,6 @@ ref = x;
 width = 504;
 },
 {
-anchors = (
-{
-name = bottom;
-pos = (280,0);
-},
-{
-name = top;
-pos = (280,530);
-}
-);
 layerId = "64EDB5BC-BBCA-55A5-AA62-AF3C5A0418A6";
 shapes = (
 {
@@ -75,16 +55,6 @@ ref = x;
 width = 527;
 },
 {
-anchors = (
-{
-name = bottom;
-pos = (327,0);
-},
-{
-name = top;
-pos = (327,539);
-}
-);
 layerId = "2E48EBD2-E908-5937-BE3F-7776DF5AE147";
 shapes = (
 {

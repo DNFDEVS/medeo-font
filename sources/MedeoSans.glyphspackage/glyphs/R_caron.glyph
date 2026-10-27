@@ -1,6 +1,6 @@
 {
 glyphname = Rcaron;
-kernLeft = b;
+kernLeft = Hstem;
 kernRight = R;
 layers = (
 {
@@ -44,16 +44,6 @@ ref = caroncomb;
 width = 672;
 },
 {
-anchors = (
-{
-name = bottom;
-pos = (318,0);
-},
-{
-name = top;
-pos = (324,710);
-}
-);
 layerId = "7240B716-CE9A-59F7-AFA0-6F9089C93D08";
 shapes = (
 {
@@ -70,16 +60,6 @@ ref = caroncomb;
 width = 609;
 },
 {
-anchors = (
-{
-name = bottom;
-pos = (350,0);
-},
-{
-name = top;
-pos = (337,710);
-}
-);
 layerId = "64EDB5BC-BBCA-55A5-AA62-AF3C5A0418A6";
 shapes = (
 {
@@ -96,16 +76,6 @@ ref = caroncomb;
 width = 661;
 },
 {
-anchors = (
-{
-name = bottom;
-pos = (354,0);
-},
-{
-name = top;
-pos = (337,710);
-}
-);
 layerId = "2E48EBD2-E908-5937-BE3F-7776DF5AE147";
 shapes = (
 {

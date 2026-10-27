@@ -10,7 +10,7 @@ tag = ELSH;
 customParameters = (
 {
 name = versionString;
-value = "Version 1.000-rc3";
+value = "Version 1.000-rc4";
 },
 {
 name = "Use Typo Metrics";
@@ -77,6 +77,129 @@ languagesystem latn MAH;
 languagesystem latn NLD;
 ";
 name = Languagesystems;
+},
+{
+code = "# Medeo, not Glyphs-generated: lookups that ccmp calls from its contextual rules
+lookup ccmp_split_idotbelow {
+	sub idotbelow by idotless dotbelowcomb;
+} ccmp_split_idotbelow;
+lookup ccmp_split_iogonek {
+	sub iogonek by idotless ogonekcomb;
+} ccmp_split_iogonek;
+
+# a capital with two marks above: the first mark sits lower and closer (Medeo)
+@CapStackBase = [A A-cy AE Aacute Abreve Abreve-cy Abreveacute Abrevedotbelow Abrevegrave Abrevehookabove Abrevetilde Acaron Acircumflex Acircumflexacute Acircumflexdotbelow Acircumflexgrave Acircumflexhookabove Acircumflextilde Adieresis Adieresis-cy Adotbelow Agrave Ahookabove Aie-cy Amacron Aogonek Aring Atilde B Bdotbelow Be-cy Bhook C Cacute Ccaron Ccedilla Ccircumflex Cdotaccent Che-cy Cheabkhasian-cy Chedescender-cy Chedescenderabkhasian-cy Chedieresis-cy Chekhakassian-cy Cheverticalstroke-cy D Dafrican Dcaron Dcroat Ddotbelow De-cy Dhook Dje-cy Dze-cy Dzeabkhasian-cy Dzhe-cy E E-cy Eacute Ebreve Ecaron Ecircumflex Ecircumflexacute Ecircumflexdotbelow Ecircumflexgrave Ecircumflexhookabove Ecircumflextilde Edieresis Edieresis-cy Edotaccent Fdotaccent Edotbelow Ef-cy Egrave Ehookabove El-cy Elhook-cy Em-cy Emacron En-cy Endescender-cy Eng Enghe-cy Enhook-cy Eogonek Eopen Er-cy Ereversed Ereversed-cy Es-cy Esdescender-cy Eth Etilde F Fhook G Gammaafrican Gbreve Gcaron Gcircumflex Gcommaaccent Gdotaccent Ge-cy Gedescender-cy Gemiddlehook-cy Germandbls Gestroke-cy Geupturn-cy Gje-cy Gmacron H Ha-cy Haabkhasian-cy Hadescender-cy Hardsign-cy Hbar Hcircumflex Hdotbelow I I-cy IJ Iacute Ibreve Icaron Icircumflex Idieresis Idieresis-cy Idotaccent Idotbelow Ie-cy Iebreve-cy Igrave Ihookabove Ii-cy Iishort-cy Imacron Imacron-cy Io-cy Iogonek Iotaafrican Istroke Itilde J Jcircumflex Je-cy K Ka-cy Kabashkir-cy Kadescender-cy Kahook-cy Kastroke-cy Kaverticalstroke-cy Kcommaaccent Khook Kje-cy L Lacute Lambda Lcaron Lcommaaccent Ldotbelow Lje-cy Lslash M Macute Mdotbelow N Nacute Ncaron Ncommaaccent Ndotaccent Ndotbelow Ngrave Nhookleft Nje-cy Ntilde O O-cy OE Oacute Obarred-cy Obarreddieresis-cy Obreve Ocaron Ocircumflex Ocircumflexacute Ocircumflexdotbelow Ocircumflexgrave Ocircumflexhookabove Ocircumflextilde Odieresis Odieresis-cy Odotbelow Ograve Ohookabove Ohorn Ohornacute Ohorndotbelow Ohorngrave Ohornhookabove Ohorntilde Ohungarumlaut Omacron Omega Oopen Oslash Otilde P Palochka-cy Pe-cy Pedescender-cy Pemiddlehook-cy Q R Racute Rcaron Rcommaaccent Rdotbelow S Sacute Saltillo Scaron Scedilla Schwa Schwa-cy Schwadieresis-cy Scircumflex Scommaaccent Sdotbelow Sha-cy Shcha-cy Shha-cy Softsign-cy T Tbar Tcaron Tcedilla Tcommaaccent Tdotbelow Te-cy Tedescender-cy Tetse-cy Thorn Tse-cy Tshe-cy U U-cy Uacute Ubar Ubreve Ucaron Ucircumflex Udieresis Udieresismacron Udieresisacute Udieresiscaron Udieresisgrave Udieresis-cy Udotbelow Ugrave Uhookabove Uhorn Uhornacute Uhorndotbelow Uhorngrave Uhornhookabove Uhorntilde Uhungarumlaut Uhungarumlaut-cy Umacron Umacron-cy Uogonek Upsilonafrican Uring Ushort-cy Ustraight-cy Ustraightstroke-cy Utilde Utildeacute V Vdotbelow Ve-cy Vhook Vturned W Wacute Wcircumflex Wdieresis Wgrave X Y Ya-cy Yacute Ycircumflex Ydieresis Ydotbelow Yeru-cy Yerudieresis-cy Ygrave Yhook Yhookabove Yi-cy Ytilde Yu-cy Z Zacute Zcaron Zdotaccent Zdotbelow Ze-cy Zedescender-cy Zedieresis-cy Zhe-cy Zhebreve-cy Zhedescender-cy Zhedieresis-cy];
+@CapStackMark = [acutecomb gravecomb circumflexcomb caroncomb tildecomb macroncomb brevecomb dieresiscomb dotaccentcomb ringcomb hungarumlautcomb hookabovecomb commaturnedabovecomb commaabovecomb verticallineabovecomb macronacutecomb gravemacroncomb macrongravecomb acutemacroncomb];
+@CapStackMarkStack = [acutecomb.stack gravecomb.stack circumflexcomb.stack caroncomb.stack tildecomb.stack macroncomb.stack brevecomb.stack dieresiscomb.stack dotaccentcomb.stack ringcomb.stack hungarumlautcomb.stack hookabovecomb.stack commaturnedabovecomb.stack commaabovecomb.stack verticallineabovecomb.stack macronacutecomb.stack gravemacroncomb.stack macrongravecomb.stack acutemacroncomb.stack];
+lookup ccmp_split_capital {
+	sub Aacute by A acutecomb;
+	sub Abreve by A brevecomb;
+	sub Acaron by A caroncomb;
+	sub Acircumflex by A circumflexcomb;
+	sub Adieresis by A dieresiscomb;
+	sub Agrave by A gravecomb;
+	sub Amacron by A macroncomb;
+	sub Atilde by A tildecomb;
+	sub Ahookabove by A hookabovecomb;
+	sub Cacute by C acutecomb;
+	sub Ccaron by C caroncomb;
+	sub Ccircumflex by C circumflexcomb;
+	sub Cdotaccent by C dotaccentcomb;
+	sub Dcaron by D caroncomb;
+	sub Eacute by E acutecomb;
+	sub Ecaron by E caroncomb;
+	sub Ecircumflex by E circumflexcomb;
+	sub Edieresis by E dieresiscomb;
+	sub Edotaccent by E dotaccentcomb;
+	sub Fdotaccent by F dotaccentcomb;
+	sub Egrave by E gravecomb;
+	sub Emacron by E macroncomb;
+	sub Etilde by E tildecomb;
+	sub Ebreve by E brevecomb;
+	sub Ehookabove by E hookabovecomb;
+	sub Gbreve by G brevecomb;
+	sub Gcaron by G caroncomb;
+	sub Gcircumflex by G circumflexcomb;
+	sub Gdotaccent by G dotaccentcomb;
+	sub Gmacron by G macroncomb;
+	sub Hcircumflex by H circumflexcomb;
+	sub Jcircumflex by J circumflexcomb;
+	sub Macute by M acutecomb;
+	sub Nacute by N acutecomb;
+	sub Ncaron by N caroncomb;
+	sub Ntilde by N tildecomb;
+	sub Ngrave by N gravecomb;
+	sub Ndotaccent by N dotaccentcomb;
+	sub Oacute by O acutecomb;
+	sub Ocircumflex by O circumflexcomb;
+	sub Odieresis by O dieresiscomb;
+	sub Ograve by O gravecomb;
+	sub Ohungarumlaut by O hungarumlautcomb;
+	sub Omacron by O macroncomb;
+	sub Otilde by O tildecomb;
+	sub Ocaron by O caroncomb;
+	sub Obreve by O brevecomb;
+	sub Ohookabove by O hookabovecomb;
+	sub Ohornacute by Ohorn acutecomb;
+	sub Ohorngrave by Ohorn gravecomb;
+	sub Ohornhookabove by Ohorn hookabovecomb;
+	sub Ohorntilde by Ohorn tildecomb;
+	sub Racute by R acutecomb;
+	sub Rcaron by R caroncomb;
+	sub Sacute by S acutecomb;
+	sub Scaron by S caroncomb;
+	sub Scircumflex by S circumflexcomb;
+	sub Tcaron by T caroncomb;
+	sub Uacute by U acutecomb;
+	sub Ubreve by U brevecomb;
+	sub Ucircumflex by U circumflexcomb;
+	sub Udieresis by U dieresiscomb;
+	sub Ugrave by U gravecomb;
+	sub Uhungarumlaut by U hungarumlautcomb;
+	sub Umacron by U macroncomb;
+	sub Utilde by U tildecomb;
+	sub Ucaron by U caroncomb;
+	sub Uhookabove by U hookabovecomb;
+	sub Uhornacute by Uhorn acutecomb;
+	sub Uhorngrave by Uhorn gravecomb;
+	sub Uhornhookabove by Uhorn hookabovecomb;
+	sub Uhorntilde by Uhorn tildecomb;
+	sub Wacute by W acutecomb;
+	sub Wcircumflex by W circumflexcomb;
+	sub Wdieresis by W dieresiscomb;
+	sub Wgrave by W gravecomb;
+	sub Yacute by Y acutecomb;
+	sub Ycircumflex by Y circumflexcomb;
+	sub Ydieresis by Y dieresiscomb;
+	sub Ygrave by Y gravecomb;
+	sub Ytilde by Y tildecomb;
+	sub Yhookabove by Y hookabovecomb;
+	sub Zacute by Z acutecomb;
+	sub Zcaron by Z caroncomb;
+	sub Zdotaccent by Z dotaccentcomb;
+	sub Io-cy by E dieresiscomb;
+	sub Iishort-cy by Ii-cy brevecomb;
+	sub Ushort-cy by U-cy brevecomb;
+	sub Imacron-cy by Ii-cy macroncomb;
+	sub Umacron-cy by U-cy macroncomb;
+	sub Adieresis-cy by A-cy dieresiscomb;
+	sub Odieresis-cy by O-cy dieresiscomb;
+	sub Udieresis-cy by U-cy dieresiscomb;
+	sub Uhungarumlaut-cy by U-cy hungarumlautcomb;
+	sub Idieresis-cy by Ii-cy dieresiscomb;
+	sub Zedieresis-cy by Ze-cy dieresiscomb;
+	sub Zhedieresis-cy by Zhe-cy dieresiscomb;
+	sub Chedieresis-cy by Che-cy dieresiscomb;
+	sub Yerudieresis-cy by Yeru-cy dieresiscomb;
+	sub Edieresis-cy by Ereversed-cy dieresiscomb;
+	sub Schwadieresis-cy by Schwa-cy dieresiscomb;
+	sub Obarreddieresis-cy by Obarred-cy dieresiscomb;
+	sub Abreve-cy by A-cy brevecomb;
+	sub Iebreve-cy by Ie-cy brevecomb;
+	sub Zhebreve-cy by Zhe-cy brevecomb;
+} ccmp_split_capital;
+";
+name = Marks;
 }
 );
 features = (
@@ -95,18 +218,43 @@ feature ss04;
 feature ss05;
 feature ss06;
 feature ss09;
+feature tnum;
 ";
 tag = aalt;
 },
 {
 code = "lookup ccmp_DFLT_1 {
-	@CombiningTopAccents = [acutecomb brevecomb caroncomb circumflexcomb commaturnedabovecomb dieresiscomb dotaccentcomb gravecomb hungarumlautcomb macroncomb ringcomb tildecomb];
+	@CombiningTopAccents = [acutecomb brevecomb caroncomb circumflexcomb commaabovecomb commaturnedabovecomb dieresiscomb dotaccentcomb gravecomb hookabovecomb hungarumlautcomb macroncomb ringcomb tildecomb verticallineabovecomb macronacutecomb gravemacroncomb macrongravecomb acutemacroncomb];
 	lookupflag UseMarkFilteringSet @CombiningTopAccents;
 	sub i' @CombiningTopAccents by idotless;
 	sub j' @CombiningTopAccents by jdotless;
 	sub i-cy' @CombiningTopAccents by idotless;
 	sub je-cy' @CombiningTopAccents by jdotless;
+	sub istroke' @CombiningTopAccents by istroke.dotless;
+	sub idotbelow' lookup ccmp_split_idotbelow @CombiningTopAccents;
+	sub iogonek' lookup ccmp_split_iogonek @CombiningTopAccents;
 } ccmp_DFLT_1;
+
+lookup ccmp_cap_stack_split {
+	lookupflag UseMarkFilteringSet @CapStackMark;
+	sub [Iacute Icircumflex Idieresis Idotaccent Igrave Imacron Itilde Icaron Ibreve Ihookabove Yi-cy]' @CapStackMark by [Iacute.stack Icircumflex.stack Idieresis.stack Idotaccent.stack Igrave.stack Imacron.stack Itilde.stack Icaron.stack Ibreve.stack Ihookabove.stack Yi-cy.stack];
+	sub [Aacute Abreve Acaron Acircumflex Adieresis Agrave Amacron Atilde Ahookabove Cacute Ccaron Ccircumflex Cdotaccent Dcaron Eacute Ecaron Ecircumflex Edieresis Edotaccent Fdotaccent Egrave Emacron Etilde Ebreve Ehookabove Gbreve Gcaron Gcircumflex Gdotaccent Gmacron Hcircumflex Jcircumflex Macute Nacute Ncaron Ntilde Ngrave Ndotaccent Oacute Ocircumflex Odieresis Ograve Ohungarumlaut Omacron Otilde Ocaron Obreve Ohookabove Ohornacute Ohorngrave Ohornhookabove Ohorntilde Racute Rcaron Sacute Scaron Scircumflex Tcaron Uacute Ubreve Ucircumflex Udieresis Ugrave Uhungarumlaut Umacron Utilde Ucaron Uhookabove Uhornacute Uhorngrave Uhornhookabove Uhorntilde Wacute Wcircumflex Wdieresis Wgrave Yacute Ycircumflex Ydieresis Ygrave Ytilde Yhookabove Zacute Zcaron Zdotaccent Io-cy Iishort-cy Ushort-cy Imacron-cy Umacron-cy Adieresis-cy Odieresis-cy Udieresis-cy Uhungarumlaut-cy Idieresis-cy Zedieresis-cy Zhedieresis-cy Chedieresis-cy Yerudieresis-cy Edieresis-cy Schwadieresis-cy Obarreddieresis-cy Abreve-cy Iebreve-cy Zhebreve-cy]' lookup ccmp_split_capital @CapStackMark;
+} ccmp_cap_stack_split;
+
+lookup ccmp_cap_stack {
+	lookupflag UseMarkFilteringSet @CapStackMark;
+	sub @CapStackBase @CapStackMark' @CapStackMark by @CapStackMarkStack;
+} ccmp_cap_stack;
+
+# a contour tone after the first mark of a capital stack takes its stack form too, so the stack stays under the Windows ascent
+lookup ccmp_cap_stack_tone {
+	@CapStackTone = [macronacutecomb gravemacroncomb macrongravecomb acutemacroncomb];
+	@CapStackToneStack = [macronacutecomb.stack gravemacroncomb.stack macrongravecomb.stack acutemacroncomb.stack];
+	@CapStackAfter = [@CapStackMarkStack @CapStackTone];
+	lookupflag UseMarkFilteringSet @CapStackAfter;
+	sub @CapStackBase @CapStackMarkStack @CapStackTone' by @CapStackToneStack;
+	sub [Iacute.stack Icircumflex.stack Idieresis.stack Idotaccent.stack Igrave.stack Imacron.stack Itilde.stack Icaron.stack Ibreve.stack Ihookabove.stack Yi-cy.stack] @CapStackTone' by @CapStackToneStack;
+} ccmp_cap_stack_tone;
 
 lookup ccmp_latn_1 {
 	lookupflag 0;
@@ -120,7 +268,6 @@ lookup ccmp_latn_1;
 tag = ccmp;
 },
 {
-automatic = 1;
 code = "script latn;
 language AZE;
 lookup locl_latn_0 {
@@ -159,6 +306,8 @@ lookup locl_latn_2 {
 script latn;
 language NLD;
 lookup locl_latn_3 {
+	ignore sub iacute j' acutecomb;
+	ignore sub Iacute J' acutecomb;
 	sub iacute j' by jacute;
 	sub Iacute J' by Jacute;
 } locl_latn_3;
@@ -223,9 +372,21 @@ automatic = 1;
 code = "sub a by a.ss01;
 sub aacute by aacute.ss01;
 sub abreve by abreve.ss01;
+sub abreveacute by abreveacute.ss01;
+sub abrevedotbelow by abrevedotbelow.ss01;
+sub abrevegrave by abrevegrave.ss01;
+sub abrevehookabove by abrevehookabove.ss01;
+sub abrevetilde by abrevetilde.ss01;
 sub acircumflex by acircumflex.ss01;
+sub acircumflexacute by acircumflexacute.ss01;
+sub acircumflexdotbelow by acircumflexdotbelow.ss01;
+sub acircumflexgrave by acircumflexgrave.ss01;
+sub acircumflexhookabove by acircumflexhookabove.ss01;
+sub acircumflextilde by acircumflextilde.ss01;
 sub adieresis by adieresis.ss01;
+sub adotbelow by adotbelow.ss01;
 sub agrave by agrave.ss01;
+sub ahookabove by ahookabove.ss01;
 sub amacron by amacron.ss01;
 sub aogonek by aogonek.ss01;
 sub aring by aring.ss01;
@@ -244,9 +405,21 @@ automatic = 1;
 code = "sub a by a.ss02;
 sub aacute by aacute.ss02;
 sub abreve by abreve.ss02;
+sub abreveacute by abreveacute.ss02;
+sub abrevedotbelow by abrevedotbelow.ss02;
+sub abrevegrave by abrevegrave.ss02;
+sub abrevehookabove by abrevehookabove.ss02;
+sub abrevetilde by abrevetilde.ss02;
 sub acircumflex by acircumflex.ss02;
+sub acircumflexacute by acircumflexacute.ss02;
+sub acircumflexdotbelow by acircumflexdotbelow.ss02;
+sub acircumflexgrave by acircumflexgrave.ss02;
+sub acircumflexhookabove by acircumflexhookabove.ss02;
+sub acircumflextilde by acircumflextilde.ss02;
 sub adieresis by adieresis.ss02;
+sub adotbelow by adotbelow.ss02;
 sub agrave by agrave.ss02;
+sub ahookabove by ahookabove.ss02;
 sub amacron by amacron.ss02;
 sub aogonek by aogonek.ss02;
 sub aring by aring.ss02;
@@ -267,6 +440,7 @@ sub lacute by lacute.ss03;
 sub lcaron by lcaron.ss03;
 sub lcommaaccent.loclMAH by lcommaaccent.loclMAH.ss03;
 sub lcommaaccent by lcommaaccent.ss03;
+sub ldotbelow by ldotbelow.ss03;
 sub lslash by lslash.ss03;
 ";
 labels = (
@@ -283,6 +457,7 @@ code = "sub R by R.ss04;
 sub Racute by Racute.ss04;
 sub Rcaron by Rcaron.ss04;
 sub Rcommaaccent by Rcommaaccent.ss04;
+sub Rdotbelow by Rdotbelow.ss04;
 ";
 labels = (
 {
@@ -296,10 +471,14 @@ tag = ss04;
 automatic = 1;
 code = "sub I by I.ss05;
 sub Iacute by Iacute.ss05;
+sub Ibreve by Ibreve.ss05;
+sub Icaron by Icaron.ss05;
 sub Icircumflex by Icircumflex.ss05;
 sub Idieresis by Idieresis.ss05;
 sub Idotaccent by Idotaccent.ss05;
+sub Idotbelow by Idotbelow.ss05;
 sub Igrave by Igrave.ss05;
+sub Ihookabove by Ihookabove.ss05;
 sub Imacron by Imacron.ss05;
 sub Iogonek by Iogonek.ss05;
 sub Itilde by Itilde.ss05;
@@ -316,6 +495,7 @@ tag = ss05;
 automatic = 1;
 code = "sub G by G.ss06;
 sub Gbreve by Gbreve.ss06;
+sub Gcaron by Gcaron.ss06;
 sub Gcommaaccent by Gcommaaccent.ss06;
 sub Gdotaccent by Gdotaccent.ss06;
 sub Gmacron by Gmacron.ss06;
@@ -339,6 +519,22 @@ value = "Alt numbers";
 }
 );
 tag = ss09;
+},
+{
+automatic = 1;
+code = "sub zero by zero.tf;
+sub one by one.tf;
+sub two by two.tf;
+sub three by three.tf;
+sub four by four.tf;
+sub five by five.tf;
+sub six by six.tf;
+sub seven by seven.tf;
+sub eight by eight.tf;
+sub nine by nine.tf;
+sub zero.ss09 by zero.ss09.tf;
+";
+tag = tnum;
 }
 );
 fontMaster = (
@@ -570,7 +766,7 @@ value = "https://dnf.dev";
 },
 {
 key = vendorID;
-value = PRTN;
+value = DNFD;
 }
 );
 settings = {

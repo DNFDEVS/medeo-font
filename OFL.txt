@@ -1,5 +1,6 @@
 Copyright 2026 The Medeo Project Authors (https://github.com/DNFDEVS/medeo-font)
 Copyright 2024 The Geist Project Authors (https://github.com/vercel/geist-font)
+Copyright 2026 The Geist Project Authors (https://github.com/vercel/geist-font)
 Copyright (c) 2023 Vercel, in collaboration with basement.studio
 Copyright 2016 The Inter Project Authors (https://github.com/rsms/inter)
 

@@ -1,6 +1,6 @@
 {
 glyphname = Edotbelow.ss08;
-kernLeft = b;
+kernLeft = Hstem;
 kernRight = E;
 layers = (
 {
@@ -44,20 +44,6 @@ ref = dotbelowcomb.ss08;
 width = 613;
 },
 {
-anchors = (
-{
-name = bottom;
-pos = (306,-146);
-},
-{
-name = ogonek;
-pos = (523,0);
-},
-{
-name = top;
-pos = (306,710);
-}
-);
 layerId = "7240B716-CE9A-59F7-AFA0-6F9089C93D08";
 shapes = (
 {
@@ -74,20 +60,6 @@ ref = dotbelowcomb.ss08;
 width = 529;
 },
 {
-anchors = (
-{
-name = bottom;
-pos = (319,-156);
-},
-{
-name = ogonek;
-pos = (546,0);
-},
-{
-name = top;
-pos = (317,710);
-}
-);
 layerId = "64EDB5BC-BBCA-55A5-AA62-AF3C5A0418A6";
 shapes = (
 {
@@ -104,20 +76,6 @@ ref = dotbelowcomb.ss08;
 width = 564;
 },
 {
-anchors = (
-{
-name = bottom;
-pos = (312,-162);
-},
-{
-name = ogonek;
-pos = (581,0);
-},
-{
-name = top;
-pos = (313,710);
-}
-);
 layerId = "2E48EBD2-E908-5937-BE3F-7776DF5AE147";
 shapes = (
 {

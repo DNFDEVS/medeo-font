@@ -1,10 +1,16 @@
 {
 color = 4;
 glyphname = F;
-kernLeft = b;
+kernLeft = Hstem;
 kernRight = F;
 layers = (
 {
+anchors = (
+{
+name = top;
+pos = (306,710);
+}
+);
 background = {
 shapes = (
 {
@@ -51,6 +57,12 @@ nodes = (
 width = 560;
 },
 {
+anchors = (
+{
+name = top;
+pos = (310,710);
+}
+);
 background = {
 shapes = (
 {
@@ -97,6 +109,12 @@ nodes = (
 width = 595;
 },
 {
+anchors = (
+{
+name = top;
+pos = (317,710);
+}
+);
 background = {
 shapes = (
 {
@@ -143,6 +161,12 @@ nodes = (
 width = 590;
 },
 {
+anchors = (
+{
+name = top;
+pos = (285,710);
+}
+);
 layerId = "7240B716-CE9A-59F7-AFA0-6F9089C93D08";
 shapes = (
 {
@@ -167,6 +191,12 @@ nodes = (
 width = 511;
 },
 {
+anchors = (
+{
+name = top;
+pos = (306,710);
+}
+);
 layerId = "64EDB5BC-BBCA-55A5-AA62-AF3C5A0418A6";
 shapes = (
 {
@@ -191,6 +221,12 @@ nodes = (
 width = 543;
 },
 {
+anchors = (
+{
+name = top;
+pos = (310,710);
+}
+);
 layerId = "2E48EBD2-E908-5937-BE3F-7776DF5AE147";
 shapes = (
 {

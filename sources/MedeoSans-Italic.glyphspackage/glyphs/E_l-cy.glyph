@@ -2,7 +2,7 @@
 color = 4;
 glyphname = "El-cy";
 kernLeft = "El-cy";
-kernRight = d;
+kernRight = Hstem;
 layers = (
 {
 anchors = (
@@ -182,7 +182,7 @@ width = 709;
 anchors = (
 {
 name = bottom;
-pos = (270,0);
+pos = (260,0);
 }
 );
 layerId = "7240B716-CE9A-59F7-AFA0-6F9089C93D08";
@@ -215,7 +215,7 @@ width = 676;
 anchors = (
 {
 name = bottom;
-pos = (277,0);
+pos = (255,0);
 }
 );
 layerId = "64EDB5BC-BBCA-55A5-AA62-AF3C5A0418A6";

@@ -1,7 +1,7 @@
 {
 color = 4;
 glyphname = E;
-kernLeft = b;
+kernLeft = Hstem;
 kernRight = E;
 layers = (
 {
@@ -224,15 +224,15 @@ width = 604;
 anchors = (
 {
 name = bottom;
-pos = (251,0);
+pos = (235,0);
 },
 {
 name = ogonek;
-pos = (468,0);
+pos = (452,0);
 },
 {
 name = top;
-pos = (401,710);
+pos = (385,710);
 }
 );
 layerId = "7240B716-CE9A-59F7-AFA0-6F9089C93D08";
@@ -261,15 +261,15 @@ width = 559;
 anchors = (
 {
 name = bottom;
-pos = (264,0);
+pos = (253,0);
 },
 {
 name = ogonek;
-pos = (491,0);
+pos = (480,0);
 },
 {
 name = top;
-pos = (412,710);
+pos = (401,710);
 }
 );
 layerId = "64EDB5BC-BBCA-55A5-AA62-AF3C5A0418A6";

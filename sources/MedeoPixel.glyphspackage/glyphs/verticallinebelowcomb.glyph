@@ -1,0 +1,27 @@
+{
+glyphname = verticallinebelowcomb;
+layers = (
+{
+anchors = (
+{
+name = _bottom;
+pos = (190,0);
+},
+{
+name = bottom;
+pos = (190,-190);
+}
+);
+layerId = m01;
+shapes = (
+{
+alignment = -1;
+pos = (0,-798);
+ref = verticallineabovecomb;
+}
+);
+width = 380;
+}
+);
+unicode = 809;
+}

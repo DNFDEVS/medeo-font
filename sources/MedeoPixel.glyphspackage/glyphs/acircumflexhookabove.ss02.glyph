@@ -1,0 +1,21 @@
+{
+glyphname = acircumflexhookabove.ss02;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = a.ss02;
+},
+{
+ref = circumflexcomb;
+},
+{
+pos = (304,114);
+ref = hookabovecomb;
+}
+);
+width = 570;
+}
+);
+}

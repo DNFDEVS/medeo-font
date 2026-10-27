@@ -1,7 +1,7 @@
 {
 color = 5;
 glyphname = "Yu-cy";
-kernLeft = b;
+kernLeft = Hstem;
 kernRight = O;
 layers = (
 {
@@ -112,19 +112,19 @@ width = 996;
 anchors = (
 {
 name = bottom;
-pos = (509,0);
+pos = (493,0);
 },
 {
 name = center;
-pos = (584,355);
+pos = (568,355);
 },
 {
 name = top;
-pos = (551,710);
+pos = (535,710);
 },
 {
 name = topright;
-pos = (753,710);
+pos = (737,710);
 }
 );
 layerId = "7240B716-CE9A-59F7-AFA0-6F9089C93D08";
@@ -159,19 +159,19 @@ width = 883;
 anchors = (
 {
 name = bottom;
-pos = (573,0);
+pos = (562,0);
 },
 {
 name = center;
-pos = (649,355);
+pos = (638,355);
 },
 {
 name = top;
-pos = (593,710);
+pos = (582,710);
 },
 {
 name = topright;
-pos = (813,710);
+pos = (802,710);
 }
 );
 layerId = "64EDB5BC-BBCA-55A5-AA62-AF3C5A0418A6";

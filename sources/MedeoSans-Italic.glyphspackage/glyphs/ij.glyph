@@ -68,20 +68,6 @@ ref = dotaccentcomb;
 width = 471;
 },
 {
-anchors = (
-{
-name = bottom;
-pos = (215,-150);
-},
-{
-name = ogonek;
-pos = (65,0);
-},
-{
-name = top;
-pos = (374,530);
-}
-);
 layerId = "7240B716-CE9A-59F7-AFA0-6F9089C93D08";
 shapes = (
 {
@@ -108,20 +94,6 @@ ref = dotaccentcomb;
 width = 395;
 },
 {
-anchors = (
-{
-name = bottom;
-pos = (260,-150);
-},
-{
-name = ogonek;
-pos = (101,0);
-},
-{
-name = top;
-pos = (412,530);
-}
-);
 layerId = "64EDB5BC-BBCA-55A5-AA62-AF3C5A0418A6";
 shapes = (
 {
@@ -148,20 +120,6 @@ ref = dotaccentcomb;
 width = 448;
 },
 {
-anchors = (
-{
-name = bottom;
-pos = (329,-150);
-},
-{
-name = ogonek;
-pos = (180,0);
-},
-{
-name = top;
-pos = (507,539);
-}
-);
 layerId = "2E48EBD2-E908-5937-BE3F-7776DF5AE147";
 shapes = (
 {

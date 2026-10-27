@@ -301,24 +301,6 @@ nodes = (
 width = 689;
 },
 {
-anchors = (
-{
-name = bottom;
-pos = (331,0);
-},
-{
-name = ogonek;
-pos = (436,1);
-},
-{
-name = top;
-pos = (331,710);
-},
-{
-name = topright;
-pos = (550,710);
-}
-);
 guides = (
 {
 pos = (347,-194);
@@ -341,24 +323,6 @@ ref = ogonekcomb;
 width = 622;
 },
 {
-anchors = (
-{
-name = bottom;
-pos = (345,0);
-},
-{
-name = ogonek;
-pos = (457,3);
-},
-{
-name = top;
-pos = (345,710);
-},
-{
-name = topright;
-pos = (532,710);
-}
-);
 layerId = "64EDB5BC-BBCA-55A5-AA62-AF3C5A0418A6";
 shapes = (
 {
@@ -376,24 +340,6 @@ ref = ogonekcomb;
 width = 659;
 },
 {
-anchors = (
-{
-name = bottom;
-pos = (346,0);
-},
-{
-name = ogonek;
-pos = (463,0);
-},
-{
-name = top;
-pos = (346,710);
-},
-{
-name = topright;
-pos = (474,710);
-}
-);
 layerId = "2E48EBD2-E908-5937-BE3F-7776DF5AE147";
 shapes = (
 {

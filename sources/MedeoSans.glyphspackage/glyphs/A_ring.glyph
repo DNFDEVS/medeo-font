@@ -49,20 +49,6 @@ ref = ringcomb;
 width = 669;
 },
 {
-anchors = (
-{
-name = bottom;
-pos = (306,0);
-},
-{
-name = ogonek;
-pos = (588,0);
-},
-{
-name = top;
-pos = (306,710);
-}
-);
 layerId = "7240B716-CE9A-59F7-AFA0-6F9089C93D08";
 shapes = (
 {
@@ -79,20 +65,6 @@ ref = ringcomb;
 width = 580;
 },
 {
-anchors = (
-{
-name = bottom;
-pos = (333,0);
-},
-{
-name = ogonek;
-pos = (647,0);
-},
-{
-name = top;
-pos = (333,710);
-}
-);
 layerId = "64EDB5BC-BBCA-55A5-AA62-AF3C5A0418A6";
 shapes = (
 {
@@ -109,20 +81,6 @@ ref = ringcomb;
 width = 640;
 },
 {
-anchors = (
-{
-name = bottom;
-pos = (371,0);
-},
-{
-name = ogonek;
-pos = (735,0);
-},
-{
-name = top;
-pos = (371,710);
-}
-);
 layerId = "2E48EBD2-E908-5937-BE3F-7776DF5AE147";
 shapes = (
 {

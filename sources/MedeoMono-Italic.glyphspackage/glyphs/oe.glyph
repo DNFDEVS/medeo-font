@@ -2,6 +2,16 @@
 glyphname = oe;
 layers = (
 {
+anchors = (
+{
+name = bottom;
+pos = (247,0);
+},
+{
+name = top;
+pos = (360,530);
+}
+);
 background = {
 shapes = (
 {
@@ -164,6 +174,16 @@ nodes = (
 width = 600;
 },
 {
+anchors = (
+{
+name = bottom;
+pos = (250,0);
+},
+{
+name = top;
+pos = (354,530);
+}
+);
 background = {
 shapes = (
 {
@@ -326,6 +346,16 @@ nodes = (
 width = 600;
 },
 {
+anchors = (
+{
+name = bottom;
+pos = (240,0);
+},
+{
+name = top;
+pos = (360,540);
+}
+);
 background = {
 shapes = (
 {

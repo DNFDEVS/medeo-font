@@ -10,6 +10,10 @@ name = bottom;
 pos = (266,0);
 },
 {
+name = ogonek;
+pos = (266,38);
+},
+{
 name = top;
 pos = (266,532);
 }
@@ -734,11 +738,11 @@ width = 532;
 anchors = (
 {
 name = bottom;
-pos = (285,0);
+pos = (304,0);
 },
 {
 name = top;
-pos = (285,532);
+pos = (304,532);
 }
 );
 associatedMasterId = m01;

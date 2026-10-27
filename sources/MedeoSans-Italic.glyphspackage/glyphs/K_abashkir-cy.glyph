@@ -1,0 +1,206 @@
+{
+glyphname = "Kabashkir-cy";
+kernLeft = T;
+kernRight = X;
+layers = (
+{
+anchors = (
+{
+name = bottom;
+pos = (470,0);
+},
+{
+name = bottomright;
+pos = (747,0);
+},
+{
+name = top;
+pos = (621,710);
+}
+);
+layerId = "EE2FFE84-06F1-4AFB-BBEC-60D09A436D14";
+shapes = (
+{
+pos = (236,0);
+ref = "Ka-cy";
+},
+{
+closed = 1;
+nodes = (
+(452,680,l),
+(458,710,l),
+(191,710,l),
+(185,680,l)
+);
+}
+);
+width = 839;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (477,0);
+},
+{
+name = bottomright;
+pos = (774,0);
+},
+{
+name = top;
+pos = (628,710);
+}
+);
+layerId = "6C190511-B94A-4F5A-B519-D6E9DB0E7B93";
+shapes = (
+{
+pos = (216,0);
+ref = "Ka-cy";
+},
+{
+closed = 1;
+nodes = (
+(474,626,l),
+(492,710,l),
+(187,710,l),
+(169,626,l)
+);
+}
+);
+width = 882;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (479,0);
+},
+{
+name = bottomright;
+pos = (791,0);
+},
+{
+name = top;
+pos = (630,710);
+}
+);
+layerId = "3507EE3D-0D92-4546-A145-3A991F0A2B71";
+shapes = (
+{
+pos = (201,0);
+ref = "Ka-cy";
+},
+{
+closed = 1;
+nodes = (
+(501,558,l),
+(534,710,l),
+(147,710,l),
+(115,558,l)
+);
+}
+);
+width = 891;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (455,0);
+},
+{
+name = bottomright;
+pos = (732,0);
+},
+{
+name = top;
+pos = (606,710);
+}
+);
+layerId = "7240B716-CE9A-59F7-AFA0-6F9089C93D08";
+shapes = (
+{
+pos = (236,0);
+ref = "Ka-cy";
+},
+{
+closed = 1;
+nodes = (
+(437,680,l),
+(443,710,l),
+(176,710,l),
+(170,680,l)
+);
+}
+);
+width = 824;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (466,0);
+},
+{
+name = bottomright;
+pos = (763,0);
+},
+{
+name = top;
+pos = (617,710);
+}
+);
+layerId = "64EDB5BC-BBCA-55A5-AA62-AF3C5A0418A6";
+shapes = (
+{
+pos = (216,0);
+ref = "Ka-cy";
+},
+{
+closed = 1;
+nodes = (
+(463,626,l),
+(481,710,l),
+(176,710,l),
+(158,626,l)
+);
+}
+);
+width = 850;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (479,0);
+},
+{
+name = bottomright;
+pos = (791,0);
+},
+{
+name = top;
+pos = (630,710);
+}
+);
+layerId = "2E48EBD2-E908-5937-BE3F-7776DF5AE147";
+shapes = (
+{
+pos = (201,0);
+ref = "Ka-cy";
+},
+{
+closed = 1;
+nodes = (
+(501,558,l),
+(534,710,l),
+(147,710,l),
+(115,558,l)
+);
+}
+);
+width = 878;
+}
+);
+unicode = 1184;
+}

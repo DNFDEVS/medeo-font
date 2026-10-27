@@ -62,24 +62,6 @@ ref = slashlongcomb;
 width = 554;
 },
 {
-anchors = (
-{
-name = bottom;
-pos = (227,0);
-},
-{
-name = center;
-pos = (283,265);
-},
-{
-name = top;
-pos = (340,530);
-},
-{
-name = topright;
-pos = (404,530);
-}
-);
 guides = (
 {
 angle = 90;
@@ -102,24 +84,6 @@ ref = slashlongcomb;
 width = 512;
 },
 {
-anchors = (
-{
-name = bottom;
-pos = (221,0);
-},
-{
-name = center;
-pos = (277,265);
-},
-{
-name = top;
-pos = (327,530);
-},
-{
-name = topright;
-pos = (373,530);
-}
-);
 guides = (
 {
 angle = 90;
@@ -142,24 +106,6 @@ ref = slashlongcomb;
 width = 527;
 },
 {
-anchors = (
-{
-name = bottom;
-pos = (253,0);
-},
-{
-name = center;
-pos = (309,270);
-},
-{
-name = top;
-pos = (362,539);
-},
-{
-name = topright;
-pos = (410,539);
-}
-);
 guides = (
 {
 angle = 90;

@@ -1,7 +1,7 @@
 {
 color = 4;
 glyphname = R.ss04;
-kernLeft = b;
+kernLeft = Hstem;
 kernRight = R;
 layers = (
 {
@@ -423,11 +423,11 @@ width = 674;
 anchors = (
 {
 name = bottom;
-pos = (253,0);
+pos = (223,0);
 },
 {
 name = top;
-pos = (403,710);
+pos = (373,710);
 }
 );
 layerId = "7240B716-CE9A-59F7-AFA0-6F9089C93D08";
@@ -478,11 +478,11 @@ width = 581;
 anchors = (
 {
 name = bottom;
-pos = (272,0);
+pos = (257,0);
 },
 {
 name = top;
-pos = (422,710);
+pos = (407,710);
 }
 );
 layerId = "64EDB5BC-BBCA-55A5-AA62-AF3C5A0418A6";
@@ -533,11 +533,11 @@ width = 644;
 anchors = (
 {
 name = bottom;
-pos = (271,0);
+pos = (277,0);
 },
 {
 name = top;
-pos = (421,710);
+pos = (427,710);
 }
 );
 layerId = "2E48EBD2-E908-5937-BE3F-7776DF5AE147";

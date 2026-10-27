@@ -1,48 +1,92 @@
 ![Medeo: open fonts for Latin and Cyrillic](https://prtner.ai/font/media/og.jpg)
 
-# Medeo
+# Medeo.RC4
 
-Medeo is an open type family for Latin and Cyrillic by [DNF](https://dnf.dev), made first for
-[prtner.ai](https://prtner.ai). Specimen, tester and downloads: [prtner.ai/font](https://prtner.ai/font).
+Medeo is a free font family for Latin and Cyrillic by [DNF](https://dnf.dev), made for [prtner.ai](https://prtner.ai). RC4 is a release candidate. Try the fonts at [prtner.ai/font](https://prtner.ai/font).
 
-- **Medeo Sans** — a sans-serif for interfaces and running text. Axes: weight 100–900 and optical size 14–32
-  (browsers set the optical size from the font size). Upright and italic.
-- **Medeo Mono** — the monospaced companion, for code and for tables where figures line up. Weight 100–900,
-  upright and italic.
-- **Medeo Pixel** — a display face on a pixel grid. One axis, `ELSH`, sets the dot shape: Square, Circle, Grid,
-  Triangle, Line.
+- **Medeo Sans** for interfaces and text. Weight 100–900, upright and italic.
+- **Medeo Mono** for code and aligned columns. Weight 100–900, upright and italic.
+- **Medeo Pixel** for display text. Five pixel shapes: Square, Circle, Grid, Triangle, and Line.
 
-Languages: English, Russian, Kazakh (Cyrillic and the 2021 Latin), Ukrainian, Uzbek (Latin and Cyrillic), Kyrgyz,
-Tajik, Turkmen, Azerbaijani and Turkish.
+Each family covers the alphabets of 759 languages in the Google Fonts language dataset. This count describes alphabet coverage, not a linguistic review. See [LANGUAGES.md](LANGUAGES.md).
 
-## Use
+## Sans and Sans Display
 
-- **npm:** `npm install medeo-font`. Exports for `next/font` and plain CSS: see
-  [packages/medeo-font](packages/medeo-font/README.md).
-- **CDN:** `<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/medeo-font@VERSION/dist/medeo.css">`
-- **Desktop:** the ZIP of every [release](https://github.com/DNFDEVS/medeo-font/releases) holds the TTF files.
+Medeo Sans is spaced for text. Medeo Sans Display has tighter spacing for headings and large type. The variable Sans font includes both through its optical-size axis, `opsz` 14–32. Browsers select the optical size automatically unless you override it.
+
+The desktop archive also includes separate static Sans and Sans Display families. Choose Sans for body text and Display for headings.
+
+## Install
+
+For a website or Next.js project:
+
+```sh
+npm install medeo-font@1.0.0-rc.4
+```
+
+For CSS and Next.js examples, see [the npm package documentation](packages/medeo-font/README.md).
+
+For desktop use, download the ZIP from [GitHub releases](https://github.com/DNFDEVS/medeo-font/releases) and install the TTF files you need. The ZIP includes variable fonts and static Sans, Sans Display, Mono, and Pixel styles.
+
+## Figures
+
+Medeo Pixel uses proportional figures by default. For clocks, counters, and aligned columns, enable tabular figures. All ten digits then have the same width in every Pixel shape.
+
+```css
+.counter { font-variant-numeric: tabular-nums; }
+```
+
+## Outlines and print
+
+For outlined lettering and print export, choose the static Sans, Sans Display, or Mono files. Their overlapping letter parts are merged. If you convert a variable font to paths, unite the paths before adding an outline stroke. Pixel keeps its individual pixel elements.
+
+## Zero and O, and other stylistic sets
+
+In Medeo Sans the zero is an oval close to O; `ss09` gives a slashed zero to distinguish it from O. Medeo Mono
+and Medeo Pixel slash the zero by default, and their `ss09` gives the plain one.
+
+```css
+.code, .table { font-feature-settings: "ss09"; } /* Medeo Sans: 0 distinct from O */
+```
+
+| Set | Medeo Sans | Medeo Mono | Medeo Pixel |
+| --- | --- | --- | --- |
+| ss01 | a without a tail | a without a tail | a without a tail |
+| ss02 | alternate a | alternate a | alternate a |
+| ss03 | alternate l | alternate l | alternate l |
+| ss04 | alternate R | alternate R | alternate R |
+| ss05 | alternate I | — | alternate I |
+| ss06 | alternate G | alternate G | alternate G |
+| ss07 | alternate arrows | alternate arrows | — |
+| ss08 | rounded dots | rounded dots | — |
+| ss09 | slashed zero | plain zero | plain zero |
+| ss10 | alternate enclosing shapes | alternate enclosing shapes | — |
+| ss11 | contextual brand styles | coding ligatures | — |
+
+## Release notes
+
+See [CHANGELOG.md](CHANGELOG.md) for changes in each release and [FONTLOG.txt](FONTLOG.txt) for font development details.
 
 ## Build
 
+Use Python 3.12.
+
 ```sh
-make build   # fonts/ from sources/ with gftools builder, then the web fonts
-make test    # Font Bakery, googlefonts profile
-make check   # the committed fonts equal a fresh build
+make build   # build fonts from sources
+make test    # run the Font Bakery profile
+make check   # compare a fresh build with the committed fonts
 ```
 
-Python 3.12. Releases are built by CI from a tag (`vX.Y.Z`): the npm version `1.0.0` is font version 1.000,
-`1.0.1` is 1.001, and `1.0.0-rc.2` is 1.000-rc2.
+Release tags use the npm version, such as `v1.0.0-rc.4`. The matching font version is `1.000-rc4`.
 
-## Layout
+## Files
 
-- `sources/` — the Glyphs sources and gftools configs: the only source of the fonts.
-- `fonts/` — the built fonts: `variable/` TTF, `webfonts/` WOFF2 (Medeo Pixel: WOFF).
-- `packages/medeo-font/` — the npm package.
+- `sources/`: Glyphs sources and build configuration.
+- `fonts/`: static and variable TTFs, plus WOFF2 web fonts. Pixel uses WOFF.
+- `packages/medeo-font/`: CSS and Next.js exports for npm.
 
 ## License and credits
 
-Medeo is licensed under the [SIL Open Font License 1.1](OFL.txt). It is a Modified Version of
-[Geist](https://github.com/vercel/geist-font) by Vercel and Basement Studio (Copyright 2024 The Geist Project
-Authors), and Medeo Sans takes letters and spacing from [Inter](https://github.com/rsms/inter) by Rasmus Andersson
-(Copyright 2016 The Inter Project Authors), both under the same license. What comes from where is in
-[FONTLOG.txt](FONTLOG.txt); the authors are in [AUTHORS.txt](AUTHORS.txt).
+Medeo uses the [SIL Open Font License 1.1](OFL.txt). You can use it in personal and commercial projects.
+
+Medeo is a Modified Version of [Geist](https://github.com/vercel/geist-font) by Vercel and Basement Studio, Copyright 2024 and 2026 The Geist Project Authors. Medeo Sans also uses letters and spacing from [Inter](https://github.com/rsms/inter) by Rasmus Andersson, Copyright 2016 The Inter Project Authors. Both use the same license. Attribution and font changes are recorded in [FONTLOG.txt](FONTLOG.txt).

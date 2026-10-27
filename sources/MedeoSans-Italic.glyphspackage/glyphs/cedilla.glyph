@@ -63,12 +63,6 @@ ref = cedillacomb;
 width = 322;
 },
 {
-anchors = (
-{
-name = _bottom;
-pos = (97,0);
-}
-);
 guides = (
 {
 pos = (202,10);
@@ -85,12 +79,6 @@ ref = cedillacomb;
 width = 290;
 },
 {
-anchors = (
-{
-name = _bottom;
-pos = (114,0);
-}
-);
 layerId = "64EDB5BC-BBCA-55A5-AA62-AF3C5A0418A6";
 shapes = (
 {
@@ -102,12 +90,6 @@ ref = cedillacomb;
 width = 322;
 },
 {
-anchors = (
-{
-name = _bottom;
-pos = (113,0);
-}
-);
 layerId = "2E48EBD2-E908-5937-BE3F-7776DF5AE147";
 shapes = (
 {

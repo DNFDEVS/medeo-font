@@ -1,0 +1,81 @@
+{
+glyphname = verticallineabovecomb;
+layers = (
+{
+anchors = (
+{
+name = _top;
+pos = (357,530);
+},
+{
+name = top;
+pos = (399,726);
+}
+);
+layerId = "EE2FFE84-06F1-4AFB-BBEC-60D09A436D14";
+shapes = (
+{
+closed = 1;
+nodes = (
+(361,610,l),
+(387,610,l),
+(411,726,l),
+(386,726,l)
+);
+}
+);
+width = 600;
+},
+{
+anchors = (
+{
+name = _top;
+pos = (357,530);
+},
+{
+name = top;
+pos = (399,728);
+}
+);
+layerId = "574EE4B9-5C1A-4E7E-9985-C08FACB65BD8";
+shapes = (
+{
+closed = 1;
+nodes = (
+(345,600,l),
+(399,600,l),
+(426,728,l),
+(372,728,l)
+);
+}
+);
+width = 600;
+},
+{
+anchors = (
+{
+name = _top;
+pos = (357,540);
+},
+{
+name = top;
+pos = (402,750);
+}
+);
+layerId = "58B1DC7A-69F8-4375-AD2E-AC5103CCF536";
+shapes = (
+{
+closed = 1;
+nodes = (
+(330,590,l),
+(405,590,l),
+(439,750,l),
+(364,750,l)
+);
+}
+);
+width = 600;
+}
+);
+unicode = 781;
+}

@@ -44,16 +44,6 @@ ref = brevecomb;
 width = 582;
 },
 {
-anchors = (
-{
-name = bottom;
-pos = (272,-150);
-},
-{
-name = top;
-pos = (271,530);
-}
-);
 layerId = "7240B716-CE9A-59F7-AFA0-6F9089C93D08";
 shapes = (
 {
@@ -70,16 +60,6 @@ ref = brevecomb;
 width = 526;
 },
 {
-anchors = (
-{
-name = bottom;
-pos = (275,-150);
-},
-{
-name = top;
-pos = (277,530);
-}
-);
 layerId = "64EDB5BC-BBCA-55A5-AA62-AF3C5A0418A6";
 shapes = (
 {
@@ -96,16 +76,6 @@ ref = brevecomb;
 width = 557;
 },
 {
-anchors = (
-{
-name = bottom;
-pos = (305,-150);
-},
-{
-name = top;
-pos = (309,539);
-}
-);
 layerId = "2E48EBD2-E908-5937-BE3F-7776DF5AE147";
 shapes = (
 {

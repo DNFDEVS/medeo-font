@@ -1,0 +1,83 @@
+{
+glyphname = macrongravecomb.stack;
+layers = (
+{
+anchors = (
+{
+name = _top;
+pos = (357,530);
+},
+{
+name = top;
+pos = (387,670);
+}
+);
+layerId = "EE2FFE84-06F1-4AFB-BBEC-60D09A436D14";
+shapes = (
+{
+alignment = -1;
+pos = (-17,52);
+ref = macroncomb;
+},
+{
+alignment = -1;
+pos = (111,-16);
+ref = gravecomb;
+}
+);
+width = 600;
+},
+{
+anchors = (
+{
+name = _top;
+pos = (357,530);
+},
+{
+name = top;
+pos = (388,676);
+}
+);
+layerId = "574EE4B9-5C1A-4E7E-9985-C08FACB65BD8";
+shapes = (
+{
+alignment = -1;
+pos = (-11,51);
+ref = macroncomb;
+},
+{
+alignment = -1;
+pos = (96,-16);
+ref = gravecomb;
+}
+);
+width = 600;
+},
+{
+anchors = (
+{
+name = _top;
+pos = (357,540);
+},
+{
+name = top;
+pos = (389,689);
+}
+);
+layerId = "58B1DC7A-69F8-4375-AD2E-AC5103CCF536";
+shapes = (
+{
+alignment = -1;
+pos = (-4,36);
+ref = macroncomb;
+},
+{
+alignment = -1;
+pos = (72,-27);
+ref = gravecomb;
+}
+);
+width = 600;
+}
+);
+}

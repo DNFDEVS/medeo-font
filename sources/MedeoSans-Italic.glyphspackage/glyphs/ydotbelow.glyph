@@ -47,16 +47,6 @@ ref = dotbelowcomb;
 width = 616;
 },
 {
-anchors = (
-{
-name = bottom;
-pos = (280,-150);
-},
-{
-name = top;
-pos = (332,530);
-}
-);
 layerId = "7240B716-CE9A-59F7-AFA0-6F9089C93D08";
 shapes = (
 {
@@ -73,16 +63,6 @@ ref = dotbelowcomb;
 width = 514;
 },
 {
-anchors = (
-{
-name = bottom;
-pos = (305,-150);
-},
-{
-name = top;
-pos = (320,530);
-}
-);
 layerId = "64EDB5BC-BBCA-55A5-AA62-AF3C5A0418A6";
 shapes = (
 {
@@ -99,16 +79,6 @@ ref = dotbelowcomb;
 width = 511;
 },
 {
-anchors = (
-{
-name = bottom;
-pos = (423,-150);
-},
-{
-name = top;
-pos = (366,539);
-}
-);
 layerId = "2E48EBD2-E908-5937-BE3F-7776DF5AE147";
 shapes = (
 {

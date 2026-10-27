@@ -1,0 +1,66 @@
+{
+glyphname = "gedescender-cy";
+layers = (
+{
+layerId = "EE2FFE84-06F1-4AFB-BBEC-60D09A436D14";
+shapes = (
+{
+ref = "ge-cy";
+},
+{
+closed = 1;
+nodes = (
+(138,-120,l),
+(169,28,l),
+(93,28,l),
+(87,0,l),
+(133,0,l),
+(108,-120,l)
+);
+}
+);
+width = 600;
+},
+{
+layerId = "574EE4B9-5C1A-4E7E-9985-C08FACB65BD8";
+shapes = (
+{
+ref = "ge-cy";
+},
+{
+closed = 1;
+nodes = (
+(214,-110,l),
+(253,74,l),
+(124,74,l),
+(108,0,l),
+(153,0,l),
+(130,-110,l)
+);
+}
+);
+width = 600;
+},
+{
+layerId = "58B1DC7A-69F8-4375-AD2E-AC5103CCF536";
+shapes = (
+{
+ref = "ge-cy";
+},
+{
+closed = 1;
+nodes = (
+(267,-100,l),
+(318,140,l),
+(113,140,l),
+(83,0,l),
+(118,0,l),
+(97,-100,l)
+);
+}
+);
+width = 600;
+}
+);
+unicode = 1271;
+}

@@ -1,0 +1,66 @@
+{
+glyphname = "Gedescender-cy";
+layers = (
+{
+layerId = "EE2FFE84-06F1-4AFB-BBEC-60D09A436D14";
+shapes = (
+{
+ref = "Ge-cy";
+},
+{
+closed = 1;
+nodes = (
+(192,-150,l),
+(192,30,l),
+(114,30,l),
+(114,0,l),
+(160,0,l),
+(160,-150,l)
+);
+}
+);
+width = 600;
+},
+{
+layerId = "574EE4B9-5C1A-4E7E-9985-C08FACB65BD8";
+shapes = (
+{
+ref = "Ge-cy";
+},
+{
+closed = 1;
+nodes = (
+(256,-150,l),
+(256,84,l),
+(126,84,l),
+(126,0,l),
+(170,0,l),
+(170,-150,l)
+);
+}
+);
+width = 600;
+},
+{
+layerId = "58B1DC7A-69F8-4375-AD2E-AC5103CCF536";
+shapes = (
+{
+ref = "Ge-cy";
+},
+{
+closed = 1;
+nodes = (
+(330,-150,l),
+(330,158,l),
+(123,158,l),
+(123,0,l),
+(150,0,l),
+(150,-150,l)
+);
+}
+);
+width = 600;
+}
+);
+unicode = 1270;
+}

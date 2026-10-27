@@ -1,6 +1,6 @@
 {
 glyphname = abreve.ss01;
-kernLeft = a;
+kernLeft = a.ss01;
 kernRight = n;
 layers = (
 {
@@ -44,20 +44,6 @@ ref = brevecomb;
 width = 558;
 },
 {
-anchors = (
-{
-name = bottom;
-pos = (252,0);
-},
-{
-name = ogonek;
-pos = (449,0);
-},
-{
-name = top;
-pos = (252,530);
-}
-);
 layerId = "7240B716-CE9A-59F7-AFA0-6F9089C93D08";
 shapes = (
 {
@@ -74,20 +60,6 @@ ref = brevecomb;
 width = 491;
 },
 {
-anchors = (
-{
-name = bottom;
-pos = (263,0);
-},
-{
-name = ogonek;
-pos = (478,0);
-},
-{
-name = top;
-pos = (265,530);
-}
-);
 layerId = "64EDB5BC-BBCA-55A5-AA62-AF3C5A0418A6";
 shapes = (
 {
@@ -104,20 +76,6 @@ ref = brevecomb;
 width = 535;
 },
 {
-anchors = (
-{
-name = bottom;
-pos = (295,0);
-},
-{
-name = ogonek;
-pos = (556,0);
-},
-{
-name = top;
-pos = (295,539);
-}
-);
 layerId = "2E48EBD2-E908-5937-BE3F-7776DF5AE147";
 shapes = (
 {

@@ -3,7 +3,49 @@ sources:
 outputDir: ../fonts/MedeoPixel
 familyName: "Medeo Pixel"
 cleanUp: true
+# The source's sparse shape layers cannot be interpolated into instance UFOs, so the builder's own statics are
+# off: each named shape is cut from the variable font instead (gftools gen-static, about 400 KB a style). Overlaps
+# stay, as in the variable font: removing them decomposes the pixels of Line into a 2.3 MB font. No ttfautohint:
+# it doubles a style and the variable font is unhinted too. The hidden Regular at ELSH 0 is the master, no style.
 buildStatic: false
+# with a recipe of its own the builder drops the automatic one unless the provider is named
+recipeProvider: googlefonts
+recipe:
+  ../fonts/MedeoPixel/ttf/MedeoPixel-Square.ttf:
+  - source: ../fonts/MedeoPixel/variable/MedeoPixel[ELSH].ttf
+  - operation: genStatic
+    family: Medeo Pixel
+    style: Square
+    args: --coordinates ELSH=1 --keep-overlaps
+  - operation: fix
+  ../fonts/MedeoPixel/ttf/MedeoPixel-Circle.ttf:
+  - source: ../fonts/MedeoPixel/variable/MedeoPixel[ELSH].ttf
+  - operation: genStatic
+    family: Medeo Pixel
+    style: Circle
+    args: --coordinates ELSH=20 --keep-overlaps
+  - operation: fix
+  ../fonts/MedeoPixel/ttf/MedeoPixel-Grid.ttf:
+  - source: ../fonts/MedeoPixel/variable/MedeoPixel[ELSH].ttf
+  - operation: genStatic
+    family: Medeo Pixel
+    style: Grid
+    args: --coordinates ELSH=40 --keep-overlaps
+  - operation: fix
+  ../fonts/MedeoPixel/ttf/MedeoPixel-Triangle.ttf:
+  - source: ../fonts/MedeoPixel/variable/MedeoPixel[ELSH].ttf
+  - operation: genStatic
+    family: Medeo Pixel
+    style: Triangle
+    args: --coordinates ELSH=60 --keep-overlaps
+  - operation: fix
+  ../fonts/MedeoPixel/ttf/MedeoPixel-Line.ttf:
+  - source: ../fonts/MedeoPixel/variable/MedeoPixel[ELSH].ttf
+  - operation: genStatic
+    family: Medeo Pixel
+    style: Line
+    args: --coordinates ELSH=80 --keep-overlaps
+  - operation: fix
 stat:
   - name: Element Shape
     tag: ELSH

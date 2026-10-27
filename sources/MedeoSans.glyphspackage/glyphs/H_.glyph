@@ -1,8 +1,8 @@
 {
 color = 4;
 glyphname = H;
-kernLeft = b;
-kernRight = d;
+kernLeft = Hstem;
+kernRight = Hstem;
 layers = (
 {
 anchors = (
@@ -224,15 +224,15 @@ width = 713;
 anchors = (
 {
 name = bottom;
-pos = (338,0);
+pos = (317,0);
 },
 {
 name = center;
-pos = (338,560);
+pos = (317,560);
 },
 {
 name = top;
-pos = (338,710);
+pos = (317,710);
 }
 );
 layerId = "7240B716-CE9A-59F7-AFA0-6F9089C93D08";
@@ -265,15 +265,15 @@ width = 634;
 anchors = (
 {
 name = bottom;
-pos = (357,0);
+pos = (346,0);
 },
 {
 name = center;
-pos = (357,568);
+pos = (346,568);
 },
 {
 name = top;
-pos = (357,710);
+pos = (346,710);
 }
 );
 layerId = "64EDB5BC-BBCA-55A5-AA62-AF3C5A0418A6";

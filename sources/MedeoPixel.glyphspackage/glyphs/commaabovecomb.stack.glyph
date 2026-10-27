@@ -1,0 +1,25 @@
+{
+glyphname = commaabovecomb.stack;
+layers = (
+{
+anchors = (
+{
+name = _top;
+pos = (152,532);
+},
+{
+name = top;
+pos = (152,684);
+}
+);
+layerId = m01;
+shapes = (
+{
+pos = (0,-38);
+ref = commaabovecomb;
+}
+);
+width = 190;
+}
+);
+}
