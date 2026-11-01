@@ -1,0 +1,10 @@
+@font-face {
+  font-family: "Medeo Serif";
+  src: url("./fonts/medeo-serif/MedeoSerif-Regular.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+:root {
+  --font-medeo-serif: "Medeo Serif", ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
+}

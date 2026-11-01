@@ -1,7 +1,7 @@
 {
   "name": "medeo-font",
-  "version": "1.0.0-rc.4.1",
-  "description": "Open font family covering Latin and Cyrillic alphabets of 759 languages: Medeo Sans, Medeo Mono and Medeo Pixel, with next/font exports and plain CSS.",
+  "version": "1.0.0",
+  "description": "Open font family covering Latin and Cyrillic alphabets of 759 languages: Medeo Sans, Medeo Serif, Medeo Mono and Medeo Pixel, with next/font exports and plain CSS.",
   "main": "./dist/font.js",
   "type": "module",
   "module": "./dist/font.js",
@@ -15,12 +15,13 @@
   "bugs": {
     "url": "https://github.com/DNFDEVS/medeo-font/issues"
   },
-  "author": "DNF (https://dnf.dev)",
+  "author": "DNF Studio (https://dnf.dev)",
   "keywords": [
     "medeo",
     "medeo sans",
     "medeo mono",
     "medeo pixel",
+    "medeo serif",
     "font",
     "variable font",
     "cyrillic",
@@ -45,6 +46,10 @@
       "types": "./dist/pixel.d.ts",
       "default": "./dist/pixel.js"
     },
+    "./serif": {
+      "types": "./dist/serif.d.ts",
+      "default": "./dist/serif.js"
+    },
     "./font": {
       "types": "./dist/font.d.ts",
       "default": "./dist/font.js"
@@ -61,10 +66,20 @@
       "types": "./dist/pixel.d.ts",
       "default": "./dist/pixel.js"
     },
+    "./font/serif": {
+      "types": "./dist/serif.d.ts",
+      "default": "./dist/serif.js"
+    },
     "./medeo.css": "./dist/medeo.css",
     "./sans.css": "./dist/sans.css",
     "./mono.css": "./dist/mono.css",
     "./pixel.css": "./dist/pixel.css",
+    "./serif.css": "./dist/serif.css",
+    "./medeo-full.css": "./dist/medeo-full.css",
+    "./sans-full.css": "./dist/sans-full.css",
+    "./mono-full.css": "./dist/mono-full.css",
+    "./pixel-full.css": "./dist/pixel-full.css",
+    "./serif-full.css": "./dist/serif-full.css",
     "./fonts/*": "./dist/fonts/*",
     "./languages.json": "./dist/languages.json",
     "./package.json": "./package.json"

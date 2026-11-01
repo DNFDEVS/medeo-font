@@ -1,12 +1,14 @@
 ![Medeo: open fonts for Latin and Cyrillic](https://prtner.ai/font/media/og.jpg)
 
-# Medeo.RC4
+# Medeo
 
-Medeo is a free font family for Latin and Cyrillic by [DNF](https://dnf.dev), made for [prtner.ai](https://prtner.ai). RC4 is a release candidate. Try the fonts at [prtner.ai/font](https://prtner.ai/font).
+Medeo is a free font family for Latin and Cyrillic by [DNF Studio](https://dnf.dev), made for [prtner.ai](https://prtner.ai). Version 1.0 is the first stable release. Try the fonts at [prtner.ai/font](https://prtner.ai/font).
 
 Medeo Sans is a sans-serif for interfaces and running text. It has two axes, weight (100–900) and optical size (`opsz`, 14–32); browsers set the optical size from the font size automatically.
 
 Medeo Mono is the monospaced companion to Medeo Sans, for code and for tables where figures must line up.
+
+Medeo Serif is a serif for text and headings, in one style: Regular.
 
 Medeo Pixel is a display face built on a pixel grid.
 
@@ -15,16 +17,17 @@ Each family covers the alphabets of 759 languages in the Google Fonts language d
 ## Installation
 
 ```sh
-npm install medeo-font@1.0.0-rc.4.1
+npm install medeo-font@1.0.0
 ```
 
 ## Using with Next.js
 
-`MedeoSans` is exported from `medeo-font/sans`, `MedeoMono` from `medeo-font/mono` and `MedeoPixel` from `medeo-font/pixel`. All are `NextFontWithVariable` instances. Importing from `medeo-font` itself loads all three; use the paths above to load only the fonts you use. Requires Next.js 13.2 or newer. You can learn more by [reading the `next/font` docs](https://nextjs.org/docs/app/building-your-application/optimizing/fonts).
+`MedeoSans` is exported from `medeo-font/sans`, `MedeoSerif` from `medeo-font/serif`, `MedeoMono` from `medeo-font/mono` and `MedeoPixel` from `medeo-font/pixel`. All are `NextFontWithVariable` instances. Importing from `medeo-font` itself loads all four; use the paths above to load only the fonts you use. Requires Next.js 13.2 or newer. You can learn more by [reading the `next/font` docs](https://nextjs.org/docs/app/building-your-application/optimizing/fonts).
 
 | Export       | CSS variable          | Files                                              |
 | ------------ | --------------------- | -------------------------------------------------- |
 | `MedeoSans`  | `--font-medeo-sans`   | variable, weight 100–900, upright and italic       |
+| `MedeoSerif` | `--font-medeo-serif`  | one static file, upright, weight 400               |
 | `MedeoMono`  | `--font-medeo-mono`   | variable, weight 100–900, upright and italic       |
 | `MedeoPixel` | `--font-medeo-pixel`  | one variable file, upright, weight 400; dot shape on the `ELSH` axis |
 
@@ -94,6 +97,7 @@ In `app/layout.js`:
 
 ```jsx
 import { MedeoSans } from "medeo-font/sans";
+import { MedeoSerif } from "medeo-font/serif";
 import { MedeoMono } from "medeo-font/mono";
 import { MedeoPixel } from "medeo-font/pixel";
 
@@ -101,7 +105,7 @@ export default function RootLayout({ children }) {
   return (
     <html
       lang="en"
-      className={`${MedeoSans.variable} ${MedeoMono.variable} ${MedeoPixel.variable}`}
+      className={`${MedeoSans.variable} ${MedeoSerif.variable} ${MedeoMono.variable} ${MedeoPixel.variable}`}
     >
       <body>{children}</body>
     </html>
@@ -109,7 +113,7 @@ export default function RootLayout({ children }) {
 }
 ```
 
-Map the variables to Tailwind's font families as below, then use the `font-sans`, `font-mono` and `font-pixel` classes.
+Map the variables to Tailwind's font families as below, then use the `font-sans`, `font-serif`, `font-mono` and `font-pixel` classes.
 
 #### Tailwind CSS V4
 
@@ -118,6 +122,7 @@ In `tailwind.css`:
 ```css
 @theme {
   --font-sans: var(--font-medeo-sans);
+  --font-serif: var(--font-medeo-serif);
   --font-mono: var(--font-medeo-mono);
   --font-pixel: var(--font-medeo-pixel);
 }
@@ -133,6 +138,7 @@ module.exports = {
     extend: {
       fontFamily: {
         sans: ["var(--font-medeo-sans)"],
+        serif: ["var(--font-medeo-serif)"],
         mono: ["var(--font-medeo-mono)"],
         pixel: ["var(--font-medeo-pixel)"],
       },
@@ -146,12 +152,15 @@ module.exports = {
 The package ships plain CSS with `@font-face` rules and the same CSS variables. With Vite, Astro, Remix, SvelteKit or any bundler that resolves CSS from `node_modules`:
 
 ```js
-import "medeo-font/medeo.css"; // all three; or medeo-font/sans.css, mono.css, pixel.css
+import "medeo-font/medeo.css"; // all four; or medeo-font/sans.css, serif.css, mono.css, pixel.css
 ```
 
 ```css
 body {
   font-family: var(--font-medeo-sans);
+}
+h1 {
+  font-family: var(--font-medeo-serif);
 }
 code {
   font-family: var(--font-medeo-mono);
@@ -168,14 +177,32 @@ code {
 Without a bundler, from a CDN that mirrors npm:
 
 ```html
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/medeo-font@1.0.0-rc.4.1/dist/medeo.css" />
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/medeo-font@1.0.0/dist/medeo.css" />
 ```
 
-The font files are under `medeo-font/fonts/*`. Medeo Pixel ships as WOFF, the others as WOFF2. Desktop TTF files are in the archive on [prtner.ai/font](https://prtner.ai/font) and in every [GitHub release](https://github.com/DNFDEVS/medeo-font/releases).
+### Files split by script
+
+`medeo.css`, `sans.css`, `serif.css`, `mono.css` and `pixel.css` load each style as several files, one per script, as Google Fonts and Fontsource do: `latin`, `latin-ext`, `vietnamese`, `cyrillic`, `cyrillic-ext` and `symbols` (the remaining signs: arrows, math, Greek letters used as symbols, box drawing). Unlike Google's `cyrillic`, Medeo's also holds the Kazakh letters Ә Ғ Қ Ң Ө Ү Һ, so Russian and Kazakh text need the same two files. Every `@font-face` has a `unicode-range`, so the browser downloads only the files for the characters on the page. A page in English with Sans, Sans Italic, Mono and Pixel downloads about 220 KB instead of 670 KB; a page in Russian or Kazakh, which also needs the Latin files for spaces, digits and punctuation, about 375 KB.
+
+Each file keeps both axes, all OpenType features and every combining mark the font has. Kerning and contextual features do not act between two characters that come from different files, for example between a Cyrillic letter and the comma after it, which is in the Latin file, or inside a Polish or Vietnamese word whose accented letters are in `latin-ext` or `vietnamese`.
+
+To load one file per style, with kerning between all characters, import the `-full` style sheets instead. They define the same families and variables:
+
+```js
+import "medeo-font/medeo-full.css"; // or sans-full.css, serif-full.css, mono-full.css, pixel-full.css
+```
+
+```html
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/medeo-font@1.0.0/dist/medeo-full.css" />
+```
+
+The `next/font` exports (`medeo-font/sans` and the others) load the full files.
+
+The font files are under `medeo-font/fonts/*`: the full files (`MedeoSansVariable.woff2`, ...) and the split ones (`MedeoSansVariable.cyrillic.woff2`, ...). The split files are WOFF2; the full Medeo Pixel file is WOFF, the other full files WOFF2. Desktop TTF files are in the archive on [prtner.ai/font](https://prtner.ai/font) and in every [GitHub release](https://github.com/DNFDEVS/medeo-font/releases).
 
 ## Tabular figures
 
-Medeo Pixel uses proportional figures by default. For clocks, counters and aligned columns, enable tabular figures (`tnum`): all ten digits then have the same advance width in every Pixel shape, including the plain-zero alternate.
+Medeo Sans, Medeo Serif and Medeo Pixel use proportional figures by default for text. For prices, clocks, counters and aligned columns, enable tabular figures (`tnum`). Medeo Mono is monospaced by default. In Pixel, tabular figures work in every shape, including the plain-zero alternate.
 
 ```css
 .counter { font-variant-numeric: tabular-nums; }
@@ -193,4 +220,6 @@ Start with the default letter spacing. The optical-size axis already adjusts the
 
 ## License
 
-Medeo is licensed under the [SIL Open Font License 1.1](LICENSE.txt). It is based on [Geist](https://vercel.com/font) by Vercel and Basement Studio (Copyright 2024 and 2026 The Geist Project Authors) and [Inter](https://rsms.me/inter) by Rasmus Andersson (Copyright 2016 The Inter Project Authors), both under the same license.
+Medeo is licensed under the [SIL Open Font License 1.1](https://github.com/DNFDEVS/medeo-font/blob/main/OFL.txt). It is based on [Geist](https://vercel.com/font) by Vercel and Basement Studio (Copyright 2024–2026 The Geist Project Authors) and [Inter](https://rsms.me/inter) by Rasmus Andersson (Copyright 2016 The Inter Project Authors). Medeo Serif is based on Geist Serif by WORDMARK, Mark Davis and Andrés Briganti (The Geist Project Authors); its Cyrillic follows PT Serif by ParaType Ltd. (Copyright 2010 ParaType Ltd., Reserved Font Names "PT Sans", "PT Serif" and "ParaType"), and Ʊ ʊ Ʋ ʋ are modelled on Noto Serif Display (Copyright 2012 Google Inc.). All use the same license.
+
+Made by DNF Studio · [dnf.dev](https://dnf.dev) for [prtner.ai](https://prtner.ai).
