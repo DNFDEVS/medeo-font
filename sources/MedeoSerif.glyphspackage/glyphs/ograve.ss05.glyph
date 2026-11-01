@@ -1,0 +1,42 @@
+{
+glyphname = ograve.ss05;
+kernLeft = c;
+kernRight = b;
+layers = (
+{
+anchors = (
+{
+name = bottom;
+pos = (302,0);
+},
+{
+name = center;
+pos = (302,265);
+},
+{
+name = ogonek;
+pos = (537,10);
+},
+{
+name = top;
+pos = (302,728);
+},
+{
+name = topright;
+pos = (379,530);
+}
+);
+layerId = "3ADEBB49-5DC1-434E-A813-0590DED22BD7";
+shapes = (
+{
+ref = o.ss05;
+},
+{
+pos = (108,1);
+ref = gravecomb;
+}
+);
+width = 604;
+}
+);
+}

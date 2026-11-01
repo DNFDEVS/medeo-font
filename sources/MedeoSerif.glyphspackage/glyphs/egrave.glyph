@@ -1,0 +1,35 @@
+{
+glyphname = egrave;
+kernLeft = c;
+kernRight = b;
+layers = (
+{
+anchors = (
+{
+name = bottom;
+pos = (275,0);
+},
+{
+name = ogonek;
+pos = (493,10);
+},
+{
+name = top;
+pos = (275,728);
+}
+);
+layerId = "3ADEBB49-5DC1-434E-A813-0590DED22BD7";
+shapes = (
+{
+ref = e;
+},
+{
+pos = (81,1);
+ref = gravecomb;
+}
+);
+width = 557;
+}
+);
+unicode = 232;
+}

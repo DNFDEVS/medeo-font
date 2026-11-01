@@ -32,12 +32,14 @@ FAMILIES = {
     "Medeo Mono": ["fonts/MedeoMono/variable/MedeoMono[wght].ttf",
                    "fonts/MedeoMono/variable/MedeoMono-Italic[wght].ttf"],
     "Medeo Pixel": ["fonts/MedeoPixel/variable/MedeoPixel[ELSH].ttf"],
+    "Medeo Serif": ["fonts/MedeoSerif/ttf/MedeoSerif-Regular.ttf"],
 }
 SCRIPTS = {"Latn": "Latin", "Cyrl": "Cyrillic"}
 LOCATIONS = {  # the ends of the axes where marks sit highest, widest and tightest
     "Medeo Sans": [{"wght": w, "opsz": o} for w in (100, 400, 900) for o in (14, 32)],
     "Medeo Mono": [{"wght": w} for w in (100, 400, 900)],
     "Medeo Pixel": [{"ELSH": shape} for shape in (0, 1, 20, 40, 60, 80)],
+    "Medeo Serif": [{}],  # one static style
 }
 SLACK = 0.01  # em: how far a mark may reach into the ink it sits on before it counts as a collision
 
@@ -165,7 +167,8 @@ def markdown(rows):
             "Letter-and-mark clusters are also checked when shaped. This is a coverage check against that dataset, "
             "not a linguistic review. A dash in the Autonym column means the name is unavailable in the dataset.", ""]
     for script in ("Cyrillic", "Latin"):
-        out += [f"## {script}", "", "| Language | Autonym | Sans | Mono | Pixel |", "| --- | --- | :-: | :-: | :-: |"]
+        out += [f"## {script}", "", "| Language | Autonym | " + " | ".join(f.split()[-1] for f in FAMILIES) + " |",
+                "| --- | --- |" + " :-: |" * len(FAMILIES)]
         for r in sorted((r for r in rows if r["script"] == script), key=lambda r: r["name"]):
             marks = " | ".join("✓" if f in r["families"] else "—" for f in FAMILIES)
             out.append(f"| {r['name']} | {r['autonym'] or '—'} | {marks} |")

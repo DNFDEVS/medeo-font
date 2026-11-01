@@ -1,0 +1,20 @@
+{
+glyphname = apple;
+layers = (
+{
+layerId = "3ADEBB49-5DC1-434E-A813-0590DED22BD7";
+shapes = (
+{
+closed = 1;
+nodes = (
+(86,124,l),
+(513,124,l),
+(299,495,l)
+);
+}
+);
+width = 600;
+}
+);
+unicode = 63743;
+}

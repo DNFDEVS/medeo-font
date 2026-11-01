@@ -9,7 +9,7 @@
 sources:
   - MedeoMono.glyphspackage
   - MedeoMono-Italic.glyphspackage
-outputDir: ../fonts/MedeoMono
+outputDir: ../out/build/fonts/MedeoMono
 familyName: "Medeo Mono"
 cleanUp: true
 
@@ -31,7 +31,9 @@ cleanUp: true
 # TTF only, hinted by ttfautohint: it opens wherever an OTF does, and OTF hinting needs otfautohint, which the pinned
 # tools do not include. No static web fonts: the web uses the variable WOFF2 (scripts/webfonts.py).
 buildStatic: true
-# Merge component joins before hinting so static outlines support strokes and print export.
+# The builder's statics give each style its names and flags; scripts/static_instances.py then replaces each with the
+# same weight cut from the variable font, overlaps removed and other components kept, and hints it with ttfautohint.
+# The builder's own outlines are not used; they stay decomposed as the builder has always made them.
 extraStaticFontmakeArgs: "--filter DecomposeComponentsFilter"
 buildWebfont: false
 # buildTTF: true

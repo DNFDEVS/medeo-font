@@ -1,0 +1,46 @@
+{
+glyphname = ocircumflexhookabove.ss05;
+kernLeft = c;
+kernRight = b;
+layers = (
+{
+anchors = (
+{
+name = bottom;
+pos = (302,0);
+},
+{
+name = center;
+pos = (302,265);
+},
+{
+name = ogonek;
+pos = (537,10);
+},
+{
+name = top;
+pos = (460,821);
+},
+{
+name = topright;
+pos = (460,639);
+}
+);
+layerId = "3ADEBB49-5DC1-434E-A813-0590DED22BD7";
+shapes = (
+{
+ref = o.ss05;
+},
+{
+pos = (119,0);
+ref = circumflexcomb;
+},
+{
+pos = (349,109);
+ref = hookabovecombviet;
+}
+);
+width = 604;
+}
+);
+}

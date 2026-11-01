@@ -1,0 +1,41 @@
+{
+glyphname = gravemacroncomb;
+layers = (
+{
+anchors = (
+{
+name = _top;
+pos = (220,530);
+},
+{
+name = top;
+pos = (220,855);
+}
+);
+layerId = "3ADEBB49-5DC1-434E-A813-0590DED22BD7";
+shapes = (
+{
+closed = 1;
+nodes = (
+(198,681,l),
+(122,843,l),
+(25,843,l),
+(25,839,l),
+(168,681,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(382,647,l),
+(382,675,l),
+(194,675,l),
+(194,647,l)
+);
+}
+);
+width = 0;
+}
+);
+unicode = 7621;
+}

@@ -1,0 +1,27 @@
+{
+glyphname = commaturnedmod;
+kernLeft = quoteleft;
+kernRight = quoteleft;
+layers = (
+{
+anchors = (
+{
+name = bottom;
+pos = (91,0);
+},
+{
+name = top;
+pos = (86,756);
+}
+);
+layerId = "3ADEBB49-5DC1-434E-A813-0590DED22BD7";
+shapes = (
+{
+ref = quoteleft;
+}
+);
+width = 185;
+}
+);
+unicode = 699;
+}

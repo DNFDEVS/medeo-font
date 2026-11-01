@@ -1,0 +1,39 @@
+{
+glyphname = Hcircumflex;
+kernLeft = B;
+kernRight = H;
+layers = (
+{
+anchors = (
+{
+name = bottom;
+pos = (375,0);
+},
+{
+name = center;
+pos = (375,568);
+},
+{
+name = top;
+pos = (375,925);
+},
+{
+name = topright;
+pos = (533,819);
+}
+);
+layerId = "3ADEBB49-5DC1-434E-A813-0590DED22BD7";
+shapes = (
+{
+ref = H;
+},
+{
+pos = (192,180);
+ref = circumflexcomb;
+}
+);
+width = 750;
+}
+);
+unicode = 292;
+}

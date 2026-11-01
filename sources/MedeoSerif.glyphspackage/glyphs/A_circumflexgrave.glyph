@@ -1,0 +1,43 @@
+{
+glyphname = Acircumflexgrave;
+kernLeft = A;
+kernRight = A;
+layers = (
+{
+anchors = (
+{
+name = bottom;
+pos = (313,0);
+},
+{
+name = ogonek;
+pos = (653,10);
+},
+{
+name = top;
+pos = (486,1016);
+},
+{
+name = topright;
+pos = (486,819);
+}
+);
+layerId = "3ADEBB49-5DC1-434E-A813-0590DED22BD7";
+shapes = (
+{
+ref = A;
+},
+{
+pos = (145,180);
+ref = circumflexcomb;
+},
+{
+pos = (299,289);
+ref = gravecomb.topright;
+}
+);
+width = 689;
+}
+);
+unicode = 7846;
+}

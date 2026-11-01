@@ -1,0 +1,15 @@
+sources:
+  - MedeoSerif.glyphspackage
+outputDir: ../out/build/fonts/MedeoSerif
+familyName: "Medeo Serif"
+cleanUp: true
+# One static style, Regular, from one master: no variable font and no interpolation. The outlines are TrueType curves
+# already, kept as drawn (keep-quad: no cubic conversion, which would move the start points of contours that begin
+# with an off-curve point) and as drawn with overlaps. The build reverses the PostScript direction of the Glyphs
+# paths into TrueType direction. Hinting, component flags and OS/2.xAvgCharWidth come from MedeoSerif-truetype.json
+# after this step (scripts/truetype_data.py); no ttfautohint, no gftools fix.
+recipe:
+  ../out/build/fonts/MedeoSerif/ttf/MedeoSerif-Regular.ttf:
+  - source: MedeoSerif.glyphspackage
+  - operation: buildTTF
+    args: --keep-overlaps --ttf-curves keep-quad

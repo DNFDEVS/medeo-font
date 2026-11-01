@@ -1,0 +1,17 @@
+{
+glyphname = periodcentered.loclCAT.case.ss03;
+kernLeft = periodcentered.loclCAT.case.ss03;
+kernRight = periodcentered.loclCAT.case.ss03;
+layers = (
+{
+layerId = "3ADEBB49-5DC1-434E-A813-0590DED22BD7";
+shapes = (
+{
+pos = (0,306);
+ref = period.ss03;
+}
+);
+width = 210;
+}
+);
+}

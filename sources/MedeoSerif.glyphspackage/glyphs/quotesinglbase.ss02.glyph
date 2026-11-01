@@ -1,0 +1,25 @@
+{
+glyphname = quotesinglbase.ss02;
+kernLeft = quotesinglbase.ss02;
+kernRight = quotesinglbase.ss02;
+layers = (
+{
+layerId = "3ADEBB49-5DC1-434E-A813-0590DED22BD7";
+shapes = (
+{
+closed = 1;
+nodes = (
+(59,-135,l),
+(95,-135,l),
+(149,13,l),
+(149,102,l),
+(48,102,l),
+(48,0,l),
+(103,0,l)
+);
+}
+);
+width = 188;
+}
+);
+}

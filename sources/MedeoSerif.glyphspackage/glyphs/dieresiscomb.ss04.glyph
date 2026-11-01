@@ -1,0 +1,33 @@
+{
+glyphname = dieresiscomb.ss04;
+layers = (
+{
+anchors = (
+{
+name = _top;
+pos = (189,530);
+},
+{
+name = _top.core;
+pos = (189,530);
+},
+{
+name = top;
+pos = (189,726);
+}
+);
+layerId = "3ADEBB49-5DC1-434E-A813-0590DED22BD7";
+shapes = (
+{
+pos = (3,0);
+ref = dotaccentcomb.ss04;
+},
+{
+pos = (183,0);
+ref = dotaccentcomb.ss04;
+}
+);
+width = 0;
+}
+);
+}

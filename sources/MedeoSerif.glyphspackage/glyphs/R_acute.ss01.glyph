@@ -1,0 +1,30 @@
+{
+glyphname = Racute.ss01;
+kernLeft = B;
+kernRight = R;
+layers = (
+{
+anchors = (
+{
+name = bottom;
+pos = (334,0);
+},
+{
+name = top;
+pos = (334,908);
+}
+);
+layerId = "3ADEBB49-5DC1-434E-A813-0590DED22BD7";
+shapes = (
+{
+ref = R.ss01;
+},
+{
+pos = (290,181);
+ref = acutecomb;
+}
+);
+width = 649;
+}
+);
+}

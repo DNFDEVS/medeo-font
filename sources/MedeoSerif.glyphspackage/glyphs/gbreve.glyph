@@ -1,0 +1,35 @@
+{
+glyphname = gbreve;
+kernLeft = g;
+kernRight = g;
+layers = (
+{
+anchors = (
+{
+name = bottom;
+pos = (250,-200);
+},
+{
+name = top;
+pos = (250,731);
+},
+{
+name = topright;
+pos = (391,647);
+}
+);
+layerId = "3ADEBB49-5DC1-434E-A813-0590DED22BD7";
+shapes = (
+{
+ref = g;
+},
+{
+pos = (66,0);
+ref = brevecomb;
+}
+);
+width = 491;
+}
+);
+unicode = 287;
+}

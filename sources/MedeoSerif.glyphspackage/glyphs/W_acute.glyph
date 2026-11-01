@@ -1,0 +1,31 @@
+{
+glyphname = Wacute;
+kernLeft = W;
+kernRight = W;
+layers = (
+{
+anchors = (
+{
+name = bottom;
+pos = (528,0);
+},
+{
+name = top;
+pos = (528,908);
+}
+);
+layerId = "3ADEBB49-5DC1-434E-A813-0590DED22BD7";
+shapes = (
+{
+ref = W;
+},
+{
+pos = (484,181);
+ref = acutecomb;
+}
+);
+width = 1053;
+}
+);
+unicode = 7810;
+}

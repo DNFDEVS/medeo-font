@@ -3,6 +3,7 @@ glyphslib==6.12.6
 fonttools[lxml,ufo,unicode,woff]==4.60.1
 ninja==1.13.0
 skia-pathops==0.9.1
+numpy==2.3.4
 ufo2ft==3.6.9
 axisregistry>=0.4.9
 absl-py
@@ -21,7 +22,7 @@ strictyaml
 statmake
 PyYAML
 babelfont
-ttfautohint-py
+ttfautohint-py==0.6.1
 brotli
 jinja2
 fontFeatures

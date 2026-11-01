@@ -1,0 +1,39 @@
+{
+glyphname = Uring;
+kernLeft = U;
+kernRight = U;
+layers = (
+{
+anchors = (
+{
+name = bottom;
+pos = (423,0);
+},
+{
+name = ogonek;
+pos = (498,0);
+},
+{
+name = top;
+pos = (423,905);
+},
+{
+name = topright;
+pos = (692,710);
+}
+);
+layerId = "3ADEBB49-5DC1-434E-A813-0590DED22BD7";
+shapes = (
+{
+ref = U;
+},
+{
+pos = (262,180);
+ref = ringcomb;
+}
+);
+width = 778;
+}
+);
+unicode = 366;
+}

@@ -1,0 +1,41 @@
+{
+glyphname = macrongravecomb;
+layers = (
+{
+anchors = (
+{
+name = _top;
+pos = (138,530);
+},
+{
+name = top;
+pos = (138,855);
+}
+);
+layerId = "3ADEBB49-5DC1-434E-A813-0590DED22BD7";
+shapes = (
+{
+closed = 1;
+nodes = (
+(380,681,l),
+(304,843,l),
+(207,843,l),
+(207,839,l),
+(350,681,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(232,647,l),
+(232,675,l),
+(44,675,l),
+(44,647,l)
+);
+}
+);
+width = 0;
+}
+);
+unicode = 7622;
+}

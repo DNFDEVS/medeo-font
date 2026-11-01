@@ -1,0 +1,24 @@
+{
+glyphname = saltillo;
+kernLeft = saltillo;
+layers = (
+{
+layerId = "3ADEBB49-5DC1-434E-A813-0590DED22BD7";
+shapes = (
+{
+closed = 1;
+nodes = (
+(104,390,l),
+(139,390,l),
+(162,630,l),
+(162,710,l),
+(80,710,l),
+(80,630,l)
+);
+}
+);
+width = 242;
+}
+);
+unicode = 42892;
+}

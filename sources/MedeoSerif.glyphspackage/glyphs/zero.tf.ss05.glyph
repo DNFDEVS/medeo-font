@@ -1,0 +1,14 @@
+{
+glyphname = zero.tf.ss05;
+layers = (
+{
+layerId = "3ADEBB49-5DC1-434E-A813-0590DED22BD7";
+shapes = (
+{
+ref = zero.ss05;
+}
+);
+width = 589;
+}
+);
+}

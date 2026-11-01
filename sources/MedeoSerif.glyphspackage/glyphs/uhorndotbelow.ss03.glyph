@@ -1,0 +1,38 @@
+{
+glyphname = uhorndotbelow.ss03;
+kernLeft = u;
+kernRight = uhorn;
+layers = (
+{
+anchors = (
+{
+name = bottom;
+pos = (285,-150);
+},
+{
+name = ogonek;
+pos = (571,33);
+},
+{
+name = top;
+pos = (285,530);
+},
+{
+name = topright;
+pos = (422,523);
+}
+);
+layerId = "3ADEBB49-5DC1-434E-A813-0590DED22BD7";
+shapes = (
+{
+ref = uhorn;
+},
+{
+pos = (197,0);
+ref = dotbelowcomb.ss03;
+}
+);
+width = 589;
+}
+);
+}

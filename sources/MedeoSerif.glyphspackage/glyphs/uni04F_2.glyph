@@ -1,0 +1,31 @@
+{
+glyphname = uni04F2;
+kernLeft = Y;
+kernRight = Y;
+layers = (
+{
+anchors = (
+{
+name = bottom;
+pos = (180,0);
+},
+{
+name = top;
+pos = (389,756);
+}
+);
+layerId = "3ADEBB49-5DC1-434E-A813-0590DED22BD7";
+shapes = (
+{
+ref = uni0423;
+},
+{
+pos = (170,180);
+ref = hungarumlautcomb;
+}
+);
+width = 635;
+}
+);
+unicode = 1266;
+}

@@ -1,0 +1,38 @@
+{
+glyphname = idotbelow.ss03;
+kernLeft = itilde;
+kernRight = i;
+layers = (
+{
+anchors = (
+{
+name = bottom;
+pos = (144,-150);
+},
+{
+name = ogonek;
+pos = (267,0);
+},
+{
+name = top;
+pos = (147,710);
+}
+);
+layerId = "3ADEBB49-5DC1-434E-A813-0590DED22BD7";
+shapes = (
+{
+ref = idotless;
+},
+{
+pos = (51,0);
+ref = dotaccentcomb.ss03;
+},
+{
+pos = (56,0);
+ref = dotbelowcomb.ss03;
+}
+);
+width = 288;
+}
+);
+}

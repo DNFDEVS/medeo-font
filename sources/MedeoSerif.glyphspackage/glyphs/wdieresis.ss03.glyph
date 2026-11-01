@@ -1,0 +1,34 @@
+{
+glyphname = wdieresis.ss03;
+kernLeft = w;
+kernRight = w;
+layers = (
+{
+anchors = (
+{
+name = bottom;
+pos = (368,0);
+},
+{
+name = top;
+pos = (400,726);
+}
+);
+layerId = "3ADEBB49-5DC1-434E-A813-0590DED22BD7";
+shapes = (
+{
+ref = w;
+},
+{
+pos = (214,0);
+ref = dotaccentcomb.ss03;
+},
+{
+pos = (394,0);
+ref = dotaccentcomb.ss03;
+}
+);
+width = 764;
+}
+);
+}

@@ -22,7 +22,7 @@ name = Numeral;
 customParameters = (
 {
 name = versionString;
-value = "Version 1.000-rc4";
+value = "Version 1.000";
 },
 {
 name = "Use Typo Metrics";
@@ -105,11 +105,11 @@ value = (
 name = "meta Table";
 value = (
 {
-data = Latn;
+data = "Latn, Cyrl";
 tag = dlng;
 },
 {
-data = Cyr;
+data = "Latn, Cyrl";
 tag = slng;
 }
 );
@@ -284,6 +284,8 @@ feature ss07;
 feature ss08;
 feature ss09;
 feature ss10;
+feature ss17;
+feature ss18;
 
 sub bracketleft from [bracketleft.alt bracketleft.alt.white];
 sub bracketright from [bracketright.alt bracketright.alt.white];
@@ -529,6 +531,9 @@ sub amacron by amacron.ss01;
 sub aogonek by aogonek.ss01;
 sub aring by aring.ss01;
 sub atilde by atilde.ss01;
+sub a-cy by a-cy.ss01;
+sub abreve-cy by abreve-cy.ss01;
+sub adieresis-cy by adieresis-cy.ss01;
 ";
 labels = (
 {
@@ -560,6 +565,9 @@ sub amacron by amacron.ss02;
 sub aogonek by aogonek.ss02;
 sub aring by aring.ss02;
 sub atilde by atilde.ss02;
+sub a-cy by a-cy.ss02;
+sub abreve-cy by abreve-cy.ss02;
+sub adieresis-cy by adieresis-cy.ss02;
 ";
 labels = (
 {
@@ -1695,6 +1703,8 @@ sub Yi-cy by Yi-cy.ss08;
 sub Schwadieresis-cy by Schwadieresis-cy.ss08;
 sub Obarreddieresis-cy by Obarreddieresis-cy.ss08;
 sub adieresis-cy by adieresis-cy.ss08;
+sub adieresis-cy.ss01 by adieresis-cy.ss01.ss08;
+sub adieresis-cy.ss02 by adieresis-cy.ss02.ss08;
 sub io-cy by io-cy.ss08;
 sub zhedieresis-cy by zhedieresis-cy.ss08;
 sub zedieresis-cy by zedieresis-cy.ss08;
@@ -1731,6 +1741,32 @@ value = "Rounded dot";
 }
 );
 tag = ss08;
+},
+{
+code = "sub ge-cy by ge-cy.ss17;
+sub gje-cy by gje-cy.ss17;
+sub geupturn-cy by geupturn-cy.ss17;
+sub gedescender-cy by gedescender-cy.ss17;
+";
+labels = (
+{
+language = dflt;
+value = "Plain г";
+}
+);
+tag = ss17;
+},
+{
+code = "sub te-cy by te-cy.ss18;
+sub tedescender-cy by tedescender-cy.ss18;
+";
+labels = (
+{
+language = dflt;
+value = "Plain т";
+}
+);
+tag = ss18;
 }
 );
 fontMaster = (
@@ -2544,7 +2580,7 @@ key = designers;
 values = (
 {
 language = dflt;
-value = "DNF";
+value = "DNF Studio";
 }
 );
 },
@@ -2570,7 +2606,7 @@ key = manufacturers;
 values = (
 {
 language = dflt;
-value = "DNF";
+value = "DNF Studio";
 }
 );
 },

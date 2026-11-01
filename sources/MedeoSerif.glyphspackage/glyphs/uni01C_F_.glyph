@@ -1,0 +1,31 @@
+{
+glyphname = uni01CF;
+kernLeft = B;
+kernRight = H;
+layers = (
+{
+anchors = (
+{
+name = bottom;
+pos = (151,0);
+},
+{
+name = top;
+pos = (149,756);
+}
+);
+layerId = "3ADEBB49-5DC1-434E-A813-0590DED22BD7";
+shapes = (
+{
+ref = I;
+},
+{
+pos = (-30,180);
+ref = caroncomb;
+}
+);
+width = 302;
+}
+);
+unicode = 463;
+}

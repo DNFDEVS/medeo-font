@@ -1,0 +1,35 @@
+{
+glyphname = Imacron;
+kernLeft = B;
+kernRight = H;
+layers = (
+{
+anchors = (
+{
+name = bottom;
+pos = (151,0);
+},
+{
+name = ogonek;
+pos = (288,10);
+},
+{
+name = top;
+pos = (151,877);
+}
+);
+layerId = "3ADEBB49-5DC1-434E-A813-0590DED22BD7";
+shapes = (
+{
+ref = I;
+},
+{
+pos = (-27,180);
+ref = macroncomb;
+}
+);
+width = 302;
+}
+);
+unicode = 298;
+}

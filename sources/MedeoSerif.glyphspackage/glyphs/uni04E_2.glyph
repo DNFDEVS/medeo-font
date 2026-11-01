@@ -1,0 +1,31 @@
+{
+glyphname = uni04E2;
+kernLeft = B;
+kernRight = H;
+layers = (
+{
+anchors = (
+{
+name = bottom;
+pos = (375,0);
+},
+{
+name = top;
+pos = (375,710);
+}
+);
+layerId = "3ADEBB49-5DC1-434E-A813-0590DED22BD7";
+shapes = (
+{
+ref = uni0418;
+},
+{
+pos = (197,180);
+ref = macroncomb;
+}
+);
+width = 750;
+}
+);
+unicode = 1250;
+}

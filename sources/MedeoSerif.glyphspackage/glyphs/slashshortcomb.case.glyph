@@ -1,0 +1,26 @@
+{
+glyphname = slashshortcomb.case;
+layers = (
+{
+anchors = (
+{
+name = _center;
+pos = (194,397);
+}
+);
+layerId = "3ADEBB49-5DC1-434E-A813-0590DED22BD7";
+shapes = (
+{
+closed = 1;
+nodes = (
+(40,300,l),
+(348,460,l),
+(348,494,l),
+(40,334,l)
+);
+}
+);
+width = 0;
+}
+);
+}

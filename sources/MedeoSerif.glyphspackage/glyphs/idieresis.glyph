@@ -1,0 +1,39 @@
+{
+glyphname = idieresis;
+kernLeft = i;
+kernRight = i;
+layers = (
+{
+anchors = (
+{
+name = bottom;
+pos = (144,0);
+},
+{
+name = ogonek;
+pos = (267,0);
+},
+{
+name = top;
+pos = (147,726);
+}
+);
+layerId = "3ADEBB49-5DC1-434E-A813-0590DED22BD7";
+shapes = (
+{
+ref = idotless;
+},
+{
+pos = (-39,0);
+ref = dotaccentcomb;
+},
+{
+pos = (141,0);
+ref = dotaccentcomb;
+}
+);
+width = 288;
+}
+);
+unicode = 239;
+}

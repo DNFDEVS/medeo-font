@@ -6,7 +6,7 @@ layers = (
 anchors = (
 {
 name = top;
-pos = (420,914);
+pos = (451,914);
 }
 );
 layerId = "EE2FFE84-06F1-4AFB-BBEC-60D09A436D14";
@@ -15,7 +15,7 @@ shapes = (
 ref = "Ka-cy";
 },
 {
-pos = (57,180);
+pos = (88,180);
 ref = acutecomb;
 }
 );
@@ -25,7 +25,7 @@ width = 600;
 anchors = (
 {
 name = top;
-pos = (420,910);
+pos = (450,910);
 }
 );
 layerId = "574EE4B9-5C1A-4E7E-9985-C08FACB65BD8";
@@ -34,7 +34,7 @@ shapes = (
 ref = "Ka-cy";
 },
 {
-pos = (63,180);
+pos = (93,180);
 ref = acutecomb;
 }
 );
@@ -44,7 +44,7 @@ width = 600;
 anchors = (
 {
 name = top;
-pos = (427,914);
+pos = (450,914);
 }
 );
 layerId = "58B1DC7A-69F8-4375-AD2E-AC5103CCF536";
@@ -53,7 +53,7 @@ shapes = (
 ref = "Ka-cy";
 },
 {
-pos = (71,170);
+pos = (94,170);
 ref = acutecomb;
 }
 );

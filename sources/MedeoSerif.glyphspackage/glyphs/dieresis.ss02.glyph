@@ -1,0 +1,19 @@
+{
+glyphname = dieresis.ss02;
+layers = (
+{
+layerId = "3ADEBB49-5DC1-434E-A813-0590DED22BD7";
+shapes = (
+{
+pos = (-4,0);
+ref = dotaccentcomb.ss02;
+},
+{
+pos = (176,0);
+ref = dotaccentcomb.ss02;
+}
+);
+width = 365;
+}
+);
+}

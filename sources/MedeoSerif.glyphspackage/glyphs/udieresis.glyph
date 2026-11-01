@@ -1,0 +1,43 @@
+{
+glyphname = udieresis;
+kernLeft = u;
+kernRight = u;
+layers = (
+{
+anchors = (
+{
+name = bottom;
+pos = (285,0);
+},
+{
+name = ogonek;
+pos = (571,33);
+},
+{
+name = top;
+pos = (285,726);
+},
+{
+name = topright;
+pos = (422,523);
+}
+);
+layerId = "3ADEBB49-5DC1-434E-A813-0590DED22BD7";
+shapes = (
+{
+ref = u;
+},
+{
+pos = (99,0);
+ref = dotaccentcomb;
+},
+{
+pos = (279,0);
+ref = dotaccentcomb;
+}
+);
+width = 589;
+}
+);
+unicode = 252;
+}

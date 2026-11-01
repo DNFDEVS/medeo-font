@@ -1,0 +1,47 @@
+{
+glyphname = ocircumflextilde;
+kernLeft = c;
+kernRight = b;
+layers = (
+{
+anchors = (
+{
+name = bottom;
+pos = (302,0);
+},
+{
+name = center;
+pos = (302,265);
+},
+{
+name = ogonek;
+pos = (537,10);
+},
+{
+name = top;
+pos = (302,938);
+},
+{
+name = topright;
+pos = (460,639);
+}
+);
+layerId = "3ADEBB49-5DC1-434E-A813-0590DED22BD7";
+shapes = (
+{
+ref = o;
+},
+{
+pos = (119,0);
+ref = circumflexcomb;
+},
+{
+pos = (106,215);
+ref = tildecomb;
+}
+);
+width = 604;
+}
+);
+unicode = 7895;
+}

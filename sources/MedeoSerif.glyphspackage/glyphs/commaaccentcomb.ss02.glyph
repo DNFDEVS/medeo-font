@@ -1,0 +1,37 @@
+{
+glyphname = commaaccentcomb.ss02;
+layers = (
+{
+anchors = (
+{
+name = _bottom;
+pos = (113,0);
+},
+{
+name = _bottom.core;
+pos = (113,0);
+},
+{
+name = bottom;
+pos = (113,-240);
+}
+);
+layerId = "3ADEBB49-5DC1-434E-A813-0590DED22BD7";
+shapes = (
+{
+closed = 1;
+nodes = (
+(47,-271,l),
+(87,-271,l),
+(163,-135,l),
+(163,-53,l),
+(63,-53,l),
+(63,-143,l),
+(117,-143,l)
+);
+}
+);
+width = 0;
+}
+);
+}

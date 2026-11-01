@@ -1,0 +1,30 @@
+{
+glyphname = uni1E62.ss04;
+kernLeft = S;
+kernRight = S;
+layers = (
+{
+anchors = (
+{
+name = bottom;
+pos = (312,-161);
+},
+{
+name = top;
+pos = (315,756);
+}
+);
+layerId = "3ADEBB49-5DC1-434E-A813-0590DED22BD7";
+shapes = (
+{
+ref = S;
+},
+{
+pos = (222,0);
+ref = dotbelowcomb.ss04;
+}
+);
+width = 623;
+}
+);
+}

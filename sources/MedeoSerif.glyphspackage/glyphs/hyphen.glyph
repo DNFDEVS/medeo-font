@@ -1,0 +1,23 @@
+{
+glyphname = hyphen;
+kernLeft = hyphen;
+kernRight = hyphen;
+layers = (
+{
+layerId = "3ADEBB49-5DC1-434E-A813-0590DED22BD7";
+shapes = (
+{
+closed = 1;
+nodes = (
+(50,348,l),
+(50,296,l),
+(369,296,l),
+(369,348,l)
+);
+}
+);
+width = 419;
+}
+);
+unicode = 45;
+}

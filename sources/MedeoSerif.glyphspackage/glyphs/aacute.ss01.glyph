@@ -1,0 +1,34 @@
+{
+glyphname = aacute.ss01;
+kernLeft = a;
+kernRight = a;
+layers = (
+{
+anchors = (
+{
+name = bottom;
+pos = (283,0);
+},
+{
+name = ogonek;
+pos = (537,14);
+},
+{
+name = top;
+pos = (283,728);
+}
+);
+layerId = "3ADEBB49-5DC1-434E-A813-0590DED22BD7";
+shapes = (
+{
+ref = a.ss01;
+},
+{
+pos = (239,1);
+ref = acutecomb;
+}
+);
+width = 548;
+}
+);
+}

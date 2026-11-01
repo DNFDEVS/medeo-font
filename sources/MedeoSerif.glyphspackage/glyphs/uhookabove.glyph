@@ -1,0 +1,39 @@
+{
+glyphname = uhookabove;
+kernLeft = u;
+kernRight = u;
+layers = (
+{
+anchors = (
+{
+name = bottom;
+pos = (285,0);
+},
+{
+name = ogonek;
+pos = (571,33);
+},
+{
+name = top;
+pos = (285,712);
+},
+{
+name = topright;
+pos = (422,523);
+}
+);
+layerId = "3ADEBB49-5DC1-434E-A813-0590DED22BD7";
+shapes = (
+{
+ref = u;
+},
+{
+pos = (174,0);
+ref = hookabovecomb;
+}
+);
+width = 589;
+}
+);
+unicode = 7911;
+}

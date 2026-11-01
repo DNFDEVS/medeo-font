@@ -1,0 +1,30 @@
+{
+glyphname = scommaaccent.ss04;
+kernLeft = s;
+kernRight = s;
+layers = (
+{
+anchors = (
+{
+name = bottom;
+pos = (239,-240);
+},
+{
+name = top;
+pos = (221,530);
+}
+);
+layerId = "3ADEBB49-5DC1-434E-A813-0590DED22BD7";
+shapes = (
+{
+ref = s;
+},
+{
+pos = (126,0);
+ref = commaaccentcomb.ss04;
+}
+);
+width = 470;
+}
+);
+}

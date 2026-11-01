@@ -1,0 +1,65 @@
+{
+category = Symbol;
+glyphname = uni20C5;
+layers = (
+{
+layerId = "EE2FFE84-06F1-4AFB-BBEC-60D09A436D14";
+shapes = (
+{
+pos = (13,0);
+ref = "Be-cy";
+},
+{
+closed = 1;
+nodes = (
+(327,188,l),
+(327,218,l),
+(37,218,l),
+(37,188,l)
+);
+}
+);
+width = 600;
+},
+{
+layerId = "574EE4B9-5C1A-4E7E-9985-C08FACB65BD8";
+shapes = (
+{
+pos = (15,0);
+ref = "Be-cy";
+},
+{
+closed = 1;
+nodes = (
+(333,180,l),
+(333,254,l),
+(25,254,l),
+(25,180,l)
+);
+}
+);
+width = 600;
+},
+{
+layerId = "58B1DC7A-69F8-4375-AD2E-AC5103CCF536";
+shapes = (
+{
+pos = (15,0);
+ref = "Be-cy";
+},
+{
+closed = 1;
+nodes = (
+(318,186,l),
+(318,276,l),
+(15,276,l),
+(15,186,l)
+);
+}
+);
+width = 600;
+}
+);
+subCategory = Currency;
+unicode = 8389;
+}

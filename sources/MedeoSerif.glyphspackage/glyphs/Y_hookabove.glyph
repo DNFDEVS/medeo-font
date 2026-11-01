@@ -1,0 +1,31 @@
+{
+glyphname = Yhookabove;
+kernLeft = Y;
+kernRight = Y;
+layers = (
+{
+anchors = (
+{
+name = bottom;
+pos = (347,0);
+},
+{
+name = top;
+pos = (347,892);
+}
+);
+layerId = "3ADEBB49-5DC1-434E-A813-0590DED22BD7";
+shapes = (
+{
+ref = Y;
+},
+{
+pos = (236,180);
+ref = hookabovecomb;
+}
+);
+width = 661;
+}
+);
+unicode = 7926;
+}

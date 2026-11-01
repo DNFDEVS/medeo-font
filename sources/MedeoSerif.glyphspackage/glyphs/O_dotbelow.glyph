@@ -1,0 +1,43 @@
+{
+glyphname = Odotbelow;
+kernLeft = C;
+kernRight = O;
+layers = (
+{
+anchors = (
+{
+name = bottom;
+pos = (397,-150);
+},
+{
+name = center;
+pos = (391,355);
+},
+{
+name = ogonek;
+pos = (491,0);
+},
+{
+name = top;
+pos = (391,710);
+},
+{
+name = topright;
+pos = (488,710);
+}
+);
+layerId = "3ADEBB49-5DC1-434E-A813-0590DED22BD7";
+shapes = (
+{
+ref = O;
+},
+{
+pos = (309,0);
+ref = dotbelowcomb;
+}
+);
+width = 792;
+}
+);
+unicode = 7884;
+}

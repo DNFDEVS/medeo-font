@@ -1,0 +1,22 @@
+{
+glyphname = asciitilde;
+layers = (
+{
+anchors = (
+{
+name = top.core;
+pos = (279,332);
+}
+);
+layerId = "3ADEBB49-5DC1-434E-A813-0590DED22BD7";
+shapes = (
+{
+pos = (83,-391);
+ref = tildecomb;
+}
+);
+width = 558;
+}
+);
+unicode = 126;
+}

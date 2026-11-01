@@ -1,0 +1,24 @@
+{
+glyphname = greater;
+layers = (
+{
+layerId = "3ADEBB49-5DC1-434E-A813-0590DED22BD7";
+shapes = (
+{
+closed = 1;
+nodes = (
+(76,38,l),
+(523,266,l),
+(523,312,l),
+(76,540,l),
+(76,462,l),
+(463,289,l),
+(76,116,l)
+);
+}
+);
+width = 600;
+}
+);
+unicode = 62;
+}

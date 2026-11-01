@@ -1,0 +1,34 @@
+{
+glyphname = dotbelowcomb.ss02;
+layers = (
+{
+anchors = (
+{
+name = _bottom;
+pos = (88,0);
+},
+{
+name = _bottom.core;
+pos = (88,0);
+},
+{
+name = bottom;
+pos = (88,-150);
+}
+);
+layerId = "3ADEBB49-5DC1-434E-A813-0590DED22BD7";
+shapes = (
+{
+closed = 1;
+nodes = (
+(44,-150,l),
+(132,-150,l),
+(132,-60,l),
+(44,-60,l)
+);
+}
+);
+width = 0;
+}
+);
+}

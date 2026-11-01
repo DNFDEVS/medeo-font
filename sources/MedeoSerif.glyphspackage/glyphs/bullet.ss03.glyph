@@ -1,0 +1,21 @@
+{
+glyphname = bullet.ss03;
+kernLeft = bullet.ss03;
+kernRight = bullet.ss03;
+layers = (
+{
+layerId = "3ADEBB49-5DC1-434E-A813-0590DED22BD7";
+shapes = (
+{
+closed = 1;
+nodes = (
+(264,219,l),
+(144,434,l),
+(24,219,l)
+);
+}
+);
+width = 288;
+}
+);
+}

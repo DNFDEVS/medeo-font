@@ -1,0 +1,35 @@
+{
+glyphname = ydieresis;
+kernLeft = y;
+kernRight = y;
+layers = (
+{
+anchors = (
+{
+name = bottom;
+pos = (333,0);
+},
+{
+name = top;
+pos = (241,726);
+}
+);
+layerId = "3ADEBB49-5DC1-434E-A813-0590DED22BD7";
+shapes = (
+{
+ref = y;
+},
+{
+pos = (55,0);
+ref = dotaccentcomb;
+},
+{
+pos = (235,0);
+ref = dotaccentcomb;
+}
+);
+width = 509;
+}
+);
+unicode = 255;
+}

@@ -1,0 +1,39 @@
+{
+glyphname = ucircumflex;
+kernLeft = u;
+kernRight = u;
+layers = (
+{
+anchors = (
+{
+name = bottom;
+pos = (285,0);
+},
+{
+name = ogonek;
+pos = (571,33);
+},
+{
+name = top;
+pos = (285,745);
+},
+{
+name = topright;
+pos = (443,639);
+}
+);
+layerId = "3ADEBB49-5DC1-434E-A813-0590DED22BD7";
+shapes = (
+{
+ref = u;
+},
+{
+pos = (102,0);
+ref = circumflexcomb;
+}
+);
+width = 589;
+}
+);
+unicode = 251;
+}

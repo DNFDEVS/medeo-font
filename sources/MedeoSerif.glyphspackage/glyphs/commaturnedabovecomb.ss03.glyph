@@ -1,0 +1,35 @@
+{
+glyphname = commaturnedabovecomb.ss03;
+layers = (
+{
+anchors = (
+{
+name = _top;
+pos = (104,530);
+},
+{
+name = _top.core;
+pos = (104,530);
+},
+{
+name = top;
+pos = (104,809);
+}
+);
+layerId = "3ADEBB49-5DC1-434E-A813-0590DED22BD7";
+shapes = (
+{
+closed = 1;
+nodes = (
+(157,819,l),
+(121,819,l),
+(41,593,l),
+(168,593,l),
+(113,684,l)
+);
+}
+);
+width = 0;
+}
+);
+}

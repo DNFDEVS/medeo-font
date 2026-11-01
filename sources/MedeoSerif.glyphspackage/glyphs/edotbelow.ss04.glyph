@@ -1,0 +1,34 @@
+{
+glyphname = edotbelow.ss04;
+kernLeft = c;
+kernRight = b;
+layers = (
+{
+anchors = (
+{
+name = bottom;
+pos = (275,-150);
+},
+{
+name = ogonek;
+pos = (493,10);
+},
+{
+name = top;
+pos = (275,530);
+}
+);
+layerId = "3ADEBB49-5DC1-434E-A813-0590DED22BD7";
+shapes = (
+{
+ref = e;
+},
+{
+pos = (187,0);
+ref = dotbelowcomb.ss04;
+}
+);
+width = 557;
+}
+);
+}

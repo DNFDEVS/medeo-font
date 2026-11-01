@@ -9,3 +9,4 @@ sources/instance_ufo/
 sources/master_ufo/
 sources/build.ninja
 sources/.ninja_*
+__pycache__/

@@ -1,0 +1,15 @@
+{
+glyphname = nine.tf;
+layers = (
+{
+layerId = "3ADEBB49-5DC1-434E-A813-0590DED22BD7";
+shapes = (
+{
+pos = (14,6);
+ref = nine;
+}
+);
+width = 600;
+}
+);
+}

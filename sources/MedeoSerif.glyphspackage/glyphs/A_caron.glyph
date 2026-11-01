@@ -1,0 +1,35 @@
+{
+glyphname = Acaron;
+kernLeft = A;
+kernRight = A;
+layers = (
+{
+anchors = (
+{
+name = bottom;
+pos = (313,0);
+},
+{
+name = ogonek;
+pos = (653,10);
+},
+{
+name = top;
+pos = (328,911);
+}
+);
+layerId = "3ADEBB49-5DC1-434E-A813-0590DED22BD7";
+shapes = (
+{
+ref = A;
+},
+{
+pos = (147,180);
+ref = caroncomb;
+}
+);
+width = 689;
+}
+);
+unicode = 461;
+}

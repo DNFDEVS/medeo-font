@@ -1,0 +1,15 @@
+{
+glyphname = eight.tf;
+layers = (
+{
+layerId = "3ADEBB49-5DC1-434E-A813-0590DED22BD7";
+shapes = (
+{
+pos = (6,0);
+ref = eight;
+}
+);
+width = 600;
+}
+);
+}

@@ -1,0 +1,38 @@
+{
+glyphname = Adieresis.ss04;
+kernLeft = A;
+kernRight = A;
+layers = (
+{
+anchors = (
+{
+name = bottom;
+pos = (313,0);
+},
+{
+name = ogonek;
+pos = (653,10);
+},
+{
+name = top;
+pos = (328,906);
+}
+);
+layerId = "3ADEBB49-5DC1-434E-A813-0590DED22BD7";
+shapes = (
+{
+ref = A;
+},
+{
+pos = (142,180);
+ref = dotaccentcomb.ss04;
+},
+{
+pos = (322,180);
+ref = dotaccentcomb.ss04;
+}
+);
+width = 689;
+}
+);
+}

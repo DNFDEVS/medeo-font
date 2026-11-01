@@ -1,0 +1,43 @@
+{
+glyphname = dotbelowcomb;
+layers = (
+{
+anchors = (
+{
+name = _bottom;
+pos = (88,0);
+},
+{
+name = _bottom.core;
+pos = (88,0);
+},
+{
+name = bottom;
+pos = (88,-150);
+}
+);
+layerId = "3ADEBB49-5DC1-434E-A813-0590DED22BD7";
+shapes = (
+{
+closed = 1;
+nodes = (
+(88,-161,q),
+(113,-161,o),
+(144,-131,o),
+(144,-106,q),
+(144,-82,o),
+(113,-52,o),
+(88,-52,q),
+(63,-52,o),
+(32,-82,o),
+(32,-106,q),
+(32,-131,o),
+(63,-161,o)
+);
+}
+);
+width = 0;
+}
+);
+unicode = 803;
+}

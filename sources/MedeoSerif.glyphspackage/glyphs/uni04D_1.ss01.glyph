@@ -1,0 +1,30 @@
+{
+glyphname = uni04D1.ss01;
+kernLeft = a;
+kernRight = a;
+layers = (
+{
+anchors = (
+{
+name = bottom;
+pos = (294,0);
+},
+{
+name = top;
+pos = (282,756);
+}
+);
+layerId = "3ADEBB49-5DC1-434E-A813-0590DED22BD7";
+shapes = (
+{
+ref = a.ss01;
+},
+{
+pos = (99,0);
+ref = brevecomb;
+}
+);
+width = 548;
+}
+);
+}

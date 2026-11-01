@@ -1,0 +1,36 @@
+{
+glyphname = circumflexcomb_acutecomb;
+layers = (
+{
+anchors = (
+{
+name = _top;
+pos = (183,530);
+},
+{
+name = _top.core;
+pos = (183,530);
+},
+{
+name = top;
+pos = (341,836);
+},
+{
+name = topright;
+pos = (341,639);
+}
+);
+layerId = "3ADEBB49-5DC1-434E-A813-0590DED22BD7";
+shapes = (
+{
+ref = circumflexcomb;
+},
+{
+pos = (297,109);
+ref = acutecomb.topright;
+}
+);
+width = 0;
+}
+);
+}

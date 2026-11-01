@@ -1,0 +1,15 @@
+{
+glyphname = four.tf;
+layers = (
+{
+layerId = "3ADEBB49-5DC1-434E-A813-0590DED22BD7";
+shapes = (
+{
+pos = (7,0);
+ref = four;
+}
+);
+width = 600;
+}
+);
+}

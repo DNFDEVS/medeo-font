@@ -1,0 +1,39 @@
+{
+glyphname = uni01D7;
+kernLeft = U;
+kernRight = U;
+layers = (
+{
+anchors = (
+{
+name = bottom;
+pos = (386,0);
+},
+{
+name = top;
+pos = (503,756);
+}
+);
+layerId = "3ADEBB49-5DC1-434E-A813-0590DED22BD7";
+shapes = (
+{
+ref = U;
+},
+{
+pos = (237,180);
+ref = dotaccentcomb;
+},
+{
+pos = (417,180);
+ref = dotaccentcomb;
+},
+{
+pos = (379,377);
+ref = acutecomb;
+}
+);
+width = 778;
+}
+);
+unicode = 471;
+}

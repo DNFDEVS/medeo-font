@@ -1,0 +1,21 @@
+{
+glyphname = period.ss03;
+kernLeft = period.ss03;
+kernRight = period.ss03;
+layers = (
+{
+layerId = "3ADEBB49-5DC1-434E-A813-0590DED22BD7";
+shapes = (
+{
+closed = 1;
+nodes = (
+(180,0,l),
+(105,130,l),
+(30,0,l)
+);
+}
+);
+width = 210;
+}
+);
+}

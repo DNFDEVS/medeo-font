@@ -1,0 +1,35 @@
+{
+glyphname = Dcaron;
+kernLeft = B;
+kernRight = O;
+layers = (
+{
+anchors = (
+{
+name = bottom;
+pos = (353,0);
+},
+{
+name = center;
+pos = (166,355);
+},
+{
+name = top;
+pos = (353,911);
+}
+);
+layerId = "3ADEBB49-5DC1-434E-A813-0590DED22BD7";
+shapes = (
+{
+ref = D;
+},
+{
+pos = (172,180);
+ref = caroncomb;
+}
+);
+width = 717;
+}
+);
+unicode = 270;
+}

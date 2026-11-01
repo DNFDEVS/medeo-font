@@ -1,0 +1,35 @@
+{
+glyphname = IJ;
+kernLeft = B;
+kernRight = J;
+layers = (
+{
+anchors = (
+{
+name = bottom;
+pos = (430,0);
+},
+{
+name = ogonek;
+pos = (288,10);
+},
+{
+name = top;
+pos = (430,710);
+}
+);
+layerId = "3ADEBB49-5DC1-434E-A813-0590DED22BD7";
+shapes = (
+{
+ref = I;
+},
+{
+pos = (272,0);
+ref = J;
+}
+);
+width = 577;
+}
+);
+unicode = 306;
+}

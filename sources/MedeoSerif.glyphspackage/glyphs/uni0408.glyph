@@ -1,0 +1,27 @@
+{
+glyphname = uni0408;
+kernLeft = J;
+kernRight = J;
+layers = (
+{
+anchors = (
+{
+name = bottom;
+pos = (158,0);
+},
+{
+name = top;
+pos = (158,710);
+}
+);
+layerId = "3ADEBB49-5DC1-434E-A813-0590DED22BD7";
+shapes = (
+{
+ref = J;
+}
+);
+width = 305;
+}
+);
+unicode = 1032;
+}

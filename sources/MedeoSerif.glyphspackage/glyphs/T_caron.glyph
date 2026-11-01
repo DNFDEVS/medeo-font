@@ -1,0 +1,35 @@
+{
+glyphname = Tcaron;
+kernLeft = T;
+kernRight = T;
+layers = (
+{
+anchors = (
+{
+name = bottom;
+pos = (321,0);
+},
+{
+name = center;
+pos = (321,355);
+},
+{
+name = top;
+pos = (321,911);
+}
+);
+layerId = "3ADEBB49-5DC1-434E-A813-0590DED22BD7";
+shapes = (
+{
+ref = T;
+},
+{
+pos = (140,180);
+ref = caroncomb;
+}
+);
+width = 642;
+}
+);
+unicode = 356;
+}

@@ -1,0 +1,30 @@
+{
+glyphname = jacute.ss03;
+kernLeft = j;
+kernRight = j;
+layers = (
+{
+anchors = (
+{
+name = bottom;
+pos = (138,-200);
+},
+{
+name = top;
+pos = (138,728);
+}
+);
+layerId = "3ADEBB49-5DC1-434E-A813-0590DED22BD7";
+shapes = (
+{
+ref = jdotless;
+},
+{
+pos = (94,1);
+ref = acutecomb;
+}
+);
+width = 255;
+}
+);
+}

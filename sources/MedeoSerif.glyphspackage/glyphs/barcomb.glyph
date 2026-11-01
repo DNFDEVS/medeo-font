@@ -1,0 +1,20 @@
+{
+glyphname = barcomb;
+layers = (
+{
+layerId = "3ADEBB49-5DC1-434E-A813-0590DED22BD7";
+shapes = (
+{
+closed = 1;
+nodes = (
+(-56,371,l),
+(-56,336,l),
+(269,336,l),
+(269,371,l)
+);
+}
+);
+width = 200;
+}
+);
+}

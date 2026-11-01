@@ -1,0 +1,34 @@
+{
+glyphname = ydieresis.ss02;
+kernLeft = y;
+kernRight = y;
+layers = (
+{
+anchors = (
+{
+name = bottom;
+pos = (333,0);
+},
+{
+name = top;
+pos = (241,726);
+}
+);
+layerId = "3ADEBB49-5DC1-434E-A813-0590DED22BD7";
+shapes = (
+{
+ref = y;
+},
+{
+pos = (55,0);
+ref = dotaccentcomb.ss02;
+},
+{
+pos = (235,0);
+ref = dotaccentcomb.ss02;
+}
+);
+width = 509;
+}
+);
+}

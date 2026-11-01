@@ -1,0 +1,43 @@
+{
+glyphname = abrevetilde;
+kernLeft = a;
+kernRight = a;
+layers = (
+{
+anchors = (
+{
+name = bottom;
+pos = (283,0);
+},
+{
+name = ogonek;
+pos = (540,34);
+},
+{
+name = top;
+pos = (283,924);
+},
+{
+name = topright;
+pos = (424,647);
+}
+);
+layerId = "3ADEBB49-5DC1-434E-A813-0590DED22BD7";
+shapes = (
+{
+ref = a;
+},
+{
+pos = (99,0);
+ref = brevecomb;
+},
+{
+pos = (87,201);
+ref = tildecomb;
+}
+);
+width = 549;
+}
+);
+unicode = 7861;
+}

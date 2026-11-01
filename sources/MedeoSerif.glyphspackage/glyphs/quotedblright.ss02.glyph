@@ -1,0 +1,37 @@
+{
+glyphname = quotedblright.ss02;
+kernLeft = quotedblright.ss02;
+kernRight = quotedblright.ss02;
+layers = (
+{
+layerId = "3ADEBB49-5DC1-434E-A813-0590DED22BD7";
+shapes = (
+{
+closed = 1;
+nodes = (
+(64,480,l),
+(100,480,l),
+(154,628,l),
+(154,717,l),
+(53,717,l),
+(53,615,l),
+(108,615,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(240,480,l),
+(276,480,l),
+(330,628,l),
+(330,717,l),
+(229,717,l),
+(229,615,l),
+(284,615,l)
+);
+}
+);
+width = 373;
+}
+);
+}

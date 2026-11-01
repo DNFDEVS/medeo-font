@@ -1,0 +1,35 @@
+{
+glyphname = Aring;
+kernLeft = A;
+kernRight = A;
+layers = (
+{
+anchors = (
+{
+name = bottom;
+pos = (313,0);
+},
+{
+name = ogonek;
+pos = (653,10);
+},
+{
+name = top;
+pos = (328,905);
+}
+);
+layerId = "3ADEBB49-5DC1-434E-A813-0590DED22BD7";
+shapes = (
+{
+ref = A;
+},
+{
+pos = (167,180);
+ref = ringcomb;
+}
+);
+width = 689;
+}
+);
+unicode = 197;
+}

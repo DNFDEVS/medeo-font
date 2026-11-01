@@ -1,0 +1,42 @@
+{
+glyphname = Ohorndotbelow.ss05.ss03;
+kernLeft = C;
+kernRight = Ohorn;
+layers = (
+{
+anchors = (
+{
+name = bottom;
+pos = (391,-150);
+},
+{
+name = center;
+pos = (391,355);
+},
+{
+name = ogonek;
+pos = (710,10);
+},
+{
+name = top;
+pos = (391,710);
+},
+{
+name = topright;
+pos = (488,710);
+}
+);
+layerId = "3ADEBB49-5DC1-434E-A813-0590DED22BD7";
+shapes = (
+{
+ref = Ohorn.ss05;
+},
+{
+pos = (303,0);
+ref = dotbelowcomb.ss03;
+}
+);
+width = 792;
+}
+);
+}

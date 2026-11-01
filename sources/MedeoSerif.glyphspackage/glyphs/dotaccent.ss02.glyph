@@ -1,0 +1,14 @@
+{
+glyphname = dotaccent.ss02;
+layers = (
+{
+layerId = "3ADEBB49-5DC1-434E-A813-0590DED22BD7";
+shapes = (
+{
+ref = dotaccentcomb.ss02;
+}
+);
+width = 192;
+}
+);
+}

@@ -1,0 +1,22 @@
+{
+glyphname = semicolon;
+kernLeft = semicolon;
+kernRight = semicolon;
+layers = (
+{
+layerId = "3ADEBB49-5DC1-434E-A813-0590DED22BD7";
+shapes = (
+{
+pos = (0,417);
+ref = period;
+},
+{
+pos = (13,0);
+ref = comma;
+}
+);
+width = 222;
+}
+);
+unicode = 59;
+}

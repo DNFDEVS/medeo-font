@@ -1,0 +1,34 @@
+{
+glyphname = edotaccent.ss04;
+kernLeft = c;
+kernRight = b;
+layers = (
+{
+anchors = (
+{
+name = bottom;
+pos = (275,0);
+},
+{
+name = ogonek;
+pos = (493,10);
+},
+{
+name = top;
+pos = (275,710);
+}
+);
+layerId = "3ADEBB49-5DC1-434E-A813-0590DED22BD7";
+shapes = (
+{
+ref = e;
+},
+{
+pos = (179,0);
+ref = dotaccentcomb.ss04;
+}
+);
+width = 557;
+}
+);
+}

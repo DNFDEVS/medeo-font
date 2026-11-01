@@ -1,0 +1,21 @@
+{
+glyphname = quotedblbase.ss02;
+kernLeft = quotedblbase.ss02;
+kernRight = quotedblbase.ss02;
+layers = (
+{
+layerId = "3ADEBB49-5DC1-434E-A813-0590DED22BD7";
+shapes = (
+{
+pos = (5,0);
+ref = quotesinglbase.ss02;
+},
+{
+pos = (181,0);
+ref = quotesinglbase.ss02;
+}
+);
+width = 373;
+}
+);
+}

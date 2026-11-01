@@ -1,0 +1,46 @@
+{
+glyphname = odieresis.ss05.ss04;
+kernLeft = c;
+kernRight = b;
+layers = (
+{
+anchors = (
+{
+name = bottom;
+pos = (302,0);
+},
+{
+name = center;
+pos = (302,265);
+},
+{
+name = ogonek;
+pos = (537,10);
+},
+{
+name = top;
+pos = (302,726);
+},
+{
+name = topright;
+pos = (379,530);
+}
+);
+layerId = "3ADEBB49-5DC1-434E-A813-0590DED22BD7";
+shapes = (
+{
+ref = o.ss05;
+},
+{
+pos = (116,0);
+ref = dotaccentcomb.ss04;
+},
+{
+pos = (296,0);
+ref = dotaccentcomb.ss04;
+}
+);
+width = 604;
+}
+);
+}

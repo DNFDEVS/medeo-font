@@ -1,0 +1,35 @@
+{
+glyphname = Igrave;
+kernLeft = B;
+kernRight = H;
+layers = (
+{
+anchors = (
+{
+name = bottom;
+pos = (151,0);
+},
+{
+name = ogonek;
+pos = (288,10);
+},
+{
+name = top;
+pos = (151,908);
+}
+);
+layerId = "3ADEBB49-5DC1-434E-A813-0590DED22BD7";
+shapes = (
+{
+ref = I;
+},
+{
+pos = (-43,181);
+ref = gravecomb;
+}
+);
+width = 302;
+}
+);
+unicode = 204;
+}

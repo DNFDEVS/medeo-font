@@ -1,0 +1,31 @@
+{
+glyphname = acutecomb.topright;
+layers = (
+{
+anchors = (
+{
+name = _topright;
+pos = (44,530);
+},
+{
+name = top;
+pos = (44,727);
+}
+);
+layerId = "3ADEBB49-5DC1-434E-A813-0590DED22BD7";
+shapes = (
+{
+closed = 1;
+nodes = (
+(38,583,l),
+(181,741,l),
+(181,745,l),
+(84,745,l),
+(8,583,l)
+);
+}
+);
+width = 0;
+}
+);
+}

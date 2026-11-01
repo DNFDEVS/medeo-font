@@ -1,0 +1,39 @@
+{
+glyphname = Uhorndotbelow;
+kernLeft = U;
+kernRight = Uhorn;
+layers = (
+{
+anchors = (
+{
+name = bottom;
+pos = (423,-150);
+},
+{
+name = ogonek;
+pos = (498,0);
+},
+{
+name = top;
+pos = (423,710);
+},
+{
+name = topright;
+pos = (692,710);
+}
+);
+layerId = "3ADEBB49-5DC1-434E-A813-0590DED22BD7";
+shapes = (
+{
+ref = Uhorn;
+},
+{
+pos = (335,0);
+ref = dotbelowcomb;
+}
+);
+width = 778;
+}
+);
+unicode = 7920;
+}

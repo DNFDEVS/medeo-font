@@ -3,8 +3,26 @@ color = 5;
 glyphname = "gestroke-cy";
 layers = (
 {
+anchors = (
+{
+name = top;
+pos = (350,530);
+}
+);
 layerId = "EE2FFE84-06F1-4AFB-BBEC-60D09A436D14";
 shapes = (
+{
+closed = 1;
+nodes = (
+(210,0,l),
+(210,520,l),
+(203,502,l),
+(540,502,l),
+(540,530,l),
+(180,530,l),
+(180,0,l)
+);
+},
 {
 closed = 1;
 nodes = (
@@ -13,17 +31,31 @@ nodes = (
 (60,292,l),
 (60,264,l)
 );
-},
-{
-pos = (50,0);
-ref = "ge-cy";
 }
 );
 width = 600;
 },
 {
+anchors = (
+{
+name = top;
+pos = (375,530);
+}
+);
 layerId = "574EE4B9-5C1A-4E7E-9985-C08FACB65BD8";
 shapes = (
+{
+closed = 1;
+nodes = (
+(254,0,l),
+(254,490,l),
+(213,456,l),
+(560,456,l),
+(560,530,l),
+(170,530,l),
+(170,0,l)
+);
+},
 {
 closed = 1;
 nodes = (
@@ -32,17 +64,31 @@ nodes = (
 (40,306,l),
 (40,232,l)
 );
-},
-{
-pos = (40,0);
-ref = "ge-cy";
 }
 );
 width = 600;
 },
 {
+anchors = (
+{
+name = top;
+pos = (368,540);
+}
+);
 layerId = "58B1DC7A-69F8-4375-AD2E-AC5103CCF536";
 shapes = (
+{
+closed = 1;
+nodes = (
+(310,0,l),
+(310,498,l),
+(222,400,l),
+(570,400,l),
+(570,540,l),
+(140,540,l),
+(140,0,l)
+);
+},
 {
 closed = 1;
 nodes = (
@@ -51,10 +97,6 @@ nodes = (
 (30,300,l),
 (30,160,l)
 );
-},
-{
-pos = (40,0);
-ref = "ge-cy";
 }
 );
 width = 600;

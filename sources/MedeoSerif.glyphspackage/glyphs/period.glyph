@@ -1,0 +1,31 @@
+{
+glyphname = period;
+kernLeft = period;
+kernRight = period;
+layers = (
+{
+layerId = "3ADEBB49-5DC1-434E-A813-0590DED22BD7";
+shapes = (
+{
+closed = 1;
+nodes = (
+(105,-12,q),
+(136,-12,o),
+(175,25,o),
+(175,56,q),
+(175,86,o),
+(136,124,o),
+(105,124,q),
+(74,124,o),
+(35,86,o),
+(35,56,q),
+(35,25,o),
+(74,-12,o)
+);
+}
+);
+width = 210;
+}
+);
+unicode = 46;
+}

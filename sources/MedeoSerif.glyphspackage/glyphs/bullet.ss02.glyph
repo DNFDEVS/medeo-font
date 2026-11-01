@@ -1,0 +1,22 @@
+{
+glyphname = bullet.ss02;
+kernLeft = bullet.ss02;
+kernRight = bullet.ss02;
+layers = (
+{
+layerId = "3ADEBB49-5DC1-434E-A813-0590DED22BD7";
+shapes = (
+{
+closed = 1;
+nodes = (
+(53,219,l),
+(234,219,l),
+(234,405,l),
+(53,405,l)
+);
+}
+);
+width = 288;
+}
+);
+}

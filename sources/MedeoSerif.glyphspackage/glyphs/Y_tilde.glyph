@@ -1,0 +1,31 @@
+{
+glyphname = Ytilde;
+kernLeft = Y;
+kernRight = Y;
+layers = (
+{
+anchors = (
+{
+name = bottom;
+pos = (347,0);
+},
+{
+name = top;
+pos = (347,903);
+}
+);
+layerId = "3ADEBB49-5DC1-434E-A813-0590DED22BD7";
+shapes = (
+{
+ref = Y;
+},
+{
+pos = (151,180);
+ref = tildecomb;
+}
+);
+width = 661;
+}
+);
+unicode = 7928;
+}

@@ -1,0 +1,46 @@
+{
+glyphname = ocircumflexdotbelow.ss05;
+kernLeft = c;
+kernRight = b;
+layers = (
+{
+anchors = (
+{
+name = bottom;
+pos = (302,-150);
+},
+{
+name = center;
+pos = (302,265);
+},
+{
+name = ogonek;
+pos = (537,10);
+},
+{
+name = top;
+pos = (302,745);
+},
+{
+name = topright;
+pos = (460,639);
+}
+);
+layerId = "3ADEBB49-5DC1-434E-A813-0590DED22BD7";
+shapes = (
+{
+ref = o.ss05;
+},
+{
+pos = (214,0);
+ref = dotbelowcomb;
+},
+{
+pos = (119,0);
+ref = circumflexcomb;
+}
+);
+width = 604;
+}
+);
+}

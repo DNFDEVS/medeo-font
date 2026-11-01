@@ -1,0 +1,25 @@
+{
+glyphname = apostrophemod;
+layers = (
+{
+anchors = (
+{
+name = bottom;
+pos = (99,0);
+},
+{
+name = top;
+pos = (94,756);
+}
+);
+layerId = "3ADEBB49-5DC1-434E-A813-0590DED22BD7";
+shapes = (
+{
+ref = quoteright;
+}
+);
+width = 185;
+}
+);
+unicode = 700;
+}

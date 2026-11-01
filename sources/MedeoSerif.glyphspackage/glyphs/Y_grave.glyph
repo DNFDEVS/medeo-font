@@ -1,0 +1,31 @@
+{
+glyphname = Ygrave;
+kernLeft = Y;
+kernRight = Y;
+layers = (
+{
+anchors = (
+{
+name = bottom;
+pos = (347,0);
+},
+{
+name = top;
+pos = (347,908);
+}
+);
+layerId = "3ADEBB49-5DC1-434E-A813-0590DED22BD7";
+shapes = (
+{
+ref = Y;
+},
+{
+pos = (153,181);
+ref = gravecomb;
+}
+);
+width = 661;
+}
+);
+unicode = 7922;
+}

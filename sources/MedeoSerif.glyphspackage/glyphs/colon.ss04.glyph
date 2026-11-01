@@ -1,0 +1,20 @@
+{
+glyphname = colon.ss04;
+kernLeft = colon.ss04;
+kernRight = colon.ss04;
+layers = (
+{
+layerId = "3ADEBB49-5DC1-434E-A813-0590DED22BD7";
+shapes = (
+{
+pos = (0,426);
+ref = period.ss04;
+},
+{
+ref = period.ss04;
+}
+);
+width = 210;
+}
+);
+}

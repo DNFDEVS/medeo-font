@@ -1,6 +1,6 @@
 sources:
   - MedeoPixel.glyphspackage
-outputDir: ../fonts/MedeoPixel
+outputDir: ../out/build/fonts/MedeoPixel
 familyName: "Medeo Pixel"
 cleanUp: true
 # The source's sparse shape layers cannot be interpolated into instance UFOs, so the builder's own statics are
@@ -11,36 +11,36 @@ buildStatic: false
 # with a recipe of its own the builder drops the automatic one unless the provider is named
 recipeProvider: googlefonts
 recipe:
-  ../fonts/MedeoPixel/ttf/MedeoPixel-Square.ttf:
-  - source: ../fonts/MedeoPixel/variable/MedeoPixel[ELSH].ttf
+  ../out/build/fonts/MedeoPixel/ttf/MedeoPixel-Square.ttf:
+  - source: ../out/build/fonts/MedeoPixel/variable/MedeoPixel[ELSH].ttf
   - operation: genStatic
     family: Medeo Pixel
     style: Square
     args: --coordinates ELSH=1 --keep-overlaps
   - operation: fix
-  ../fonts/MedeoPixel/ttf/MedeoPixel-Circle.ttf:
-  - source: ../fonts/MedeoPixel/variable/MedeoPixel[ELSH].ttf
+  ../out/build/fonts/MedeoPixel/ttf/MedeoPixel-Circle.ttf:
+  - source: ../out/build/fonts/MedeoPixel/variable/MedeoPixel[ELSH].ttf
   - operation: genStatic
     family: Medeo Pixel
     style: Circle
     args: --coordinates ELSH=20 --keep-overlaps
   - operation: fix
-  ../fonts/MedeoPixel/ttf/MedeoPixel-Grid.ttf:
-  - source: ../fonts/MedeoPixel/variable/MedeoPixel[ELSH].ttf
+  ../out/build/fonts/MedeoPixel/ttf/MedeoPixel-Grid.ttf:
+  - source: ../out/build/fonts/MedeoPixel/variable/MedeoPixel[ELSH].ttf
   - operation: genStatic
     family: Medeo Pixel
     style: Grid
     args: --coordinates ELSH=40 --keep-overlaps
   - operation: fix
-  ../fonts/MedeoPixel/ttf/MedeoPixel-Triangle.ttf:
-  - source: ../fonts/MedeoPixel/variable/MedeoPixel[ELSH].ttf
+  ../out/build/fonts/MedeoPixel/ttf/MedeoPixel-Triangle.ttf:
+  - source: ../out/build/fonts/MedeoPixel/variable/MedeoPixel[ELSH].ttf
   - operation: genStatic
     family: Medeo Pixel
     style: Triangle
     args: --coordinates ELSH=60 --keep-overlaps
   - operation: fix
-  ../fonts/MedeoPixel/ttf/MedeoPixel-Line.ttf:
-  - source: ../fonts/MedeoPixel/variable/MedeoPixel[ELSH].ttf
+  ../out/build/fonts/MedeoPixel/ttf/MedeoPixel-Line.ttf:
+  - source: ../out/build/fonts/MedeoPixel/variable/MedeoPixel[ELSH].ttf
   - operation: genStatic
     family: Medeo Pixel
     style: Line

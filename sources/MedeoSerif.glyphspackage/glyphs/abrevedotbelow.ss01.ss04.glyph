@@ -1,0 +1,42 @@
+{
+glyphname = abrevedotbelow.ss01.ss04;
+kernLeft = a;
+kernRight = a;
+layers = (
+{
+anchors = (
+{
+name = bottom;
+pos = (283,-150);
+},
+{
+name = ogonek;
+pos = (537,14);
+},
+{
+name = top;
+pos = (283,731);
+},
+{
+name = topright;
+pos = (424,647);
+}
+);
+layerId = "3ADEBB49-5DC1-434E-A813-0590DED22BD7";
+shapes = (
+{
+ref = a.ss01;
+},
+{
+pos = (195,0);
+ref = dotbelowcomb.ss04;
+},
+{
+pos = (99,0);
+ref = brevecomb;
+}
+);
+width = 548;
+}
+);
+}

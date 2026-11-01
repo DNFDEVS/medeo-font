@@ -1,0 +1,42 @@
+{
+glyphname = ijacute;
+kernLeft = itilde;
+kernRight = j;
+layers = (
+{
+anchors = (
+{
+name = bottom.core;
+pos = (426,-200);
+},
+{
+name = ogonek;
+pos = (267,0);
+},
+{
+name = top.core;
+pos = (426,728);
+}
+);
+layerId = "3ADEBB49-5DC1-434E-A813-0590DED22BD7";
+shapes = (
+{
+ref = idotless;
+},
+{
+pos = (103,1);
+ref = acutecomb;
+},
+{
+pos = (288,0);
+ref = jdotless;
+},
+{
+pos = (382,1);
+ref = acutecomb;
+}
+);
+width = 543;
+}
+);
+}

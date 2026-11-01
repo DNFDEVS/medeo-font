@@ -1,0 +1,43 @@
+{
+glyphname = Ecircumflexacute;
+kernLeft = B;
+kernRight = E;
+layers = (
+{
+anchors = (
+{
+name = bottom;
+pos = (327,0);
+},
+{
+name = ogonek;
+pos = (541,0);
+},
+{
+name = top;
+pos = (485,1016);
+},
+{
+name = topright;
+pos = (485,819);
+}
+);
+layerId = "3ADEBB49-5DC1-434E-A813-0590DED22BD7";
+shapes = (
+{
+ref = E;
+},
+{
+pos = (144,180);
+ref = circumflexcomb;
+},
+{
+pos = (441,289);
+ref = acutecomb.topright;
+}
+);
+width = 605;
+}
+);
+unicode = 7870;
+}

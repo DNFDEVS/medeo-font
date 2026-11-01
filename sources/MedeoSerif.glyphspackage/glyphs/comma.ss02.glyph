@@ -1,0 +1,25 @@
+{
+glyphname = comma.ss02;
+kernLeft = comma.ss02;
+kernRight = comma.ss02;
+layers = (
+{
+layerId = "3ADEBB49-5DC1-434E-A813-0590DED22BD7";
+shapes = (
+{
+closed = 1;
+nodes = (
+(66,-150,l),
+(106,-150,l),
+(166,14,l),
+(166,113,l),
+(53,113,l),
+(53,0,l),
+(114,0,l)
+);
+}
+);
+width = 209;
+}
+);
+}

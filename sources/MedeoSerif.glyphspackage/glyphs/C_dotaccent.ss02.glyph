@@ -1,0 +1,30 @@
+{
+glyphname = Cdotaccent.ss02;
+kernLeft = C;
+kernRight = C;
+layers = (
+{
+anchors = (
+{
+name = bottom;
+pos = (402,0);
+},
+{
+name = top;
+pos = (393,889);
+}
+);
+layerId = "3ADEBB49-5DC1-434E-A813-0590DED22BD7";
+shapes = (
+{
+ref = C;
+},
+{
+pos = (297,179);
+ref = dotaccentcomb.ss02;
+}
+);
+width = 715;
+}
+);
+}

@@ -1,0 +1,30 @@
+{
+glyphname = gdotaccent.ss03;
+kernLeft = g;
+kernRight = g;
+layers = (
+{
+anchors = (
+{
+name = bottom;
+pos = (250,-200);
+},
+{
+name = top;
+pos = (250,710);
+}
+);
+layerId = "3ADEBB49-5DC1-434E-A813-0590DED22BD7";
+shapes = (
+{
+ref = g;
+},
+{
+pos = (154,0);
+ref = dotaccentcomb.ss03;
+}
+);
+width = 491;
+}
+);
+}

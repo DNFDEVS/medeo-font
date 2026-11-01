@@ -1,0 +1,35 @@
+{
+glyphname = itilde;
+kernLeft = itilde;
+kernRight = i;
+layers = (
+{
+anchors = (
+{
+name = bottom;
+pos = (144,0);
+},
+{
+name = ogonek;
+pos = (267,0);
+},
+{
+name = top;
+pos = (147,723);
+}
+);
+layerId = "3ADEBB49-5DC1-434E-A813-0590DED22BD7";
+shapes = (
+{
+ref = idotless;
+},
+{
+pos = (-49,0);
+ref = tildecomb;
+}
+);
+width = 288;
+}
+);
+unicode = 297;
+}

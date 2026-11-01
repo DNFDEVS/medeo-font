@@ -1,0 +1,17 @@
+{
+glyphname = periodcentered.ss02;
+kernLeft = periodcentered.ss02;
+kernRight = periodcentered.ss02;
+layers = (
+{
+layerId = "3ADEBB49-5DC1-434E-A813-0590DED22BD7";
+shapes = (
+{
+pos = (0,241);
+ref = period.ss02;
+}
+);
+width = 210;
+}
+);
+}

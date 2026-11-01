@@ -1,0 +1,21 @@
+{
+glyphname = guillemetleft;
+kernLeft = guillemetleft;
+kernRight = guillemetleft;
+layers = (
+{
+layerId = "3ADEBB49-5DC1-434E-A813-0590DED22BD7";
+shapes = (
+{
+pos = (194,0);
+ref = guilsinglleft;
+},
+{
+ref = guilsinglleft;
+}
+);
+width = 474;
+}
+);
+unicode = 171;
+}
