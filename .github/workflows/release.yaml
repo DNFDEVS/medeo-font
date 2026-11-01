@@ -1,65 +1,56 @@
 name: Release
 
-# A tag vX.Y.Z[-rc.N[.M]] publishes that commit: the same checks as CI, then the npm package (with provenance,
-# authenticated by the repository secret NPM_TOKEN) and a GitHub release with the ZIP. jsDelivr serves both on its
-# own: cdn.jsdelivr.net/npm/medeo-font@X.Y.Z/ and cdn.jsdelivr.net/gh/DNFDEVS/medeo-font@vX.Y.Z/.
+# A tag vX.Y.Z[-rc.N] publishes a GitHub release of that commit. Its one asset, Medeo-vX.Y.Z.zip, holds exactly
+# the committed files of the tagged commit that people install and read:
+#   fonts/ (every family, with the Nerd Fonts icon licences), OFL.txt, AUTHORS.txt, CONTRIBUTORS.txt,
+#   README.md, CHANGELOG.md, FONTLOG.txt, LANGUAGES.md.
+# Nothing is rebuilt here and nothing outside that list enters the ZIP. The release notes are the version's
+# dated section of CHANGELOG.md. This workflow does not publish npm: see npm.yaml.
 on:
   push:
     tags: ["v*"]
 
 permissions:
   contents: write  # the GitHub release
-  id-token: write  # npm provenance
 
 jobs:
   release:
     runs-on: ubuntu-24.04
-    timeout-minutes: 40
+    timeout-minutes: 15
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
-      - uses: actions/setup-node@v4
-        with:
-          node-version: "22"
-          registry-url: "https://registry.npmjs.org"
-      - name: Fresh build equals the committed fonts
-        run: make check
-      - name: Font Bakery
-        run: make test
-      - name: Tag, npm version and font version agree
-        run: venv/bin/python -I scripts/release_version.py "$GITHUB_REF_NAME" packages/medeo-font/package.json fonts
-      - name: Release notes from CHANGELOG.md
-        # before anything is published: a version without its dated CHANGELOG section stops here
-        run: mkdir -p out && venv/bin/python -I scripts/release_notes.py packages/medeo-font/package.json CHANGELOG.md > out/notes.md
-      - name: Publish to npm
-        working-directory: packages/medeo-font
-        env:
-          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
+      - name: fontTools
+        run: python -m pip install -q "fonttools==4.60.1"
+      - name: Version from the tag
         run: |
-          # the dist-tag comes from publishConfig: «latest» while only release candidates exist
-          npm install -g npm@11
-          # publish the tarball that was checked: its fonts and licence equal the repository's byte for byte
-          tgz=$(npm pack --silent | tail -1)
-          mkdir -p ../../out/pack && tar -xzf "$tgz" -C ../../out/pack
-          for f in medeo-sans/MedeoSansVariable.woff2:MedeoSans/webfonts/MedeoSansVariable.woff2 \
-                   medeo-sans/MedeoSansVariable-Italic.woff2:MedeoSans/webfonts/MedeoSansVariable-Italic.woff2 \
-                   medeo-mono/MedeoMonoVariable.woff2:MedeoMono/webfonts/MedeoMonoVariable.woff2 \
-                   medeo-mono/MedeoMonoVariable-Italic.woff2:MedeoMono/webfonts/MedeoMonoVariable-Italic.woff2 \
-                   medeo-pixel/MedeoPixelVariable.woff:MedeoPixel/webfonts/MedeoPixelVariable.woff; do
-            cmp "../../out/pack/package/dist/fonts/${f%%:*}" "../../fonts/${f##*:}"
-          done
-          cmp ../../out/pack/package/LICENSE.txt ../../OFL.txt
-          npm publish "$tgz" --provenance --access public
-      - name: GitHub release with the ZIP
+          mkdir -p out
+          version="${GITHUB_REF_NAME#v}"
+          printf '{"version": "%s"}\n' "$version" > out/version.json
+      - name: Tag and the version inside every font agree
+        run: python -I scripts/release_version.py "$GITHUB_REF_NAME" out/version.json fonts
+      - name: Release notes from CHANGELOG.md
+        # a version without its dated CHANGELOG section stops here, before anything is published
+        run: python -I scripts/release_notes.py out/version.json CHANGELOG.md > out/release-body.md
+      - name: ZIP of the tagged commit's files
+        run: |
+          zip="Medeo-$GITHUB_REF_NAME.zip"
+          git ls-files -z -- fonts OFL.txt AUTHORS.txt CONTRIBUTORS.txt README.md CHANGELOG.md FONTLOG.txt LANGUAGES.md \
+            | xargs -0 zip -q -X "out/$zip"
+          # the ZIP holds exactly those committed files, byte for byte
+          git ls-files -- fonts OFL.txt AUTHORS.txt CONTRIBUTORS.txt README.md CHANGELOG.md FONTLOG.txt LANGUAGES.md \
+            | sort > out/expected.txt
+          zipinfo -1 "out/$zip" | sort > out/zipped.txt
+          diff out/expected.txt out/zipped.txt
+          mkdir -p out/unzipped && unzip -q "out/$zip" -d out/unzipped
+          while IFS= read -r f; do cmp "$f" "out/unzipped/$f"; done < out/expected.txt
+          echo "ZIP=out/$zip" >> "$GITHUB_ENV"
+      - name: GitHub release
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
-          mkdir -p out/release
-          cp OFL.txt CHANGELOG.md LANGUAGES.md FONTLOG.txt out/release/
-          cp README-archive.md out/release/README.md
-          cp -R fonts out/release/
-          (cd out/release && zip -qr "../../Medeo-$GITHUB_REF_NAME.zip" OFL.txt README.md CHANGELOG.md LANGUAGES.md FONTLOG.txt fonts)
           case $GITHUB_REF_NAME in *-*) pre=--prerelease ;; *) pre= ;; esac
-          gh release create "$GITHUB_REF_NAME" "Medeo-$GITHUB_REF_NAME.zip" --title "Medeo $GITHUB_REF_NAME" --notes-file out/notes.md $pre
+          gh release create "$GITHUB_REF_NAME" "$ZIP" --verify-tag --title "Medeo $GITHUB_REF_NAME" \
+            --notes-file out/release-body.md $pre

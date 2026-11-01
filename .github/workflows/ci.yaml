@@ -1,7 +1,8 @@
 name: Build and check
 
 # Every pull request and every push to main: build the fonts from sources/, require the committed fonts/ to equal
-# the fresh build (what the repository holds is what a release publishes), then Font Bakery's googlefonts profile.
+# the fresh build (what the repository holds is what a release publishes), then Font Bakery's googlefonts profile
+# and the language list check (make test).
 on:
   pull_request:
   push:
@@ -25,7 +26,7 @@ jobs:
           python-version: "3.12"
       - name: Fresh build equals the committed fonts
         run: make check
-      - name: Font Bakery
+      - name: Font Bakery and languages
         run: make test
       - name: Record build dependencies
         if: always()
@@ -39,7 +40,6 @@ jobs:
         with:
           name: fonts-and-reports
           path: |
-            fonts/
-            out/fresh/
+            out/build/fonts/
             out/build-dependencies.txt
             out/fontbakery-*.json

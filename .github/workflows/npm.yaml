@@ -1,0 +1,65 @@
+name: npm (manual, owner approval)
+
+# Publishes the npm package medeo-font from a release tag. It never runs on its own: the owner starts it by hand
+# (Actions → «npm (manual, owner approval)» → Run workflow) after approving that npm version, and types the
+# package name and version to confirm. Run it in the `npm` environment; give that environment the owner as the
+# required reviewer in the repository settings, so a started run still waits for the owner.
+# Authenticated by the repository secret NPM_TOKEN, which is never printed.
+on:
+  workflow_dispatch:
+    inputs:
+      tag:
+        description: "Release tag to publish, e.g. v1.0.0"
+        required: true
+      confirm:
+        description: "Type medeo-font@<version>, e.g. medeo-font@1.0.0"
+        required: true
+
+permissions:
+  contents: read
+  id-token: write  # npm provenance
+
+jobs:
+  publish:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 15
+    environment: npm
+    steps:
+      - name: Confirmation matches the tag
+        env:
+          TAG: ${{ inputs.tag }}
+          CONFIRM: ${{ inputs.confirm }}
+        run: |
+          case "$TAG" in v[0-9]*) ;; *) echo "tag must look like v1.0.0"; exit 1 ;; esac
+          test "$CONFIRM" = "medeo-font@${TAG#v}" || { echo "confirmation does not match the tag"; exit 1; }
+      - uses: actions/checkout@v4
+        with:
+          ref: refs/tags/${{ inputs.tag }}
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+          registry-url: "https://registry.npmjs.org"
+      - name: Tag, npm version and font version agree
+        env:
+          TAG: ${{ inputs.tag }}
+        run: |
+          python -m pip install -q "fonttools==4.60.1"
+          python -I scripts/release_version.py "$TAG" packages/medeo-font/package.json fonts
+      - name: Publish the checked tarball
+        working-directory: packages/medeo-font
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
+        run: |
+          npm install -g npm@11
+          tgz=$(npm pack --silent | tail -1)
+          # the tarball's web fonts and licence equal the tagged commit's files byte for byte
+          mkdir -p ../../out/pack && tar -xzf "$tgz" -C ../../out/pack
+          for f in ../../out/pack/package/dist/fonts/*/*; do
+            name=$(basename "$f")
+            cmp "$f" "$(ls ../../fonts/*/webfonts/"$name")"
+          done
+          cmp ../../out/pack/package/LICENSE.txt ../../OFL.txt
+          npm publish "$tgz" --provenance --access public
