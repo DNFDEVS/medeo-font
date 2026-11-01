@@ -1,9 +1,10 @@
 FONTLOG for Medeo
 =================
 
-Medeo is an open font family for Latin and Cyrillic: Medeo Sans, Medeo Mono and Medeo Pixel. It is made by the
-studio DNF (https://dnf.dev), which holds the copyright of its changes, for prtner.ai. Licensed under the SIL Open
-Font License 1.1 (OFL.txt).
+Medeo is an open font family for Latin and Cyrillic: Medeo Sans, Medeo Mono, Medeo Pixel and, since 1.000,
+Medeo Serif. Medeo Mono also comes as Medeo Mono Nerd Font for terminals. It is made by DNF Studio
+(https://dnf.dev), which holds the copyright of its changes, for prtner.ai. Licensed under the SIL Open Font
+License 1.1 (OFL.txt).
 
 This log is about the fonts themselves: what they are made of and, version by version, what changed in their
 glyphs, features, spacing and build. What a release changes for the people who use Medeo is in CHANGELOG.md, and
@@ -16,37 +17,190 @@ What it is made of
 Medeo Sans
 - Outlines, metrics, most of the Latin and Cyrillic, figures and punctuation, and the upright a: Geist by Vercel
   and Basement Studio (Copyright 2024 and 2026 The Geist Project Authors, OFL 1.1). Some kerning pairs follow
-  Geist's proportions since 1.000-rc4.
+  Geist's proportions since 1.000-rc4. The outlines of p and р are Geist's; since 1.000 their descender has
+  Inter's depth.
 - From Inter by Rasmus Andersson (Copyright 2016 The Inter Project Authors, OFL 1.1): the letters к з я ж К З Я Ж,
-  the upright t, the italic e and t, ү and the bar of ұ Ұ, the manat ₼, lari ₾ and lira ₺ signs, the overall
-  spacing tone of Latin and Cyrillic, and the change of spacing between Inter's text and display optical sizes,
-  which the display end of Medeo's opsz axis follows.
-- Drawn by DNF: the tenge ₸, Uzbek ʻ, the narrow no-break, thin and figure spaces, the Black master narrowed as
-  Inter builds heavy weights, the optical size axis (opsz 14–32) with its display kerning, and every spacing and
+  л Л б (since 1.000, and with л Л also љ Љ ԓ Ԓ), the upright t, the italic e and t, ү and the bar of ұ Ұ, the bitcoin ₿, manat ₼, lari ₾ and lira ₺ signs, the
+  check mark ✓ and black star ★, the descender depth of 1.000, the overall spacing tone of Latin and Cyrillic,
+  and the change of spacing between Inter's text and display optical sizes, which the display end of Medeo's opsz
+  axis follows.
+- Drawn by DNF Studio: the tenge ₸, Uzbek ʻ, the narrow no-break, thin and figure spaces, the Black master narrowed
+  as Inter builds heavy weights, the optical size axis (opsz 14–32) with its display kerning, and every spacing and
   kerning edit since. In 1.000-rc4: the Cyrillic of Bashkir, Chuvash, Udmurt, Mari, Sakha, Komi, Ossetian,
-  Azerbaijani and Talysh, Altai, Khakas, Shor, Abkhaz and the languages of the North; the West African letters
-  Ɔ Ɛ Ɓ Ɗ Ƒ Ɣ Ɩ Ʋ Ɲ Ɨ Ʉ Ǝ Ɖ Ƴ Ƙ Ʊ Ʌ ʔ; Ҧ ҧ; Serbian and Macedonian italic б г д п т; letters with a dot below,
-  a caron, a breve or stacked marks; narrow marks for i, a dotless ɨ, compact marks for stacks on capitals, and
-  the marks U+030D U+0313 U+0330 U+0331. They are built from the family's own strokes, bowls, hooks and tails;
-  where no part existed (the loops of Ɣ ɣ, Ҩ ҩ), the part is drawn in the family's strokes.
+  Azerbaijani and Talysh, Altai, Khakas, Shor, Abkhaz and the languages of the North; the West African letters Ɔ Ɛ Ɓ
+  Ɗ Ƒ Ɣ Ɩ Ʋ Ɲ Ɨ Ʉ Ǝ Ɖ Ƴ Ƙ Ʊ Ʌ ʔ; Ҧ ҧ; Serbian and Macedonian italic б г д п т; letters with a dot below, a caron, a
+  breve or stacked marks; narrow marks for i, a dotless ɨ, compact marks for stacks on capitals, and the marks
+  U+030D U+0313 U+0330 U+0331. They are built from the family's own strokes, bowls, hooks and tails; where no part
+  existed (the loops of Ɣ ɣ, Ҩ ҩ), the part is drawn in the family's strokes. In 1.000: the heavy check mark ✔ (the
+  ✓ with a heavier stroke), the Belarusian ruble sign (Б with a bar, built like ₽), the soft and non-breaking
+  hyphens from the hyphen, and the zero-width space, non-joiner and joiner.
 
 Medeo Mono
 - Outlines and metrics: Geist Mono (Copyright 2024 and 2026 The Geist Project Authors, OFL 1.1).
-- Drawn by DNF: ₸ ₼ ₾ ₺ built from Mono's own letters in its cell, Uzbek ʻ, top anchors and language systems for
-  Cyrillic stress marks. In 1.000-rc4: the same new Cyrillic, Abkhaz and West African letters as Medeo Sans, Ҧ ҧ,
-  Serbian and Macedonian italic forms, fitted to the cell the way Mono draws Ж Ш М; the slanted Ʒ ʒ Ǯ ǯ of the
-  italic; anchors and mark stacking for the new letters. Nothing is taken from Inter.
+- Drawn by DNF Studio: ₸ ₼ ₾ ₺ built from Mono's own letters in its cell, Uzbek ʻ, top anchors and language systems
+  for Cyrillic stress marks. In 1.000-rc4: the same new Cyrillic, Abkhaz and West African letters as Medeo Sans,
+  Ҧ ҧ, Serbian and Macedonian italic forms, fitted to the cell the way Mono draws Ж Ш М; the slanted Ʒ ʒ Ǯ ǯ of the
+  italic; anchors and mark stacking for the new letters. In 1.000: г ѓ ґ ӷ built from the parts of Mono's own r, and
+  the Belarusian ruble sign. PT Mono by ParaType served as the reference for the construction of г and ӷ and for the
+  depth of the hooks; no outline is taken from it. Nothing is taken from Inter.
+
+Medeo Mono Nerd Font
+- Medeo Mono with the icons of Nerd Fonts 3.5.1 (font-patcher, complete icon set, one-cell icons). The icon sets
+  keep their own licences, which travel with the fonts: Nerd Fonts, Codicons, Font Awesome, Material Design,
+  Octicons, Pomicons, Powerline Symbols, Powerline Extra Symbols and Weather Icons.
 
 Medeo Pixel
 - The pixel grid, the pixel component and the five dot shapes of the ELSH axis: Geist Pixel (Copyright 2026 The
   Geist Project Authors, OFL 1.1).
-- Drawn by DNF on that grid: the Cyrillic of Russian, Ukrainian, Kazakh, Kyrgyz, Tajik and Uzbek, and the signs
-  ₸ ₼ ₾ ₺ ₽. In 1.000-rc4: the Cyrillic of the languages added to Medeo Sans, the palochka Ӏ ӏ, Ѓ ѓ Ќ ќ, Ҧ ҧ,
+- Drawn by DNF Studio on that grid: the Cyrillic of Russian, Ukrainian, Kazakh, Kyrgyz, Tajik and Uzbek, and the
+  signs ₸ ₼ ₾ ₺ ₽. In 1.000-rc4: the Cyrillic of the languages added to Medeo Sans, the palochka Ӏ ӏ, Ѓ ѓ Ќ ќ, Ҧ ҧ,
   Abkhaz, the West African letters, Ŋ ŋ, the hook above, the horn and the dot below with the full Vietnamese set,
-  Ŧ ŧ and Ǧ ǧ in all five element shapes, ₴ and ₹, and tabular figures. Nothing is taken from Inter.
+  Ŧ ŧ and Ǧ ǧ in all five element shapes, ₴ and ₹, and tabular figures. In 1.000: the Belarusian ruble sign and a
+  new ₽. Nothing is taken from Inter.
+
+Medeo Serif
+- Latin, figures, punctuation, signs, metrics, kerning and features: Geist Serif Regular 1.001 by WORDMARK, Mark
+  Davis and Andrés Briganti (Copyright 2026 The Geist Project Authors, OFL 1.1), as drawn. Geist Serif has one
+  weight and no italic, and so does Medeo Serif. Its "Regular" is the round-dot style of Geist Serif. Its stylistic
+  sets ss01–ss05 are renumbered to Medeo's scheme (see 1.000 below) and also switch the Cyrillic.
+- The Cyrillic, which Geist Serif does not have, is built by DNF Studio from Geist Serif's own parts: stems and
+  serifs measured from H and n, bowls from P, shoulders from E, the hook of J, the legs of K, Я from R, Ю from O, Э
+  and э from mirrored C and c. Cyrillic letters with a Latin twin (А В Е М Н О Р С Т Х а е о р с у х and others) are
+  that Latin letter; Ӏ ӏ are I, Ӕ ӕ are Æ æ. Lowercase letters without a twin are small capitals of the capitals,
+  narrowed to the width of the Latin lowercase, with the hairlines and stems restored. The twins space and kern
+  exactly as the Latin letters. The other Cyrillic letters take the sidebearings of a Latin model (н п и as l h i)
+  plus the difference PT Serif has between the two. Their kerning gives every Cyrillic pair the white of its Latin
+  model pair in Geist Serif (ко as ko, жа as xa), so the Cyrillic sets as tightly as Geist's Latin, and keeps serifs
+  at least 25 units apart.
+- From PT Serif by ParaType: Alexandra Korolkova, Olga Umpeleva, Vladimir Yefimov (Copyright (c) 2010 ParaType
+  Ltd., OFL 1.1, Reserved Font Names "PT Sans", "PT Serif" and "ParaType"):
+  - the outlines of Б б Д д Л л Ф ф З з, scaled to the proportions of Geist Serif, with hairlines thinned to Geist's
+    and Geist's stems, crossbars and wedge serifs; the bowl of б and the neck and flag above it;
+  - the outlines of Ҩ ҩ Ҽ ҽ Ӡ ӡ, with Geist's hairlines;
+  - the construction of the letters of the smaller Cyrillic languages, built from Geist Serif's parts: tails as on
+    Ц (Ҭ ҭ Ӷ ӷ Ӌ ӌ Ҵ ҵ), hanging descenders as on Џ (Ҙ ҙ Ҫ ҫ Ҿ ҿ), the hooks of Ђ ђ Ӈ ӈ Ԥ ԥ Ԓ ԓ Ӄ ӄ Ҕ ҕ, bars and
+    shoulders (Ҝ ҝ Ҟ ҟ Ҡ ҡ Ҥ ҥ Ҹ ҹ);
+  - the construction of the pound sign £.
+- From Noto Serif Display (Copyright 2012 Google Inc., OFL 1.1): the model for Ʊ ʊ Ʋ ʋ, with strokes thickened to
+  Geist's.
+- Drawn by DNF Studio from Geist Serif's parts: the African and other extended Latin letters Ɔ ɔ Ǝ ǝ Ɛ ɛ Ʌ ʌ Ŧ ŧ Ɨ ɨ
+  Ʉ ʉ Ŋ ŋ Ɲ ɲ Ƒ ƒ Ɖ ɖ Ɓ ɓ Ɗ ɗ Ƙ ƙ Ƴ ƴ Ɩ ɩ Ɣ ɣ ʔ ʻ; accented Latin and Cyrillic letters composed from the font's
+  letters and marks; the marks U+030D U+0329 U+0330 U+0331 U+1DC4–U+1DC7; the signs ₸ ₽ № ₴ ₼ ₾ ₺ ₿ ¢ £ ^ and the
+  Belarusian ruble sign, from Geist Serif's stems, hairlines, wedge serifs and bowls; the figure, thin and narrow
+  no-break spaces, soft and non-breaking hyphens, zero-width space, non-joiner and joiner, and the line and
+  paragraph separators, as in Medeo Sans; top and bottom anchors and mark stacking for every new letter. Two fixes
+  to the anchors of Geist Serif's Latin: Ə had none, and the top anchors of b d đ þ sat inside the ascender; they
+  now sit above it, as on l.
+
 
 Versions
 --------
+
+1.000 (2026-10-31)
+All families
+- Variable fonts of Sans and Mono ship without TrueType hinting, like Inter, Geist and JetBrains Mono; the static
+  fonts keep ttfautohint for Windows apps.
+- meta table: dlng and slng are "Latn, Cyrl" in every font (Sans, Mono and Nerd had slng "Cyr", Pixel "Latn",
+  Serif had no meta table).
+- Smaller files: the static fonts of Sans, Sans Display and Mono are cut from the variable fonts with overlaps
+  removed and the other components kept, then hinted with ttfautohint; Medeo Sans stores its kerning as classes plus
+  exceptions in static, variable and web fonts, with every pair value kept (static Sans Regular 658 -> 263 KB,
+  variable Sans 1091 -> 688 KB).
+Medeo Serif
+- New family, one style: Regular. Geist Serif Latin as drawn, with Cyrillic, extended Latin, signs and anchors
+  added as described above. 759 languages (699 Latin, 60 Cyrillic), as Sans and Mono.
+- Latin outlines, spacing and kerning are Geist Serif's: every Latin pair positions as in Geist Serif.
+- Signs added: ₴ ₼ ₾ ₺ ₿, the Belarusian ruble sign at U+20C5 (the code Unicode 19.0 proposes), and ¢ £ ^, which
+  Geist Serif does not have. The crossbar of ₽ is raised to the height PT Serif uses, clear of the leg's serif.
+- Spaces and controls as in Medeo Sans: U+2007 U+2009 U+202F U+00AD U+2011 U+200B U+200C U+200D U+2028 U+2029.
+- Stylistic sets in Medeo's numbering instead of Geist Serif's ss01–ss05: ss01 tailed a, ss04 alternate R, ss12
+  alternate k, ss13 square dots, ss14 triangle dots, ss15 heart dots, ss16 round O Q o 0. The Cyrillic switches
+  with the Latin (а ӑ ӓ in ss01; dotted letters in ss13–ss15; О о Ө ө Ю ю in ss16); alternates keep the marks and
+  kerning of their base letter.
+- К к Ж ж, and Қ қ Ҝ ҝ Ҟ ҟ Ҡ ҡ Ӄ ӄ Ќ ќ Җ җ Ӝ ӝ built on them: the arm and leg start from a short hairline bar
+  at mid-height, as in Medeo Sans and PT Serif, instead of meeting near the stem. К keeps the width, serifs and
+  kerning of K; Ҝ ҝ take the vertical stroke across the bar.
+- Cyrillic spacing: 58 glyphs re-spaced; lowercase letters with stems sit like Latin l h i.
+- Cyrillic kerning at Geist's density: every Cyrillic pair takes the white of its Latin model pair in Geist Serif
+  (ко as ko, от as oz), which closes the gaps around о; serifs stay at least 25 units apart, and the top beak of
+  л Л keeps 40. Pairs of Latin twins are equal to the Latin pairs (ро = po, сс = cc, ТА = TA).
+- Cyrillic pairs that stood looser than the rest closed up (о–д, о–б, ё–р, о–с and others, 1508 pairs): every
+  pair keeps its place or comes closer, none opens up; tight pairs, sidebearings and the Latin are unchanged. Pairs
+  where one letter reaches over the other (Г Т У over lowercase, the tail of у) keep their place; no pair comes
+  closer than 60 units in any direction, or than it stood before.
+- Outline fixes: the stems of h ħ ђ straightened; б redrawn with a smooth bowl, without the hairline slits at its
+  joins; the sliver in Ӈ and the extra dot of ǐ removed; coincident points removed, five contours turned the right way.
+- Serif tips of the Cyrillic lowercase are 4 units tall, as in the Latin lowercase (they were 13: the emboldening
+  that restores hairlines in letters drawn from capitals also thickened the tips).
+- The bowl of Б aligned with its stem.
+- Ӄ ӄ: the leg of К к bends into a round hook to the descender (-200) that thins to a hairline terminal cut at
+  an angle, as in PT Serif (it was a J hook under the leg, to -150). Their widths are those of К к.
+- Ҕ ҕ: a bowl under the bar of Г г runs down into a round hook (Ҕ to -150, ҕ to -200), as in PT Serif and Medeo
+  Sans; ҕ was г with the shoulder of n and read like ŋ.
+- Ҙ ҙ: the tail hangs from the lowest point of the bowl; its top no longer shows inside the counter.
+- Saw-tooth points removed from the joins of З з Ɛ ɛ Ӡ ӡ Ҩ ҩ Ҽ ҽ Ҿ ҿ, and so from Ӟ ӟ.
+- Build: nested components flattened, standard glyph names (uniXXXX), degenerate segments removed; name IDs 16
+  and 17 are not used, as the family has one style.
+Medeo Sans
+- Descenders deepened from −150 to −198 units, Inter's depth: p q y j g ŋ þ ƴ ɲ ɖ μ ф ђ ӈ ԓ ԥ Ŋ Ƒ Ɲ Ӈ and, through
+  components, р у ў ј ý ÿ ğ ģ and the rest. g keeps its overshoot (−210); ү ұ are at −198 in every weight.
+- Lowercase Cyrillic tails ц д щ џ қ ң ҳ ҷ җ ҭ ӷ ӌ ҿ deepened to −150, level with the capital tails.
+- Hooks ҕ ҧ ӄ Ӄ Ԓ at −198, level with р у ђ ӈ; the italic ӄ Ӄ hook is the upright hook slanted 12°.
+- Capitals Ҕ Ҧ: the bowl lowered by 134 units to −150, the depth of the capital tails, as in the italic; the
+  bottom anchor of Ҕ sits under the bowl. Italic Ԥ: tail at −150 in every master, flush with the stem.
+- Ө Ӫ: thinner crossbar in the Black master (146 to 136 units); other weights interpolate, Regular is unchanged.
+- л Л from Inter, as their left leg was lighter than the stems in bold weights (88% of н in Bold and Black). Fitted
+  to each master: legs and stems of н Н, bars of п П, Л as wide against П as before; the top of the hook of л is the
+  top of the tail of а, the hook of Л keeps its height; sidebearings and kerning re-fitted to the old light of every
+  pair. љ Љ ԓ Ԓ are built on them, keeping their bowls and hooks; the upright љ ԓ Ԓ become components like the
+  italic ones.
+- б from Inter: Geist's б had a small bowl (its counter 81% of о's in Regular, 76% in Bold; now 91% and 88%). Its
+  bowl takes the stroke of о in every master, the flag ends on the cap height; the italic б is the upright slanted
+  12°, the Serbian italic б is unchanged. Kerning re-fitted to the old light of every pair.
+- Added ₿, ✓ and ★ from Inter 4.001, ✔, the Belarusian ruble sign at U+20C5 (the code Unicode 19.0 proposes), the
+  soft and non-breaking hyphens, and the zero-width space, non-joiner and joiner.
+- Kerning in the Black master: Ҕ Ҧ before А Д Я Л Х Ж д л +18; italic ӄ before д as к before д; italic ӄ before
+  ӡ +20. Weights up to Regular are unchanged.
+- Widths, other kerning and vertical metrics are unchanged.
+- Medeo Sans Display statics: the stylistic sets pointed to name IDs 266-276 instead of 256-266 (ss01 read
+  "Rounded dot", ss02-ss11 had no name, as in RC4); they now read as in Medeo Sans. head flags bit 3 set, as in
+  the other hinted fonts.
+Medeo Mono
+- New г ѓ ґ ӷ from the parts of Mono's r: foot serif, spur and stem, with a beak on г; ґ keeps its upturn; ӷ has a
+  longer foot and a tail at −150. The italic is the upright slanted 12°, like the italic r. ғ ҕ keep their shapes.
+- Descenders in the same groups as Sans: −198, g ɣ Ɣ at −210, lowercase tails at −150; hooks ҕ ҧ ӄ Ӄ Ԓ at −198.
+- Ө Ӫ: thinner crossbar in the Black master (144 to 134 units).
+- Added the Belarusian ruble sign at U+20C5, centred in the cell like ₽.
+- Even texture, also at tight tracking (measured at -10 % letter-spacing against PT Mono): т ҭ get beaks at both
+  ends of the bar and a foot serif, built like the new г; м is narrowed by moving both stems inward (32 units in
+  Regular), щ by its left and middle stems, ю by its stem; к ц ь ң л я and Г К Л Я Ғ Ґ Қ Ь Ц Һ are moved
+  within their cells to balance their sides as PT Mono does. All masters, upright and italic.
+- The previous г ѓ ґ ӷ (Geist Mono's) stay as stylistic set ss17 "Plain г", the previous т ҭ as ss18 "Plain т".
+- Widths and vertical metrics are unchanged; every cell stays 600 units.
+- Stylistic sets switch the Cyrillic twins of a ă ä as well: а ӑ ӓ in ss01 "No tail a" and ss02 "Alt a" (italic:
+  ss02), and ӓ with ss08 as ä does. New glyphs a-cy.ss01/.ss02, abreve-cy.ss01/.ss02, adieresis-cy.ss01/.ss02 and
+  adieresis-cy.ss01.ss08/.ss02.ss08 (italic: the ss02 ones), built on the Latin alternates with the marks of
+  ӑ ӓ; widths, anchors and mark positions are the Latin alternates'.
+Medeo Mono Nerd Font
+- Follows Medeo Mono, including ss17 and ss18.
+- New set: 18 static styles of Medeo Mono with Nerd Fonts 3.5.1 icons. Family "MedeoMono Nerd Font Mono", files
+  MedeoMonoNerdFontMono-*.ttf, PostScript names MedeoMonoNFM-*. Every icon and letter is one cell (600 units).
+- After patching, the 31 combining marks keep their zero width, the Windows ascent and descent stay 1088 and 394,
+  and the meta table is kept. Original outlines, widths and text shaping are unchanged.
+Medeo Pixel
+- Added the Belarusian ruble sign at U+20C5: Б one cell to the right with the lower bar of ₽.
+- я: the right stem was one cell further left below the bowl than above it, and the bowl's bottom rows stood
+  in from the leg, leaving a notch; now the stem is straight, the bowl's bottom mirrors its top and the leg leaves
+  it one cell in, stepping out one cell a row as in к and Я. Width and anchors unchanged.
+- Redrew ₽: the bowl is P's; the upper bar continues the bowl's two bottom rows to the left; two rows of space
+  separate it from the lower bar.
+- Stylistic sets switch the Cyrillic twins as well: а ӑ ӓ in ss01 "No tail a" and ss02 "Alt a", І Ї Ӏ in
+  ss05 "Alt I". New glyphs a-cy.ss01/.ss02, abreve-cy.ss01/.ss02, adieresis-cy.ss01/.ss02, I-cy.ss05,
+  Yi-cy.ss05 and Palochka-cy.ss05, built on the Latin alternates; widths (I.ss05 380 units), anchors and mark
+  positions are the Latin alternates'.
+Licence and credits
+- OFL.txt, AUTHORS.txt and the fonts' names credit ParaType (PT Serif) and Google (Noto Serif Display) for Medeo
+  Serif, and the authors of Geist Serif.
 
 1.000-rc4 (2026-10-28)
 - Expanded Latin and Cyrillic repertoires and combining-mark support in Sans, Mono and Pixel.
@@ -75,7 +229,7 @@ Versions
 - Medeo Sans and Medeo Mono change only their version.
 
 1.000-rc2 (2026-10-25)
-- DNF is the copyright holder; OFL.txt, AUTHORS.txt and the fonts' names say so. This FONTLOG.
+- DNF Studio is the copyright holder; OFL.txt, AUTHORS.txt and the fonts' names say so. This FONTLOG.
 - Sources renamed to MedeoSans, MedeoMono and MedeoPixel.
 
 1.000-rc1 (2026-10-25)

@@ -6,9 +6,12 @@
 # Name or Organization <email address>
 
 Timur Akhimov <tmr@dnf.kz>
-DNF (Medeo) <https://dnf.dev>
+DNF Studio <https://dnf.dev>
 Andrés Briganti <info@briganti.works>
 Mateo Zaragoza <mateo@basement.studio>
 Basement.studio <hello@basement.studio>
 Vercel <contactus@vercel.com>
 Rasmus Andersson and The Inter Project Authors (Inter: letters, kerning and signs used in Medeo Sans) <https://github.com/rsms/inter>
+WORDMARK, Mark Davis, Andrés Briganti and The Geist Project Authors (Geist Serif: the Latin of Medeo Serif and the parts of its Cyrillic) <https://github.com/vercel/geist-font>
+ParaType Ltd.: Alexandra Korolkova, Olga Umpeleva, Vladimir Yefimov (PT Serif: the source forms of the Cyrillic of Medeo Serif) <https://www.paratype.com>
+Google Inc. (Noto Serif Display: the model for Ʊ ʊ Ʋ ʋ in Medeo Serif) <https://notofonts.github.io>

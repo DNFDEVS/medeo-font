@@ -4,7 +4,7 @@
 # Names should be added to this file as:
 # Name <email address or web address>
 
-DNF <https://dnf.dev>
+DNF Studio <https://dnf.dev>
 Andrés Briganti <info@briganti.works>
 Mateo Zaragoza <mateo@basement.studio>
 Basement.studio <hello@basement.studio>
@@ -13,3 +13,5 @@ Evil Rabbit <evilrabbit@vercel.com>
 José Rago <jose@basement.studio>
 Facundo Santana <facundo@basement.studio>
 Guido Ferreyra <guido@tipografia.com.ar>
+WORDMARK (Geist Serif) <https://github.com/vercel/geist-font>
+Mark Davis (Geist Serif) <https://github.com/vercel/geist-font>
