@@ -6,11 +6,11 @@ Medeo is a free font family for Latin and Cyrillic by [DNF Studio](https://dnf.d
 
 - **Medeo Sans** for interfaces and text. Weight 100–900, optical size 14–32, upright and italic. Includes Medeo Sans Display for headings.
 - **Medeo Serif** for text and headings. One style: Regular.
-- **Medeo Mono** for code and aligned columns. Weight 100–900, upright and italic.
+- **Medeo Mono** for code and aligned columns. Weight 100–900, upright and italic. Its box-drawing and block characters join in terminals.
 - **Medeo Mono Nerd Font**: Medeo Mono with the [Nerd Fonts](https://www.nerdfonts.com) 3.5.1 icons, for terminals, editors and shell themes. Family name `MedeoMono Nerd Font Mono`.
 - **Medeo Pixel** for display text. Five pixel shapes: Square, Circle, Grid, Triangle, and Line.
 
-Each family covers the alphabets of 759 languages in the Google Fonts language dataset. This count describes alphabet coverage, not a linguistic review. See [LANGUAGES.md](LANGUAGES.md).
+Each family covers the alphabets of 759 languages in the Google Fonts language dataset. This count describes alphabet coverage, not a linguistic review. See [LANGUAGES.md](LANGUAGES.md). The Kyrgyz som sign (U+20C0) is in every family.
 
 Made by DNF Studio · [dnf.dev](https://dnf.dev) for [prtner.ai](https://prtner.ai).
 
@@ -37,6 +37,10 @@ Without a bundler, load the style sheet from the Medeo CDN:
 For CSS and Next.js examples, see [the npm package documentation](packages/medeo-font/README.md).
 
 For desktop use, download the fonts from [GitHub releases](https://github.com/DNFDEVS/medeo-font/releases) and install the TTF files you need. Each family comes in its own folder under `fonts/`. The license (OFL.txt) and this README are in the root of the repository and of the release ZIP; Medeo Mono Nerd Font also keeps the licenses of its icons in `fonts/MedeoMonoNerdFont/licenses/`. Install either the variable or the static fonts of a family, not both.
+
+## Terminals and box drawing
+
+The box-drawing and block characters of Medeo Mono (U+2500–259F) sit in the middle of the line, so frames, tables and progress bars join in terminals and editors that use the standard line, and in browsers. Consoles that size the line by the font's Windows metrics, such as Far Manager in the classic Windows console, need the static TTF files: they carry hinting that puts the ends of lines and blocks on that line. The web and variable fonts keep the standard line. Medeo Mono Nerd Font has the same characters.
 
 ## Figures
 
