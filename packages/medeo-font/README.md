@@ -2,7 +2,7 @@
 
 # Medeo
 
-Medeo is a free font family for Latin and Cyrillic by [DNF Studio](https://dnf.dev), made for [prtner.ai](https://prtner.ai). Version 1.0 is the first stable release. Try the fonts at [prtner.ai/font](https://prtner.ai/font).
+Medeo is a free font family for Latin and Cyrillic by [DNF Studio](https://dnf.dev), made for [prtner.ai](https://prtner.ai). Version 1.1 is the current release; the [changelog](https://github.com/DNFDEVS/medeo-font/blob/main/CHANGELOG.md) lists what changed. Try the fonts at [prtner.ai/font](https://prtner.ai/font).
 
 Medeo Sans is a sans-serif for interfaces and running text. It has two axes, weight (100–900) and optical size (`opsz`, 14–32); browsers set the optical size from the font size automatically.
 
@@ -17,7 +17,7 @@ Each family covers the alphabets of 759 languages in the Google Fonts language d
 ## Installation
 
 ```sh
-npm install medeo-font@1.0.0
+npm install medeo-font@1.1.0
 ```
 
 ## Using with Next.js
@@ -177,28 +177,22 @@ code {
 Without a bundler, from a CDN that mirrors npm:
 
 ```html
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/medeo-font@1.0.0/dist/medeo.css" />
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/medeo-font@1.1.0/dist/medeo.css" />
 ```
 
-### Files split by script
-
-`medeo.css`, `sans.css`, `serif.css`, `mono.css` and `pixel.css` load each style as several files, one per script, as Google Fonts and Fontsource do: `latin`, `latin-ext`, `vietnamese`, `cyrillic`, `cyrillic-ext` and `symbols` (the remaining signs: arrows, math, Greek letters used as symbols, box drawing). Unlike Google's `cyrillic`, Medeo's also holds the Kazakh letters Ә Ғ Қ Ң Ө Ү Һ, so Russian and Kazakh text need the same two files. Every `@font-face` has a `unicode-range`, so the browser downloads only the files for the characters on the page. A page in English with Sans, Sans Italic, Mono and Pixel downloads about 220 KB instead of 670 KB; a page in Russian or Kazakh, which also needs the Latin files for spaces, digits and punctuation, about 375 KB.
-
-Each file keeps both axes, all OpenType features and every combining mark the font has. Kerning and contextual features do not act between two characters that come from different files, for example between a Cyrillic letter and the comma after it, which is in the Latin file, or inside a Polish or Vietnamese word whose accented letters are in `latin-ext` or `vietnamese`.
-
-To load one file per style, with kerning between all characters, import the `-full` style sheets instead. They define the same families and variables:
-
-```js
-import "medeo-font/medeo-full.css"; // or sans-full.css, serif-full.css, mono-full.css, pixel-full.css
-```
+Or from the Medeo CDN:
 
 ```html
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/medeo-font@1.0.0/dist/medeo-full.css" />
+<link rel="stylesheet" href="https://cdn.prtner.ai/1.1.0/medeo.css" />
 ```
 
-The `next/font` exports (`medeo-font/sans` and the others) load the full files.
+### One file per style
 
-The font files are under `medeo-font/fonts/*`: the full files (`MedeoSansVariable.woff2`, ...) and the split ones (`MedeoSansVariable.cyrillic.woff2`, ...). The split files are WOFF2; the full Medeo Pixel file is WOFF, the other full files WOFF2. Desktop TTF files are in the archive on [prtner.ai/font](https://prtner.ai/font) and in every [GitHub release](https://github.com/DNFDEVS/medeo-font/releases).
+Each style is one file that holds every alphabet, so kerning works between all characters of a line, whatever their script. `medeo.css`, `sans.css`, `serif.css`, `mono.css` and `pixel.css` load them.
+
+The `-full` style sheets of earlier versions still work and load the same files; they will be removed in the next major version.
+
+The font files are under `medeo-font/fonts/*`, for example `MedeoSansVariable.woff2`. They are WOFF2; Medeo Pixel is WOFF.
 
 ## Tabular figures
 
