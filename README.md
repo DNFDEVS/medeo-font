@@ -2,7 +2,7 @@
 
 # Medeo
 
-Medeo is a free font family for Latin and Cyrillic by [DNF Studio](https://dnf.dev), made for [prtner.ai](https://prtner.ai). Version 1.0 is the first stable release. Try the fonts at [prtner.ai/font](https://prtner.ai/font).
+Medeo is a free font family for Latin and Cyrillic by [DNF Studio](https://dnf.dev), made for [prtner.ai](https://prtner.ai). Version 1.1 is the current release; [CHANGELOG.md](CHANGELOG.md) lists what changed. Try the fonts at [prtner.ai/font](https://prtner.ai/font).
 
 - **Medeo Sans** for interfaces and text. Weight 100–900, optical size 14–32, upright and italic. Includes Medeo Sans Display for headings.
 - **Medeo Serif** for text and headings. One style: Regular.
@@ -25,7 +25,13 @@ The static fonts include separate Sans and Sans Display families. Choose Sans fo
 For a website or Next.js project:
 
 ```sh
-npm install medeo-font@1.0.0
+npm install medeo-font@1.1.0
+```
+
+Without a bundler, load the style sheet from the Medeo CDN:
+
+```html
+<link rel="stylesheet" href="https://cdn.prtner.ai/1.1.0/medeo.css" />
 ```
 
 For CSS and Next.js examples, see [the npm package documentation](packages/medeo-font/README.md).
@@ -62,7 +68,7 @@ and Medeo Pixel slash the zero by default, and their `ss09` gives the plain one.
 | ss09 | slashed zero | — | plain zero | plain zero |
 | ss10 | alternate enclosing shapes | — | alternate enclosing shapes | — |
 | ss11 | contextual brand styles | — | coding ligatures | — |
-| ss12 | — | alternate k | — | — |
+| ss12 | alternate д | alternate k | — | — |
 | ss13 | — | square dots | — | — |
 | ss14 | — | triangle dots | — | — |
 | ss15 | — | heart dots | — | — |
@@ -82,7 +88,7 @@ For outlined lettering and print export, choose the static Sans, Sans Display, o
 
 - `ttf/`: static TTFs.
 - `variable/`: variable TTFs (Sans, Mono and Pixel).
-- `webfonts/`: web fonts, WOFF2; Pixel uses WOFF. One file per style, and the same fonts split by script for CSS `unicode-range` (`MedeoSansVariable.latin.woff2`, `.latin-ext`, `.vietnamese`, `.cyrillic`, `.cyrillic-ext`, `.symbols`; all WOFF2), which the npm package's style sheets load.
+- `webfonts/`: web fonts, one file per style, WOFF2; Pixel uses WOFF.
 - `MedeoMonoNerdFont/licenses/`: the licenses of the Nerd Fonts icons.
 
 `sources/` holds the Glyphs sources and the build configuration, `scripts/` the build steps (see Build below), and `packages/medeo-font/` the npm package.
@@ -91,7 +97,7 @@ For outlined lettering and print export, choose the static Sans, Sans Display, o
 
 See [CHANGELOG.md](CHANGELOG.md) for changes in each release and [FONTLOG.txt](FONTLOG.txt) for font development details.
 
-Release tags use the npm version: `v1.0.0`. The matching font version is `1.000`.
+Release tags use the npm version: `v1.1.0`. The matching font version is `1.100`.
 
 ## Build
 
@@ -113,10 +119,10 @@ What each family is built from:
 - **Medeo Mono**: `MedeoMono.glyphspackage` and `MedeoMono-Italic.glyphspackage` with `config-MedeoMono.yaml`. The static styles are cut from the variable font in the same way (`scripts/static_instances.py`).
 - **Medeo Pixel**: `MedeoPixel.glyphspackage` with `config-MedeoPixel.yaml`. The five static shapes are named as one family by `scripts/pixel_static_names.py`; the web font is WOFF.
 - **Medeo Serif**: `MedeoSerif.glyphspackage` with `config-MedeoSerif.yaml`, one static TTF. Its TrueType hinting and the data a Glyphs source does not hold come from `MedeoSerif-truetype.json` (`scripts/truetype_data.py`).
-- After the builder, the variable Sans and Mono fonts lose their TrueType hinting (`scripts/variable_unhinted.py`), the variable fonts get overlap flags (`scripts/variable_overlaps.py`), and the web fonts are written (`scripts/webfonts.py`) and split by script (`scripts/web_subsets.py`: Google Fonts' subsets, with the whole Kazakh alphabet in `cyrillic`; `make fonts` also rewrites the npm package's style sheets from them).
+- After the builder, the variable Sans and Mono fonts lose their TrueType hinting (`scripts/variable_unhinted.py`), the variable fonts get overlap flags (`scripts/variable_overlaps.py`), Medeo Sans gets its one class kerning table from `sources/MedeoSans-kerning.json` and `sources/MedeoSans-Italic-kerning.json` (`scripts/class_kerning.py`), and the web fonts are written (`scripts/webfonts.py`).
 - **Medeo Mono Nerd Font** is not built by `make`. It is patched from the static Medeo Mono TTFs with the [Nerd Fonts](https://github.com/ryanoasis/nerd-fonts) 3.5.1 font-patcher (`--complete --mono --careful`); afterwards Medeo Mono's own glyphs get back their original advance widths, so combining marks stay zero-width, and the `meta` table is restored. `make check` lists these files but does not compare them.
 
-Every pull request and every push to `main` runs `make check` and `make test` on GitHub Actions (`.github/workflows/ci.yaml`).
+Every pull request and every push to `main` or a `release/` branch runs `make check` and `make test` on GitHub Actions (`.github/workflows/ci.yaml`).
 
 ## License and credits
 

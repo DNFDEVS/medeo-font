@@ -2,6 +2,61 @@
 
 What changes for people who use Medeo, release by release. Headings are npm versions; the fonts inside carry the matching font version, such as `1.0.0` → `1.000`. RC4.5 and RC4.6 are steps between npm versions, named as on [prtner.ai/font](https://prtner.ai/font). Supported languages are in [LANGUAGES.md](LANGUAGES.md); how the fonts are made, glyph by glyph, is in [FONTLOG.txt](FONTLOG.txt).
 
+## 1.1.0 — 2026-11-10
+
+Fonts `1.100`. This release brings one web file per style, one kerning table for Sans, new signs, and box drawing that sits on the line in Mono.
+
+### Medeo Sans
+
+- One kerning table for Latin and Cyrillic, in every Sans font: variable, static and web. Kerning is stored as classes, with no per-pair records.
+- In Russian and English text, about 99% of pairs stay within 5 units per 1000 of 1.0.0. A few rare pairs move more, up to about 60 units.
+- ад has more room, upright and italic: а and д no longer meet at −4% tracking.
+- ss12 sets д in the form of the capital Д, upright and italic.
+- Variable Medeo Sans TTF: 690 KB → 425 KB. Italic: 733 KB → 472 KB.
+
+### Medeo Serif
+
+- The pairs ьт ът ьъ ъъ were too tight in 1.0.0, at −140 and −135; they are −80 again.
+- The slash no longer touches its neighbours: letters after and before it keep clear white, in addresses and in pairs like б/у.
+- New signs: ± ¬ ¹ ² ³ ¼ ½ ¾ ‰ ′ ″ ≈ ≠ ≤ ≥ ∞ √ µ.
+- New currency signs: ₹ ₪ ₱ ฿.
+- New superscript and subscript figures, the fractions ⅓ ⅔ ⅕ ⅛ ⅜ ⅝ ⅞ and the arrows ↔ ↕ ↖ ↗ ↘ ↙.
+- New Ѐ Ѝ ѐ ѝ and the ligature characters ﬁ ﬂ (U+FB01, U+FB02).
+
+### Medeo Mono
+
+- New signs: ₿ ✓ ✔ ★ and the ligature characters ﬁ ﬂ, in upright and italic.
+- Box-drawing and block characters (U+2500–259F) now sit in the middle of the line; in 1.0.0 they sat 45 units below it.
+- Stacked rows no longer show a gap at the top and an overlap at the bottom in terminals that use the standard line, and in browsers.
+- The half blocks ▀ ▄ split the line into two equal halves.
+- Dashed lines (┄ ┆ ╎ and the like), the diagonals ╱ ╲ ╳ and the shades ░ ▒ ▓ moved with the rest and keep their shapes.
+- Horizontal lines and blocks half a cell wide or wider reach a little into the neighbouring cell, so a row of ═ or █ stays unbroken when a console rounds the cell width up.
+- In consoles that size the line by the font's Windows metrics, such as Far Manager in the classic Windows console, vertical lines and blocks broke into dashes in 1.0.0, with a gap of a pixel or two between rows.
+- The static fonts now reach the line of such a console through their hinting; the web and variable fonts keep the standard line.
+- Every weight, upright and italic.
+
+### Medeo Mono Nerd Font
+
+- The new signs of Medeo Mono: ₿ ✓ ✔ ★ ﬁ ﬂ.
+- The same box-drawing and block characters as in Medeo Mono, every weight, upright and italic.
+
+### Medeo Pixel
+
+- New signs: ₿ ₪ ₱ ฿.
+- New superscript and subscript figures, the fractions ⅓ ⅔ ⅕ ⅛ ⅜ ⅝ ⅞.
+- New Ѐ Ѝ ѐ ѝ.
+- The new signs have no kerning yet.
+
+### All families
+
+- Each style is now one web file with every alphabet. The separate files per script are gone.
+- Kerning works everywhere in a line: between a Cyrillic letter and a comma, and inside Polish and Vietnamese words.
+- Medeo Sans web font: 247 KB → 147 KB. Italic: 268 KB → 165 KB.
+- A Russian page loads about the same as before. A page in plain Latin loads more: 147 KB, up from 80 KB.
+- `sans.css`, `mono.css`, `pixel.css`, `serif.css` and `medeo.css` load the single files. The `-full` style sheets still work and load the same files; they go away in the next major version.
+- The Kyrgyz som sign ⃀ (U+20C0) in every family, Mono Nerd Font included.
+- Built from the National Bank's scheme: a C-shaped arc above a bar on the baseline.
+
 ## 1.0.0 — 2026-11-01
 
 Fonts `1.000`. The first stable release; it follows RC4.6.

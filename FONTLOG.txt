@@ -96,6 +96,41 @@ Medeo Serif
 Versions
 --------
 
+1.100 (2026-11-10)
+All families
+- The som sign U+20C0, from the construction of the National Bank of the Kyrgyz Republic (Unicode proposal L2/20-261): a
+  monoline ring cut at about 45 degrees above a bar on the baseline. Drawn by DNF Studio; ring width follows the letter
+  c of each weight, and the air between ring and bar does not close in light weights.
+- One web font per style; the per-script subsets are no longer built.
+Medeo Sans
+- One kerning table for all scripts, as classes without per-pair exceptions, fitted to the 1.000 kerning at every corner
+  of the design space (sources/MedeoSans-kerning.json, sources/MedeoSans-Italic-kerning.json, scripts/class_kerning.py).
+- The pair ад is +41 in Regular and +56 in Italic (1.000: +15 and +31), so that а and д no longer meet at -4% tracking.
+- ss12 sets д in the form of the capital Д (uni0434.ss12 in the TTF fonts), upright and italic.
+Medeo Mono
+- Added ₿ (the letter B of Mono with the bars of Medeo Sans), ✓ ✔ ★ (from Medeo Sans), ﬁ ﬂ (both letters in one cell).
+- Box Drawing and Block Elements (U+2500–259F, all 160 glyphs): drawn in a frame centred 45 units below the middle of
+  the line (hhea ascent 1005, descent -295); every point moves up by 45 units, so the frame is centred and the seam of
+  the half blocks is at 355, the middle of the line. The ends of horizontal strokes and the outer edges of blocks half a
+  cell wide or wider reach 24 units into the neighbouring cell (strokes ended at -5 and 605 before); the left edge of a
+  progress bar made of the left blocks therefore steps by 24 units between the three-eighths and the half block. In the
+  static fonts a short run of instructions (scripts/box_hints.py) puts the ends of the solid strokes and blocks on
+  usWinAscent and usWinDescent, rounded to pixels, where the rasterizer reports no sub-pixel positioning (the Windows
+  GDI), so that consoles which size the line by the Windows metrics draw rows without a gap. The same run also fires in
+  other rasterizers that report no sub-pixel positioning, for example FreeType's monochrome rendering, where the ends
+  then overshoot a line of the standard height by a pixel or two. The dashed lines, the diagonals and the shades move
+  with the rest and are not extended. Medeo Mono Nerd Font Mono carries the same outlines and instructions. Upright and
+  italic, every weight.
+Medeo Mono Nerd Font
+- The new signs of Medeo Mono: ₿ ✓ ✔ ★ ﬁ ﬂ. The box drawing and blocks are described under Medeo Mono.
+Medeo Pixel
+- Added ₿ ฿ ₱ (its own B and P with bars), ₪, superscript and subscript figures, fractions, Ѐ Ѝ ѐ ѝ.
+Medeo Serif
+- Added ± ¬ superscript and subscript figures, fractions, ‰ ′ ″ ≈ ≠ ≤ ≥ ∞ √ µ, ₱ ฿ (its own P and B with bars), arrows
+  from its own right arrow, Ѐ Ѝ ѐ ѝ, ﬁ ﬂ. ₹ and ₪ come from Medeo Sans.
+- The pairs ьт ът ьъ ъъ are -80 (1.000: -140, -140, -135, -135). The slash keeps clear white to its neighbours (in 1.000
+  eleven letters of Basic Latin and Cyrillic after it, and Q before it, touched it); the pair /у moves from 0 to 95.
+
 1.000 (2026-10-31)
 All families
 - Variable fonts of Sans and Mono ship without TrueType hinting, like Inter, Geist and JetBrains Mono; the static
