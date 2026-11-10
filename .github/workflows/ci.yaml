@@ -1,12 +1,12 @@
 name: Build and check
 
-# Every pull request and every push to main: build the fonts from sources/, require the committed fonts/ to equal
+# Every pull request and every push to main or a release branch: build the fonts from sources/, require the committed fonts/ to equal
 # the fresh build (what the repository holds is what a release publishes), then Font Bakery's googlefonts profile
 # and the language list check (make test).
 on:
   pull_request:
   push:
-    branches: [main]
+    branches: [main, "release/**"]
 
 permissions:
   contents: read
@@ -18,7 +18,7 @@ concurrency:
 jobs:
   fonts:
     runs-on: ubuntu-24.04
-    timeout-minutes: 40
+    timeout-minutes: 75
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
