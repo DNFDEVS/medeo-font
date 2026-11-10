@@ -1,0 +1,16 @@
+{
+glyphname = uni2083;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+pos = (0,-456);
+ref = threesuperior;
+}
+);
+width = 418;
+}
+);
+unicode = 8323;
+}

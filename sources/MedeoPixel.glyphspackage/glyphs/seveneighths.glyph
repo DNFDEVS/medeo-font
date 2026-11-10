@@ -1,0 +1,23 @@
+{
+glyphname = seveneighths;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = uni2077;
+},
+{
+pos = (228,0);
+ref = fraction;
+},
+{
+pos = (418,-380);
+ref = uni2078;
+}
+);
+width = 836;
+}
+);
+unicode = 8542;
+}

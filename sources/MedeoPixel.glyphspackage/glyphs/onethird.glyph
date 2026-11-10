@@ -1,0 +1,24 @@
+{
+glyphname = onethird;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+alignment = -1;
+ref = onesuperior;
+},
+{
+pos = (152,0);
+ref = fraction;
+},
+{
+pos = (342,-380);
+ref = threesuperior;
+}
+);
+width = 760;
+}
+);
+unicode = 8531;
+}

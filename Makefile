@@ -44,22 +44,23 @@ $(VENV_TEST)/touchfile: requirements-test.txt
 # The builder configs in sources/ write to out/build/fonts. The static TTFs of Medeo Sans, Sans Display and Mono are
 # cut from the variable fonts as the builder writes them, before the later steps rewrite the variable fonts: the
 # builder's statics give each style its names and flags (scripts/static_instances.py, scripts/display_statics.py).
-# Medeo Sans keeps its kerning as classes plus exceptions in every static, variable and web font (scripts/kerncodec.py).
+# Medeo Sans keeps one class kerning table in every static, variable and web font (scripts/class_kerning.py).
+# The box-drawing strokes and blocks of the Mono statics reach the console's line in the Windows GDI (scripts/box_hints.py).
 build: $(VENV)/touchfile
 	rm -rf $(BUILD)
 	cd sources && $(BIN) gftools builder config-MedeoSans.yaml
 	$(VENV)/bin/python -I scripts/display_statics.py $(BUILD)/MedeoSans
 	cd sources && $(BIN) gftools builder config-MedeoMono.yaml
 	$(VENV)/bin/python -I scripts/static_instances.py $(BUILD)
+	$(VENV)/bin/python -I scripts/box_hints.py $(BUILD)/MedeoMono/ttf
 	cd sources && $(BIN_PIXEL) gftools builder config-MedeoPixel.yaml
 	$(VENV)/bin/python -I scripts/pixel_static_names.py $(BUILD)/MedeoPixel/ttf
 	cd sources && $(BIN) gftools builder config-MedeoSerif.yaml
 	$(VENV)/bin/python -I scripts/truetype_data.py sources/MedeoSerif-truetype.json $(BUILD)/MedeoSerif/ttf/*.ttf
 	$(VENV)/bin/python -I scripts/variable_unhinted.py $(BUILD)
 	$(VENV)/bin/python -I scripts/variable_overlaps.py $(BUILD)
-	$(VENV)/bin/python -I scripts/variable_kerning.py $(BUILD)
+	$(VENV)/bin/python -I scripts/class_kerning.py $(BUILD)
 	$(VENV)/bin/python -I scripts/webfonts.py $(BUILD)
-	$(VENV)/bin/python -I scripts/web_subsets.py $(BUILD)
 
 # Only the variable fonts: they are what Google Fonts takes, and it cuts its own statics from them. The static TTFs
 # are instances of the same sources, built by the same builder with gftools fix. Medeo Serif has no variable font:
@@ -79,7 +80,6 @@ check: build
 
 fonts: $(BUILD)
 	for f in $(FAMILIES); do mkdir -p fonts/$$f && cp -R $(BUILD)/$$f/. fonts/$$f/; done
-	$(VENV)/bin/python -I scripts/web_subsets.py fonts --css packages/medeo-font/dist --css-only
 
 languages: $(VENV_TEST)/touchfile
 	$(VENV_TEST)/bin/python -I scripts/languages.py

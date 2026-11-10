@@ -1,0 +1,19 @@
+{
+glyphname = uni0450;
+layers = (
+{
+layerId = "3ADEBB49-5DC1-434E-A813-0590DED22BD7";
+shapes = (
+{
+ref = e;
+},
+{
+pos = (81,1);
+ref = gravecomb;
+}
+);
+width = 557;
+}
+);
+unicode = 1104;
+}

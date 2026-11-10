@@ -1,0 +1,30 @@
+{
+glyphname = second;
+layers = (
+{
+layerId = "3ADEBB49-5DC1-434E-A813-0590DED22BD7";
+shapes = (
+{
+closed = 1;
+nodes = (
+(67,722,l),
+(40,455,l),
+(70,455,l),
+(137,722,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(187,722,l),
+(160,455,l),
+(190,455,l),
+(257,722,l)
+);
+}
+);
+width = 290;
+}
+);
+unicode = 8243;
+}

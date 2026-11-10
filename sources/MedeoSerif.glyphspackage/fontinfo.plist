@@ -87,7 +87,7 @@ value = 0;
 },
 {
 name = versionString;
-value = "Version 1.000";
+value = "Version 1.100";
 },
 {
 name = vendorID;
@@ -95,7 +95,7 @@ value = DNFD;
 },
 {
 name = uniqueID;
-value = "1.000;DNFD;MedeoSerif-Regular";
+value = "1.100;DNFD;MedeoSerif-Regular";
 },
 {
 name = license;
@@ -2843,6 +2843,21 @@ instances = (
 );
 kerningLTR = {
 "3ADEBB49-5DC1-434E-A813-0590DED22BD7" = {
+uni04B3 = {
+"@MMK_R_slash" = 11;
+};
+uni04B2 = {
+"@MMK_R_slash" = 33;
+};
+uni0497 = {
+"@MMK_R_slash" = 4;
+};
+uni0496 = {
+"@MMK_R_slash" = 4;
+};
+uogonek = {
+"@MMK_R_slash" = 15;
+};
 "@MMK_L_A" = {
 "@MMK_R_C" = -40;
 "@MMK_R_Germandbls" = 25;
@@ -2919,7 +2934,7 @@ kerningLTR = {
 "@MMK_R_semicolon.ss02" = 20;
 "@MMK_R_semicolon.ss03" = 20;
 "@MMK_R_semicolon.ss04" = 20;
-"@MMK_R_slash" = 10;
+"@MMK_R_slash" = 39;
 "@MMK_R_t" = -35;
 "@MMK_R_thorn" = -30;
 "@MMK_R_u" = -50;
@@ -3122,6 +3137,7 @@ kerningLTR = {
 "@MMK_R_u" = -30;
 "@MMK_R_x" = 25;
 "@MMK_R_y" = -10;
+"@MMK_R_slash" = 25;
 };
 "@MMK_L_Kcommaaccent" = {
 "@MMK_R_Germandbls" = -10;
@@ -3255,7 +3271,7 @@ kerningLTR = {
 "@MMK_R_semicolon.ss02" = -30;
 "@MMK_R_semicolon.ss03" = -30;
 "@MMK_R_semicolon.ss04" = -30;
-"@MMK_R_slash" = -40;
+"@MMK_R_slash" = 24;
 "@MMK_R_thorn" = -20;
 "@MMK_R_u" = -5;
 "@MMK_R_underscore" = -70;
@@ -4663,7 +4679,7 @@ kerningLTR = {
 "@MMK_R_quotesinglbase.ss03" = 15;
 "@MMK_R_quotesinglbase.ss04" = 15;
 "@MMK_R_s" = -10;
-"@MMK_R_slash" = 10;
+"@MMK_R_slash" = 23;
 "@MMK_R_t" = 10;
 "@MMK_R_v" = 55;
 "@MMK_R_w" = 55;
@@ -4963,6 +4979,7 @@ kerningLTR = {
 "@MMK_R_x" = 5;
 "@MMK_R_y" = 30;
 "@MMK_R_z" = -20;
+"@MMK_R_slash" = 3;
 };
 "@MMK_L_l" = {
 "@MMK_R_A" = 20;
@@ -6089,28 +6106,56 @@ kerningLTR = {
 };
 "@MMK_L_slash" = {
 "@MMK_R_A" = -30;
-"@MMK_R_B" = 30;
+"@MMK_R_B" = 93;
 "@MMK_R_Germandbls" = -60;
-"@MMK_R_J" = 20;
-"@MMK_R_M" = 20;
-"@MMK_R_U" = 20;
-"@MMK_R_V" = 50;
-"@MMK_R_W" = 60;
-"@MMK_R_X" = 30;
-"@MMK_R_Y" = 60;
-"@MMK_R_Z" = 10;
+"@MMK_R_J" = 85;
+"@MMK_R_M" = 93;
+"@MMK_R_U" = 97;
+"@MMK_R_V" = 129;
+"@MMK_R_W" = 129;
+"@MMK_R_X" = 109;
+"@MMK_R_Y" = 129;
+"@MMK_R_Z" = 55;
 "@MMK_R_a" = -50;
-"@MMK_R_c" = -90;
-"@MMK_R_f" = -60;
-"@MMK_R_g" = -70;
-"@MMK_R_i" = -10;
+"@MMK_R_c" = -31;
+"@MMK_R_f" = 27;
+"@MMK_R_g" = -31;
+"@MMK_R_i" = 21;
 "@MMK_R_itilde" = -10;
-"@MMK_R_j" = -40;
-"@MMK_R_p" = -50;
-"@MMK_R_s" = -70;
-"@MMK_R_u" = -40;
-"@MMK_R_x" = -60;
-"@MMK_R_z" = -60;
+"@MMK_R_j" = 27;
+"@MMK_R_p" = 13;
+"@MMK_R_s" = -41;
+"@MMK_R_u" = 25;
+"@MMK_R_x" = 43;
+"@MMK_R_z" = -19;
+"@MMK_R_T" = 77;
+"@MMK_R_b" = 105;
+"@MMK_R_h" = 95;
+"@MMK_R_t" = 39;
+"@MMK_R_v" = 95;
+"@MMK_R_w" = 97;
+"@MMK_R_y" = 95;
+uni0417 = 35;
+"@MMK_R_C" = 41;
+uni0442 = 19;
+uni044A = 21;
+agrave = -47;
+igrave = 89;
+icircumflex = 23;
+idieresis = 49;
+thorn = 53;
+itilde = 49;
+imacron = 37;
+jcircumflex = 31;
+scaron = -5;
+Bhook = 117;
+Dhook = 117;
+Fhook = 21;
+Nhookleft = 25;
+uni01D0 = 69;
+uni0400 = 43;
+uni040D = 43;
+uni0457 = 49;
 };
 "@MMK_L_t" = {
 "@MMK_R_C" = -5;
@@ -8277,6 +8322,7 @@ quotedblleft.ss04 = -10;
 };
 aogonek = {
 ccircumflex = -10;
+"@MMK_R_slash" = 25;
 };
 aogonek.ss01 = {
 ccircumflex = -10;
@@ -14544,6 +14590,7 @@ uni04E9 = -45;
 uni04EE = 15;
 uni04EF = -10;
 uni0431 = -25;
+"@MMK_R_slash" = 24;
 };
 uni0415 = {
 uni0409 = 0;
@@ -15645,6 +15692,7 @@ uni0431 = -15;
 uni0439 = -10;
 uni043C = -5;
 uni0493 = -10;
+"@MMK_R_slash" = 7;
 };
 uni0427 = {
 ccircumflex = -20;
@@ -15787,6 +15835,7 @@ uni0431 = -15;
 uni0439 = -10;
 uni043C = -5;
 uni0493 = -10;
+"@MMK_R_slash" = 6;
 };
 uni042A = {
 C = -10;
@@ -16852,6 +16901,7 @@ uni04E9 = -35;
 uni04EE = -35;
 uni04EF = 25;
 uni0430 = -25;
+"@MMK_R_slash" = 18;
 };
 uni0435 = {
 uni0409 = -60;
@@ -18400,7 +18450,7 @@ uni043E = -50;
 uni043F = -80;
 uni0440 = -90;
 uni0441 = -55;
-uni0442 = -140;
+uni0442 = -80;
 uni0443 = -95;
 uni0444 = -45;
 uni0445 = -95;
@@ -18408,7 +18458,7 @@ uni0446 = -80;
 uni0447 = -85;
 uni0448 = -80;
 uni0449 = -80;
-uni044A = -135;
+uni044A = -80;
 uni044B = -80;
 uni044C = -80;
 uni044D = -60;
@@ -18590,7 +18640,7 @@ uni043E = -50;
 uni043F = -80;
 uni0440 = -90;
 uni0441 = -55;
-uni0442 = -140;
+uni0442 = -80;
 uni0443 = -95;
 uni0444 = -45;
 uni0445 = -95;
@@ -18598,7 +18648,7 @@ uni0446 = -80;
 uni0447 = -85;
 uni0448 = -80;
 uni0449 = -80;
-uni044A = -135;
+uni044A = -80;
 uni044B = -80;
 uni044C = -80;
 uni044D = -60;
@@ -20467,6 +20517,7 @@ uni04E8 = -80;
 uni04E9 = -55;
 uni04EE = 20;
 uni04EF = 5;
+"@MMK_R_slash" = 5;
 };
 uni049B = {
 emdash = -10;
@@ -20579,6 +20630,7 @@ uni04E3 = -30;
 uni04E8 = -45;
 uni04E9 = -75;
 uni04EF = 45;
+"@MMK_R_slash" = 7;
 };
 uni049D = {
 e = -30;
@@ -23183,5 +23235,5 @@ stems = (
 );
 unitsPerEm = 1000;
 versionMajor = 1;
-versionMinor = 0;
+versionMinor = 100;
 }

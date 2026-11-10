@@ -1,0 +1,57 @@
+{
+glyphname = heavycheckmark;
+layers = (
+{
+layerId = "EE2FFE84-06F1-4AFB-BBEC-60D09A436D14";
+shapes = (
+{
+closed = 1;
+nodes = (
+(523,498,l),
+(192,225,l),
+(86,358,l),
+(50,328,l),
+(183,162,l),
+(550,464,l)
+);
+}
+);
+width = 600;
+},
+{
+layerId = "574EE4B9-5C1A-4E7E-9985-C08FACB65BD8";
+shapes = (
+{
+closed = 1;
+nodes = (
+(484,518,l),
+(216,298,l),
+(139,394,l),
+(50,321,l),
+(193,142,l),
+(550,437,l)
+);
+}
+);
+width = 600;
+},
+{
+layerId = "58B1DC7A-69F8-4375-AD2E-AC5103CCF536";
+shapes = (
+{
+closed = 1;
+nodes = (
+(465,528,l),
+(229,333,l),
+(166,411,l),
+(50,317,l),
+(198,132,l),
+(550,423,l)
+);
+}
+);
+width = 600;
+}
+);
+unicode = 10004;
+}

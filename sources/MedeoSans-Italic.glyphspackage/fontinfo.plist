@@ -42,7 +42,7 @@ name = AllLetters;
 customParameters = (
 {
 name = versionString;
-value = "Version 1.000";
+value = "Version 1.100";
 },
 {
 name = "Use Typo Metrics";
@@ -836,6 +836,17 @@ sub v [@Numbers zero.ss09] zero' by zero.ss09;
 sub v [@Numbers zero.ss09] [@Numbers zero.ss09 period hyphen] zero' by zero.ss09;
 sub v [@Numbers zero.ss09] [@Numbers zero.ss09 period hyphen] [@Numbers zero.ss09 period hyphen] zero' by zero.ss09;";
 tag = ss11;
+},
+{
+automatic = 1;
+code = "sub de-cy by de-cy.ss12;\n";
+labels = (
+{
+language = dflt;
+value = "Classic de";
+}
+);
+tag = ss12;
 },
 {
 automatic = 1;
@@ -992243,5 +992254,5 @@ O,
 };
 };
 versionMajor = 1;
-versionMinor = 0;
+versionMinor = 100;
 }

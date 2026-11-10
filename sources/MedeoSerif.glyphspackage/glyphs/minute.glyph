@@ -1,0 +1,21 @@
+{
+glyphname = minute;
+layers = (
+{
+layerId = "3ADEBB49-5DC1-434E-A813-0590DED22BD7";
+shapes = (
+{
+closed = 1;
+nodes = (
+(137,722,l),
+(67,722,l),
+(40,455,l),
+(70,455,l)
+);
+}
+);
+width = 170;
+}
+);
+unicode = 8242;
+}

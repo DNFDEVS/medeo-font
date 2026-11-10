@@ -1,0 +1,23 @@
+{
+glyphname = threeeighths;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = threesuperior;
+},
+{
+pos = (228,0);
+ref = fraction;
+},
+{
+pos = (418,-380);
+ref = uni2078;
+}
+);
+width = 836;
+}
+);
+unicode = 8540;
+}
